@@ -1,5 +1,17 @@
 [
   {
+    "started_at": "2026-09-19T18:26:12.500906Z",
+    "finished_at": "2026-09-19T18:27:42.206066Z",
+    "status": "complete",
+    "sources_total": 33,
+    "sources_success": 33,
+    "sources_failed": 0,
+    "documents_discovered": 1096,
+    "documents_retained": 84,
+    "translations": 0,
+    "event_changes": 14
+  },
+  {
     "started_at": "2026-09-19T18:14:13.479662Z",
     "finished_at": "2026-09-19T18:16:34.079087Z",
     "status": "complete",

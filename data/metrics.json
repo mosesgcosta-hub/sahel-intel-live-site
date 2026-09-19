@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:16:34.078822Z",
+  "generated_at": "2026-09-19T18:27:42.205862Z",
   "series": {
     "JNIM": [
       {
@@ -1792,7 +1792,7 @@
       },
       {
         "date": "2026-06-18",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-06-19",
@@ -2060,7 +2060,7 @@
       },
       {
         "date": "2026-08-24",
-        "count": 0
+        "count": 2
       },
       {
         "date": "2026-08-25",
@@ -2088,7 +2088,7 @@
       },
       {
         "date": "2026-08-31",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2026-09-01",
@@ -2160,11 +2160,11 @@
       },
       {
         "date": "2026-09-18",
-        "count": 13
+        "count": 17
       },
       {
         "date": "2026-09-19",
-        "count": 25
+        "count": 30
       }
     ]
   },
@@ -2180,9 +2180,9 @@
       "change_pct": 100.0
     },
     "State": {
-      "current": 42,
+      "current": 51,
       "previous": 2,
-      "change_pct": 2000.0
+      "change_pct": 2450.0
     }
   },
   "method_note": "Counts are fused candidate events extracted from monitored open-source reporting. They are not independently verified incident counts; changes can reflect both real-world activity and reporting/collection effects."

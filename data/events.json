@@ -1,5 +1,205 @@
 [
   {
+    "id": "ed0e5a052f843ba4009bae4b11e1e73063f644a3",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "IED/explosion",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "ردا على \"تفجير عبوة\".. إسرائيل تهاجم أهدافا لحزب الله",
+    "summary": "أعلن الجيش الإسرائيلي، السبت، مهاجمة بنى تحتية لحزب الله في جنوب لبنان ردا على تفجير عبوة ناسفة في المنطقة الأمنية. وقالت المتحدثة باسم الجيش الإسرائيلي إيلا واوية، في بيان نشرته على صفحتها بمنصة إكس:\"انفجرت في وقت سابق من اليوم عبوة ناسفة زرعها حزب الله بآلية هندسية تابعة لقوات الجيش الإسرائيلي في المنطقة الأمنية في جنوب لبنان. وأسفر ذلك عن إصابة جنديين من جيش الدفاع بجروح طفيفة، حيث تم نقلهما لتلقي العلاج الطبي\". و",
+    "sources": [
+      "Sky News Arabia"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.skynewsarabia.com/middle-east/1893188-%D8%B1%D8%AF%D8%A7-%D8%AA%D9%81%D8%AC%D9%8A%D8%B1-%D8%B9%D8%A8%D9%88%D8%A9-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%87%D8%A7%D8%AC%D9%85-%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D8%A7-%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%84%D9%87"
+    ],
+    "created_at": "2026-09-19T18:27:05.724806Z",
+    "updated_at": "2026-09-19T18:27:05.724806Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "04b8b24b130051cb6dd381db21aff5620b7fe6dc",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Philippines Accepts Two More Bell 412EPX Helicopters From US",
+    "summary": "The US has turned over two additional 412EPX utility helicopters to the Philippine Air Force at Villamor Air Base, Pasay. The delivery counts as the second batch under the military’s Additional Utility Helicopter Project, which covers eight rotary-wing aircraft ordered from US manufacturer Bell Textron Inc. The air force received the initial two helicopters in May, bringing the service’s total Bell 412 inventory to 1",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://thedefensepost.com/2026/09/19/philippines-412epx-helicopters-us/"
+    ],
+    "created_at": "2026-09-19T18:27:01.746692Z",
+    "updated_at": "2026-09-19T18:27:01.746692Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "27ac8f84bd9eb615fdb87496b6443a16c52a7a24",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "attack",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Taiwan flexes military capabilities ahead of Trump-Xi talks",
+    "summary": "Taiwan flexes military capabilities ahead of Trump-Xi talks Taiwan has staged live-fire drills with missiles and attack drones as Donald Trump prepares to host China’s Xi Jinping in Washington next week. Taiwan is expected to feature in the talks, as Beijing presses the US over its military support for the self-governed island.",
+    "sources": [
+      "Al Jazeera English"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-taiwan-drills-minisv?traffic_source=rss"
+    ],
+    "created_at": "2026-09-19T18:27:00.357942Z",
+    "updated_at": "2026-09-19T18:27:00.357942Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "987c8eca40faf3e62484dd9713f7a147183f2426",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Nigeria probes deaths of 37 suspected illegal miners in custody",
+    "summary": "Survivors of a Nigerian disaster that saw 37 suspected illegal gold miners die while in the custody of a paramilitary civil defence group recounted their panic on Friday as they struggled to breathe inside the cell. Police fired shots to disperse protests as tensions spilled onto the streets of Minna, the capital of mineral-rich Niger state in central Nigeria. It was not immediately clear whether police were firing a",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/09/19/nigeria-probes-deaths-of-37-suspected-illegal-miners-in-custody/"
+    ],
+    "created_at": "2026-09-19T18:15:18.027264Z",
+    "updated_at": "2026-09-19T18:26:59.954680Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "06fb15fc31ed2b18a752f65684d3bcc5de858fcf",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Nigeria gold miner deaths spark protests in Niger state",
+    "summary": "Survivors of a Nigerian disaster that saw 37 suspected illegal gold miners die while in the custody of a paramilitary civil defence group recounted their panic on Friday as they struggled to breathe inside the cell. Police fired shots to disperse protests as tensions spilled onto the streets of Minna, the capital of mineral-rich Niger state in central Nigeria. It was not immediately clear whether police were firing a",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/09/19/nigeria-gold-miner-deaths-spark-protests-in-niger-state/"
+    ],
+    "created_at": "2026-09-19T18:15:17.754536Z",
+    "updated_at": "2026-09-19T18:26:59.767000Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "6a59dcd40a7a856e65876752222c12457f34d238",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "attack",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Greece-Egypt military exercise draws tourists’ attention in Crete",
+    "summary": "Holidaymakers on the Greek island of Crete watched a major military exercise unfold just 50 metres from the beach on Friday. The annual Medusa drills, led by Greece and Egypt, took place near the port city of Chania and featured drone attacks, fast-boat landings and simulated fire from marines and special forces. The hour-long exercise drew the attention of tourists, who were kept at a safe distance by Greek military",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/09/19/greece-egypt-military-exercise-draws-tourists-attention-in-crete/"
+    ],
+    "created_at": "2026-09-19T18:15:17.883962Z",
+    "updated_at": "2026-09-19T18:26:59.730713Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "1a00b719ebac1de66e74665da4841d17da20383d",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "clash",
+    "country": "Burkina Faso",
+    "city": "Ouagadougou",
+    "lat": 12.3714,
+    "lng": -1.5197,
+    "title": "Burkina Faso/ Enseignement militaire supérieur : Le Premier ministre, Rimtalba Jean Emmanuel Ouédraogo ouvre officiellement l’École de guerre",
+    "summary": "Burkina/Enseignement militaire supérieur : Le Premier ministre, Rimtalba Jean Emmanuel Ouédraogo ouvre officiellement l’École de guerre Le Premier ministre, Rimtalba Jean Emmanuel Ouédraogo, a présidé, ce vendredi 18 septembre 2026, à Ouagadougou, la cérémonie officielle d’ouverture de l’École de guerre de l’Institut de l’enseignement militaire supérieur Tiéfo Amoro (IEMS-TA). Cette ouverture marque une étape importa",
+    "sources": [
+      "LeFaso.net"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://lefaso.net/spip.php?article149320="
+    ],
+    "created_at": "2026-09-19T18:26:47.284957Z",
+    "updated_at": "2026-09-19T18:26:47.284957Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "c0764c71073670255dd6cab99c1d3c27dcd09cf4",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Comment Ceuta nourrit le discours de l’extrême droite européenne",
+    "summary": "Comment Ceuta nourrit le discours de l’extrême droite européenne La ruée vers Ceuta de dizaines de milliers de Marocains fin juillet a mis le feu aux poudres en Europe. Pour François Soudan, qui commente au micro de RFI l’article de notre collaboratrice Nina Kozlowski, ce « scénario idéal » profite avant tout aux droites identitaires occidentales. Les images ont fait le tour du monde : 60 000 à 70 000 migrants maroca",
+    "sources": [
+      "Jeune Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.jeuneafrique.com/1844628/politique/comment-ceuta-nourrit-le-discours-de-lextreme-droite-europeenne/"
+    ],
+    "created_at": "2026-09-19T18:26:40.647591Z",
+    "updated_at": "2026-09-19T18:26:40.647591Z",
+    "corroboration": "single-source"
+  },
+  {
     "id": "441aeb9aea54014b2a95fb373d1f623811dd5cb8",
     "event_date": "2026-09-19",
     "actor": "State",
@@ -147,81 +347,6 @@
     ],
     "created_at": "2026-09-19T18:15:18.989720Z",
     "updated_at": "2026-09-19T18:15:18.989720Z",
-    "corroboration": "single-source"
-  },
-  {
-    "id": "987c8eca40faf3e62484dd9713f7a147183f2426",
-    "event_date": "2026-09-19",
-    "actor": "State",
-    "event_type": "attack",
-    "country": "Niger",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "title": "Nigeria probes deaths of 37 suspected illegal miners in custody",
-    "summary": "Survivors of a Nigerian disaster that saw 37 suspected illegal gold miners die while in the custody of a paramilitary civil defence group recounted their panic on Friday as they struggled to breathe inside the cell. Police fired shots to disperse protests as tensions spilled onto the streets of Minna, the capital of mineral-rich Niger state in central Nigeria. It was not immediately clear whether police were firing a",
-    "sources": [
-      "Africanews"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.africanews.com/2026/09/19/nigeria-probes-deaths-of-37-suspected-illegal-miners-in-custody/"
-    ],
-    "created_at": "2026-09-19T18:15:18.027264Z",
-    "updated_at": "2026-09-19T18:15:18.027264Z",
-    "corroboration": "single-source"
-  },
-  {
-    "id": "6a59dcd40a7a856e65876752222c12457f34d238",
-    "event_date": "2026-09-19",
-    "actor": "State",
-    "event_type": "attack",
-    "country": null,
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "title": "Greece-Egypt military exercise draws tourists’ attention in Crete",
-    "summary": "Holidaymakers on the Greek island of Crete watched a major military exercise unfold just 50 metres from the beach on Friday. The annual Medusa drills, led by Greece and Egypt, took place near the port city of Chania and featured drone attacks, fast-boat landings and simulated fire from marines and special forces. The hour-long exercise drew the attention of tourists, who were kept at a safe distance by Greek military",
-    "sources": [
-      "Africanews"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.africanews.com/2026/09/19/greece-egypt-military-exercise-draws-tourists-attention-in-crete/"
-    ],
-    "created_at": "2026-09-19T18:15:17.883962Z",
-    "updated_at": "2026-09-19T18:15:17.883962Z",
-    "corroboration": "single-source"
-  },
-  {
-    "id": "06fb15fc31ed2b18a752f65684d3bcc5de858fcf",
-    "event_date": "2026-09-19",
-    "actor": "State",
-    "event_type": "attack",
-    "country": "Niger",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "title": "Nigeria gold miner deaths spark protests in Niger state",
-    "summary": "Survivors of a Nigerian disaster that saw 37 suspected illegal gold miners die while in the custody of a paramilitary civil defence group recounted their panic on Friday as they struggled to breathe inside the cell. Police fired shots to disperse protests as tensions spilled onto the streets of Minna, the capital of mineral-rich Niger state in central Nigeria. It was not immediately clear whether police were firing a",
-    "sources": [
-      "Africanews"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.africanews.com/2026/09/19/nigeria-gold-miner-deaths-spark-protests-in-niger-state/"
-    ],
-    "created_at": "2026-09-19T18:15:17.754536Z",
-    "updated_at": "2026-09-19T18:15:17.754536Z",
     "corroboration": "single-source"
   },
   {
@@ -627,6 +752,131 @@
     "corroboration": "single-source"
   },
   {
+    "id": "5d0cc30654e836943119d179f95021c8a57e334e",
+    "event_date": "2026-09-18",
+    "actor": "State",
+    "event_type": "IED/explosion",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Rapta Raises $8M to Put AI Quality Control on Defense Factory Floors",
+    "summary": "Artificial intelligence is moving deeper onto US defense factory floors, with Oregon-based startup Rapta raising $8 million to expand its Manufacturing Intelligence Platform across the sector. The platform combines computer vision and AI to deliver real-time work instructions and verify quality as components move through production. It connects data across information technology and operational technology environment",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://thedefensepost.com/2026/09/18/rapta-ai-defense-manufacturing/"
+    ],
+    "created_at": "2026-09-19T18:27:02.435033Z",
+    "updated_at": "2026-09-19T18:27:02.435033Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "9aa540b7847cf44e8e218474de701f6515413084",
+    "event_date": "2026-09-18",
+    "actor": "State",
+    "event_type": "IED/explosion",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "$10M Award Funds New Defense AI Research Program at Fayetteville State",
+    "summary": "Fayetteville State University (FSU) will use a new $10-million US Department of Defense award to build an applied artificial intelligence program focused on defense challenges, including contested logistics and biomanufacturing. The five-year initiative will expand FSU’s AI capabilities by supporting faculty and student researchers while establishing infrastructure to develop and test new defense technologies. Underg",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://thedefensepost.com/2026/09/18/fayetteville-defense-ai-research/"
+    ],
+    "created_at": "2026-09-19T18:27:02.227634Z",
+    "updated_at": "2026-09-19T18:27:02.227634Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "524cfaa2d3c0263e9a5a34018a385ecb61b5eacb",
+    "event_date": "2026-09-18",
+    "actor": "State",
+    "event_type": "attack",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "US Greenlights $24.3B Sale of F-35 Jets to Saudi Arabia",
+    "summary": "The US State Department has approved a foreign military sale to Saudi Arabia of 48 F-35 Lightning II combat aircraft and ancillary equipment valued at up to $24.3 billion. The deal includes conventional takeoff variants of the jet, 49 F135-PW-100 Pratt & Whitney engines, advanced communications, and logistical support. It also covers precision navigation, electronic warfare database support, cryptographic solutions, ",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://thedefensepost.com/2026/09/18/saudi-f35-sale-us/"
+    ],
+    "created_at": "2026-09-19T18:27:02.022544Z",
+    "updated_at": "2026-09-19T18:27:02.022544Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "6ad00b4d06a1d34fad1ec9deb5edf510cb38f3ff",
+    "event_date": "2026-09-18",
+    "actor": "State",
+    "event_type": "IED/explosion",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Nigeria: Armed security deployed in Minna after deaths of miners",
+    "summary": "Armed security personnel have been deployed in the Nigerian city of Minna, where demonstrators have been taking to the streets, a day after dozens suspected illegal gold miners died while in the custody of a paramilitary civil defence group. Survivors have recounted their panic as they struggled to breathe in their cell. One, who wished to remain anonymous, said, \"we were screaming for help,\" he said, telling guards ",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/09/18/nigeria-armed-security-deployed-in-minna-after-deaths-of-miners/"
+    ],
+    "created_at": "2026-09-19T18:15:18.340318Z",
+    "updated_at": "2026-09-19T18:27:00.126566Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "8f38fbf032749297f9bf5b7b3011ce86db073c4d",
+    "event_date": "2026-09-18",
+    "actor": "State",
+    "event_type": "IED/explosion",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Soudan : au moins 82 morts dans l’effondrement d’une mine d’or",
+    "summary": "Soudan : au moins 82 morts dans l’effondrement d’une mine d’or Le bilan provient d’une source des FSR. Des mineurs restaient piégés au Kordofan lors des premières opérations de secours. Au moins 82 personnes ont péri dans l’effondrement d’une mine d’or au Kordofan, dans le sud du Soudan, selon le bilan communiqué mercredi 16 septembre par une source des Forces de soutien rapide. Une cinquantaine de blessés sont égale",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualite-sur-afrique/311909-soudan-au-moins-82-morts-dans-leffondrement-dune-mine-d.html"
+    ],
+    "created_at": "2026-09-19T18:26:42.069839Z",
+    "updated_at": "2026-09-19T18:26:42.069839Z",
+    "corroboration": "single-source"
+  },
+  {
     "id": "f973ac7dbfb5f923312ba0e83bfb500cf7a92ad2",
     "event_date": "2026-09-18",
     "actor": "State",
@@ -674,31 +924,6 @@
     ],
     "created_at": "2026-09-19T18:15:21.037442Z",
     "updated_at": "2026-09-19T18:15:21.037442Z",
-    "corroboration": "single-source"
-  },
-  {
-    "id": "6ad00b4d06a1d34fad1ec9deb5edf510cb38f3ff",
-    "event_date": "2026-09-18",
-    "actor": "State",
-    "event_type": "IED/explosion",
-    "country": "Niger",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "title": "Nigeria: Armed security deployed in Minna after deaths of miners",
-    "summary": "Armed security personnel have been deployed in the Nigerian city of Minna, where demonstrators have been taking to the streets, a day after dozens suspected illegal gold miners died while in the custody of a paramilitary civil defence group. Survivors have recounted their panic as they struggled to breathe in their cell. One, who wished to remain anonymous, said, \"we were screaming for help,\" he said, telling guards ",
-    "sources": [
-      "Africanews"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.africanews.com/2026/09/18/nigeria-armed-security-deployed-in-minna-after-deaths-of-miners/"
-    ],
-    "created_at": "2026-09-19T18:15:18.340318Z",
-    "updated_at": "2026-09-19T18:15:18.340318Z",
     "corroboration": "single-source"
   },
   {
@@ -1179,6 +1404,31 @@
     "corroboration": "single-source"
   },
   {
+    "id": "e52d89643b845596d4acc53772b26512eb2d1a07",
+    "event_date": "2026-08-31",
+    "actor": "State",
+    "event_type": "clash",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "title": "Défense et sécurité : La Coopération entre le Niger et l’Algérie franchit une autre dimension",
+    "summary": "Après la réception, le dimanche 09 août 2026 de quatre (04) hélicoptères dont deux (02) MI 171 et deux (02) MI 24, ce dimanche 30 Août 2026, quatre (04) avions de Chasse de type Soukhoï SU 30 de Combat, accompagnés d’un Iliouchine IL-76 de transport militaire et d’un Iliouchine IL-78 ravitailleur, ont atterri à l’aéroport International Diori Hamani de Niamey. Cette mission s’inscrit dans le cadre du témoignage du sou",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/defense-et-securite-la-cooperation-entre-le-niger-et-lalgerie-franchit-une-autre-dimension/"
+    ],
+    "created_at": "2026-09-19T18:26:57.300736Z",
+    "updated_at": "2026-09-19T18:26:57.300736Z",
+    "corroboration": "single-source"
+  },
+  {
     "id": "d55f65198ff628474340c8aa3b73b991a19bca2d",
     "event_date": "2026-08-31",
     "actor": "State",
@@ -1254,6 +1504,56 @@
     "corroboration": "single-source"
   },
   {
+    "id": "6a96ea983c8faeac31e880791376d8cd1ff7d29b",
+    "event_date": "2026-08-24",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "LE « PROJET PHOENIX » EXISTE-T-IL ? : L'ENQUÊTE EXAMINE LES RAPPORTS D'UNE OPÉRATION FRANÇAISE AU NIGER",
+    "summary": "Opération « Phoenix » : comment Paris prévoyait de déstabiliser le Niger et pourquoi il a opté pour un étouffement progressif de l'AES Le média indépendant MDNtv Live (Afrique du Sud) a publié la première partie d'une enquête sur un plan secret français concernant le Niger et l'ensemble de l'Alliance des États du Sahel. Cet article s'appuie sur des documents qui, selon les auteurs, décrivent les actions menées par Pa",
+    "sources": [
+      "ActuNiger"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.actuniger.com/tribune-opinion/22295-le-projet-phoenix-existe-t-il-lenquete-examine-les-rapports-dune-operation-francaise-au-niger.html"
+    ],
+    "created_at": "2026-09-19T18:26:56.972312Z",
+    "updated_at": "2026-09-19T18:26:56.972312Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "fd87be5b4c4ecb9550e9454ff21cdefa2fa508f4",
+    "event_date": "2026-08-24",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Tribune / Opinions",
+    "summary": "Opération « Phoenix » : comment Paris prévoyait de déstabiliser le Niger et pourquoi il a opté pour un étouffement progressif de l'AES Le média indépendant MDNtv Live (Afrique du Sud) a publié la première partie d'une enquête sur un plan secret français concernant le Niger et l'ensemble de l'Alliance des États du Sahel. Cet article s'appuie sur des documents qui, selon les auteurs, décrivent les actions menées par Pa",
+    "sources": [
+      "ActuNiger"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.actuniger.com/tribune-opinion.html"
+    ],
+    "created_at": "2026-09-19T18:26:56.763135Z",
+    "updated_at": "2026-09-19T18:26:56.763135Z",
+    "corroboration": "single-source"
+  },
+  {
     "id": "ed0981d248c3168625311f2f5f37887082666bbb",
     "event_date": "2026-08-19",
     "actor": "State",
@@ -1301,6 +1601,56 @@
     ],
     "created_at": "2026-09-19T18:15:21.859317Z",
     "updated_at": "2026-09-19T18:15:21.859317Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "8e563ce1e433f81f354dbfc9677a0c6fff73635c",
+    "event_date": "2026-06-18",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "title": "Tentative d’incursion dans la zone aéroportuaire de Niamey : 22 assaillants neutralisés, une vingtaine de suspects capturés et d’importants équipements saisis",
+    "summary": "Des mercenaires et terroristes ont tenté, très tôt dans la matinée du jeudi 18 juin 2026, une incursion dans la zone aéroportuaire à Niamey. La tentative a été très vite maîtrisée par la prompte réaction des forces de défense et de sécurité qui ont neutralisé 22 assaillants et capturé une vingtaine d’autres suspects selon un communiqué du Ministère de la Défense Nationale. D’après la même source, les assaillants sont",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/tentative-dincursion-dans-la-zone-aeroportuaire-22-assaillants-neutralises-une-vingtaine-de-suspects-captures-et-dimportants-equipements-saisis/"
+    ],
+    "created_at": "2026-09-19T18:26:58.796215Z",
+    "updated_at": "2026-09-19T18:26:58.796215Z",
+    "corroboration": "single-source"
+  },
+  {
+    "id": "01c18140a2ddca270c17b5f717a96fbcb3566aca",
+    "event_date": "2025-02-10",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Coopération sino-nigérienne : Réception du premier attaché de défense auprès de l’ambassade de Chine au Niger",
+    "summary": "L’ambassadeur de la République populaire de Chine au Niger, SEM Jiang Feng a offert, ce samedi 8 février 2025, une réception, à l’occasion de l’accréditation du tout premier attaché de défense, auprès de l’ambassade, le Colonel-major Chen Xuming. La cérémonie organisée, à cet effet, s’est déroulée en présence d’un parterre d’invités, notamment des officiers des FDS nigériennes, ainsi que des attachés de défense des a",
+    "sources": [
+      "Niger Inter"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://nigerinter.com/2025/02/10/cooperation-sino-nigerienne-reception-du-premier-attache-de-defense-aupres-de-lambassade-de-chine-au-niger/"
+    ],
+    "created_at": "2026-09-19T18:26:55.307033Z",
+    "updated_at": "2026-09-19T18:26:55.307033Z",
     "corroboration": "single-source"
   },
   {
