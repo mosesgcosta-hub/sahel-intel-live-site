@@ -1,17 +1,17 @@
 {
   "status": "LIVE",
-  "status_detail": "Last automated GitHub collection completed 2026-09-19T19:23:33.179293Z; 33/33 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-19T19:23:33.179293Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-19T19:37:00.704702Z; 33/33 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-19T19:37:00.704702Z",
   "reports_24h": 20,
-  "distinct_sources_24h": 11,
-  "mapped_24h": 15,
+  "distinct_sources_24h": 10,
+  "mapped_24h": 10,
   "sources_configured": 33,
   "sources_live": 29,
   "sources_degraded": 4,
   "sources_failed": 0,
   "last_run": {
-    "started_at": "2026-09-19T19:21:10.390100Z",
-    "finished_at": "2026-09-19T19:23:33.179293Z",
+    "started_at": "2026-09-19T19:35:37.761585Z",
+    "finished_at": "2026-09-19T19:37:00.704702Z",
     "status": "complete",
     "sources_total": 33,
     "sources_success": 33,
@@ -19,11 +19,14 @@
     "documents_discovered": 1096,
     "documents_selected": 396,
     "documents_retained": 50,
-    "archive_rejected_by_precision_rules": 44,
+    "archive_rejected_by_precision_rules": 49,
     "archive_duplicates_removed": 0,
-    "translations_attempted": 40,
+    "translations_attempted": 12,
     "translations": 0,
-    "translation_failures": 40,
-    "event_changes": 0
+    "translation_failures": 12,
+    "archive_reports": 47,
+    "candidate_events_archive": 3,
+    "candidate_events_7d": 3,
+    "event_changes": 3
   }
 }

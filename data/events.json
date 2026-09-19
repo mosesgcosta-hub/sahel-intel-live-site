@@ -1,5 +1,32 @@
 [
   {
+    "id": "347b0343540e777f48882889d7761bce45ce5f2c",
+    "event_date": "2026-09-19",
+    "actor": "Other",
+    "event_type": "clash",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Guerre des drones au Mali, interview exclusive de Fouzi Lekjaâ, les secrets du renseignement camerounais… Les 5 infos qu’il ne fallait pas manquer",
+    "summary": "Guerre des drones au Mali, interview exclusive de Fouzi Lekjaâ, les secrets du renseignement camerounais… Les 5 infos qu’il ne fallait pas manquer Cette semaine, le Brief de Jeune Afrique enquête sur les victimes civiles des frappes de drones au Mali, revient sur les ambitions politiques de Fouzi Lekjaâ au Maroc, dévoile les dessous de la guerre des clans qui fragilise les services de renseignements camerounais, décr",
+    "sources": [
+      "Jeune Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.jeuneafrique.com/1843111/politique/guerre-des-drones-au-mali-interview-exclusive-de-fouzi-lekjaa-les-secrets-du-renseignement-camerounais-les-5-infos-quil-ne-fallait-pas-manquer/"
+    ],
+    "created_at": "2026-09-19T18:56:18.827615Z",
+    "updated_at": "2026-09-19T18:56:18.827615Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
     "id": "0d8f955ad44de7f83d1a1f5228824779711f5679",
     "event_date": "2026-09-19",
     "actor": "State",
@@ -22,35 +49,37 @@
     ],
     "created_at": "2026-09-19T18:15:03.129399Z",
     "updated_at": "2026-09-19T18:15:03.129399Z",
-    "extraction_confidence": "low",
+    "extraction_confidence": "moderate",
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "moderate"
   },
   {
-    "id": "cc42887d98eeaf88fcaf317435a47a297acbcca6",
-    "event_date": "2026-05-28",
-    "actor": "JNIM",
-    "event_type": "clash",
+    "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "security operation",
     "country": "Mali",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "title": "SÉCURITÉ AU SAHEL : des équipements ukrainiens aux mains des terroristes militaires",
-    "summary": "Sur les marchés du nord du Mali, le recyclage d'objets du quotidien cache parfois une réalité glaçante. Récemment, un boîtier en plastique d'une bobine de fibre optique a été transformé en lave-mains et vendu à prix cassé sur un étal près de Tessalit. Cet objet en apparence anodin appartenait pourtant, peu de temps avant, à des terroristes du JNIM qui l'utilisaient pour guider des drones kamikazes (FPV) vers leurs ci",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "title": "Opération Dougoukoloko : les FAMa frappent plusieurs positions terroristes à Djenné, Sévaré et Ber",
+    "summary": "Des opérations ciblées menées au sud-est de Djenné, au nord-ouest de Sévaré et à Ber Bamako, 19 septembre 2026 – Les Forces armées maliennes (FAMa) poursuivent leur mission de surveillance, de contrôle et de sécurisation du territoire national dans le cadre de l’opération Dougoukoloko. À travers une nouvelle série d’actions rapportées par l’État-Major Général des Armées, l’armée malienne fait état de plusieurs opérat",
     "sources": [
-      "ActuNiger"
+      "Bamada",
+      "Malijet"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.actuniger.com/tribune-opinion/22029-securite-au-sahel-des-equipements-ukrainiens-aux-mains-des-terroristes-militaires.html"
+      "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes",
+      "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html"
     ],
-    "created_at": "2026-09-19T18:56:34.707079Z",
-    "updated_at": "2026-09-19T18:56:34.707079Z",
+    "created_at": "2026-09-19T18:15:00.857125Z",
+    "updated_at": "2026-09-19T18:14:59.965077Z",
     "extraction_confidence": "moderate",
-    "corroboration": "single-source",
+    "corroboration": "limited corroboration",
     "confidence": "moderate"
   }
 ]
