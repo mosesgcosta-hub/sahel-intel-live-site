@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#061019" />
+  <title>Sahel Intel Collection</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
+    <div class="topmeta"><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-view="overview">Overview</button>
+    <button class="tab" data-view="feed">Intel Feed</button>
+    <button class="tab" data-view="quant">Quant Lab</button>
+    <button class="tab" data-view="sources">Collection Ops</button>
+  </nav>
+
+  <main>
+    <section id="view-overview" class="view active">
+      <div class="grid overview-grid">
+        <section class="panel map-panel">
+          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Sahel Event Map</h2></div><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div></div>
+          <div id="map" class="map"></div>
+          <div class="legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot other"></i> Other</span><span>Embedded vector map • no map API</span></div>
+        </section>
+
+        <aside class="panel sitrep">
+          <div class="panelhead"><div><span class="eyebrow">COLLECTION STATUS</span><h2>Last 24 Hours</h2></div></div>
+          <div class="metrics">
+            <div><span>Reports retained</span><strong id="reports24">0</strong></div>
+            <div><span>Sources represented</span><strong id="sources24">0</strong></div>
+            <div><span>Mapped reports</span><strong id="mapped24">0</strong></div>
+            <div><span>Configured sources</span><strong id="configuredSources">33</strong></div>
+          </div>
+          <div class="source-health-mini"><div><span>Live</span><strong id="liveSources">0</strong></div><div><span>Degraded</span><strong id="degradedSources">0</strong></div><div><span>Failed</span><strong id="failedSources">0</strong></div></div>
+          <div class="runbox" id="runBox">Awaiting first collection run.</div>
+        </aside>
+
+        <section class="panel actor-board">
+          <div class="panelhead"><div><span class="eyebrow">OSINT EVENT SIGNAL</span><h2>Actor Momentum</h2></div><div class="methodpill">7D vs previous 7D</div></div>
+          <div class="actorcards">
+            <article class="actorcard" data-actor="JNIM"><span>JNIM</span><strong id="jnim7">0</strong><em id="jnimChange">—</em><div id="jnimSpark" class="spark"></div></article>
+            <article class="actorcard" data-actor="IS Sahel"><span>IS SAHEL</span><strong id="is7">0</strong><em id="isChange">—</em><div id="isSpark" class="spark"></div></article>
+            <article class="actorcard" data-actor="State"><span>STATE ACTIVITY</span><strong id="state7">0</strong><em id="stateChange">—</em><div id="stateSpark" class="spark"></div></article>
+          </div>
+          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. They are not automatically verified incidents.</p>
+        </section>
+
+        <aside class="panel sultana">
+          <div class="analyst-head"><img src="./assets/sultana.png" alt="Sultana Al-Qahtani, stylized AI analyst avatar"/><div><span class="eyebrow">AI ANALYST • SAHEL DESK</span><h2>Sultana Al-Qahtani</h2><p id="briefStamp">Awaiting briefing.</p></div></div>
+          <div id="briefing" class="briefing">The collector has not generated a briefing yet.</div>
+          <div class="brief-controls"><button id="briefBtn" class="primary">▶ BRIEF ME</button><button id="stopBtn">■ STOP</button></div>
+          <div class="voice-row"><label for="voiceSelect">Voice</label><select id="voiceSelect"></select><span id="voiceStatus">browser speech</span></div>
+        </aside>
+
+        <section class="panel feed-preview">
+          <div class="panelhead"><div><span class="eyebrow">NEWLY COLLECTED</span><h2>Intelligence Feed</h2></div><span class="methodpill">GitHub auto-collector</span></div>
+          <div id="feedPreview" class="feed"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="view-feed" class="view">
+      <section class="panel full">
+        <div class="panelhead"><div><span class="eyebrow">SOURCE-LEVEL REPORTING</span><h2>Multilingual Intelligence Feed</h2></div><div class="filterbar"><button class="lang active" data-lang="all">ALL</button><button class="lang" data-lang="fr">FR</button><button class="lang" data-lang="ar">AR</button><button class="lang" data-lang="en">EN</button></div></div>
+        <p class="note">Original-source reporting remains attributed to its publisher. French and Arabic items show an English machine translation when translation succeeded.</p>
+        <div id="fullFeed" class="feed expanded"></div>
+      </section>
+    </section>
+
+    <section id="view-quant" class="view">
+      <div class="grid quant-grid">
+        <section class="panel fullspan">
+          <div class="panelhead"><div><span class="eyebrow">STOCK-MARKET STYLE TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range" data-days="30">30D</button><button class="range active" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
+          <div id="actorChart" class="bigchart"></div>
+          <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span></div>
+          <p id="metricNote" class="note"></p>
+        </section>
+        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>JNIM</h2><div class="quantnumber" id="qJnim">0</div><div id="qJnimChange" class="quantchange">—</div></section>
+        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>IS Sahel</h2><div class="quantnumber" id="qIs">0</div><div id="qIsChange" class="quantchange">—</div></section>
+        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>State Activity</h2><div class="quantnumber" id="qState">0</div><div id="qStateChange" class="quantchange">—</div></section>
+      </div>
+    </section>
+
+    <section id="view-sources" class="view">
+      <section class="panel full">
+        <div class="panelhead"><div><span class="eyebrow">COLLECTION OPERATIONS</span><h2>33-Source Collection Monitor</h2></div><span id="opsBadge" class="status offline">OFFLINE</span></div>
+        <div id="opsSummary" class="ops-summary"></div>
+        <div class="source-table-wrap"><table><thead><tr><th>Source</th><th>Lang</th><th>Focus</th><th>Status</th><th>Last check</th><th>New docs</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
+        <h3>Recent Collection Runs</h3><div id="runHistory" class="runs"></div>
+      </section>
+    </section>
+  </main>
+  <script src="./map-data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
