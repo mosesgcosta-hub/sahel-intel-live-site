@@ -7,9 +7,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.524026Z",
-    "last_new_documents": 3,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.747992Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "france24-fr",
@@ -19,9 +23,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536578Z",
+    "last_checked_at": "2026-09-19T18:54:45.761140Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "jeune-afrique",
@@ -31,9 +39,13 @@
     "focus": "regional",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536664Z",
+    "last_checked_at": "2026-09-19T18:54:45.761237Z",
     "last_new_documents": 1,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 1,
+    "translation_success_archive": 0
   },
   {
     "id": "studio-tamani",
@@ -42,10 +54,14 @@
     "language": "fr",
     "focus": "Mali",
     "priority": "critical",
-    "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536692Z",
+    "status": "DEGRADED",
+    "last_checked_at": "2026-09-19T18:54:45.761264Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "homepage fetch failed: ConnectTimeout; direct source unavailable; Google News discovery available",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "maliweb",
@@ -55,9 +71,13 @@
     "focus": "Mali",
     "priority": "high",
     "status": "DEGRADED",
-    "last_checked_at": "2026-09-19T18:26:12.536714Z",
+    "last_checked_at": "2026-09-19T18:54:45.761286Z",
     "last_new_documents": 0,
-    "last_error": "homepage HTTP 403; direct source unavailable; Google News discovery available"
+    "last_error": "homepage HTTP 403; direct source unavailable; Google News discovery available",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "malijet",
@@ -67,9 +87,13 @@
     "focus": "Mali",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536734Z",
-    "last_new_documents": 4,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761307Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 3,
+    "translation_success_archive": 0
   },
   {
     "id": "journal-du-mali",
@@ -79,9 +103,13 @@
     "focus": "Mali",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536755Z",
-    "last_new_documents": 8,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761330Z",
+    "last_new_documents": 1,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 1,
+    "translation_success_archive": 0
   },
   {
     "id": "bamada",
@@ -91,9 +119,13 @@
     "focus": "Mali",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536774Z",
-    "last_new_documents": 3,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761349Z",
+    "last_new_documents": 1,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 3,
+    "translation_success_archive": 0
   },
   {
     "id": "aib-burkina",
@@ -103,9 +135,13 @@
     "focus": "Burkina Faso",
     "priority": "critical",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536791Z",
-    "last_new_documents": 2,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761367Z",
+    "last_new_documents": 1,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 3,
+    "translation_success_archive": 0
   },
   {
     "id": "burkina24",
@@ -115,9 +151,13 @@
     "focus": "Burkina Faso",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536809Z",
-    "last_new_documents": 4,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761383Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 1,
+    "translation_success_archive": 0
   },
   {
     "id": "lefaso",
@@ -127,9 +167,13 @@
     "focus": "Burkina Faso",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536825Z",
-    "last_new_documents": 3,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761401Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 2,
+    "translation_success_archive": 0
   },
   {
     "id": "sidwaya",
@@ -139,9 +183,13 @@
     "focus": "Burkina Faso",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536843Z",
+    "last_checked_at": "2026-09-19T18:54:45.761418Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 2,
+    "translation_success_archive": 0
   },
   {
     "id": "wakat-sera",
@@ -151,9 +199,13 @@
     "focus": "Burkina Faso",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536859Z",
-    "last_new_documents": 7,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761436Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 2,
+    "translation_success_archive": 0
   },
   {
     "id": "anp-niger",
@@ -163,9 +215,13 @@
     "focus": "Niger",
     "priority": "critical",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536874Z",
-    "last_new_documents": 8,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761452Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 5,
+    "translation_success_archive": 0
   },
   {
     "id": "actuniger",
@@ -175,9 +231,13 @@
     "focus": "Niger",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536892Z",
-    "last_new_documents": 8,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761471Z",
+    "last_new_documents": 1,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 6,
+    "translation_success_archive": 0
   },
   {
     "id": "nigerinter",
@@ -187,9 +247,13 @@
     "focus": "Niger",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536909Z",
-    "last_new_documents": 8,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761486Z",
+    "last_new_documents": 2,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 6,
+    "translation_success_archive": 0
   },
   {
     "id": "lesahel-niger",
@@ -199,9 +263,13 @@
     "focus": "Niger",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536926Z",
-    "last_new_documents": 5,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761503Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 4,
+    "translation_success_archive": 0
   },
   {
     "id": "air-info",
@@ -211,9 +279,13 @@
     "focus": "Niger",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536943Z",
+    "last_checked_at": "2026-09-19T18:54:45.761521Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 30,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 1,
+    "translation_success_archive": 0
   },
   {
     "id": "reuters-africa",
@@ -223,9 +295,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "DEGRADED",
-    "last_checked_at": "2026-09-19T18:26:12.536957Z",
+    "last_checked_at": "2026-09-19T18:54:45.761536Z",
     "last_new_documents": 0,
-    "last_error": "robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available"
+    "last_error": "robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "ap-africa",
@@ -235,9 +311,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "DEGRADED",
-    "last_checked_at": "2026-09-19T18:26:12.536975Z",
+    "last_checked_at": "2026-09-19T18:54:45.761553Z",
     "last_new_documents": 0,
-    "last_error": "homepage HTTP 403; direct source unavailable; Google News discovery available"
+    "last_error": "homepage HTTP 403; direct source unavailable; Google News discovery available",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "bbc-africa",
@@ -247,9 +327,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.536990Z",
+    "last_checked_at": "2026-09-19T18:54:45.761569Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "africanews",
@@ -259,9 +343,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537007Z",
-    "last_new_documents": 4,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761590Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "aljazeera-en",
@@ -271,9 +359,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537026Z",
-    "last_new_documents": 3,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761605Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "voa-africa",
@@ -283,9 +375,13 @@
     "focus": "regional",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537044Z",
+    "last_checked_at": "2026-09-19T18:54:45.761623Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "reliefweb",
@@ -295,9 +391,13 @@
     "focus": "humanitarian",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537059Z",
+    "last_checked_at": "2026-09-19T18:54:45.761638Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "crisis-group",
@@ -307,9 +407,13 @@
     "focus": "analysis",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537075Z",
+    "last_checked_at": "2026-09-19T18:54:45.761656Z",
     "last_new_documents": 0,
-    "last_error": "homepage HTTP 403"
+    "last_error": "homepage HTTP 403",
+    "last_discovered_candidates": 30,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "africa-center",
@@ -319,9 +423,13 @@
     "focus": "analysis",
     "priority": "medium",
     "status": "DEGRADED",
-    "last_checked_at": "2026-09-19T18:26:12.537090Z",
+    "last_checked_at": "2026-09-19T18:54:45.761671Z",
     "last_new_documents": 0,
-    "last_error": "robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available"
+    "last_error": "robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available",
+    "last_discovered_candidates": 20,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "defense-post",
@@ -331,9 +439,13 @@
     "focus": "security",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537107Z",
-    "last_new_documents": 5,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761688Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "aljazeera-ar",
@@ -343,9 +455,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537126Z",
-    "last_new_documents": 2,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761706Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "france24-ar",
@@ -355,9 +471,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537141Z",
+    "last_checked_at": "2026-09-19T18:54:45.761721Z",
     "last_new_documents": 0,
-    "last_error": ""
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "bbc-arabic",
@@ -367,9 +487,13 @@
     "focus": "regional",
     "priority": "high",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537156Z",
-    "last_new_documents": 3,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761735Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "skynews-arabia",
@@ -379,9 +503,13 @@
     "focus": "regional",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537167Z",
-    "last_new_documents": 2,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761748Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   },
   {
     "id": "anadolu-ar",
@@ -391,8 +519,12 @@
     "focus": "regional",
     "priority": "medium",
     "status": "LIVE",
-    "last_checked_at": "2026-09-19T18:26:12.537184Z",
-    "last_new_documents": 1,
-    "last_error": ""
+    "last_checked_at": "2026-09-19T18:54:45.761765Z",
+    "last_new_documents": 0,
+    "last_error": "",
+    "last_discovered_candidates": 36,
+    "last_selected_candidates": 12,
+    "translation_eligible_archive": 0,
+    "translation_success_archive": 0
   }
 ]

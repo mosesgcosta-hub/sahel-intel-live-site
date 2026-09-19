@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:27:42.205862Z",
+  "generated_at": "2026-09-19T18:58:18.338683Z",
   "series": {
     "JNIM": [
       {
@@ -264,7 +264,7 @@
       },
       {
         "date": "2026-05-28",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-05-29",
@@ -1418,7 +1418,7 @@
       },
       {
         "date": "2026-09-13",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-14",
@@ -1792,7 +1792,7 @@
       },
       {
         "date": "2026-06-18",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-06-19",
@@ -2036,11 +2036,11 @@
       },
       {
         "date": "2026-08-18",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-08-19",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-08-20",
@@ -2060,7 +2060,7 @@
       },
       {
         "date": "2026-08-24",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-08-25",
@@ -2068,7 +2068,7 @@
       },
       {
         "date": "2026-08-26",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-08-27",
@@ -2076,7 +2076,7 @@
       },
       {
         "date": "2026-08-28",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-08-29",
@@ -2088,7 +2088,7 @@
       },
       {
         "date": "2026-08-31",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-09-01",
@@ -2104,11 +2104,11 @@
       },
       {
         "date": "2026-09-04",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-05",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-06",
@@ -2116,7 +2116,7 @@
       },
       {
         "date": "2026-09-07",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-08",
@@ -2132,7 +2132,7 @@
       },
       {
         "date": "2026-09-11",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-12",
@@ -2152,19 +2152,19 @@
       },
       {
         "date": "2026-09-16",
-        "count": 3
+        "count": 0
       },
       {
         "date": "2026-09-17",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-09-18",
-        "count": 17
+        "count": 0
       },
       {
         "date": "2026-09-19",
-        "count": 30
+        "count": 1
       }
     ]
   },
@@ -2175,14 +2175,14 @@
       "change_pct": null
     },
     "IS Sahel": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "State": {
       "current": 1,
       "previous": 0,
       "change_pct": 100.0
-    },
-    "State": {
-      "current": 51,
-      "previous": 2,
-      "change_pct": 2450.0
     }
   },
   "method_note": "Counts are fused candidate events extracted from monitored open-source reporting. They are not independently verified incident counts; changes can reflect both real-world activity and reporting/collection effects."

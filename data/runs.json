@@ -1,5 +1,22 @@
 [
   {
+    "started_at": "2026-09-19T18:54:45.721896Z",
+    "finished_at": "2026-09-19T18:58:18.338756Z",
+    "status": "complete",
+    "sources_total": 33,
+    "sources_success": 33,
+    "sources_failed": 0,
+    "documents_discovered": 1080,
+    "documents_selected": 396,
+    "documents_retained": 25,
+    "archive_rejected_by_precision_rules": 226,
+    "archive_duplicates_removed": 0,
+    "translations_attempted": 40,
+    "translations": 0,
+    "translation_failures": 40,
+    "event_changes": 69
+  },
+  {
     "started_at": "2026-09-19T18:26:12.500906Z",
     "finished_at": "2026-09-19T18:27:42.206066Z",
     "status": "complete",
