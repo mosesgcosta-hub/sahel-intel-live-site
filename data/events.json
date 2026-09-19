@@ -1,27 +1,54 @@
 [
   {
-    "id": "347b0343540e777f48882889d7761bce45ce5f2c",
+    "id": "607cfbefb9a60e6bc107389c2eded47f686d31c2",
     "event_date": "2026-09-19",
-    "actor": "Other",
+    "actor": "State",
     "event_type": "clash",
-    "country": "Mali",
+    "country": "Niger",
     "city": null,
     "lat": null,
     "lng": null,
-    "title": "Guerre des drones au Mali, interview exclusive de Fouzi Lekjaâ, les secrets du renseignement camerounais… Les 5 infos qu’il ne fallait pas manquer",
-    "summary": "Guerre des drones au Mali, interview exclusive de Fouzi Lekjaâ, les secrets du renseignement camerounais… Les 5 infos qu’il ne fallait pas manquer Cette semaine, le Brief de Jeune Afrique enquête sur les victimes civiles des frappes de drones au Mali, revient sur les ambitions politiques de Fouzi Lekjaâ au Maroc, dévoile les dessous de la guerre des clans qui fragilise les services de renseignements camerounais, décr",
+    "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
+    "summary": "Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background to the Tensions The border between Niger and Chad is an unstable area In response, Niger launched Operation Klafoki in May 2026 to secure the Bilma region again",
     "sources": [
-      "Jeune Afrique"
+      "Journal du Mali"
     ],
     "languages": [
       "fr"
     ],
     "source_count": 1,
     "report_urls": [
-      "https://www.jeuneafrique.com/1843111/politique/guerre-des-drones-au-mali-interview-exclusive-de-fouzi-lekjaa-les-secrets-du-renseignement-camerounais-les-5-infos-quil-ne-fallait-pas-manquer/"
+      "https://journaldumali.com/entre-loperation-klafoki-et-la-guerre-de-linformation-analyse-des-tensions-niger-tchad/"
     ],
-    "created_at": "2026-09-19T18:56:18.827615Z",
-    "updated_at": "2026-09-19T18:56:18.827615Z",
+    "created_at": "2026-09-19T20:56:48.546987Z",
+    "updated_at": "2026-09-19T20:56:48.546987Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "9d0115192e80c5d2dabceffdf725751d7536a692",
+    "event_date": "2026-09-19",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Sévaré",
+    "lat": 14.5272,
+    "lng": -4.0934,
+    "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
+    "summary": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional ",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
+    ],
+    "created_at": "2026-09-19T20:56:41.947029Z",
+    "updated_at": "2026-09-19T20:56:41.947029Z",
     "extraction_confidence": "low",
     "corroboration": "single-source",
     "confidence": "low"
@@ -35,8 +62,8 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "title": "Traque terroriste : L’offensive victorieuse des FAMa s’accélère sur plusieurs fronts",
-    "summary": "L’État-Major Général des Armées informe l’opinion nationale que les Forces armées maliennes (FAMa), appuyées par leurs partenaires, poursuivent leurs opérations permanentes de surveillance, de contrôle et de sécurisation du territoire national dans le cadre de l’opération Dougoukoloko. Le jeudi 17 septembre 2026, l’exploitation de renseignements précis a permis de localiser plusieurs points de concentration de groupe",
+    "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
     "sources": [
       "Bamada"
     ],
@@ -62,8 +89,8 @@
     "city": "Djenné",
     "lat": 13.9061,
     "lng": -4.555,
-    "title": "Opération Dougoukoloko : les FAMa frappent plusieurs positions terroristes à Djenné, Sévaré et Ber",
-    "summary": "Des opérations ciblées menées au sud-est de Djenné, au nord-ouest de Sévaré et à Ber Bamako, 19 septembre 2026 – Les Forces armées maliennes (FAMa) poursuivent leur mission de surveillance, de contrôle et de sécurisation du territoire national dans le cadre de l’opération Dougoukoloko. À travers une nouvelle série d’actions rapportées par l’État-Major Général des Armées, l’armée malienne fait état de plusieurs opérat",
+    "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
+    "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
     "sources": [
       "Bamada",
       "Malijet"
@@ -81,5 +108,59 @@
     "extraction_confidence": "moderate",
     "corroboration": "limited corroboration",
     "confidence": "moderate"
+  },
+  {
+    "id": "9318c0e7a4d3950c0f2b77b99145a2f7e0124728",
+    "event_date": "2026-09-17",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
+    "summary": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements h",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/311895-operation-dougoukoloko-les-fama-neutralisent-des-groupes-t-1.html"
+    ],
+    "created_at": "2026-09-19T20:56:45.703291Z",
+    "updated_at": "2026-09-19T20:56:45.703291Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "87b1bd9953a04cda293b66a0ea5d920a76e6dda2",
+    "event_date": "2026-06-18",
+    "actor": "Other",
+    "event_type": "security operation",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "title": "Attempted incursion into the Niamey airport area: 22 attackers neutralized, about twenty suspects captured and important equipment seized",
+    "summary": "Mercenaries and terrorists attempted, very early in the morning of Thursday, June 18, 2026, an incursion into the airport area in Niamey. The attempt was quickly brought under control by the prompt reaction of the defence and security forces, which neutralized 22 attackers and captured about twenty other suspects, according to a statement from the Ministry of National Defence. According to the same source, the attack",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/tentative-dincursion-dans-la-zone-aeroportuaire-22-assaillants-neutralises-une-vingtaine-de-suspects-captures-et-dimportants-equipements-saisis/"
+    ],
+    "created_at": "2026-09-19T18:26:58.796215Z",
+    "updated_at": "2026-09-19T18:26:58.796215Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
   }
 ]

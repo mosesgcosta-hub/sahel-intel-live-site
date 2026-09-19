@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:25:38.143089Z",
+  "generated_at": "2026-09-19T20:58:13.531118Z",
   "series": {
     "JNIM": [
       {
@@ -2156,7 +2156,7 @@
       },
       {
         "date": "2026-09-17",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-09-18",
@@ -2164,7 +2164,7 @@
       },
       {
         "date": "2026-09-19",
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -2180,7 +2180,7 @@
       "change_pct": null
     },
     "State": {
-      "current": 2,
+      "current": 5,
       "previous": 0,
       "change_pct": 100.0
     }
