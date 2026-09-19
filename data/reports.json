@@ -1,5 +1,40 @@
 [
   {
+    "id": "66eca0b90ef907335f4f862cf380ef4172d772dd",
+    "source_id": "lefaso",
+    "source": "LeFaso.net",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://lefaso.net/spip.php?article149349=",
+    "title": "Volontariat national : Le Burkina Faso ambitionne de constituer un vivier d’un million de réservistes en cinq ans",
+    "translated_title": null,
+    "excerpt": "Volontariat national : Le Burkina Faso ambitionne de constituer un vivier d’un million de réservistes en cinq ans Le Burkina Faso ambitionne de constituer, au cours des cinq prochaines années, un vivier d’un million de volontaires nationaux réservistes, à raison de 200 000 recrutements par an. Le directeur général du GIP-PNVB, Djourmité Nestor Noufé, a annoncé cette initiative le vendredi 18 septembre 2026, à Ouagadougou, lors d’une conférence de presse. À travers le recrutement des volontaires nationaux réserviste",
+    "translated_excerpt": null,
+    "translation_status": "failed",
+    "translation_error": "TooManyRequests",
+    "translation_attempts": 2,
+    "published_at": null,
+    "discovered_at": "2026-09-19T19:21:43.729350Z",
+    "discovery": "homepage",
+    "fetch_status": "full-text",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit place: Ouagadougou",
+      "supporting signal insurgent_governance: recrutement"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Burkina Faso",
+    "city": "Ouagadougou",
+    "lat": 12.3714,
+    "lng": -1.5197,
+    "geo_confidence": "explicit-place"
+  },
+  {
     "id": "cfd75f7c70db21e5982792c12efceb61def7f703",
     "source_id": "bamada",
     "source": "Bamada",
@@ -12,7 +47,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": null,
     "discovered_at": "2026-09-19T18:56:21.932137Z",
     "discovery": "homepage",
@@ -47,7 +82,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": null,
     "discovered_at": "2026-09-19T18:56:21.887723Z",
     "discovery": "homepage",
@@ -101,7 +136,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -137,7 +172,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -153,7 +188,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": "2026-09-19T18:03:45Z",
     "discovered_at": "2026-09-19T18:56:23.743177Z",
     "discovery": "rss:/feed",
@@ -207,7 +242,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -243,7 +278,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -279,7 +314,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -314,7 +349,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -349,7 +384,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -384,7 +419,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -421,7 +456,7 @@
     "event_confidence": "low",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -456,7 +491,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-country",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -491,7 +526,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -526,7 +561,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -542,7 +577,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": "2026-09-19T08:30:00Z",
     "discovered_at": "2026-09-19T18:56:18.827615Z",
     "discovery": "rss:/feed",
@@ -597,8 +632,43 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
+  },
+  {
+    "id": "8e6eaed671a99e99df046ca2850fefa317283971",
+    "source_id": "anp-niger",
+    "source": "Agence Nigérienne de Presse",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://anp.ne/fin-des-travaux-de-lassemblee-generale-constitutive-des-regulateurs-de-la-communication-aes-le-malien-coulibaly-gaoussou-devient-le-1er-president-de-la-plateforme/",
+    "title": "Fin des travaux de l’assemblée générale constitutive des régulateurs de la communication AES: Le Malien Coulibaly Gaoussou devient le 1er président de la plateforme",
+    "translated_title": null,
+    "excerpt": "Niamey, 18 sept (ANP)- Les travaux de la Conférence constitutive des autorités de régulation des médias et de la communication des Etats membres de l’AES ont pris fin dans l’après midi de ce vendredi 18 septembre 2026 à Niamey. A l’issue des travaux, le Président de la Haute Autorité de la Communication du Mali, M. Coulibaly Gaoussou a été désigné premier président de la Plateforme des Régulateurs des Médias et de la Communication (PAREMEC) avec un siège permanent et un Secrétariat executif basés à Niamey. Souhaita",
+    "translated_excerpt": null,
+    "translation_status": "failed",
+    "translation_error": "TooManyRequests",
+    "translation_attempts": 2,
+    "published_at": "2026-09-18T20:38:00Z",
+    "discovered_at": "2026-09-19T19:21:48.508203Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit place: Niamey",
+      "supporting signal territorial_control: siege"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "geo_confidence": "explicit-place"
   },
   {
     "id": "6e343203430055c6c92ce64b5ca749c025c216e4",
@@ -632,7 +702,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -667,8 +737,78 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
+  },
+  {
+    "id": "29c74fd89c15e2b8ed22cf5020538dcb9c140848",
+    "source_id": "studio-tamani",
+    "source": "Studio Tamani",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://www.studiotamani.org/207936-gao-lancement-du-village-de-la-reconciliation",
+    "title": "Gao : lancement du Village de la réconciliation",
+    "translated_title": null,
+    "excerpt": "Le village de la réconciliation a été officiellement lancé ce vendredi à Gao, dans le cadre de la semaine nationale de la réconciliation (SENARE). La cérémonie a réuni plusieurs acteurs locaux, notamment les autorités, les jeunes, les leaders communautaires et des partenaires. Portée par le Conseil régional de la jeunesse de Gao, en collaboration avec l’équipe régionale de la réconciliation, l’initiative vise à promouvoir le dialogue, la cohésion sociale et la culture de la paix. À cette occasion, plusieurs interve",
+    "translated_excerpt": null,
+    "translation_status": "failed",
+    "translation_error": "TooManyRequests",
+    "translation_attempts": 2,
+    "published_at": "2026-09-18T16:19:17Z",
+    "discovered_at": "2026-09-19T19:21:36.140243Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit place: Gao",
+      "supporting signal civilians: village"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": "Gao",
+    "lat": 16.2717,
+    "lng": -0.0447,
+    "geo_confidence": "explicit-place"
+  },
+  {
+    "id": "29d232f6e6ddda2effa2ed3f8452ee8ca7766584",
+    "source_id": "journal-du-mali",
+    "source": "Journal du Mali",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://journaldumali.com/brehima-ely-dicko-sans-appropriation-populaire-tout-accord-restera-lettre-morte/",
+    "title": "Bréhima Ely Dicko : « Sans appropriation populaire, tout accord restera lettre morte »",
+    "translated_title": null,
+    "excerpt": "La visite du Premier ministre algérien Sifi Ghrieb à Bamako, le 14 septembre, a confirmé le rapprochement et débouché sur la proposition d’équipes thématiques. Les échanges ont notamment porté sur l’économie, les transports, l’énergie, les bourses universitaires et la recherche. Le sociologue Bréhima Ely Dicko explique comment cette volonté politique peut produire des résultats durables et perceptibles par les populations. Dans un Sahel où les relations entre États restent dominées par la sécurité, comment sortir l",
+    "translated_excerpt": null,
+    "translation_status": "failed",
+    "translation_error": "TooManyRequests",
+    "translation_attempts": 2,
+    "published_at": "2026-09-18T15:07:28Z",
+    "discovered_at": "2026-09-19T19:21:36.817389Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "relevance_score": 8,
+    "relevance_reasons": [
+      "explicit place: Bamako",
+      "security context: sécurité"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "geo_confidence": "explicit-place"
   },
   {
     "id": "75ca72e746729bdbef2ab2b4e06c2c8d6fb4551b",
@@ -702,7 +842,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -737,7 +877,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -772,7 +912,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -808,7 +948,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -844,7 +984,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -880,7 +1020,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "source-inferred",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -915,7 +1055,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-country",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -951,7 +1091,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -986,7 +1126,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1021,7 +1161,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1057,7 +1197,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1093,7 +1233,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1130,6 +1270,76 @@
     "translation_status": "failed",
     "translation_attempts": 2,
     "translation_error": "TooManyRequests"
+  },
+  {
+    "id": "e27028c5193fcc2021a176627924d7fa3d7754a9",
+    "source_id": "air-info",
+    "source": "Aïr Info",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://airinfoagadez.com/2026/09/13/niger-eva-gretzmacher-et-claudia-abbt-liberees-apres-plusieurs-mois-de-captivite/",
+    "title": "Niger : Eva Gretzmacher et Claudia Abbt libérées après plusieurs mois de captivité",
+    "translated_title": null,
+    "excerpt": "Les ressortissantes autrichienne Eva Gretzmacher et suisse Claudia Abbt, enlevées séparément à Agadez en 2025, ont été libérées et sont désormais arrivées à Benghazi, dans l’est de la Libye. Cette libération met fin à de longs mois d’incertitude autour du sort des deux femmes, toutes deux installées depuis plusieurs années à Agadez et bien connues de la population locale. Plusieurs sources indiquent qu’elles auraient été détenues par l’État islamique au Sahel (EIS). Les circonstances exactes de leur libération et l",
+    "translated_excerpt": null,
+    "translation_status": "failed",
+    "translation_error": "TooManyRequests",
+    "translation_attempts": 2,
+    "published_at": "2026-09-13T17:20:40Z",
+    "discovered_at": "2026-09-19T19:22:00.108272Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit place: Agadez",
+      "actor: IS Sahel (état islamique au sahel)"
+    ],
+    "actor_bucket": "IS Sahel",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "geo_confidence": "explicit-place"
+  },
+  {
+    "id": "b33bfbb56989f9c71df0862395de4d707dbd83c2",
+    "source_id": "nigerinter",
+    "source": "Niger Inter",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://nigerinter.com/2026/09/12/la-chine-la-russie-et-le-niger-votent-contre-opposition-a-la-politisation-accrue-de-la-question-nucleaire-iranienne/",
+    "title": "La Chine, la Russie et le Niger votent contre : opposition à la politisation accrue de la question nucléaire iranienne",
+    "translated_title": null,
+    "excerpt": "Le 9 septembre, le Conseil des gouverneurs de l’Agence internationale de l’énergie atomique (AIEA) a adopté une résolution sur la question nucléaire iranienne, portée par les États-Unis, le Royaume-Uni, la France et l’Allemagne. Lors du vote, la Chine, la Russie et le Niger ont voté contre, tandis que huit pays en développement, dont le Brésil, l’Afrique du Sud, l’Inde et l’Égypte, se sont abstenus. Il s’agit de la première fois en 20 ans que l’AIEA décide de saisir le Conseil de sécurité des Nations Unies sur la q",
+    "translated_excerpt": null,
+    "translation_status": "pending",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2026-09-12T09:40:35Z",
+    "discovered_at": "2026-09-19T19:21:51.550941Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Niger",
+      "security context: sécurité"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country"
   },
   {
     "id": "b67c5bf0c74d5613a3ba7f42c3f2eaef169f0009",
@@ -1199,7 +1409,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1270,7 +1480,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "translation_error": "TooManyRequests"
   },
   {
@@ -1286,7 +1496,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": "2026-05-28T21:25:44Z",
     "discovered_at": "2026-09-19T18:56:34.707079Z",
     "discovery": "homepage",
@@ -1393,7 +1603,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "TooManyRequests",
-    "translation_attempts": 2,
+    "translation_attempts": 4,
     "published_at": "2025-01-18T18:29:48Z",
     "discovered_at": "2026-09-19T18:56:36.720821Z",
     "discovery": "homepage",
