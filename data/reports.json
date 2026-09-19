@@ -213,7 +213,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -322,7 +322,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "actor-inferred-country",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -395,7 +395,7 @@
     "event_confidence": "moderate",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -469,7 +469,7 @@
     "event_confidence": "moderate",
     "geo_confidence": "actor-inferred-country",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -542,7 +542,7 @@
     "event_confidence": "moderate",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1084,7 +1084,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1229,7 +1229,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-country",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1266,7 +1266,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1303,7 +1303,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 4,
+    "translation_attempts": 6,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1448,7 +1448,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-country",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1521,7 +1521,7 @@
     "event_confidence": "not-an-event",
     "geo_confidence": "explicit-place",
     "translation_status": "failed",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException"
   },
   {
@@ -1537,7 +1537,7 @@
     "translated_excerpt": null,
     "translation_status": "failed",
     "translation_error": "GoogleTranslator:TooManyRequests; GoogleTranslator:TooManyRequests; MyMemoryTranslator:LanguageNotSupportedException",
-    "translation_attempts": 6,
+    "translation_attempts": 8,
     "published_at": "2026-05-28T21:25:44Z",
     "discovered_at": "2026-09-19T18:56:34.707079Z",
     "discovery": "homepage",

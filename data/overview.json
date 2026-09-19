@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
-  "status_detail": "Last automated GitHub collection completed 2026-09-19T19:37:00.704702Z; 33/33 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-19T19:37:00.704702Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-19T19:43:21.313231Z; 33/33 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-19T19:43:21.313231Z",
   "reports_24h": 20,
   "distinct_sources_24h": 10,
   "mapped_24h": 10,
@@ -10,15 +10,15 @@
   "sources_degraded": 4,
   "sources_failed": 0,
   "last_run": {
-    "started_at": "2026-09-19T19:35:37.761585Z",
-    "finished_at": "2026-09-19T19:37:00.704702Z",
+    "started_at": "2026-09-19T19:42:00.046977Z",
+    "finished_at": "2026-09-19T19:43:21.313231Z",
     "status": "complete",
     "sources_total": 33,
     "sources_success": 33,
     "sources_failed": 0,
     "documents_discovered": 1096,
     "documents_selected": 396,
-    "documents_retained": 50,
+    "documents_retained": 49,
     "archive_rejected_by_precision_rules": 49,
     "archive_duplicates_removed": 0,
     "translations_attempted": 12,
@@ -27,6 +27,6 @@
     "archive_reports": 47,
     "candidate_events_archive": 3,
     "candidate_events_7d": 3,
-    "event_changes": 3
+    "event_changes": 0
   }
 }
