@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#061019" />
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
   <title>Sahel Intel Collection</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -11,7 +12,7 @@
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v2.1</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -25,7 +26,7 @@
     <section id="view-overview" class="view active">
       <div class="grid overview-grid">
         <section class="panel map-panel">
-          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Central Sahel Event Map</h2><p class="subnote">Full AES borders • verified city labels • country names deliberately positioned away from city text.</p></div><div class="map-controls"><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange"><button class="map-range" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range active" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div></div>
+          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Central Sahel Event Map</h2><p class="subnote">Red AES borders • high-visibility pinned city labels • country names positioned away from city text.</p></div><div class="map-controls"><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange"><button class="map-range" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range active" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div></div>
           <div id="map" class="map"></div>
           <div class="legend"><span><i class="dot jnim"></i> JNIM event</span><span><i class="dot is"></i> IS Sahel event</span><span><i class="dot state"></i> State event</span><span><i class="dot other"></i> Other event</span><span><i class="city-key"></i> City</span><span>Embedded vector map • no map API</span></div><div id="mapCountryCounts" class="map-country-counts">Mapped candidate events • Mali 0 • Burkina Faso 0 • Niger 0 • Unmapped 0</div>
         </section>

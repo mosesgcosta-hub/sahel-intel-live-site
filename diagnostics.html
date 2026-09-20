@@ -52,7 +52,7 @@ async function load(){
   if(d){
     const p=d.pipeline||{};
     document.getElementById('summary').innerHTML=[
-      ['Collector',d.collector_version],['Status',d.status],['Discovered',p.links_discovered],['Selected',p.new_urls_selected],
+      ['Patch',d.site_patch_version||'—'],['Collector',d.collector_version],['Classifier',d.classifier_version||'—'],['Status',d.status],['Discovered',p.links_discovered],['Selected',p.new_urls_selected],
       ['Retained',p.current_cycle_retained],['Archive',p.archive_after_rescreen],['Events',p.candidate_events_archive],
       ['Events 7D',p.candidate_events_7d],['Translations',`${p.translations_succeeded}/${p.translations_attempted}`],
       ['Translation fails',p.translations_failed]

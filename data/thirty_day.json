@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T22:28:45.943817Z",
+  "generated_at": "2026-09-20T22:42:16.965324Z",
   "window_days": 30,
   "cutoff": "2026-08-21",
-  "reports": 103,
+  "reports": 104,
   "candidate_events": 6,
   "corroborated_events": 1,
   "mapped_events": 3,
@@ -19,7 +19,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 98,
+    "fr": 99,
     "en": 5
   },
   "by_confidence": {
@@ -246,7 +246,7 @@
     },
     {
       "date": "2026-09-20",
-      "reports": 14,
+      "reports": 15,
       "events": 1
     }
   ],
@@ -417,6 +417,19 @@
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-09-20T22:38:15Z",
+      "discovered_at": "2026-09-20T22:41:42.194988Z",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Religious and customary reforms: the population invited to better understand the vision of the RPP",
+      "url": "https://www.sidwaya.info/reformes-religieuses-et-coutumieres-la-population-invitee-a-mieux-comprendre-la-vision-de-la-rpp/"
+    },
     {
       "published_at": "2026-09-20T22:21:27Z",
       "discovered_at": "2026-09-20T22:23:23.370860Z",
@@ -923,19 +936,6 @@
       "candidate_event": false,
       "title": "Burkina Faso-Niger: a message of solidarity to the Nigerien people",
       "url": "https://www.wakatsera.com/burkina-faso-niger-un-message-de-solidarite-au-peuple-nigerien/"
-    },
-    {
-      "published_at": "2026-09-19T15:14:10Z",
-      "discovered_at": "2026-09-19T18:15:03.300498Z",
-      "source": "Agence d'Information du Burkina",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Ziro: Agricultural VDPs take action for cleaner living environments",
-      "url": "https://www.aib.media/ziro-les-vdp-agricoles-passent-a-laction-pour-des-cadres-de-vie-plus-propres/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
