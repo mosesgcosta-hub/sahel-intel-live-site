@@ -1,5 +1,28 @@
 [
   {
+    "started_at": "2026-09-20T21:23:50.908061Z",
+    "finished_at": "2026-09-20T21:25:10.007535Z",
+    "status": "complete",
+    "sources_total": 33,
+    "sources_success": 33,
+    "sources_failed": 0,
+    "documents_discovered": 1080,
+    "documents_selected": 396,
+    "documents_retained": 0,
+    "archive_rejected_by_precision_rules": 0,
+    "archive_duplicates_removed": 0,
+    "translations_attempted": 0,
+    "translations": 0,
+    "translation_failures": 0,
+    "archive_reports": 146,
+    "candidate_events_archive": 7,
+    "candidate_events_7d": 6,
+    "candidate_events_30d": 6,
+    "reports_30d": 98,
+    "sources_30d": 18,
+    "event_changes": 0
+  },
+  {
     "started_at": "2026-09-20T21:22:20.504051Z",
     "finished_at": "2026-09-20T21:23:26.319020Z",
     "status": "complete",
@@ -581,22 +604,5 @@
     "candidate_events_archive": 3,
     "candidate_events_7d": 3,
     "event_changes": 3
-  },
-  {
-    "started_at": "2026-09-19T19:21:10.390100Z",
-    "finished_at": "2026-09-19T19:23:33.179293Z",
-    "status": "complete",
-    "sources_total": 33,
-    "sources_success": 33,
-    "sources_failed": 0,
-    "documents_discovered": 1096,
-    "documents_selected": 396,
-    "documents_retained": 50,
-    "archive_rejected_by_precision_rules": 44,
-    "archive_duplicates_removed": 0,
-    "translations_attempted": 40,
-    "translations": 0,
-    "translation_failures": 40,
-    "event_changes": 0
   }
 ]

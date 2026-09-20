@@ -1,26 +1,25 @@
 SAHEL INTEL SYSTEM LOG | 1.5-evidence-engine
-Run: 94fccee5c3ef98c3dc4df492db3957218469190f
-Started: 2026-09-20T21:22:20.504051Z
-Finished: 2026-09-20T21:23:26.319020Z
+Run: cbe921241cd4909252678c942d739356eecce7e8
+Started: 2026-09-20T21:23:50.908061Z
+Finished: 2026-09-20T21:25:10.007535Z
 Status: LIVE
 
 PIPELINE
 Sources: 33/33 reachable (28 live, 5 degraded, 0 failed)
 Links discovered: 1080
 New URLs selected: 396
-Current-cycle retained: 1
+Current-cycle retained: 0
 Archive after re-screen: 146
 Archive precision rejects: 0
 Candidate events in archive: 7
 Candidate events in last 7d: 6
 Candidate events in last 30d: 6
 Relevant reports in last 30d: 98 from 18 sources
-Translations: 1/1 succeeded; 0 failed
+Translations: 0/0 succeeded; 0 failed
 Event changes: 0
 
 DECISION COUNTS
-REJECTED: 395
-RETAINED: 1
+REJECTED: 396
 
 SOURCE HEALTH
 LIVE      | RFI Afrique | discovered=36 selected=12 retained=0 | 
@@ -36,7 +35,7 @@ LIVE      | Burkina24 | discovered=36 selected=12 retained=0 |
 LIVE      | LeFaso.net | discovered=36 selected=12 retained=0 | 
 LIVE      | Sidwaya | discovered=36 selected=12 retained=0 | 
 LIVE      | Wakat Sera | discovered=36 selected=12 retained=0 | 
-LIVE      | Agence Nigérienne de Presse | discovered=36 selected=12 retained=1 | 
+LIVE      | Agence Nigérienne de Presse | discovered=36 selected=12 retained=0 | 
 LIVE      | ActuNiger | discovered=36 selected=12 retained=0 | 
 LIVE      | Niger Inter | discovered=36 selected=12 retained=0 | 
 DEGRADED  | Le Sahel | discovered=20 selected=12 retained=0 | homepage fetch failed: ConnectError; direct source unavailable; Google News discovery available
@@ -58,98 +57,97 @@ LIVE      | Sky News Arabia | discovered=36 selected=12 retained=0 |
 LIVE      | Anadolu Arabic | discovered=36 selected=12 retained=0 | 
 
 TRANSLATION ATTEMPTS
-success  | fr | Agence Nigérienne de Presse | attempts=3 |  | 10ème Édition de la Coupe Moumouni Adamou Djermakoye de basketball : Galaxie de Dosso en hommes et EMES de Zinder en dames au haut du podium
+No translation attempts this cycle.
 
 ARTICLE DECISIONS
-REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (nigérienne); local source prior: Niger | ‎Rencontre avec la diaspora de Greensboro : Dr Clémence Aissatou Baré poursuit sa tournée de proximité avec la diaspora nigérienne aux USA
+REJECTED | robots      | Le Sahel | score=- | robots.txt disallows article fetch | A l’école de la Gendarmerie Nationale : Les élèves gendarmes de la 57è promotion prêts à servir la Patrie - Office National d'Edition et de Presse
+REJECTED | robots      | Le Sahel | score=- | robots.txt disallows article fetch | Au Cabinet du Premier ministre: M. Ali Mahaman Lamine Zeine reçoit deux délégations de l’AES - Office National d'Edition et de Presse
+REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (nigérienne); local source prior: Niger | DEUXIEME EDITION DU FORUM DE LA DIASPORA NIGERIENNE : La 9ème Région du Niger un véritable pilier pour la Refondation
+REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Espace de dialogue multi-acteurs : Imaginer Agadez en 2036 - Aïr Info
+REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Le Président Tiani à Agadez : souveraineté nationale et promesses de développement - Aïr Info
+REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Éducation ; Niger; Niamey - Aïr Info
+REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Santé-Education
+REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | À Bamako, les Ministres africains renforcent l’Alliance Politique pour une Afrique décomplexée et souveraine - Aïr Info
 REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Mission de la « Team Europe » à Agadez : plusieurs réalisations du programme D.E.S.E.R.T visitées - Aïr Info
 REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Niger/Médias : une antenne de M&D dénommée Médias & Démocratie Sahel voit le jour à Niamey - Aïr Info
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Première en Afrique : Airtel Niger lance “Spam Alert”, une IA gratuite pour protéger ses abonnés contre les arnaques num...
 REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Coopération médiatique sino-africaine : Ibrahim Manzo DIALLO porte la voix du Niger au VIIe Forum de Beijing - Aïr Info
 REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Au Niger, les premiers ministres du Burkina et du Mali se convainquent que l’AES évoluera vers une « fédération - Aïr Info
 REJECTED | robots      | Aïr Info | score=- | robots.txt disallows article fetch | Niger/Sahel : « Je suis venu remercier le Président Issoufou Mahamadou pour ses conseils et lui dire que l’Afrique a encore besoin de lui », déclare M. Anadif - Aïr Info
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | US seals big uranium investment in Niger, two years after troops left - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Ghana's BOST cuts fuel exports to Burkina Faso and Mali to protect local supply - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Militants kill 15 in overnight Cameroon raid, village sources say - Reuters
-REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Economie : Quels leviers pour booster l’investissement privé au Niger ?
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Porsche could face another 4,000 job cuts, Handelsblatt reports - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Mozambique says IMF mission may open way for new loan programme - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | London's marine insurers widen Black Sea high risk zone as shipping attacks surge - Reuters
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Santé-Education
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Ceuta border crisis fuels EU's far right despite fall in migrant arrivals, commissioner says - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | South Sudanese migrant jailed in UK for piloting record Channel boat crossing - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | NEWSLETTER: Private jet boom raises climate concerns - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Qantas ground workers to strike over pay and conditions next week - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | South African police find a ninth woman's body near Johannesburg - Reuters
 REJECTED | robots      | Reuters Africa | score=- | robots.txt disallows article fetch | Dangote IPO tests Nigeria's fintech infrastructure as investor demand overwhelms platforms - Reuters
-REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | L’ambassadeur de Chine au Niger face à la presse : Des échanges autour du 15ème Plan quinquennal de la Chine et les perspectives de la gouvernance mondiale
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Army officers appear on Burkina Faso TV, declare new coup - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Russia cements its role as Africa junta protector after helping quell Niger’s mutiny - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Inside the 24-hour mutiny that threatened Niger’s ruling junta and how Russian forces intervened - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Rights groups denounce arrest of 2 Malian journalists, in latest crackdown on press freedom - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Mali shocks Spain in a Women's Basketball World Cup stunner; France, Hungary, Germany also win - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Can pineapples thrive in Africa’s Sahel? A Burkina Faso farmer says the answer is yes - AP News
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Niger : la Nigérienne des Eaux lance un appel d’offres pour l’acquisition de matériels informatiques
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Burkina Faso proves pineapples can thrive in Sahel region - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Burkina Faso presents Abdou Amir as coach and targets 2027 Africa Cup - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | 200 years after the creation of braille, blind people in Mali say it has allowed them to fit in - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Juntas ruling Niger, Mali and Burkina Faso agree to create a joint force to fight worsening violence - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | A newly formed alliance between coup-hit countries in Africa’s Sahel is seen as tool for legitimacy - AP News
-REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Host Germany avoids early exit from women’s FIBA World Cup, France sets 3-pointer record - AP News
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Promotion culturelle : l’ONG Ensemble Main dans la Main Niger–Russie met en lumière le génie créatif des artistes nigéri...
-REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Dissolution des partis politiques au Niger : Un recul grave de la démocratie selon l’Internationale Socialiste
-REJECTED | precision   | ActuNiger | score=1 | relevance score 1; local source prior: Niger | Guinée : France 24 interdite de diffusion sur toute l’étendue du territoire
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | LE « PROJET PHOENIX » EXISTE-T-IL ? : L'ENQUÊTE EXAMINE LES RAPPORTS D'UNE OPÉRATION FRANÇAISE AU NIGER
 REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Prix Cultura Afrique Francophone 2025 : Double sacre du Niger avec Souley Moutari à Ouidah
-REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Niger FPV sacré vainqueur, rafle l’unique Prix de l’Innovation MAKE AFRICA 2025 grâce à son pulvérisateur Gona Innov (GI...
-REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Scotland Politics
-REJECTED | precision   | BBC Africa | score=8 | relevance score 8; event signal: law enforcement (arrested); supporting signal casualties: dead; supporting signal claim_language: suspected; security context: security | Dozens of suspected illegal miners die in Nigerian custody Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused. 2 days ago Africa
-REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | NYSE Opening Bell
-REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Technology of Business
-REJECTED | precision   | BBC Africa | score=3 | relevance score 3; security context: security | Latin America
+REJECTED | precision   | ActuNiger | score=1 | relevance score 1; local source prior: Niger | Guinée : France 24 interdite de diffusion sur toute l’étendue du territoire
+REJECTED | precision   | ActuNiger | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | Promotion culturelle : l’ONG Ensemble Main dans la Main Niger–Russie met en lumière le génie créatif des artistes nigéri...
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Army officers appear on Burkina Faso TV, declare new coup - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Russia cements its role as Africa junta protector after helping quell Niger’s mutiny - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Inside the 24-hour mutiny that threatened Niger’s ruling junta and how Russian forces intervened - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Rights groups denounce arrest of 2 Malian journalists, in latest crackdown on press freedom - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Mali shocks Spain in a Women's Basketball World Cup stunner; France, Hungary, Germany also win - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Can pineapples thrive in Africa’s Sahel? A Burkina Faso farmer says the answer is yes - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Burkina Faso proves pineapples can thrive in Sahel region - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Burkina Faso presents Abdou Amir as coach and targets 2027 Africa Cup - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | 200 years after the creation of braille, blind people in Mali say it has allowed them to fit in - apnews.com
+REJECTED | precision   | Niger Inter | score=5 | relevance score 5; explicit country: Niger (niger); local source prior: Niger | L’ambassadeur de Chine au Niger face à la presse : Des échanges autour du 15ème Plan quinquennal de la Chine et les perspectives de la gouvernance mondiale
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Juntas ruling Niger, Mali and Burkina Faso agree to create a joint force to fight worsening violence - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | A newly formed alliance between coup-hit countries in Africa’s Sahel is seen as tool for legitimacy - apnews.com
+REJECTED | robots      | Associated Press Africa | score=- | robots.txt disallows article fetch | Host Germany avoids early exit from women’s FIBA World Cup, France sets 3-pointer record - apnews.com
 REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | N. Ireland Politics
 REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Skip to content
-REJECTED | precision   | BBC Africa | score=3 | relevance score 3; security context: security | World of Business
-REJECTED | precision   | BBC Africa | score=6 | relevance score 6; headline event signal: kidnapping (kidnapped); supporting signal casualties: dead; supporting signal claim_language: suspected | British woman rescued in Malawi shootout that left four suspected kidnappers dead The mother of two young children was kidnapped last week in the middle of the day in the main city, Blantyre. 2 days ago Africa
+REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Scotland Politics
+REJECTED | precision   | BBC Africa | score=3 | relevance score 3; security context: security | Latin America
 REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Wales Politics
+REJECTED | precision   | BBC Africa | score=3 | relevance score 3; security context: security | World of Business
+REJECTED | precision   | BBC Africa | score=8 | relevance score 8; event signal: law enforcement (arrested); supporting signal casualties: dead; supporting signal claim_language: suspected; security context: security | Dozens of suspected illegal miners die in Nigerian custody Authorities linked the deaths to disease, but this has been disputed by intelligence reports and relatives of the accused. 2 days ago Africa
+REJECTED | precision   | BBC Africa | score=6 | relevance score 6; headline event signal: kidnapping (kidnapped); supporting signal casualties: dead; supporting signal claim_language: suspected | British woman rescued in Malawi shootout that left four suspected kidnappers dead The mother of two young children was kidnapped last week in the middle of the day in the main city, Blantyre. 2 days ago Africa
 REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Intelligence Revolution
+REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | NYSE Opening Bell
+REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Technology of Business
 REJECTED | precision   | BBC Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Artificial Intelligence
-REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal territorial_control: blockade; supporting signal insurgent_governance: blockade; foreign headline dominates: iran | Iran: Tehran stages largest demonstration since start of conflict
+REJECTED | precision   | Africanews | score=4 | relevance score 4; supporting signal claim_language: suspected; security context: security; foreign headline dominates: nigeria | Nigeria: Armed security deployed in Minna after deaths of miners
 REJECTED | precision   | Africanews | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Torrential rain and flooding slam Tunis, forcing schools to close
 REJECTED | precision   | Africanews | score=5 | relevance score 5; headline event signal: political/security policy (military cooperation); security context: defence; foreign headline dominates: uganda | Uganda suspends military cooperation with Turkey amid political tensions
-REJECTED | precision   | Africanews | score=4 | relevance score 4; supporting signal claim_language: suspected; security context: security; foreign headline dominates: nigeria | Nigeria: Armed security deployed in Minna after deaths of miners
-REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal claim_language: suspected; security context: defence; foreign headline dominates: nigeria | Nigeria probes deaths of 37 suspected illegal miners in custody
 REJECTED | precision   | Africanews | score=2 | relevance score 2; supporting signal civilians: displacement | Gaza children return to school after years of war and displacement
-REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: law enforcement (arrest); supporting signal casualties: dead; security context: security; foreign headline dominates: nigeria | Nigeria appoints panel to probe deaths of 37 miners in holding cell
+REJECTED | precision   | Africanews | score=0 | relevance score 0; foreign headline dominates: congo | Congo launches Ebola vaccination campaign for frontline workers
 REJECTED | precision   | Africanews | score=3 | relevance score 3; security context: military | Greece-Egypt military exercise draws tourists’ attention in Crete
-REJECTED | precision   | Al Jazeera English | score=-8 | relevance score -8; negative topic sports: football | Man Utd salvage Fulham draw as pressure mounts on Carrick
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security; foreign headline dominates: iran | Qatar PM urges Gulf security framework with Iran
-REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal claim_language: suspected; security context: defence; foreign headline dominates: nigeria | Nigeria gold miner deaths spark protests in Niger state
 REJECTED | precision   | Africanews | score=8 | relevance score 8; event signal: law enforcement (arrested); supporting signal casualties: dead; supporting signal claim_language: suspected; security context: security | At least 37 illegal mining suspects found dead in Nigerian custody
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: law enforcement (arrest); supporting signal casualties: dead; security context: security; foreign headline dominates: nigeria | Nigeria appoints panel to probe deaths of 37 miners in holding cell
+REJECTED | precision   | Africanews | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Brazil transforms waste palm oil into green energy
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal territorial_control: blockade; supporting signal insurgent_governance: blockade; foreign headline dominates: iran | Iran: Tehran stages largest demonstration since start of conflict
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal claim_language: suspected; security context: defence; foreign headline dominates: nigeria | Nigeria probes deaths of 37 suspected illegal miners in custody
+REJECTED | precision   | Al Jazeera English | score=-8 | relevance score -8; negative topic sports: football | Man Utd salvage Fulham draw as pressure mounts on Carrick
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal claim_language: suspected; security context: defence; foreign headline dominates: nigeria | Nigeria gold miner deaths spark protests in Niger state
 REJECTED | robots      | VOA Africa | score=- | robots.txt disallows article fetch | EU Calls for Probe into Burkina Faso 'Massacre' with 100 Estimated Dead - VOA Africa
 REJECTED | robots      | VOA Africa | score=- | robots.txt disallows article fetch | Burkina Faso Aids Sanction-Hit Niger with Food Supplies - VOA Africa
-REJECTED | precision   | Africanews | score=0 | relevance score 0; foreign headline dominates: congo | Congo launches Ebola vaccination campaign for frontline workers
-REJECTED | precision   | Africanews | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Brazil transforms waste palm oil into green energy
-REJECTED | precision   | Al Jazeera English | score=6 | relevance score 6; event signal: clash (fighting); security context: security; foreign headline dominates: saudi arabia | How will Saudi Arabia deal with the Houthis?
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: defence | France’s Macron and Canada’s Carney announce plans to build stronger ties
-REJECTED | precision   | Al Jazeera English | score=0 | relevance score 0; foreign headline dominates: iran | Qatar says it is working to revive Iran-US talks
-REJECTED | precision   | Al Jazeera English | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Argentina’s Left stages ‘March of Anger’ over Milei’s austerity measures
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: military | Eighteen suspects extradited to US over Haitian president’s 2021 killing
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security; foreign headline dominates: iran | Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security | Trump says monumental arch in Washington, DC will also be military complex
 REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: military | US, China open high-level talks ahead of Trump-Xi summit
-REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | ‘Unprecedented terrorist violence’ in West Africa, Sahel region - ReliefWeb
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security; foreign headline dominates: iran | Qatar PM urges Gulf security framework with Iran
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security | Trump says monumental arch in Washington, DC will also be military complex
+REJECTED | precision   | Al Jazeera English | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Argentina’s Left stages ‘March of Anger’ over Milei’s austerity measures
 REJECTED | precision   | Al Jazeera English | score=2 | relevance score 2; supporting signal casualties: killed; foreign headline dominates: israel | Jerusalem Daily: Israel pardons soldier Elor Azaria
+REJECTED | precision   | Al Jazeera English | score=6 | relevance score 6; event signal: clash (fighting); security context: security; foreign headline dominates: saudi arabia | How will Saudi Arabia deal with the Houthis?
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; event signal: security operation (strikes) | Gaza artists honour Macklemore for supporting Palestine
+REJECTED | precision   | Al Jazeera English | score=0 | relevance score 0; foreign headline dominates: iran | Qatar says it is working to revive Iran-US talks
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: defence | France’s Macron and Canada’s Carney announce plans to build stronger ties
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security; foreign headline dominates: iran | Qatar PM describes fallout of US-Israel war on Iran as ‘earthquake’
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: military | Eighteen suspects extradited to US over Haitian president’s 2021 killing
+REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | ‘Unprecedented terrorist violence’ in West Africa, Sahel region - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | Sahel and West Africa Food Security Outlook Update December 2011 - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | Sahel and West Africa Food Security Update, October 2006 - ReliefWeb
-REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; event signal: security operation (strikes) | Gaza artists honour Macklemore for supporting Palestine
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | ACLED Regional Overview Africa: May 2025 - Burkina Faso - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | ACLED Regional Overview Africa: May 2024 - Burkina Faso - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | WFP Regional Bureau for Western Africa: Lean Season Response Burkina Faso, Cameroon, Chad, CAR, Mali, Mauritania, Niger, Nigeria - August 2023 - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | West Africa: Hundreds die in seasonal meningitis outbreak - Burkina Faso - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | West Africa Seasonal Monitor: Rainy season progresses with localized deficits across the Sahel, August 31, 2026 - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025 - ReliefWeb
-REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Agadez (agadez); local source prior: Niger | HOMMAGE AU CHEIKH AHMED TOUBALI : Une grande bibliothèque du savoir islamique d’Agadez s’est éteinte
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | FSNWG Analysis and Alert Note: Executive Summary - 53 million people in the Sahel, West and Central Africa are projected to face food and nutrition insecurity in 2026 (March 2026) - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | Sound water management key to building resilience in Africa’s Sahel - ReliefWeb
 REJECTED | robots      | ReliefWeb | score=- | robots.txt disallows article fetch | Global Update | September 2026: An Inter-Agency Report of the Global ENSO Analysis Cell - El Niño Status & Humanitarian Outlook - ReliefWeb
@@ -158,7 +156,6 @@ REJECTED | page_filter | International Crisis Group | score=- | excluded page ti
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Mali’s Algiers Peace Agreement, Five Years On: An Uneasy Calm - International Crisis Group
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Niger - International Crisis Group
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Central Mali: An Uprising in the Making? - International Crisis Group
-REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Niamey (niamey); local source prior: Niger | AES : les régulateurs des médias créent la PAREMEC, son Secrétariat exécutif permanent installé à Niamey
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Niger: Another Weak Link in the Sahel? - International Crisis Group
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Mali: Avoiding Escalation - International Crisis Group
 REJECTED | page_filter | International Crisis Group | score=- | excluded page title: international | Reorienting Europe’s Approach in the Sahel - International Crisis Group
@@ -183,81 +180,83 @@ REJECTED | robots      | The Defense Post Africa | score=- | robots.txt disallow
 REJECTED | robots      | The Defense Post Africa | score=- | robots.txt disallows article fetch | African Union plans to send 3,000 troops to the Sahel - The Defense Post
 REJECTED | page_filter | The Defense Post Africa | score=- | excluded page title: international | France seeks international support for Sahel military coalition - The Defense Post
 REJECTED | robots      | The Defense Post Africa | score=- | robots.txt disallows article fetch | German parliament extends Africa military missions - The Defense Post
-REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Agadez (agadez); local source prior: Niger | Projet Dasa : un financement de 414 millions de dollars et de fortes attentes dans la région d’Agadez
-REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; security context: defense | Rapta Raises $8M to Put AI Quality Control on Defense Factory Floors
-REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; headline event signal: clash (combat) | Chinese J-16s Engage in Combat Against Egyptian Rafales in Second Joint Drill
-REJECTED | precision   | The Defense Post Africa | score=9 | relevance score 9; supporting signal casualties: killed; supporting signal civilians: civilian; supporting signal insurgent_governance: recruitment; security context: military | Russia Agrees to Address Illegal Recruitment of Ghanaians for Ukraine War
 REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; security context: military; foreign headline dominates: somalia | Somalia Rebuilds Army With 3,000 Recruits After Historic In-Country Military Training
 REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; security context: defense | $10M Award Funds New Defense AI Research Program at Fayetteville State
+REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants Nigeria is considering the introduction of state police across the country’s 36 states as part of measures to tackle militant attacks, mass kidnappings and banditry activities that are wracking the country. The state police are a
 REJECTED | precision   | VOA Africa | score=2 | relevance score 2; supporting signal civilians: refugee | 3 Former African Refugee Makes History as US First Black, Muslim & Somali Mayor
-REJECTED | precision   | VOA Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Healthy Living
+REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; headline event signal: clash (combat) | Chinese J-16s Engage in Combat Against Egyptian Rafales in Second Joint Drill
+REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants
+REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; security context: defense | Rapta Raises $8M to Put AI Quality Control on Defense Factory Floors
+REJECTED | precision   | The Defense Post Africa | score=9 | relevance score 9; supporting signal casualties: killed; supporting signal civilians: civilian; supporting signal insurgent_governance: recruitment; security context: military | Russia Agrees to Address Illegal Recruitment of Ghanaians for Ukraine War
+REJECTED | precision   | VOA Africa | score=-4 | relevance score -4; explicit country: Niger (nigérienne); negative topic entertainment: music | 4 Nigérienne singer Fadi talks culture, music and life in New York
 REJECTED | precision   | VOA Africa | score=7 | relevance score 7; headline event signal: security operation (drone strike); supporting signal casualties: killed; supporting signal civilians: civilians; foreign headline dominates: nigeria | 1 Nigeria’s President Tinubu Probes Drone Strike on Civilians
 REJECTED | precision   | The Defense Post Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Angola Takes Delivery of HT-100 Naval Helicopter Drones From UAE
-REJECTED | precision   | VOA Africa | score=-4 | relevance score -4; explicit country: Niger (nigérienne); negative topic entertainment: music | 4 Nigérienne singer Fadi talks culture, music and life in New York
-REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: عسكري | مقتل مستوطن واستشهاد فلسطيني.. تفاصيل يوم من التصعيد في الضفة
-REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: عسكري | قاعدة للمسيّرات والقناصة.. ترمب يوسع مشروع قوس النصر في واشنطن
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | إيران مباشر.. ترمب لا يستبعد استئناف الهجمات الواسعة وطهران تهدد باستهداف القواعد الأمريكية
-REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants Nigeria is considering the introduction of state police across the country’s 36 states as part of measures to tackle militant attacks, mass kidnappings and banditry activities that are wracking the country. The state police are a
 REJECTED | precision   | The Defense Post Africa | score=6 | relevance score 6; event signal: attack (attack); security context: military; foreign headline dominates: nigeria | Bell Textron Starts Viper Helicopter Build for Nigeria
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | اليمن مباشر.. غارات جوية على مواقع الحوثيين وواشنطن تحث مواطنيها على توخي الحذر
+REJECTED | precision   | VOA Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Healthy Living
 REJECTED | precision   | VOA Africa | score=5 | relevance score 5; supporting signal civilians: displaced; security context: military; foreign headline dominates: congo | A Silent War, Stories of Human Suffering and Resilience in Congo "A Silent War: Stories of Human Suffering and Resilience in Congo" is a poignant documentary that sheds light on the ongoing humanitarian crisis in the Democratic Republic of Congo (DRC), particularly in its eastern region. Through a c
-REJECTED | precision   | Al Jazeera Arabic | score=5 | relevance score 5; supporting signal civilians: قرية; security context: أمن | خبير عسكري: نتنياهو يستغل حادثة رام الله لضم المنطقة "ج"
-REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants
-REJECTED | precision   | VOA Africa | score=-7 | relevance score -7; negative topic archaeology_lifestyle: lifestyle | Africa News Tonight
-REJECTED | precision   | VOA Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Straight Talk Africa
 REJECTED | precision   | VOA Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | StartUP Africa
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | خطة تجديد أكشاك القاهرة تثير مخاوف أصحابها
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | "ما وراء الخبر" يتناول مناورة بغداد في ملف حصر السلاح
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | وثيقة سرية تكشف تفاصيل خطة شاملة للتعاون بين طهران وموسكو
-REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; event signal: IED/explosion (انفجار) | بعد الوعيد الأمريكي وشروط الفصائل.. هل تنجو بغداد من فخ العقوبات؟
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | هل تقترب الضفة الغربية من انتفاضة جديدة؟
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | "صلاحتاشي".. صخرة محمد صلاح تتحول لمزار سياحي في طرابزون (فيديو)
-REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | لماذا يستطيع ترمب إنهاء الصراع الروسي الأوكراني لكنه لا يفعل؟
+REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Niamey (niamey); local source prior: Niger | AES : les régulateurs des médias créent la PAREMEC, son Secrétariat exécutif permanent installé à Niamey
+REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Agadez (agadez); local source prior: Niger | Projet Dasa : un financement de 414 millions de dollars et de fortes attentes dans la région d’Agadez
+REJECTED | precision   | Aïr Info | score=6 | relevance score 6; explicit place: Agadez (agadez); local source prior: Niger | HOMMAGE AU CHEIKH AHMED TOUBALI : Une grande bibliothèque du savoir islamique d’Agadez s’est éteinte
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: عسكري | قاعدة للمسيّرات والقناصة.. ترمب يوسع مشروع قوس النصر في واشنطن
+REJECTED | precision   | VOA Africa | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Straight Talk Africa
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: مسلح | إثيوبيا أمام تحالف مسلح جديد.. 7 تنظيمات تتوحد "للإطاحة بالحكومة"
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: عسكري | مقتل مستوطن واستشهاد فلسطيني.. تفاصيل يوم من التصعيد في الضفة
 REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | إدارة الإشعارات
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | وثيقة سرية تكشف تفاصيل خطة شاملة للتعاون بين طهران وموسكو
+REJECTED | precision   | VOA Africa | score=-7 | relevance score -7; negative topic archaeology_lifestyle: lifestyle | Africa News Tonight
 REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الحرب في الشرق الأوسط
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | قائمة البرامج
-REJECTED | precision   | BBC Arabic | score=3 | relevance score 3; event signal: attack (هجوم) | إيران تحذر دول المنطقة من التعاون مع واشنطن في حال استئناف الهجوم عليها
-REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | أزمة الرياض مع الحوثيين فرصة ترامب لرعاية تعاون سعودي إسرائيلي إماراتي - وول ستريت جورنال
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | "ما وراء الخبر" يتناول مناورة بغداد في ملف حصر السلاح
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | جدعون ليفي ساخرا: في يوم الغفران على العالم أن يعتذر لإسرائيل
+REJECTED | precision   | Al Jazeera Arabic | score=5 | relevance score 5; supporting signal civilians: قرية; security context: أمن | خبير عسكري: نتنياهو يستغل حادثة رام الله لضم المنطقة "ج"
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | لماذا يستطيع ترمب إنهاء الصراع الروسي الأوكراني لكنه لا يفعل؟
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | تراجع صادرات الحبوب الأوكرانية ومخاوف من نقص إمدادات القمح العالمية
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | هل تقترب الضفة الغربية من انتفاضة جديدة؟
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; event signal: IED/explosion (انفجار) | بعد الوعيد الأمريكي وشروط الفصائل.. هل تنجو بغداد من فخ العقوبات؟
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | خطة تجديد أكشاك القاهرة تثير مخاوف أصحابها
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الأخبار المستمرة
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | أحدث البرامج
 REJECTED | precision   | BBC Arabic | score=5 | relevance score 5; supporting signal territorial_control: سيطر; security context: أمن | فيديو, ماذا نعرف عن ميناء المخا والمدينة التي سيطر عليها الحوثيون؟ , المدة 2,41
 REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | السلطات السورية توقف لواءً سابقاً شارك في عمليات حلب والغوطة
-REJECTED | precision   | BBC Arabic | score=5 | relevance score 5; headline event signal: attack (هجوم); supporting signal casualties: قتل | مقتل شخصين في هجوم أوكراني "ضخم" بالطائرات المسيّرة على منطقة موسكو
 REJECTED | precision   | BBC Arabic | score=3 | relevance score 3; event signal: security operation (استهدفت) | الحوثيون يتهمون السعودية بشنَّ 28 غارة في اليمن خلال 24 ساعة، وقلق من تفاقم معاناة المدنيين وسط استمرار القتال الدامي
 REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | BBC News, عربي
 REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | السياسة الفرنسية
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | آخر نشرة الأخبار
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الأخبار المغاربية
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | احذر الأخبار الكاذبة
+REJECTED | precision   | BBC Arabic | score=5 | relevance score 5; headline event signal: attack (هجوم); supporting signal casualties: قتل | مقتل شخصين في هجوم أوكراني "ضخم" بالطائرات المسيّرة على منطقة موسكو
 REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | البث المباشر
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الأخبار المستمرة
-REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | المغرب يطوي صفحة "الساعة الإضافية" بعد سنوات من الجدل، وعودة غرينيتش حديث مواقع التواصل
-REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الانتخابات المغربية 2026: بين انتظارات الناخبين ووعود الأحزاب
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | أحدث البرامج
-REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الانتخابات الرئاسية الأمريكية
+REJECTED | precision   | BBC Arabic | score=3 | relevance score 3; event signal: attack (هجوم) | إيران تحذر دول المنطقة من التعاون مع واشنطن في حال استئناف الهجوم عليها
 REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | شبكة البرامج
-REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | إد شيران يقرّ بارتكاب "أخطاء" في أول حفل له منذ الجدل المرتبط بماكليمور
-REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | فيديو, إيد شيران يعتذر للحضور عن "ارتكابه الأخطاء" , المدة 3,15
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | احذر الأخبار الكاذبة
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | آخر نشرة الأخبار
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | قائمة البرامج
+REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | المغرب يطوي صفحة "الساعة الإضافية" بعد سنوات من الجدل، وعودة غرينيتش حديث مواقع التواصل
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الأخبار المغاربية
+REJECTED | precision   | France 24 Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الانتخابات الرئاسية الأمريكية
 REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الجيش السوداني يعلن إسقاط مسيّرة "انطلقت من إثيوبيا" وقواته تحقق تقدماً في شمال كردفان
-REJECTED | precision   | Sky News Arabia | score=6 | relevance score 6; headline event signal: IED/explosion (انفجار); security context: عسكري | قبل انسحاب التحالف.. انفجار قرب مطار أربيل خلال تدريب عسكري
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | دولة الإمارات ترسل مساعدات إغاثية إلى كولومبيا
-REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; event signal: attack (هجوم) | بعد "الهجوم الأكبر".. روسيا تتوعد برد قاس على كييف
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | تقرير يكشف أعداد النازحين في اليمن منذ بدء التصعيد العسكري
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | حزب "روسيا الموحدة" يتجه نحو الفوز بالانتخابات التشريعية
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ترامب يضغط على زيلينسكي لوقف ضرب مصافي النفط الروسية
-REJECTED | precision   | Sky News Arabia | score=5 | relevance score 5; headline event signal: security operation (عملية أمنية); supporting signal casualties: قتل | مقتل فلسطيني وإسرائيلي.. وإطلاق عملية أمنية واسعة بالضفة
-REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; security context: أمن | فيديو.. رجل يستنفر أمن البيت الأبيض ويطلب مقابلة ترامب
-REJECTED | precision   | Sky News Arabia | score=2 | relevance score 2; headline event signal: law enforcement (الشرطة) | "لص الحلوى".. سرقة غريبة تحير الشرطة في ألمانيا
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | طوق نجاة لمرضى السرطان.. عالم مصري يطور خلايا تدمر الأورام
-REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | مانشستر يونايتد ينجو من الخسارة أمام فولهام بهدف "قاتل"
+REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الانتخابات المغربية 2026: بين انتظارات الناخبين ووعود الأحزاب
+REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | فيديو, إيد شيران يعتذر للحضور عن "ارتكابه الأخطاء" , المدة 3,15
+REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | إد شيران يقرّ بارتكاب "أخطاء" في أول حفل له منذ الجدل المرتبط بماكليمور
+REJECTED | precision   | BBC Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | أزمة الرياض مع الحوثيين فرصة ترامب لرعاية تعاون سعودي إسرائيلي إماراتي - وول ستريت جورنال
 REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; headline event signal: attack (هجوم) | فيديو.. أوكرانيا تشن "أضخم" هجوم على روسيا هذا العام
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Girit Adası'ndaki yangın kontrol altına alınamadı
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Macron, Fransa ve Kanada arasında "derin bir yakınlaşma" sağlanması için çalışacaklarını söyledi
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Cumhurbaşkanı Erdoğan, BM 81. Genel Kurulu'na katılmak üzere ABD'ye ulaştı
+REJECTED | precision   | Sky News Arabia | score=5 | relevance score 5; headline event signal: security operation (عملية أمنية); supporting signal casualties: قتل | مقتل فلسطيني وإسرائيلي.. وإطلاق عملية أمنية واسعة بالضفة
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | تقرير يكشف أعداد النازحين في اليمن منذ بدء التصعيد العسكري
+REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; event signal: attack (هجوم) | بعد "الهجوم الأكبر".. روسيا تتوعد برد قاس على كييف
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | طوق نجاة لمرضى السرطان.. عالم مصري يطور خلايا تدمر الأورام
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ترامب يضغط على زيلينسكي لوقف ضرب مصافي النفط الروسية
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | دولة الإمارات ترسل مساعدات إغاثية إلى كولومبيا
+REJECTED | precision   | Sky News Arabia | score=2 | relevance score 2; headline event signal: law enforcement (الشرطة) | "لص الحلوى".. سرقة غريبة تحير الشرطة في ألمانيا
+REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; security context: أمن | فيديو.. رجل يستنفر أمن البيت الأبيض ويطلب مقابلة ترامب
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | مانشستر يونايتد ينجو من الخسارة أمام فولهام بهدف "قاتل"
+REJECTED | precision   | Sky News Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | حزب "روسيا الموحدة" يتجه نحو الفوز بالانتخابات التشريعية
+REJECTED | precision   | Sky News Arabia | score=6 | relevance score 6; headline event signal: IED/explosion (انفجار); security context: عسكري | قبل انسحاب التحالف.. انفجار قرب مطار أربيل خلال تدريب عسكري
 REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; foreign headline dominates: libya | MİT Başkanı Kalın, Libya Ulusal Birlik Hükümeti Savunma Bakan Vekili Zubi ile İstanbul'da görüştü
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Cumhurbaşkanı Erdoğan, BM 81. Genel Kurulu'na katılmak üzere ABD'ye ulaştı
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Girit Adası'ndaki yangın kontrol altına alınamadı
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Danimarka: ABD ile varılan Grönland anlaşmasında "kırmızı çizgilere" saygı duyuldu
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Ukrayna Devlet Başkanı Zelenskiy, ABD Başkanı Trump ile telefonda görüştüğünü belirtti
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Amedspor, evinde Beşiktaş’ı mağlup etti
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Macron, Fransa ve Kanada arasında "derin bir yakınlaşma" sağlanması için çalışacaklarını söyledi
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Göztepe ile Çaykur Rizespor 2-2 berabere kaldı
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Milli satranççı Büyükusta Yağız Kaan Erdoğmuş, dünya sıralamasında ilk 20'ye girdi
+REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; foreign headline dominates: iran | İran Dışişleri Bakanı Erakçi, BM Genel Kurulu öncesi Katar’da istişarelerde bulunacak
 REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Trendyol Süper Lig'de görünüm
 REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Rusya'da milletvekili seçiminde sandıklar kapandı
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Danimarka: ABD ile varılan Grönland anlaşmasında "kırmızı çizgilere" saygı duyuldu
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Göztepe ile Çaykur Rizespor 2-2 berabere kaldı
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Ukrayna Devlet Başkanı Zelenskiy, ABD Başkanı Trump ile telefonda görüştüğünü belirtti
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; foreign headline dominates: iran | İran Dışişleri Bakanı Erakçi, BM Genel Kurulu öncesi Katar’da istişarelerde bulunacak
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Amedspor, evinde Beşiktaş’ı mağlup etti
-REJECTED | precision   | Anadolu Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Milli satranççı Büyükusta Yağız Kaan Erdoğmuş, dünya sıralamasında ilk 20'ye girdi
