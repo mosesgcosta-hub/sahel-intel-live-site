@@ -1,5 +1,32 @@
 [
   {
+    "id": "5db601efbc50fba9b7ec4a33f85887794b4d1df7",
+    "event_date": "2026-09-20",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the militar",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
+    ],
+    "created_at": "2026-09-20T08:26:52.057143Z",
+    "updated_at": "2026-09-20T08:26:52.057143Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
     "id": "607cfbefb9a60e6bc107389c2eded47f686d31c2",
     "event_date": "2026-09-19",
     "actor": "State",
