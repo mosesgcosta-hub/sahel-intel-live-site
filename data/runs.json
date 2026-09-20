@@ -1,5 +1,25 @@
 [
   {
+    "started_at": "2026-09-20T06:29:31.566183Z",
+    "finished_at": "2026-09-20T06:31:44.390194Z",
+    "status": "complete",
+    "sources_total": 33,
+    "sources_success": 33,
+    "sources_failed": 0,
+    "documents_discovered": 1054,
+    "documents_selected": 396,
+    "documents_retained": 2,
+    "archive_rejected_by_precision_rules": 0,
+    "archive_duplicates_removed": 0,
+    "translations_attempted": 0,
+    "translations": 0,
+    "translation_failures": 0,
+    "archive_reports": 112,
+    "candidate_events_archive": 6,
+    "candidate_events_7d": 5,
+    "event_changes": 0
+  },
+  {
     "started_at": "2026-09-20T05:23:51.614982Z",
     "finished_at": "2026-09-20T05:25:11.753799Z",
     "status": "complete",
