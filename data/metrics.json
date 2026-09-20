@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:26:04.936319Z",
+  "generated_at": "2026-09-20T21:23:26.298770Z",
   "series": {
     "JNIM": [
       {
@@ -2169,6 +2169,23 @@
     ]
   },
   "trends_7d": {
+    "JNIM": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "IS Sahel": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "State": {
+      "current": 6,
+      "previous": 0,
+      "change_pct": 100.0
+    }
+  },
+  "trends_30d": {
     "JNIM": {
       "current": 0,
       "previous": 0,

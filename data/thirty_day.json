@@ -1,0 +1,942 @@
+{
+  "generated_at": "2026-09-20T21:23:26.298779Z",
+  "window_days": 30,
+  "cutoff": "2026-08-21",
+  "reports": 98,
+  "candidate_events": 6,
+  "corroborated_events": 1,
+  "mapped_events": 3,
+  "distinct_sources": 18,
+  "by_actor": {
+    "State": 6
+  },
+  "by_country": {
+    "Mali": 5,
+    "Niger": 1
+  },
+  "by_event_type": {
+    "security operation": 5,
+    "clash": 1
+  },
+  "by_language": {
+    "fr": 93,
+    "en": 5
+  },
+  "by_confidence": {
+    "low": 3,
+    "moderate": 3
+  },
+  "top_sources": [
+    {
+      "source": "Agence Nigérienne de Presse",
+      "count": 15
+    },
+    {
+      "source": "LeFaso.net",
+      "count": 13
+    },
+    {
+      "source": "ActuNiger",
+      "count": 7
+    },
+    {
+      "source": "Agence d'Information du Burkina",
+      "count": 7
+    },
+    {
+      "source": "Bamada",
+      "count": 7
+    },
+    {
+      "source": "Journal du Mali",
+      "count": 7
+    },
+    {
+      "source": "Le Sahel",
+      "count": 7
+    },
+    {
+      "source": "Wakat Sera",
+      "count": 6
+    },
+    {
+      "source": "Aïr Info",
+      "count": 5
+    },
+    {
+      "source": "Malijet",
+      "count": 5
+    },
+    {
+      "source": "Niger Inter",
+      "count": 5
+    },
+    {
+      "source": "Associated Press Africa",
+      "count": 4
+    }
+  ],
+  "top_locations": [
+    {
+      "location": "Mali",
+      "count": 2
+    },
+    {
+      "location": "Djenné",
+      "count": 1
+    },
+    {
+      "location": "Kidal",
+      "count": 1
+    },
+    {
+      "location": "Niger",
+      "count": 1
+    },
+    {
+      "location": "Sévaré",
+      "count": 1
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-22",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-08-23",
+      "reports": 2,
+      "events": 0
+    },
+    {
+      "date": "2026-08-24",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-08-25",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-08-26",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-08-27",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-08-28",
+      "reports": 1,
+      "events": 0
+    },
+    {
+      "date": "2026-08-29",
+      "reports": 2,
+      "events": 0
+    },
+    {
+      "date": "2026-08-30",
+      "reports": 1,
+      "events": 0
+    },
+    {
+      "date": "2026-08-31",
+      "reports": 1,
+      "events": 0
+    },
+    {
+      "date": "2026-09-01",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-02",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-03",
+      "reports": 1,
+      "events": 0
+    },
+    {
+      "date": "2026-09-04",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-05",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-06",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-07",
+      "reports": 2,
+      "events": 0
+    },
+    {
+      "date": "2026-09-08",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-09",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-10",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-11",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-12",
+      "reports": 2,
+      "events": 0
+    },
+    {
+      "date": "2026-09-13",
+      "reports": 1,
+      "events": 0
+    },
+    {
+      "date": "2026-09-14",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-15",
+      "reports": 0,
+      "events": 0
+    },
+    {
+      "date": "2026-09-16",
+      "reports": 7,
+      "events": 0
+    },
+    {
+      "date": "2026-09-17",
+      "reports": 8,
+      "events": 1
+    },
+    {
+      "date": "2026-09-18",
+      "reports": 20,
+      "events": 0
+    },
+    {
+      "date": "2026-09-19",
+      "reports": 38,
+      "events": 4
+    },
+    {
+      "date": "2026-09-20",
+      "reports": 12,
+      "events": 1
+    }
+  ],
+  "latest_events": [
+    {
+      "id": "5db601efbc50fba9b7ec4a33f85887794b4d1df7",
+      "event_date": "2026-09-20",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the militar",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
+      ],
+      "created_at": "2026-09-20T08:26:52.057143Z",
+      "updated_at": "2026-09-20T08:26:52.057143Z",
+      "extraction_confidence": "low",
+      "corroboration": "single-source",
+      "confidence": "low"
+    },
+    {
+      "id": "607cfbefb9a60e6bc107389c2eded47f686d31c2",
+      "event_date": "2026-09-19",
+      "actor": "State",
+      "event_type": "clash",
+      "country": "Niger",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
+      "summary": "Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background to the Tensions The border between Niger and Chad is an unstable area In response, Niger launched Operation Klafoki in May 2026 to secure the Bilma region again",
+      "sources": [
+        "Journal du Mali"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://journaldumali.com/entre-loperation-klafoki-et-la-guerre-de-linformation-analyse-des-tensions-niger-tchad/"
+      ],
+      "created_at": "2026-09-19T20:56:48.546987Z",
+      "updated_at": "2026-09-19T20:56:48.546987Z",
+      "extraction_confidence": "low",
+      "corroboration": "single-source",
+      "confidence": "low"
+    },
+    {
+      "id": "9d0115192e80c5d2dabceffdf725751d7536a692",
+      "event_date": "2026-09-19",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Sévaré",
+      "lat": 14.5272,
+      "lng": -4.0934,
+      "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
+      "summary": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional ",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
+      ],
+      "created_at": "2026-09-19T20:56:41.947029Z",
+      "updated_at": "2026-09-19T20:56:41.947029Z",
+      "extraction_confidence": "low",
+      "corroboration": "single-source",
+      "confidence": "low"
+    },
+    {
+      "id": "0d8f955ad44de7f83d1a1f5228824779711f5679",
+      "event_date": "2026-09-19",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts"
+      ],
+      "created_at": "2026-09-19T18:15:03.129399Z",
+      "updated_at": "2026-09-19T18:15:03.129399Z",
+      "extraction_confidence": "moderate",
+      "corroboration": "single-source",
+      "confidence": "moderate"
+    },
+    {
+      "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+      "event_date": "2026-09-19",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Djenné",
+      "lat": 13.9061,
+      "lng": -4.555,
+      "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
+      "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
+      "sources": [
+        "Bamada",
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html"
+      ],
+      "created_at": "2026-09-19T18:15:00.857125Z",
+      "updated_at": "2026-09-19T18:14:59.965077Z",
+      "extraction_confidence": "moderate",
+      "corroboration": "limited corroboration",
+      "confidence": "moderate"
+    },
+    {
+      "id": "9318c0e7a4d3950c0f2b77b99145a2f7e0124728",
+      "event_date": "2026-09-17",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
+      "summary": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements h",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/311895-operation-dougoukoloko-les-fama-neutralisent-des-groupes-t-1.html"
+      ],
+      "created_at": "2026-09-19T20:56:45.703291Z",
+      "updated_at": "2026-09-19T20:56:45.703291Z",
+      "extraction_confidence": "moderate",
+      "corroboration": "single-source",
+      "confidence": "moderate"
+    }
+  ],
+  "latest_reports": [
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-20T20:25:02.013071Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina/War on Terrorism: General Célestin Simporé details the changes in the army and believes in a near end",
+      "url": "https://lefaso.net/spip.php?article149363="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-20T20:25:01.837261Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Call for applications for the recruitment of three (3) independent directors",
+      "url": "https://lefaso.net/spip.php?article149317="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-20T20:25:01.675998Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Call for applications for the recruitment of an auditor",
+      "url": "https://lefaso.net/spip.php?article149316="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-20T20:25:01.315296Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: The National Gendarmerie announces the arrest of Pierre Zida after the wanted notice launched",
+      "url": "https://lefaso.net/spip.php?article149362="
+    },
+    {
+      "published_at": "2026-09-20T20:24:34Z",
+      "discovered_at": "2026-09-20T21:23:04.268210Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Dosso",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "10th Edition of the Adamou Djermakoye Basketball Moumouni Cup: Galaxy of Dosso in men and EMES of Zinder in women at the top of the podium",
+      "url": "https://anp.ne/10eme-edition-de-la-coupe-moumouni-adamou-djermakoye-de-basketball-galaxie-de-dosso-en-hommes-et-emes-de-zinder-en-dames-au-haut-du-podium/"
+    },
+    {
+      "published_at": "2026-09-20T20:18:57Z",
+      "discovered_at": "2026-09-20T20:25:09.109773Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Union: Opening in Niamey of the work of the 6th Ordinary Confederal Congress of the CDTN",
+      "url": "https://anp.ne/syndicat-ouverture-a-niamey-des-travaux-du-6eme-congres-confederal-ordinaire-de-la-cdtn/"
+    },
+    {
+      "published_at": "2026-09-20T19:37:36Z",
+      "discovered_at": "2026-09-20T20:25:17.052139Z",
+      "source": "Aïr Info",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "AGADEZ: THE SOS GROUP HONOURED FOR YEARS OF INVESTMENT IN THE SERVICE OF THE PEOPLE",
+      "url": "https://airinfoagadez.com/2026/09/20/agadez-le-groupe-sos-honore-pour-des-annees-dinvestissements-au-service-des-populations/"
+    },
+    {
+      "published_at": "2026-09-20T19:21:00Z",
+      "discovered_at": "2026-09-20T20:25:08.141358Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Tillabéri",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "CCR President Visits Sawani Calls for Citizen Mobilization and Preservation of Cultural Values",
+      "url": "https://anp.ne/le-president-du-ccr-en-visite-a-sawani-appelle-la-population-a-la-mobilisation-citoyenne-et-a-la-preservation-des-valeurs-culturelles/"
+    },
+    {
+      "published_at": "2026-09-20T16:15:37Z",
+      "discovered_at": "2026-09-20T16:26:11.223691Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Three years of governance: The Governor of the Agadez region draws up a satisfactory balance sheet",
+      "url": "https://anp.ne/trois-ans-de-gouvernance-le-gouverneur-de-la-region-dagadez-dresse-un-bilan-satisfaisant/"
+    },
+    {
+      "published_at": "2026-09-20T16:02:34Z",
+      "discovered_at": "2026-09-20T16:26:05.705492Z",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Burkina: the alleged perpetrator of the rape of the 13-year-old girl arrested",
+      "url": "https://www.wakatsera.com/burkina-le-presume-auteur-de-viol-de-la-fille-de-13-ans-interpelle/"
+    },
+    {
+      "published_at": "2026-09-20T07:54:51Z",
+      "discovered_at": "2026-09-20T08:26:52.057143Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
+      "url": "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
+    },
+    {
+      "published_at": "2026-09-20T00:49:04Z",
+      "discovered_at": "2026-09-20T01:25:45.240792Z",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Maracaña de la Fraternité: The High Security Prison team wins the first edition of the BIAP Cup",
+      "url": "https://burkina24.com/2026/09/20/maracana-de-la-fraternite-lequipe-de-la-prison-de-haute-securite-sadjuge-la-premiere-edition-de-la-coupe-de-la-biap/"
+    },
+    {
+      "published_at": "2026-09-19T23:05:19Z",
+      "discovered_at": "2026-09-19T23:23:16.079018Z",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Air Force: Colonel Alka Mahaman Sani now in command of Niamey Air Base 101",
+      "url": "https://www.actuniger.com/societe/22366-armee-de-lair-le-colonel-alka-mahaman-sani-desormais-aux-commandes-de-la-base-aerienne-101-de-niamey.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T22:24:13.791319Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso–Niger: Ouagadougou reaffirms its solidarity with Niamey",
+      "url": "https://lefaso.net/spip.php?article149352="
+    },
+    {
+      "published_at": "2026-09-19T22:13:11Z",
+      "discovered_at": "2026-09-19T22:24:06.230127Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Operation Dougoukoloko: Heroic evacuation in Dioura, the Malian army pays tribute to its fallen sons",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311932-operation-dougoukoloko-evacuation-heroique-a-dioura-larm.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T21:23:51.018744Z",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Bandiougou Danté: \"I prefer that a journalist be questioned by his peers rather than find him in court or in prison\" September 10, 2026",
+      "url": "https://journaldumali.com/bandiougou-dante-je-prefere-quun-journaliste-soit-interpelle-par-ses-pairs-plutot-que-de-le-retrouver-au-tribunal-ou-en-prison/"
+    },
+    {
+      "published_at": "2026-09-19T21:18:51Z",
+      "discovered_at": "2026-09-19T21:23:53.178982Z",
+      "source": "Agence d'Information du Burkina",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Bale: Youth mobilized around sport, a factor of social cohesion in Bana",
+      "url": "https://www.aib.media/bale-la-jeunesse-mobilisee-autour-du-sport-facteur-de-cohesion-sociale-de-bana/"
+    },
+    {
+      "published_at": "2026-09-19T21:14:54Z",
+      "discovered_at": "2026-09-19T21:23:53.089563Z",
+      "source": "Agence d'Information du Burkina",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Balé: Agricultural VDPs weed the Fara town hall estate",
+      "url": "https://www.aib.media/bale-les-vdp-agricoles-desherbent-le-domaine-de-la-mairie-de-fara/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:53.504774Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: The National Gendarmerie is looking for Pierre Zida aka \"The Mayor\"",
+      "url": "https://lefaso.net/spip.php?article149336="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:52.346505Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Commemoration of August 5: The Head of State calls for a collective commitment for a free and sovereign Burkina Faso",
+      "url": "https://lefaso.net/spip.php?article148401="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:49.573987Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger: five new deprivations of nationality",
+      "url": "https://bamada.net/niger-cinq-nouvelles-decheances-de-nationalite"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:49.031451Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger: FSSP strengthens the mobility of the Defence and Security Forces with a new endowment",
+      "url": "https://bamada.net/niger-le-fssp-renforce-la-mobilite-des-forces-de-defense-et-de-securite-grace-a-une-nouvelle-dotation"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:48.546987Z",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
+      "url": "https://journaldumali.com/entre-loperation-klafoki-et-la-guerre-de-linformation-analyse-des-tensions-niger-tchad/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:48.188529Z",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Algeria-Sahel: the return in force of an inescapable neighbor September 10, 2026",
+      "url": "https://journaldumali.com/algerie-sahel-le-retour-en-force-dun-voisin-incontournable/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T20:56:44.205401Z",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso",
+      "url": "https://www.jeuneafrique.com/pays/burkina-faso/"
+    },
+    {
+      "published_at": "2026-09-19T20:51:29Z",
+      "discovered_at": "2026-09-19T21:23:50.581523Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina and Mali reaffirm their solidarity in Niamey",
+      "url": "https://bamada.net/le-burkina-et-le-mali-reaffirment-leur-solidarite-a-niamey"
+    },
+    {
+      "published_at": "2026-09-19T20:36:13Z",
+      "discovered_at": "2026-09-19T20:57:08.054906Z",
+      "source": "Aïr Info",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger-Sudan: Niamey and Khartoum want to strengthen their cooperation in the face of security challenges",
+      "url": "https://airinfoagadez.com/2026/09/19/niger-soudan-niamey-et-khartoum-veulent-renforcer-leur-cooperation-face-aux-defis-securitaires/"
+    },
+    {
+      "published_at": "2026-09-19T20:27:07Z",
+      "discovered_at": "2026-09-19T20:56:41.947029Z",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Sévaré",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
+      "url": "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
+    },
+    {
+      "published_at": "2026-09-19T19:48:00Z",
+      "discovered_at": "2026-09-19T20:57:03.747059Z",
+      "source": "Associated Press Africa",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T19:36:15.620490Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Fight against terrorism in Mali: The Army announces the destruction of several positions of armed groups",
+      "url": "https://lefaso.net/spip.php?article149345="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T19:21:43.729350Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "National Volunteering: Burkina Faso aims to build a pool of one million reservists in five years",
+      "url": "https://lefaso.net/spip.php?article149349="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T18:56:21.932137Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Gao: Reconciliation Village launched",
+      "url": "https://bamada.net/gao-lancement-du-village-de-la-reconciliation"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T18:56:21.887723Z",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Bamako: Better traffic management before the next tragedy",
+      "url": "https://journaldumali.com/bamako-mieux-organiser-la-circulation-avant-le-prochain-drame/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T18:26:47.284957Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso/ Higher Military Education: Prime Minister Rimtalba Jean Emmanuel Ouédraogo officially opens the War School",
+      "url": "https://lefaso.net/spip.php?article149320="
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-19T18:15:08.691884Z",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "How Burkina finances its fight against terrorism",
+      "url": "https://lefaso.net/spip.php?article149346="
+    },
+    {
+      "published_at": "2026-09-19T18:03:45Z",
+      "discovered_at": "2026-09-19T18:56:23.743177Z",
+      "source": "Agence d'Information du Burkina",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina: The FDP raises awareness of the national vision on sovereignty and religious reforms",
+      "url": "https://www.aib.media/burkina-le-fdp-sensibilise-sur-la-vision-nationale-en-matiere-de-souverainete-et-de-reformes-religieuses/"
+    },
+    {
+      "published_at": "2026-09-19T17:01:50Z",
+      "discovered_at": "2026-09-19T18:15:08.017644Z",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso-Niger: a message of solidarity to the Nigerien people",
+      "url": "https://www.wakatsera.com/burkina-faso-niger-un-message-de-solidarite-au-peuple-nigerien/"
+    },
+    {
+      "published_at": "2026-09-19T15:14:10Z",
+      "discovered_at": "2026-09-19T18:15:03.300498Z",
+      "source": "Agence d'Information du Burkina",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Ziro: Agricultural VDPs take action for cleaner living environments",
+      "url": "https://www.aib.media/ziro-les-vdp-agricoles-passent-a-laction-pour-des-cadres-de-vie-plus-propres/"
+    },
+    {
+      "published_at": "2026-09-19T14:52:24Z",
+      "discovered_at": "2026-09-19T18:15:11.548023Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Diffa",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Diffa: The people of Gueskérou and Assaga reaffirm their unwavering commitment to the institutions of the Republic in the face of the events that occurred on the night of 28 to 29 August 2026 at Base 101 in Niamey.",
+      "url": "https://anp.ne/diffa-la-population-de-gueskerou-et-dassaga-reaffirme-son-attachement-indefectible-aux-institutions-de-la-republique-face-aux-evenements-survenus-dans-la-nuit-du-28-au-29-aout-2026-a-la-bas/"
+    },
+    {
+      "published_at": "2026-09-19T13:32:29Z",
+      "discovered_at": "2026-09-19T20:56:59.896968Z",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Events in Niamey: the Nigerien authorities respond to Abuja who clumsily tried to wash their hands of it",
+      "url": "https://www.actuniger.com/societe/22365-evenements-de-niamey-les-autorites-nigeriennes-repliquent-a-abuja-qui-a-maladroitement-tente-de-sen-laver-les-mains.html"
+    }
+  ],
+  "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
+}

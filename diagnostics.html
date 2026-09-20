@@ -33,7 +33,7 @@
   <h2>Latest collector trace</h2>
   <pre id="raw">Loading…</pre>
 <script>
-const files=['overview','reports','events','metrics','sources','runs','briefing','diagnostics'];
+const files=['overview','reports','events','metrics','thirty_day','sources','runs','briefing','diagnostics'];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 let report='';
 async function load(){

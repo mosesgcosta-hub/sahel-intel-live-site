@@ -1,4 +1,4 @@
-const state={overview:null,reports:[],events:[],metrics:null,sources:[],runs:[],briefing:null,actorFilter:'all',langFilter:'all',range:90,voices:[],speaking:false};
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -16,36 +16,120 @@ $$('.tab').forEach(b=>b.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('a
 $$('.filter').forEach(b=>b.onclick=()=>{$$('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.actorFilter=b.dataset.actor;renderMap();});
 $$('.lang').forEach(b=>b.onclick=()=>{$$('.lang').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.langFilter=b.dataset.lang;renderFeeds();});
 $$('.range').forEach(b=>b.onclick=()=>{$$('.range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.range=Number(b.dataset.days);renderQuant();});
+$$('.map-range').forEach(b=>b.onclick=()=>{$$('.map-range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mapDays=b.dataset.days==='all'?'all':Number(b.dataset.days);renderMap();});
 
 async function refresh(){
   try{
-    const [overview,reports,events,metrics,sources,runs,briefing]=await Promise.all([
-      data('overview'),data('reports'),data('events'),data('metrics'),data('sources'),data('runs'),data('briefing')
+    const [overview,reports,events,metrics,sources,runs,briefing,thirty]=await Promise.all([
+      data('overview'),data('reports'),data('events'),data('metrics'),data('sources'),data('runs'),data('briefing'),
+      data('thirty_day').catch(()=>null)
     ]);
-    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing});
-    renderAll();
-  }catch(err){console.error(err);applyStatus('OFFLINE','Collection data unavailable. Run the GitHub collector workflow and wait for Pages to deploy.');}
+    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty});
+    renderOverview();renderMap();renderActors();renderFeeds();renderBriefing();renderThirty();
+    const active=$('.view.active')?.id;
+    if(active==='view-quant')renderQuant();
+    if(active==='view-sources')renderOps();
+  }catch(e){
+    applyStatus('OFFLINE',`Dashboard data error: ${e.message}`);
+    console.error(e);
+  }
 }
-function renderAll(){renderOverview();renderMap();renderFeeds();renderActors();renderBriefing();renderQuant();renderOps();}
 function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_24h??0);setText('configuredSources',o.sources_configured??33);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
 function reportCard(r){const english=r.translated_title||r.title;const hasTranslation=r.translated_title&&r.translated_title!==r.title;const excerpt=r.translated_excerpt||'';const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';const collected=r.discovered_at?relTime(r.discovered_at):'unknown';const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');const reasons=(r.relevance_reasons||[]).slice(0,6).join(' • ');const type=r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT';return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${excerpt?`<p>${esc(excerpt.slice(0,520))}${excerpt.length>520?'…':''}</p>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')} • relevance ${esc(r.relevance_score??'—')} • ${esc(r.fetch_status)}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}${reasons?`<details class="original"><summary>Why retained?</summary><p>${esc(reasons)}</p></details>`:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a></article>`}
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
 
 function svgEl(tag,attrs={}){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e}
-function project(lng,lat,w=1000,h=520){const b=window.SAHEL_MAP_DATA.bounds;return [(lng-b.minLon)/(b.maxLon-b.minLon)*w,h-(lat-b.minLat)/(b.maxLat-b.minLat)*h]}
+const MAP_FOCUS={minLon:-12.8,maxLon:16.4,minLat:9.0,maxLat:25.8};
+function project(lng,lat,w=1000,h=560){const b=MAP_FOCUS;return [(lng-b.minLon)/(b.maxLon-b.minLon)*w,h-(lat-b.minLat)/(b.maxLat-b.minLat)*h]}
 function geometryPath(g){const polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;return polys.map(poly=>poly.map(ring=>ring.map((p,i)=>{const [x,y]=project(p[0],p[1]);return `${i?'L':'M'}${x.toFixed(1)},${y.toFixed(1)}`}).join(' ')+' Z').join(' ')).join(' ')}
-function renderMap(){const host=$('#map');if(!host||!window.SAHEL_MAP_DATA)return;host.innerHTML='<div class="maptip" id="maptip"></div>';const svg=svgEl('svg',{viewBox:'0 0 1000 520'});svg.appendChild(svgEl('rect',{x:0,y:0,width:1000,height:520,fill:'#061019'}));window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));window.SAHEL_MAP_DATA.labels.forEach(l=>{const [x,y]=project(l.lng,l.lat),t=svgEl('text',{x,y,class:'map-label','text-anchor':'middle'});t.textContent=l.name;svg.appendChild(t)});window.SAHEL_MAP_DATA.cities.forEach(c=>{const [x,y]=project(c.lng,c.lat);svg.appendChild(svgEl('circle',{cx:x,cy:y,r:2.2,class:'city-dot'}));const t=svgEl('text',{x:x+5,y:y-4,class:'city-label'});t.textContent=c.name;svg.appendChild(t)});let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);events.slice(0,250).forEach(e=>{const [x,y]=project(Number(e.lng),Number(e.lat));const g=svgEl('g');const c=actorColor(e.actor);g.appendChild(svgEl('circle',{cx:x,cy:y,r:11,fill:c,class:'eventhalo'}));const dot=svgEl('circle',{cx:x,cy:y,r:5.2,fill:c,class:'eventdot'});g.appendChild(dot);g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());svg.appendChild(g)});host.appendChild(svg)}
+function eventInWindow(e,days){
+  if(days==='all')return true;
+  if(!e?.event_date)return false;
+  const d=new Date(`${e.event_date}T23:59:59Z`);
+  return !isNaN(d) && (Date.now()-d.getTime()) <= Number(days)*86400000;
+}
+function renderMap(){
+  const host=$('#map');if(!host||!window.SAHEL_MAP_DATA)return;
+  host.innerHTML='<div class="maptip" id="maptip"></div>';
+  const svg=svgEl('svg',{viewBox:'0 0 1000 560',preserveAspectRatio:'xMidYMid meet'});
+  svg.appendChild(svgEl('rect',{x:0,y:0,width:1000,height:560,fill:'#061019'}));
+  window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
+  window.SAHEL_MAP_DATA.labels.forEach(l=>{
+    const [x,y]=project(l.lng,l.lat);
+    if(x<-80||x>1080||y<-60||y>620)return;
+    const t=svgEl('text',{x,y,class:`map-label ${l.class||''}`,'text-anchor':'middle'});
+    t.textContent=l.name;svg.appendChild(t)
+  });
+  window.SAHEL_MAP_DATA.cities.forEach(c=>{
+    const [x,y]=project(c.lng,c.lat);
+    if(x<0||x>1000||y<0||y>560)return;
+    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:2.8,class:'city-dot'}));
+    const t=svgEl('text',{x:x+6,y:y-5,class:'city-label'});t.textContent=c.name;svg.appendChild(t)
+  });
+  let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays));
+  if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
+  events.slice(0,400).forEach(e=>{
+    const [x,y]=project(Number(e.lng),Number(e.lat));
+    if(x<0||x>1000||y<0||y>560)return;
+    const g=svgEl('g');const c=actorColor(e.actor);
+    g.appendChild(svgEl('circle',{cx:x,cy:y,r:13,fill:c,class:'eventhalo'}));
+    const dot=svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
+    g.appendChild(dot);g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());svg.appendChild(g)
+  });
+  host.appendChild(svg)
+}
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 function hideTip(){const t=$('#maptip');if(t)t.style.display='none'}
 
 function lineSVG(seriesList,{height=100,showAxes=false}={}){const width=800,pad=showAxes?32:4;const vals=seriesList.flatMap(s=>s.values);const max=Math.max(1,...vals),min=0;const n=Math.max(2,...seriesList.map(s=>s.values.length));const sx=i=>pad+(i/(n-1))*(width-pad*2);const sy=v=>height-pad-(v-min)/(max-min||1)*(height-pad*2);let grid='';if(showAxes){for(let i=0;i<5;i++){const y=pad+i*(height-pad*2)/4;grid+=`<line x1="${pad}" y1="${y}" x2="${width-pad}" y2="${y}" stroke="#173346" stroke-width="1"/><text x="4" y="${y+3}" fill="#668494" font-size="9">${Math.round(max*(1-i/4))}</text>`}}const lines=seriesList.map(s=>{if(!s.values.length)return'';const pts=s.values.map((v,i)=>`${sx(i)},${sy(v)}`).join(' ');return `<polyline fill="none" stroke="${s.color}" stroke-width="2.2" points="${pts}" vector-effect="non-scaling-stroke"/>`}).join('');return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${grid}${lines}</svg>`}
 function renderActors(){const m=state.metrics;if(!m)return;const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark']};Object.entries(ids).forEach(([a,[countId,chgId,sparkId]])=>{const t=m.trends_7d?.[a],rows=m.series?.[a]||[];setText(countId,t?.current??0);const ch=$(`#${chgId}`);ch.textContent=pct(t);ch.className=trendClass(t);$(`#${sparkId}`).innerHTML=lineSVG([{values:rows.slice(-30).map(x=>x.count),color:actorColor(a)}],{height:72})});}
-function renderQuant(){const m=state.metrics;if(!m)return;const series=['JNIM','IS Sahel','State'].map(a=>({label:a,color:actorColor(a),values:(m.series?.[a]||[]).slice(-state.range).map(x=>x.count)}));$('#actorChart').innerHTML=lineSVG(series,{height:330,showAxes:true});setText('metricNote',m.method_note||'');[['JNIM','qJnim','qJnimChange'],['IS Sahel','qIs','qIsChange'],['State','qState','qStateChange']].forEach(([a,cid,xid])=>{const t=m.trends_7d?.[a];setText(cid,t?.current??0);const e=$(`#${xid}`);e.textContent=pct(t);e.className=`quantchange ${trendClass(t)}`;});}
+function renderQuant(){
+  const m=state.metrics;if(!m)return;
+  const series=['JNIM','IS Sahel','State'].map(a=>({label:a,color:actorColor(a),values:(m.series?.[a]||[]).slice(-state.range).map(x=>x.count)}));
+  $('#actorChart').innerHTML=lineSVG(series,{height:330,showAxes:true});
+  setText('metricNote',m.method_note||'');
+  [
+    ['JNIM','qJnim','qJnimChange','qJnim30','qJnim30Change'],
+    ['IS Sahel','qIs','qIsChange','qIs30','qIs30Change'],
+    ['State','qState','qStateChange','qState30','qState30Change']
+  ].forEach(([a,cid,xid,c30,x30])=>{
+    const t7=m.trends_7d?.[a],t30=m.trends_30d?.[a];
+    setText(cid,t7?.current??0);const e7=$(`#${xid}`);e7.textContent=pct(t7);e7.className=`quantchange ${trendClass(t7)}`;
+    setText(c30,t30?.current??0);const e30=$(`#${x30}`);e30.textContent=pct(t30);e30.className=`quantchange ${trendClass(t30)}`;
+  });
+}
+function kvBars(obj,limit=8){
+  const entries=Object.entries(obj||{}).sort((a,b)=>b[1]-a[1]).slice(0,limit);
+  const max=Math.max(1,...entries.map(x=>Number(x[1])||0));
+  return entries.map(([k,v])=>`<div class="barrow"><span>${esc(k)}</span><div><i style="width:${Math.max(4,(Number(v)||0)/max*100)}%"></i></div><strong>${esc(v)}</strong></div>`).join('')||'<div class="muted-empty">No data in this window.</div>';
+}
+function renderThirty(){
+  const t=state.thirty;if(!t)return;
+  setText('thirtyStamp',`through ${fmtTime(t.generated_at)}`);
+  const summary=[
+    ['Relevant reports',t.reports??0],['Candidate events',t.candidate_events??0],['Corroborated',t.corroborated_events??0],
+    ['Mapped events',t.mapped_events??0],['Sources represented',t.distinct_sources??0],
+    ['JNIM',t.by_actor?.['JNIM']??0],['IS Sahel',t.by_actor?.['IS Sahel']??0],['State',t.by_actor?.['State']??0],['Other',t.by_actor?.['Other']??0]
+  ];
+  $('#thirtySummary').innerHTML=summary.map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
+  $('#thirtyActors').innerHTML=kvBars(t.by_actor,8);
+  $('#thirtyCountries').innerHTML=kvBars(t.by_country,8);
+  $('#thirtyTypes').innerHTML=kvBars(t.by_event_type,10);
+  $('#thirtyLanguages').innerHTML=kvBars(t.by_language,8);
+  const srcObj=Object.fromEntries((t.top_sources||[]).map(x=>[x.source,x.count]));
+  $('#thirtySources').innerHTML=kvBars(srcObj,10);
+  const reportSeries=(t.daily||[]).map(x=>x.reports||0),eventSeries=(t.daily||[]).map(x=>x.events||0);
+  $('#thirtyChart').innerHTML=lineSVG([{values:reportSeries,color:'#59c3d8'},{values:eventSeries,color:'#e7ad53'}],{height:180,showAxes:true})+
+    '<div class="chartlegend"><span><i class="dot" style="background:#59c3d8"></i>Relevant reports</span><span><i class="dot state"></i>Candidate events</span></div>';
+  $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map(e=>`<div class="timeline-row"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}</p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
+  $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?new Date(r.published_at).toLocaleDateString():'undated')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc(r.source||'')}</strong><p>${esc(r.title||'')}</p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
+  setText('thirtyNote',t.method_note||'');
+}
 
 function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
 
-function renderOps(){const o=state.overview||{},r=o.last_run||{};$('#opsSummary').innerHTML=[['Sources',o.sources_configured??33],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');$('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.last_error||'')}</td></tr>`).join('');$('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';}
+function renderOps(){const o=state.overview||{},r=o.last_run||{};$('#opsSummary').innerHTML=[['Sources',o.sources_configured??33],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Events 30D',r.candidate_events_30d??state.thirty?.candidate_events??0],['Reports 30D',r.reports_30d??state.thirty?.reports??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');$('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.last_error||'')}</td></tr>`).join('');$('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';}
 
 function loadVoices(){state.voices=speechSynthesis.getVoices();const sel=$('#voiceSelect');if(!sel)return;sel.innerHTML='';state.voices.forEach((v,i)=>{const o=document.createElement('option');o.value=i;o.textContent=v.name;sel.appendChild(o)});let idx=state.voices.findIndex(v=>/Microsoft Ava Online \(Natural\)/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>/Ava/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));if(idx>=0)sel.value=idx;setText('voiceStatus',idx>=0?state.voices[idx].name:'default browser voice')}
 if('speechSynthesis'in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}

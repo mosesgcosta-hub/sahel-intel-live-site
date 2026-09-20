@@ -24,7 +24,7 @@
     <section id="view-overview" class="view active">
       <div class="grid overview-grid">
         <section class="panel map-panel">
-          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Sahel Event Map</h2></div><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div></div>
+          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Central Sahel Event Map</h2><p class="subnote">Focused on Mali • Burkina Faso • Niger</p></div><div class="map-controls"><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange"><button class="map-range" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range active" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div></div>
           <div id="map" class="map"></div>
           <div class="legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot other"></i> Other</span><span>Embedded vector map • no map API</span></div>
         </section>
@@ -40,6 +40,26 @@
           <div class="source-health-mini"><div><span>Live</span><strong id="liveSources">0</strong></div><div><span>Degraded</span><strong id="degradedSources">0</strong></div><div><span>Failed</span><strong id="failedSources">0</strong></div></div>
           <div class="runbox" id="runBox">Awaiting first collection run.</div>
         </aside>
+
+        <section class="panel thirty-panel">
+          <div class="panelhead"><div><span class="eyebrow">30-DAY OPERATING PICTURE</span><h2>What Happened in the Last 30 Days</h2></div><span class="methodpill" id="thirtyStamp">rolling 30-day window</span></div>
+          <div id="thirtySummary" class="thirty-summary"></div>
+          <div class="thirty-grid">
+            <div class="dense-block"><h3>Actor activity</h3><div id="thirtyActors" class="barlist"></div></div>
+            <div class="dense-block"><h3>Countries</h3><div id="thirtyCountries" class="barlist"></div></div>
+            <div class="dense-block"><h3>Event types</h3><div id="thirtyTypes" class="barlist"></div></div>
+            <div class="dense-block"><h3>Reporting languages</h3><div id="thirtyLanguages" class="barlist"></div></div>
+          </div>
+          <div class="thirty-lower">
+            <div class="dense-block"><h3>30-day reporting vs event activity</h3><div id="thirtyChart" class="thirty-chart"></div></div>
+            <div class="dense-block"><h3>Top reporting sources</h3><div id="thirtySources" class="barlist compact"></div></div>
+          </div>
+          <h3 class="timeline-title">Latest candidate events in the 30-day window</h3>
+          <div id="thirtyTimeline" class="event-timeline"></div>
+          <h3 class="timeline-title">Latest relevant reporting in the 30-day window</h3>
+          <div id="thirtyReports" class="event-timeline report-timeline"></div>
+          <p id="thirtyNote" class="note"></p>
+        </section>
 
         <section class="panel actor-board">
           <div class="panelhead"><div><span class="eyebrow">OSINT EVENT SIGNAL</span><h2>Actor Momentum</h2></div><div class="methodpill">7D vs previous 7D</div></div>
@@ -76,14 +96,14 @@
     <section id="view-quant" class="view">
       <div class="grid quant-grid">
         <section class="panel fullspan">
-          <div class="panelhead"><div><span class="eyebrow">STOCK-MARKET STYLE TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range" data-days="30">30D</button><button class="range active" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
+          <div class="panelhead"><div><span class="eyebrow">STOCK-MARKET STYLE TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
           <div id="actorChart" class="bigchart"></div>
           <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span></div>
           <p id="metricNote" class="note"></p>
         </section>
-        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>JNIM</h2><div class="quantnumber" id="qJnim">0</div><div id="qJnimChange" class="quantchange">—</div></section>
-        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>IS Sahel</h2><div class="quantnumber" id="qIs">0</div><div id="qIsChange" class="quantchange">—</div></section>
-        <section class="panel"><span class="eyebrow">CURRENT 7-DAY SIGNAL</span><h2>State Activity</h2><div class="quantnumber" id="qState">0</div><div id="qStateChange" class="quantchange">—</div></section>
+        <section class="panel"><span class="eyebrow">JNIM ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qJnim">0</strong><span id="qJnimChange">—</span></div><div><small>30 DAYS</small><strong id="qJnim30">0</strong><span id="qJnim30Change">—</span></div></div></section>
+        <section class="panel"><span class="eyebrow">IS SAHEL ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qIs">0</strong><span id="qIsChange">—</span></div><div><small>30 DAYS</small><strong id="qIs30">0</strong><span id="qIs30Change">—</span></div></div></section>
+        <section class="panel"><span class="eyebrow">STATE ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qState">0</strong><span id="qStateChange">—</span></div><div><small>30 DAYS</small><strong id="qState30">0</strong><span id="qState30Change">—</span></div></div></section>
       </div>
     </section>
 
