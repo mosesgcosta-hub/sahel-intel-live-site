@@ -37,3 +37,19 @@
 
 .reader-now{margin-top:8px;min-height:28px;padding:6px 8px;border-left:2px solid #4b98b5;background:#071a24;color:#c8dbe4;font:600 9px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}
 .reader-now:empty{display:none}
+
+
+/* v1.8 map clarity + project ownership */
+.ownerline{display:flex;align-items:center;gap:10px;margin-bottom:4px;flex-wrap:wrap}
+.ownerline strong{font:900 15px/1 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.8px;color:#ffffff;text-transform:uppercase}
+.ownerline span{font:700 9px ui-monospace,SFMono-Regular,Consolas,monospace;color:#7fc4d7;letter-spacing:1.2px;text-transform:uppercase;border:1px solid #244b5f;padding:3px 6px;border-radius:3px;background:#0a1d28}
+.map{height:620px}
+.map svg{shape-rendering:geometricPrecision;text-rendering:optimizeLegibility}
+.map-label{font:800 15px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#5f8598;letter-spacing:2.2px;pointer-events:none}
+.map-label.aes{fill:#7fbfd4}
+.city-label{font:600 8px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#8babba;pointer-events:none}
+.city-dot{fill:#8babba;opacity:.9}
+.country{stroke:#4e778b;stroke-width:1.5;fill:#0d202d}
+.country.aes{fill:#163a4b;stroke:#8cc2d7;stroke-width:1.8}
+.legend{margin-top:11px}
+@media(max-width:700px){.ownerline{margin-bottom:6px}.ownerline strong{font-size:13px}.map{height:460px}}

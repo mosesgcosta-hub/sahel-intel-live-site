@@ -40,7 +40,7 @@ function reportCard(r){const english=r.translated_title||r.title;const hasTransl
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
 
 function svgEl(tag,attrs={}){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e}
-const MAP_FOCUS={minLon:-12.8,maxLon:16.4,minLat:9.0,maxLat:25.8};
+const MAP_FOCUS={minLon:-11.8,maxLon:11.8,minLat:10.2,maxLat:20.8};
 function project(lng,lat,w=1000,h=560){const b=MAP_FOCUS;return [(lng-b.minLon)/(b.maxLon-b.minLon)*w,h-(lat-b.minLat)/(b.maxLat-b.minLat)*h]}
 function geometryPath(g){const polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;return polys.map(poly=>poly.map(ring=>ring.map((p,i)=>{const [x,y]=project(p[0],p[1]);return `${i?'L':'M'}${x.toFixed(1)},${y.toFixed(1)}`}).join(' ')+' Z').join(' ')).join(' ')}
 function eventInWindow(e,days){
@@ -58,14 +58,19 @@ function renderMap(){
   window.SAHEL_MAP_DATA.labels.forEach(l=>{
     const [x,y]=project(l.lng,l.lat);
     if(x<-80||x>1080||y<-60||y>620)return;
-    const t=svgEl('text',{x,y,class:`map-label ${l.class||''}`,'text-anchor':'middle'});
+    const t=svgEl('text',{x,y,class:`map-label ${(l.class||'').trim()}`,'text-anchor':'middle'});
     t.textContent=l.name;svg.appendChild(t)
   });
+  const alwaysLabelCities=new Set(['Timbuktu','Gao','Ménaka','Dori','Djibo','Tillabéri','Agadez']);
   window.SAHEL_MAP_DATA.cities.forEach(c=>{
     const [x,y]=project(c.lng,c.lat);
     if(x<0||x>1000||y<0||y>560)return;
-    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:2.8,class:'city-dot'}));
-    const t=svgEl('text',{x:x+6,y:y-5,class:'city-label'});t.textContent=c.name;svg.appendChild(t)
+    const isCapital=new Set(['Bamako','Ouagadougou','Niamey','Nouakchott',"N'Djamena"]).has(c.name);
+    const dotRadius=isCapital?3.2:2.6;
+    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:dotRadius,class:'city-dot'}));
+    if(isCapital)return;
+    if(!alwaysLabelCities.has(c.name))return;
+    const t=svgEl('text',{x:x+7,y:y-6,class:'city-label'});t.textContent=c.name;svg.appendChild(t)
   });
   let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
