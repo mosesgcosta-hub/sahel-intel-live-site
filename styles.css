@@ -70,3 +70,13 @@
 .eventdot{stroke:#061019;stroke-width:1.4}
 @media(max-width:1100px){.ownercenter strong{font-size:15px;letter-spacing:1.2px}}
 @media(max-width:700px){.topbar{padding-top:34px}.ownercenter{top:14px;transform:translateX(-50%)}.ownercenter strong{font-size:13px;letter-spacing:1px}}
+
+
+/* v2.0 full AES borders + accurate city labels */
+.map{height:600px}
+.map-label{font:900 16px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#a6dceb;letter-spacing:2.6px;paint-order:stroke;stroke:#061019;stroke-width:4px;stroke-linejoin:round;pointer-events:none}
+.city-label{display:block!important;font:700 8.5px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#a8c0ca;paint-order:stroke;stroke:#061019;stroke-width:2.5px;stroke-linejoin:round;pointer-events:none}
+.city-dot{fill:#9bb4bf;opacity:.9}
+.city-key{display:inline-block;width:5px;height:5px;border-radius:50%;margin-right:5px;background:#9bb4bf;vertical-align:middle}
+.map-country-counts{margin-top:8px;padding:7px 9px;border:1px solid #173447;background:#07151e;color:#86a8b7;font:700 9px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.2px}
+@media(max-width:800px){.map{height:430px}.city-label{font-size:7px}.map-label{font-size:13px}.map-country-counts{font-size:8px}}

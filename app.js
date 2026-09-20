@@ -40,7 +40,40 @@ function reportCard(r){const english=r.translated_title||r.title;const hasTransl
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
 
 function svgEl(tag,attrs={}){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e}
-const MAP_FOCUS={minLon:-11.8,maxLon:11.8,minLat:10.2,maxLat:20.8};
+const MAP_FOCUS={minLon:-13.0,maxLon:16.6,minLat:9.0,maxLat:25.5};
+const COUNTRY_LABELS=[
+  {name:'MALI',lat:22.4866,lng:-6.1772,anchor:'start'},
+  {name:'BURKINA FASO',lat:11.0102,lng:-1.6595,anchor:'middle'},
+  {name:'NIGER',lat:21.1015,lng:12.7713,anchor:'end'}
+];
+// City coordinates are pinned to known populated-place coordinates rather than inferred from article text.
+const CITY_LABELS=[
+  {name:'Bamako',country:'Mali',lat:12.60915,lng:-7.97522,dx:7,dy:-7,anchor:'start'},
+  {name:'Timbuktu',country:'Mali',lat:16.77348,lng:-3.00742,dx:-7,dy:-7,anchor:'end'},
+  {name:'Gao',country:'Mali',lat:16.27167,lng:-0.04472,dx:7,dy:-7,anchor:'start'},
+  {name:'Mopti',country:'Mali',lat:14.48430,lng:-4.18296,dx:-7,dy:-7,anchor:'end'},
+  {name:'Ménaka',country:'Mali',lat:15.91531,lng:2.40203,dx:7,dy:-6,anchor:'start'},
+  {name:'Kidal',country:'Mali',lat:18.44345,lng:1.40921,dx:7,dy:-7,anchor:'start'},
+  {name:'Ségou',country:'Mali',lat:13.44032,lng:-6.25947,dx:7,dy:12,anchor:'start'},
+  {name:'Sikasso',country:'Mali',lat:11.31755,lng:-5.66654,dx:7,dy:12,anchor:'start'},
+
+  {name:'Ouagadougou',country:'Burkina Faso',lat:12.36566,lng:-1.53388,dx:7,dy:-8,anchor:'start'},
+  {name:'Dori',country:'Burkina Faso',lat:14.03326,lng:-0.03333,dx:7,dy:-7,anchor:'start'},
+  {name:'Djibo',country:'Burkina Faso',lat:14.09864,lng:-1.62665,dx:-7,dy:-7,anchor:'end'},
+  {name:'Kaya',country:'Burkina Faso',lat:13.08830,lng:-1.08368,dx:7,dy:12,anchor:'start'},
+  {name:"Fada N'Gourma",country:'Burkina Faso',lat:12.06157,lng:0.35843,dx:7,dy:12,anchor:'start'},
+  {name:'Ouahigouya',country:'Burkina Faso',lat:13.57690,lng:-2.41786,dx:-7,dy:-7,anchor:'end'},
+  {name:'Bobo-Dioulasso',country:'Burkina Faso',lat:11.18064,lng:-4.29489,dx:-7,dy:-7,anchor:'end'},
+
+  {name:'Niamey',country:'Niger',lat:13.51366,lng:2.10980,dx:7,dy:12,anchor:'start'},
+  {name:'Tillabéri',country:'Niger',lat:14.20711,lng:1.45418,dx:-7,dy:-7,anchor:'end'},
+  {name:'Tahoua',country:'Niger',lat:14.88880,lng:5.26920,dx:7,dy:-7,anchor:'start'},
+  {name:'Agadez',country:'Niger',lat:16.97333,lng:7.99111,dx:7,dy:-7,anchor:'start'},
+  {name:'Maradi',country:'Niger',lat:13.50000,lng:7.10174,dx:7,dy:12,anchor:'start'},
+  {name:'Zinder',country:'Niger',lat:13.80716,lng:8.98810,dx:7,dy:-7,anchor:'start'},
+  {name:'Dosso',country:'Niger',lat:13.04900,lng:3.19370,dx:7,dy:12,anchor:'start'},
+  {name:'Arlit',country:'Niger',lat:18.73694,lng:7.38528,dx:7,dy:-7,anchor:'start'}
+];
 function project(lng,lat,w=1000,h=560){const b=MAP_FOCUS;return [(lng-b.minLon)/(b.maxLon-b.minLon)*w,h-(lat-b.minLat)/(b.maxLat-b.minLat)*h]}
 function geometryPath(g){const polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;return polys.map(poly=>poly.map(ring=>ring.map((p,i)=>{const [x,y]=project(p[0],p[1]);return `${i?'L':'M'}${x.toFixed(1)},${y.toFixed(1)}`}).join(' ')+' Z').join(' ')).join(' ')}
 function eventInWindow(e,days){
@@ -54,15 +87,21 @@ function renderMap(){
   host.innerHTML='<div class="maptip" id="maptip"></div>';
   const svg=svgEl('svg',{viewBox:'0 0 1000 560',preserveAspectRatio:'xMidYMid meet'});
   svg.appendChild(svgEl('rect',{x:0,y:0,width:1000,height:560,fill:'#061019'}));
+
+  // Borders first: the full Mali, Burkina Faso and Niger polygons now fit inside MAP_FOCUS.
   window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
-  window.SAHEL_MAP_DATA.cities.forEach(c=>{
+
+  // Cities: text is restored, but only at pinned coordinates with per-city offsets.
+  const cityLayer=svgEl('g',{'aria-label':'city-labels'});
+  CITY_LABELS.forEach(c=>{
     const [x,y]=project(c.lng,c.lat);
     if(x<0||x>1000||y<0||y>560)return;
-    const isCapital=new Set(['Bamako','Ouagadougou','Niamey','Nouakchott',"N'Djamena"]).has(c.name);
-    const dotRadius=isCapital?2.4:1.9;
-    const dotClass=isCapital?'city-dot capital-dot':'city-dot';
-    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:dotRadius,class:dotClass}));
+    cityLayer.appendChild(svgEl('circle',{cx:x,cy:y,r:2.5,class:'city-dot'}));
+    const label=svgEl('text',{x:x+(c.dx||0),y:y+(c.dy||0),class:'city-label','text-anchor':c.anchor||'start'});
+    label.textContent=c.name;cityLayer.appendChild(label);
   });
+  svg.appendChild(cityLayer);
+
   let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
   events.slice(0,400).forEach(e=>{
@@ -73,15 +112,22 @@ function renderMap(){
     const dot=svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
     g.appendChild(dot);g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());svg.appendChild(g)
   });
-  const labelLayer=svgEl('g',{'aria-label':'country-labels'});
-  window.SAHEL_MAP_DATA.labels.forEach(l=>{
+
+  // Country labels are deliberately placed exactly where requested and drawn last.
+  const countryLayer=svgEl('g',{'aria-label':'country-labels'});
+  COUNTRY_LABELS.forEach(l=>{
     const [x,y]=project(l.lng,l.lat);
-    if(x<-80||x>1080||y<-60||y>620)return;
-    const t=svgEl('text',{x,y,class:`map-label ${(l.class||'').trim()}`,'text-anchor':'middle'});
-    t.textContent=l.name;labelLayer.appendChild(t)
+    const t=svgEl('text',{x,y,class:'map-label aes','text-anchor':l.anchor||'middle'});
+    t.textContent=l.name;countryLayer.appendChild(t)
   });
-  svg.appendChild(labelLayer);
-  host.appendChild(svg)
+  svg.appendChild(countryLayer);
+  host.appendChild(svg);
+
+  const visibleEvents=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(state.actorFilter==='all'||e.actor===state.actorFilter));
+  const mapped=visibleEvents.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
+  const countCountry=name=>mapped.filter(e=>e.country===name).length;
+  const unmapped=visibleEvents.filter(e=>!Number.isFinite(Number(e.lat))||!Number.isFinite(Number(e.lng))).length;
+  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Unmapped ${unmapped}`);
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 function hideTip(){const t=$('#maptip');if(t)t.style.display='none'}

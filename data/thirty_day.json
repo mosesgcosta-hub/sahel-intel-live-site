@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T22:13:59.427157Z",
+  "generated_at": "2026-09-20T22:23:46.125351Z",
   "window_days": 30,
   "cutoff": "2026-08-21",
-  "reports": 101,
+  "reports": 103,
   "candidate_events": 6,
   "corroborated_events": 1,
   "mapped_events": 3,
@@ -19,7 +19,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 96,
+    "fr": 98,
     "en": 5
   },
   "by_confidence": {
@@ -246,7 +246,7 @@
     },
     {
       "date": "2026-09-20",
-      "reports": 12,
+      "reports": 14,
       "events": 1
     }
   ],
@@ -417,6 +417,32 @@
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-09-20T22:21:27Z",
+      "discovered_at": "2026-09-20T22:23:23.370860Z",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Forging our defence",
+      "url": "https://www.sidwaya.info/forger-notre-defense/"
+    },
+    {
+      "published_at": "2026-09-20T22:17:51Z",
+      "discovered_at": "2026-09-20T22:23:23.152215Z",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina – Niger: a message of solidarity to the Nigerien people",
+      "url": "https://www.sidwaya.info/burkina-niger-un-message-de-solidarite-au-peuple-nigerien/"
+    },
     {
       "published_at": null,
       "discovered_at": "2026-09-20T20:25:02.013071Z",
@@ -910,32 +936,6 @@
       "candidate_event": false,
       "title": "Ziro: Agricultural VDPs take action for cleaner living environments",
       "url": "https://www.aib.media/ziro-les-vdp-agricoles-passent-a-laction-pour-des-cadres-de-vie-plus-propres/"
-    },
-    {
-      "published_at": "2026-09-19T14:52:24Z",
-      "discovered_at": "2026-09-19T18:15:11.548023Z",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Diffa",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Diffa: The people of Gueskérou and Assaga reaffirm their unwavering commitment to the institutions of the Republic in the face of the events that occurred on the night of 28 to 29 August 2026 at Base 101 in Niamey.",
-      "url": "https://anp.ne/diffa-la-population-de-gueskerou-et-dassaga-reaffirme-son-attachement-indefectible-aux-institutions-de-la-republique-face-aux-evenements-survenus-dans-la-nuit-du-28-au-29-aout-2026-a-la-bas/"
-    },
-    {
-      "published_at": "2026-09-19T13:32:29Z",
-      "discovered_at": "2026-09-19T20:56:59.896968Z",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Events in Niamey: the Nigerien authorities respond to Abuja who clumsily tried to wash their hands of it",
-      "url": "https://www.actuniger.com/societe/22365-evenements-de-niamey-les-autorites-nigeriennes-repliquent-a-abuja-qui-a-maladroitement-tente-de-sen-laver-les-mains.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
