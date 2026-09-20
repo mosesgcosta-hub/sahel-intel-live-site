@@ -74,7 +74,19 @@
         <aside class="panel sultana">
           <div class="analyst-head"><img src="./assets/sultana.png" alt="Sultana Al-Qahtani, stylized AI analyst avatar"/><div><span class="eyebrow">AI ANALYST • SAHEL DESK</span><h2>Sultana Al-Qahtani</h2><p id="briefStamp">Awaiting briefing.</p></div></div>
           <div id="briefing" class="briefing">The collector has not generated a briefing yet.</div>
-          <div class="brief-controls"><button id="briefBtn" class="primary">▶ BRIEF ME</button><button id="stopBtn">■ STOP</button></div>
+          <div class="sultana-reader">
+            <div class="reader-head"><span class="eyebrow">CONTINUOUS SOURCE READER</span><span id="readerStatus">Loading readable sources…</span></div>
+            <div class="reader-controls">
+              <button id="sourceLoopBtn" class="primary">▶ SOURCE LOOP</button>
+              <button id="pauseLoopBtn">Ⅱ PAUSE</button>
+              <button id="stopBtn">■ STOP</button>
+              <label class="reader-range-label" for="readerRange">Read</label>
+              <select id="readerRange"><option value="1">24H</option><option value="7">7D</option><option value="30" selected>30D</option><option value="all">ALL</option></select>
+            </div>
+            <div id="readerNow" class="reader-now"></div>
+            <p class="reader-note">Reads English originals plus French/Arabic reports only after an English translation succeeds. When the queue ends, Sultana refreshes the feed and starts again.</p>
+          </div>
+          <div class="brief-controls"><button id="briefBtn">▶ BRIEF ME</button></div>
           <div class="voice-row"><label for="voiceSelect">Voice</label><select id="voiceSelect"></select><span id="voiceStatus">browser speech</span></div>
         </aside>
 
