@@ -55,22 +55,13 @@ function renderMap(){
   const svg=svgEl('svg',{viewBox:'0 0 1000 560',preserveAspectRatio:'xMidYMid meet'});
   svg.appendChild(svgEl('rect',{x:0,y:0,width:1000,height:560,fill:'#061019'}));
   window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
-  window.SAHEL_MAP_DATA.labels.forEach(l=>{
-    const [x,y]=project(l.lng,l.lat);
-    if(x<-80||x>1080||y<-60||y>620)return;
-    const t=svgEl('text',{x,y,class:`map-label ${(l.class||'').trim()}`,'text-anchor':'middle'});
-    t.textContent=l.name;svg.appendChild(t)
-  });
-  const alwaysLabelCities=new Set(['Timbuktu','Gao','Ménaka','Dori','Djibo','Tillabéri','Agadez']);
   window.SAHEL_MAP_DATA.cities.forEach(c=>{
     const [x,y]=project(c.lng,c.lat);
     if(x<0||x>1000||y<0||y>560)return;
     const isCapital=new Set(['Bamako','Ouagadougou','Niamey','Nouakchott',"N'Djamena"]).has(c.name);
-    const dotRadius=isCapital?3.2:2.6;
-    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:dotRadius,class:'city-dot'}));
-    if(isCapital)return;
-    if(!alwaysLabelCities.has(c.name))return;
-    const t=svgEl('text',{x:x+7,y:y-6,class:'city-label'});t.textContent=c.name;svg.appendChild(t)
+    const dotRadius=isCapital?2.4:1.9;
+    const dotClass=isCapital?'city-dot capital-dot':'city-dot';
+    svg.appendChild(svgEl('circle',{cx:x,cy:y,r:dotRadius,class:dotClass}));
   });
   let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
@@ -82,6 +73,14 @@ function renderMap(){
     const dot=svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
     g.appendChild(dot);g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());svg.appendChild(g)
   });
+  const labelLayer=svgEl('g',{'aria-label':'country-labels'});
+  window.SAHEL_MAP_DATA.labels.forEach(l=>{
+    const [x,y]=project(l.lng,l.lat);
+    if(x<-80||x>1080||y<-60||y>620)return;
+    const t=svgEl('text',{x,y,class:`map-label ${(l.class||'').trim()}`,'text-anchor':'middle'});
+    t.textContent=l.name;labelLayer.appendChild(t)
+  });
+  svg.appendChild(labelLayer);
   host.appendChild(svg)
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}

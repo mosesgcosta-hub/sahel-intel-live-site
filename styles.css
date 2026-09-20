@@ -53,3 +53,20 @@
 .country.aes{fill:#163a4b;stroke:#8cc2d7;stroke-width:1.8}
 .legend{margin-top:11px}
 @media(max-width:700px){.ownerline{margin-bottom:6px}.ownerline strong{font-size:13px}.map{height:460px}}
+
+
+/* v1.9 strict map label fix + centered owner */
+.topbar{position:sticky;top:0}
+.ownercenter{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:none;text-align:center;z-index:2}
+.ownercenter strong{display:block;font:900 18px/1.05 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:1.8px;color:#ffffff;text-transform:uppercase;white-space:nowrap}
+.ownerline{display:none!important}
+.map{height:620px}
+.map-label{font:900 16px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#6d93a6;letter-spacing:2.8px;paint-order:stroke;stroke:#061019;stroke-width:4px;stroke-linejoin:round;pointer-events:none}
+.map-label.aes{fill:#9ad4e6}
+.city-label{display:none!important}
+.city-dot{fill:#88a8b7;opacity:.55}
+.capital-dot{fill:#b8d0da;opacity:.7}
+.eventhalo{opacity:.12}
+.eventdot{stroke:#061019;stroke-width:1.4}
+@media(max-width:1100px){.ownercenter strong{font-size:15px;letter-spacing:1.2px}}
+@media(max-width:700px){.topbar{padding-top:34px}.ownercenter{top:14px;transform:translateX(-50%)}.ownercenter strong{font-size:13px;letter-spacing:1px}}
