@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
-  "status_detail": "Last automated GitHub collection completed 2026-09-20T04:26:58.769701Z; 33/33 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-20T04:26:58.769701Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-20T05:25:11.753799Z; 33/33 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-20T05:25:11.753799Z",
   "reports_24h": 38,
   "distinct_sources_24h": 13,
   "mapped_24h": 17,
@@ -10,8 +10,8 @@
   "sources_degraded": 4,
   "sources_failed": 0,
   "last_run": {
-    "started_at": "2026-09-20T04:25:43.181453Z",
-    "finished_at": "2026-09-20T04:26:58.769701Z",
+    "started_at": "2026-09-20T05:23:51.614982Z",
+    "finished_at": "2026-09-20T05:25:11.753799Z",
     "status": "complete",
     "sources_total": 33,
     "sources_success": 33,
