@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='2.4';
+const SITE_UI_VERSION='2.5';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -44,7 +44,7 @@ async function refresh(){
     console.error(e);
   }
 }
-function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=o.site_patch_version||SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Site patch v${patch} • Collector ${o.collector_version||'unknown'} • Classifier ${o.classifier_version||'unknown'}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_24h??0);setText('configuredSources',o.sources_configured??63);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
+function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=o.site_patch_version||SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Site patch v${patch} • Collector ${o.collector_version||'unknown'} • Classifier ${o.classifier_version||'unknown'}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
 function reportCard(r){const english=r.translated_title||r.title;const hasTranslation=r.translated_title&&r.translated_title!==r.title;const excerpt=r.translated_excerpt||'';const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';const collected=r.discovered_at?relTime(r.discovered_at):'unknown';const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');const reasons=(r.relevance_reasons||[]).slice(0,6).join(' • ');const type=r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT';return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${excerpt?`<p>${esc(excerpt.slice(0,520))}${excerpt.length>520?'…':''}</p>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')} • relevance ${esc(r.relevance_score??'—')} • ${esc(r.fetch_status)}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}${reasons?`<details class="original"><summary>Why retained?</summary><p>${esc(reasons)}</p></details>`:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a></article>`}
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
@@ -103,25 +103,32 @@ function renderMap(){
   const svg=svgEl('svg',{viewBox:'0 0 1000 560',preserveAspectRatio:'xMidYMid meet'});
   svg.appendChild(svgEl('rect',{x:0,y:0,width:1000,height:560,class:'map-bg'}));
 
-  // Borders first: the full Mali, Burkina Faso and Niger polygons now fit inside MAP_FOCUS.
   window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
-
 
   let events=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
-  // Cluster events that resolve to the same coordinates. A count badge prevents five
-  // events at three locations from looking like only three events.
-  const clusters=new Map();
+
+  // One fused event can legitimately contain several explicitly named places. Render each
+  // place as a linked map point while keeping the event count itself unique.
+  const mapRows=[];
   events.slice(0,400).forEach(e=>{
-    let lat=Number(e.lat),lng=Number(e.lng),countryLevel=false;
-    if(!Number.isFinite(lat)||!Number.isFinite(lng)){
-      const a=COUNTRY_EVENT_ANCHORS[e.country];
-      if(!a)return;
-      countryLevel=true;lat=a.lat;lng=a.lng;
+    const locs=Array.isArray(e.locations)?e.locations.filter(l=>Number.isFinite(Number(l?.lat))&&Number.isFinite(Number(l?.lng))):[];
+    if(locs.length){
+      locs.forEach(l=>mapRows.push({...e,city:l.name||e.city,country:l.country||e.country,lat:Number(l.lat),lng:Number(l.lng),_mapped_location:true,_event_id:e.id}));
+      return;
     }
+    let lat=Number(e.lat),lng=Number(e.lng);
+    if(Number.isFinite(lat)&&Number.isFinite(lng)){mapRows.push({...e,lat,lng,_event_id:e.id});return}
+    const a=COUNTRY_EVENT_ANCHORS[e.country];
+    if(a)mapRows.push({...e,lat:a.lat,lng:a.lng,_country_level:true,_event_id:e.id});
+  });
+
+  const clusters=new Map();
+  mapRows.forEach(e=>{
+    const countryLevel=Boolean(e._country_level),lat=Number(e.lat),lng=Number(e.lng);
     const key=countryLevel?`country:${e.country}`:`geo:${lat.toFixed(4)},${lng.toFixed(4)}`;
     if(!clusters.has(key))clusters.set(key,{lat,lng,countryLevel,events:[]});
-    clusters.get(key).events.push(countryLevel?{...e,_country_level:true}:e);
+    clusters.get(key).events.push(e);
   });
   clusters.forEach(cluster=>{
     const [x,y]=project(cluster.lng,cluster.lat);if(x<0||x>1000||y<0||y>560)return;
@@ -131,12 +138,11 @@ function renderMap(){
       ? svgEl('rect',{x:x-6,y:y-6,width:12,height:12,transform:`rotate(45 ${x} ${y})`,fill:'none',stroke:c,'stroke-width':2.4,class:'eventdot country-event-dot'})
       : svgEl('circle',{cx:x,cy:y,r:rows.length>1?8:6.2,fill:c,class:'eventdot'});
     g.appendChild(dot);
-    if(rows.length>1){const n=svgEl('text',{x,y:y+3.2,class:'event-cluster-count','text-anchor':'middle'});n.textContent=String(rows.length);g.appendChild(n)}
+    if(rows.length>1){const uniqueEvents=new Set(rows.map(r=>r._event_id||r.id)).size;const n=svgEl('text',{x,y:y+3.2,class:'event-cluster-count','text-anchor':'middle'});n.textContent=String(uniqueEvents||rows.length);g.appendChild(n)}
     g.classList.add('event-marker');
     g.addEventListener('mouseenter',ev=>showClusterTip(ev,rows));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventCluster(rows));svg.appendChild(g);
   });
 
-  // Cities: collision-aware label placement. Keep coordinates exact; move only the text label.
   const cityLayer=svgEl('g',{'aria-label':'city-labels'});
   const occupied=[];
   const capitalNames=new Set(['Bamako','Ouagadougou','Niamey']);
@@ -145,56 +151,41 @@ function renderMap(){
   const candidates=[[8,-8],[-8,-8],[8,13],[-8,13],[12,2],[-12,2],[18,-14],[-18,-14],[18,18],[-18,18]];
   const overlaps=b=>occupied.some(o=>!(b.x2<o.x1||b.x1>o.x2||b.y2<o.y1||b.y1>o.y2));
   [...CITY_LABELS].sort((a,b)=>priority(b)-priority(a)).forEach(c=>{
-    const [x,y]=project(c.lng,c.lat);
-    if(x<0||x>1000||y<0||y>560)return;
+    const [x,y]=project(c.lng,c.lat);if(x<0||x>1000||y<0||y>560)return;
     cityLayer.appendChild(svgEl('circle',{cx:x,cy:y,r:2.5,class:'city-dot'}));
-    const width=Math.max(28,c.name.length*7.2),height=14;
-    let chosen=null;
+    const width=Math.max(28,c.name.length*7.2),height=14;let chosen=null;
     for(const [dx,dy] of candidates){const anchor=dx<0?'end':'start';const lx=x+dx,ly=y+dy;const box={x1:anchor==='end'?lx-width:lx,x2:anchor==='end'?lx:lx+width,y1:ly-height+3,y2:ly+4};if(!overlaps(box)){chosen={dx,dy,anchor,box};break}}
-    if(!chosen && priority(c)<2)return;
-    chosen=chosen||{dx:8,dy:-8,anchor:'start',box:{x1:x+8,x2:x+8+width,y1:y-19,y2:y-4}};
-    occupied.push(chosen.box);
+    if(!chosen&&priority(c)<2)return;chosen=chosen||{dx:8,dy:-8,anchor:'start',box:{x1:x+8,x2:x+8+width,y1:y-19,y2:y-4}};occupied.push(chosen.box);
     if(Math.abs(chosen.dx)>10||Math.abs(chosen.dy)>14)cityLayer.appendChild(svgEl('line',{x1:x,y1:y,x2:x+chosen.dx*.72,y2:y+chosen.dy*.72,class:'city-leader'}));
-    const label=svgEl('text',{x:x+chosen.dx,y:y+chosen.dy,class:`city-label ${capitalNames.has(c.name)?'capital-label':''}`,'text-anchor':chosen.anchor});
-    label.textContent=c.name;cityLayer.appendChild(label);
+    const label=svgEl('text',{x:x+chosen.dx,y:y+chosen.dy,class:`city-label ${capitalNames.has(c.name)?'capital-label':''}`,'text-anchor':chosen.anchor});label.textContent=c.name;cityLayer.appendChild(label);
   });
   svg.appendChild(cityLayer);
 
-  // Country labels are deliberately placed exactly where requested and drawn last.
   const countryLayer=svgEl('g',{'aria-label':'country-labels'});
-  COUNTRY_LABELS.forEach(l=>{
-    const [x,y]=project(l.lng,l.lat);
-    const t=svgEl('text',{x,y,class:'map-label aes','text-anchor':l.anchor||'middle'});
-    t.textContent=l.name;countryLayer.appendChild(t)
-  });
-  svg.appendChild(countryLayer);
-  host.appendChild(svg);
+  COUNTRY_LABELS.forEach(l=>{const [x,y]=project(l.lng,l.lat);const t=svgEl('text',{x,y,class:'map-label aes','text-anchor':l.anchor||'middle'});t.textContent=l.name;countryLayer.appendChild(t)});
+  svg.appendChild(countryLayer);host.appendChild(svg);
 
-  const visibleEvents=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate)&&(state.actorFilter==='all'||e.actor===state.actorFilter));
-  const mapped=visibleEvents.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
-  const countCountry=name=>mapped.filter(e=>e.country===name).length;
-  const countryLevelCount=visibleEvents.filter(e=>{
-    const hasCoords=Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng));
-    return !hasCoords && Boolean(COUNTRY_EVENT_ANCHORS[e.country]);
-  }).length;
-  const unmapped=visibleEvents.filter(e=>{
-    const hasCoords=Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng));
-    return !hasCoords && !COUNTRY_EVENT_ANCHORS[e.country];
-  }).length;
-  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Country-level ${countryLevelCount} • Unmapped ${unmapped}`);
+  const visibleEvents=events;
+  const hasPrecise=e=>(Array.isArray(e.locations)&&e.locations.some(l=>Number.isFinite(Number(l?.lat))&&Number.isFinite(Number(l?.lng))))||(Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
+  const precise=visibleEvents.filter(hasPrecise);
+  const mapPointCount=precise.reduce((n,e)=>{const locs=Array.isArray(e.locations)?e.locations.filter(l=>Number.isFinite(Number(l?.lat))&&Number.isFinite(Number(l?.lng))):[];return n+(locs.length||1)},0);
+  const countCountry=name=>visibleEvents.filter(e=>e.country===name).length;
+  const countryLevelCount=visibleEvents.filter(e=>!hasPrecise(e)&&Boolean(COUNTRY_EVENT_ANCHORS[e.country])).length;
+  const unresolved=visibleEvents.filter(e=>!hasPrecise(e)&&!COUNTRY_EVENT_ANCHORS[e.country]).length;
+  setText('mapCountryCounts',`Candidate events ${visibleEvents.length} • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Precisely mapped ${precise.length} • Map locations ${mapPointCount} • Country-level ${countryLevelCount} • Unresolved ${unresolved}`);
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 
 function showClusterTip(ev,rows){
   if(rows.length===1)return showTip(ev,rows[0]);
   const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';
-  const loc=[rows[0].city,rows[0].country].filter(Boolean).join(', ')||'country-level location';
-  tip.innerHTML=`<strong>${rows.length} EVENTS • ${esc(loc)}</strong><br>${rows.map(e=>esc(`${e.event_date||'—'} • ${e.actor||'Other'} • ${e.event_type||'Unclassified'}`)).join('<br>')}<br><span class="report-meta">Click to inspect the event stack.</span>`;
+  const loc=[rows[0].city,rows[0].country].filter(Boolean).join(', ')||'country-level location';const uniqueCount=new Set(rows.map(r=>r._event_id||r.id)).size;
+  tip.innerHTML=`<strong>${uniqueCount} EVENT${uniqueCount===1?'':'S'} • ${esc(loc)}</strong><br>${rows.map(e=>esc(`${e.event_date||'—'} • ${e.actor||'Other'} • ${e.event_type||'Unclassified'}`)).join('<br>')}<br><span class="report-meta">Click to inspect the event stack.</span>`;
 }
 function showEventCluster(rows){
   if(rows.length===1)return showEventDetail(rows[0]);
-  const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
-  box.innerHTML=`<button class="detail-close" aria-label="Close">×</button><span class="eyebrow">EVENT STACK</span><h3>${rows.length} candidate events at this mapped location</h3><div class="cluster-event-list">${rows.map(e=>`<button class="cluster-event-row"><strong>${esc(e.event_date||'—')} • ${esc(e.actor||'Other')} • ${esc(e.event_type||'Unclassified')}</strong><span>${esc(e.title||'No title')}</span></button>`).join('')}</div>`;
+  const box=$('#mapEventDetail');if(!box)return;box.hidden=false;const uniqueCount=new Set(rows.map(r=>r._event_id||r.id)).size;
+  box.innerHTML=`<button class="detail-close" aria-label="Close">×</button><span class="eyebrow">EVENT STACK</span><h3>${uniqueCount} candidate event${uniqueCount===1?'':'s'} at this mapped location</h3><div class="cluster-event-list">${rows.map(e=>`<button class="cluster-event-row"><strong>${esc(e.event_date||'—')} • ${esc(e.actor||'Other')} • ${esc(e.event_type||'Unclassified')}</strong><span>${esc(e.title||'No title')}</span></button>`).join('')}</div>`;
   box.querySelector('.detail-close').onclick=()=>{box.hidden=true};
   [...box.querySelectorAll('.cluster-event-row')].forEach((b,i)=>b.onclick=()=>showEventDetail(rows[i]));
 }
@@ -256,11 +247,11 @@ function renderThirty(){
   const clear=$('#clearTimelineFilter');if(clear){clear.hidden=!state.timelineDate;clear.onclick=()=>{state.timelineDate=null;renderMap();renderThirty()}};
 }
 
-function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
+function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${b.freshness_status||'status unavailable'} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
 
 function renderOps(){
-  const o=state.overview||{},r=o.last_run||{};
-  $('#opsSummary').innerHTML=[['Patch',o.site_patch_version||SITE_UI_VERSION],['Collector',o.collector_version||'—'],['Classifier',o.classifier_version||'—'],['Sources',o.sources_configured??63],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Events 30D',r.candidate_events_30d??state.thirty?.candidate_events??0],['Reports 30D',r.reports_30d??state.thirty?.reports??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
+  const o=state.overview||{},r=o.last_run||{};setText('sourceMonitorTitle',`${o.sources_configured??state.sources.length??74}-Source Collection Monitor`);
+  $('#opsSummary').innerHTML=[['Patch',o.site_patch_version||SITE_UI_VERSION],['Collector',o.collector_version||'—'],['Classifier',o.classifier_version||'—'],['Sources',o.sources_configured??74],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Events 30D',r.candidate_events_30d??state.thirty?.candidate_events??0],['Reports 30D',r.reports_30d??state.thirty?.reports??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
   const lc=o.language_coverage||{};
   const langs=[['fr','French'],['en','English'],['ar','Arabic']];
   const total30=langs.reduce((n,[k])=>n+(lc[k]?.reports_30d||0),0);

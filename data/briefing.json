@@ -1,5 +1,71 @@
 {
-  "generated_at": "2026-09-21T02:43:22.760005Z",
-  "method": "automated multilingual OSINT synthesis",
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: the strongest recent security signal is a security operation report involving State around Djenné, Mali, currently linked to 2 monitored sources. The largest seven-day actor movement in the current dataset is State, at 100.0 percent above the preceding seven-day window, with 6 extracted candidate events.\n\nDevelopment 1: monitored reporting indicates a security operation signal involving State in Djenné, Mali. It is currently linked to 2 sources across FR reporting. Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operat Confidence in the event signal is moderate; details remain subject to revision as additional reporting is collected. Development 2: monitored reporting indicates a security operation signal involving State in Mali. It is currently linked to 1 source across FR reporting. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougou Confidence in the event signal is low; details remain subject to revision as additional reporting is collected. Development 3: monitored reporting indicates a clash signal involving State in Niger. It is currently linked to 1 source across FR reporting. Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and trans Confidence in the event signal is low; details remain subject to revision as additional reporting is collected. Development 4: monitored reporting indicates a security operation signal involving State in Sévaré, Mali. It is currently linked to 1 source across FR reporting. Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a Confidence in the event signal is low; details remain subject to revision as additional reporting is collected. Development 5: monitored reporting indicates a security operation signal involving State in Mali. It is currently linked to 1 source across FR reporting. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of  Confidence in the event signal is moderate; details remain subject to revision as additional reporting is collected.\n\nQuantitative picture: JNIM has no extracted candidate events in either seven-day window. IS Sahel has no extracted candidate events in either seven-day window. State has 6 extracted candidate events in the latest seven-day window, up from zero in the preceding window.\n\nAnalytic note: these trend lines represent fused open-source candidate events, not independently verified incident counts. Changes can reflect actual activity, changes in media reporting, improved collection, or event-fusion behavior. Source-level reporting should be reviewed before drawing causal conclusions.\n\nCollection gaps: 0 of 63 configured sources failed during the latest cycle and 12 were degraded. The retained archive contains 134 French or Arabic reports; 134 currently have an English translation and 0 are marked as failed pending a later retry. Source outages, paywalls, robots restrictions, indexing delays, translation failures, and extraction errors can create blind spots.\n\nNothing further to report at this time."
+  "generated_at": "2026-09-21T03:26:24.054388Z",
+  "method": "automated multilingual OSINT delta synthesis",
+  "freshness_status": "NEW OR UPDATED EVENTS",
+  "new_event_ids": [
+    "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+    "0d8f955ad44de7f83d1a1f5228824779711f5679",
+    "9d0115192e80c5d2dabceffdf725751d7536a692",
+    "607cfbefb9a60e6bc107389c2eded47f686d31c2",
+    "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
+    "063a0dd1583ad68824942f9a7136c3d4862a33d2"
+  ],
+  "updated_event_ids": [],
+  "new_reports_this_cycle": 26,
+  "trend_snapshot": {
+    "JNIM": {
+      "current": 1,
+      "previous": 0,
+      "change_pct": 100.0
+    },
+    "IS Sahel": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "State": {
+      "current": 6,
+      "previous": 0,
+      "change_pct": 100.0
+    }
+  },
+  "event_snapshots": [
+    {
+      "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+      "source_count": 2,
+      "updated_at": "2026-09-19T18:14:59.965077Z",
+      "location_count": 4
+    },
+    {
+      "id": "0d8f955ad44de7f83d1a1f5228824779711f5679",
+      "source_count": 1,
+      "updated_at": "2026-09-19T18:15:03.129399Z",
+      "location_count": 0
+    },
+    {
+      "id": "9d0115192e80c5d2dabceffdf725751d7536a692",
+      "source_count": 1,
+      "updated_at": "2026-09-19T20:56:41.947029Z",
+      "location_count": 2
+    },
+    {
+      "id": "607cfbefb9a60e6bc107389c2eded47f686d31c2",
+      "source_count": 1,
+      "updated_at": "2026-09-19T20:56:48.546987Z",
+      "location_count": 0
+    },
+    {
+      "id": "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
+      "source_count": 1,
+      "updated_at": "2026-09-20T08:26:52.057143Z",
+      "location_count": 1
+    },
+    {
+      "id": "063a0dd1583ad68824942f9a7136c3d4862a33d2",
+      "source_count": 1,
+      "updated_at": "2026-09-21T03:26:02.367174Z",
+      "location_count": 0
+    }
+  ],
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 6 new and 0 materially updated candidate events. The leading change is a security operation signal involving JNIM around Mali.\n\nNew event 1: security operation involving JNIM in Mali. 1 monitored source across EN reporting. {{currentView.title}} July 09, 2026 Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026 Contributors: Angus Muldoon and Abigail Taylor To receive the weekly Africa File or Congo War Security Review Confidence is moderate; details remain subject to revision.\n\nNew event 2: security operation involving State in Dioura. 1 monitored source across FR reporting. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday Confidence is low; details remain subject to revision.\n\nNew event 3: clash involving State in Niger. 1 monitored source across FR reporting. Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background  Confidence is low; details remain subject to revision.\n\nNew event 4: security operation involving State in Sévaré, Bamako. 1 monitored source across FR reporting. Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was a Confidence is low; details remain subject to revision.\n\nNew event 5: security operation involving State in Mali. 1 monitored source across FR reporting. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukolo Confidence is moderate; details remain subject to revision.\n\nNew event 6: security operation involving State in Djenné, Sévaré, Ber, Bamako. 2 monitored sources across FR reporting. Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, ac Confidence is moderate; details remain subject to revision.\n\nQuantitative picture: JNIM has 1 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 6 extracted candidate events in the latest seven-day window, up from zero in the preceding window.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 135 French or Arabic reports; 135 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

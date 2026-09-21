@@ -1,13 +1,50 @@
 [
   {
-    "id": "5db601efbc50fba9b7ec4a33f85887794b4d1df7",
-    "event_date": "2026-09-20",
-    "actor": "State",
+    "id": "063a0dd1583ad68824942f9a7136c3d4862a33d2",
+    "event_date": "2026-09-21",
+    "actor": "JNIM",
     "event_type": "security operation",
     "country": "Mali",
     "city": null,
     "lat": null,
     "lng": null,
+    "locations": [],
+    "title": "Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026",
+    "summary": "{{currentView.title}} July 09, 2026 Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026 Contributors: Angus Muldoon and Abigail Taylor To receive the weekly Africa File or Congo War Security Review via email, please subscribe here. Follow CTP on X, LinkedIn, and BlueSky. Key Takeaways: - Mali. Al Qaeda’s Sahelian affiliate Jama’at Nusrat al Islam wa al Mu",
+    "sources": [
+      "Critical Threats Project - Africa File"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
+    ],
+    "created_at": "2026-09-21T03:26:02.367174Z",
+    "updated_at": "2026-09-21T03:26:02.367174Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
+    "event_date": "2026-09-20",
+    "actor": "State",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
     "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the militar",
     "sources": [
@@ -35,6 +72,7 @@
     "city": null,
     "lat": null,
     "lng": null,
+    "locations": [],
     "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
     "summary": "Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background to the Tensions The border between Niger and Chad is an unstable area In response, Niger launched Operation Klafoki in May 2026 to secure the Bilma region again",
     "sources": [
@@ -62,6 +100,22 @@
     "city": "Sévaré",
     "lat": 14.5272,
     "lng": -4.0934,
+    "locations": [
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
     "summary": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional ",
     "sources": [
@@ -89,6 +143,7 @@
     "city": null,
     "lat": null,
     "lng": null,
+    "locations": [],
     "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
     "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
     "sources": [
@@ -116,6 +171,36 @@
     "city": "Djenné",
     "lat": 13.9061,
     "lng": -4.555,
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ber",
+        "country": "Mali",
+        "lat": 16.7667,
+        "lng": -3.0167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
     "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
     "sources": [
@@ -145,6 +230,29 @@
     "city": "Kidal",
     "lat": 18.4411,
     "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
     "summary": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements h",
     "sources": [
@@ -172,6 +280,15 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Attempted incursion into the Niamey airport area: 22 attackers neutralized, about twenty suspects captured and important equipment seized",
     "summary": "Mercenaries and terrorists attempted, very early in the morning of Thursday, June 18, 2026, an incursion into the airport area in Niamey. The attempt was quickly brought under control by the prompt reaction of the defence and security forces, which neutralized 22 attackers and captured about twenty other suspects, according to a statement from the Ministry of National Defence. According to the same source, the attack",
     "sources": [

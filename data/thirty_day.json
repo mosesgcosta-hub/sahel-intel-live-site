@@ -1,32 +1,34 @@
 {
-  "generated_at": "2026-09-21T02:43:22.735543Z",
+  "generated_at": "2026-09-21T03:26:24.030746Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 117,
-  "incident_reports": 7,
-  "candidate_events": 6,
+  "reports": 125,
+  "incident_reports": 8,
+  "candidate_events": 7,
   "corroborated_events": 1,
-  "mapped_events": 3,
-  "distinct_sources": 26,
+  "mapped_events": 4,
+  "mapped_locations": 10,
+  "distinct_sources": 30,
   "by_actor": {
-    "State": 6
+    "State": 6,
+    "JNIM": 1
   },
   "by_country": {
-    "Mali": 5,
+    "Mali": 6,
     "Niger": 1
   },
   "by_event_type": {
-    "security operation": 5,
+    "security operation": 6,
     "clash": 1
   },
   "by_language": {
-    "fr": 107,
-    "en": 7,
+    "fr": 108,
+    "en": 14,
     "ar": 3
   },
   "by_confidence": {
-    "low": 3,
-    "moderate": 3
+    "moderate": 4,
+    "low": 3
   },
   "top_sources": [
     {
@@ -80,8 +82,24 @@
   ],
   "top_locations": [
     {
+      "location": "Bamako",
+      "count": 2
+    },
+    {
+      "location": "Dioura",
+      "count": 2
+    },
+    {
       "location": "Mali",
       "count": 2
+    },
+    {
+      "location": "Sévaré",
+      "count": 2
+    },
+    {
+      "location": "Ber",
+      "count": 1
     },
     {
       "location": "Djenné",
@@ -92,11 +110,11 @@
       "count": 1
     },
     {
-      "location": "Niger",
+      "location": "Mopti",
       "count": 1
     },
     {
-      "location": "Sévaré",
+      "location": "Niger",
       "count": 1
     }
   ],
@@ -118,7 +136,7 @@
     },
     {
       "date": "2026-08-26",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     },
     {
@@ -183,7 +201,7 @@
     },
     {
       "date": "2026-09-08",
-      "reports": 0,
+      "reports": 2,
       "events": 0
     },
     {
@@ -218,7 +236,7 @@
     },
     {
       "date": "2026-09-15",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -228,7 +246,7 @@
     },
     {
       "date": "2026-09-17",
-      "reports": 9,
+      "reports": 10,
       "events": 1
     },
     {
@@ -248,20 +266,57 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 1,
-      "events": 0
+      "reports": 4,
+      "events": 1
     }
   ],
   "latest_events": [
     {
-      "id": "5db601efbc50fba9b7ec4a33f85887794b4d1df7",
-      "event_date": "2026-09-20",
-      "actor": "State",
+      "id": "063a0dd1583ad68824942f9a7136c3d4862a33d2",
+      "event_date": "2026-09-21",
+      "actor": "JNIM",
       "event_type": "security operation",
       "country": "Mali",
       "city": null,
       "lat": null,
       "lng": null,
+      "locations": [],
+      "title": "Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026",
+      "summary": "{{currentView.title}} July 09, 2026 Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026 Contributors: Angus Muldoon and Abigail Taylor To receive the weekly Africa File or Congo War Security Review via email, please subscribe here. Follow CTP on X, LinkedIn, and BlueSky. Key Takeaways: - Mali. Al Qaeda’s Sahelian affiliate Jama’at Nusrat al Islam wa al Mu",
+      "sources": [
+        "Critical Threats Project - Africa File"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
+      ],
+      "created_at": "2026-09-21T03:26:02.367174Z",
+      "updated_at": "2026-09-21T03:26:02.367174Z",
+      "extraction_confidence": "moderate",
+      "corroboration": "single-source",
+      "confidence": "moderate"
+    },
+    {
+      "id": "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
+      "event_date": "2026-09-20",
+      "actor": "State",
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        }
+      ],
       "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
       "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the militar",
       "sources": [
@@ -289,6 +344,7 @@
       "city": null,
       "lat": null,
       "lng": null,
+      "locations": [],
       "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
       "summary": "Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background to the Tensions The border between Niger and Chad is an unstable area In response, Niger launched Operation Klafoki in May 2026 to secure the Bilma region again",
       "sources": [
@@ -316,6 +372,22 @@
       "city": "Sévaré",
       "lat": 14.5272,
       "lng": -4.0934,
+      "locations": [
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
       "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
       "summary": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional ",
       "sources": [
@@ -343,6 +415,7 @@
       "city": null,
       "lat": null,
       "lng": null,
+      "locations": [],
       "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
       "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
       "sources": [
@@ -370,6 +443,36 @@
       "city": "Djenné",
       "lat": 13.9061,
       "lng": -4.555,
+      "locations": [
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ber",
+          "country": "Mali",
+          "lat": 16.7667,
+          "lng": -3.0167,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
       "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
       "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
       "sources": [
@@ -399,6 +502,29 @@
       "city": "Kidal",
       "lat": 18.4411,
       "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
       "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
       "summary": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements h",
       "sources": [
@@ -419,6 +545,45 @@
     }
   ],
   "latest_reports": [
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-21T03:26:02.666997Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Niger Thwarts Coup; The Sudanese Civil War Threatens to Regionalize; New Government Offensives in Eastern DRC: Africa File, September 3, 2026",
+      "url": "https://www.criticalthreats.org/analysis/niger-coup-russia-algeria-sudan-rsf-chad-ethiopia-drc-m23-fardc"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-21T03:26:02.367174Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026",
+      "url": "https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-21T03:26:02.235615Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Al Qaeda and IS Run Rampant in Niger: Africa File, June 25, 2026",
+      "url": "https://www.criticalthreats.org/analysis/jnim-alqaeda-issp-isis-niger"
+    },
     {
       "published_at": null,
       "discovered_at": "2026-09-21T02:42:38.807676Z",
@@ -491,7 +656,7 @@
       "language": "fr",
       "actor": null,
       "country": "Niger",
-      "city": null,
+      "city": "Niamey",
       "event_type": null,
       "candidate_event": false,
       "title": "Burkina – Niger: a message of solidarity to the Nigerien people",
@@ -673,7 +838,7 @@
       "language": "fr",
       "actor": "State",
       "country": "Mali",
-      "city": null,
+      "city": "Dioura",
       "event_type": "security operation",
       "candidate_event": true,
       "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
@@ -725,7 +890,7 @@
       "language": "fr",
       "actor": "State",
       "country": "Mali",
-      "city": null,
+      "city": "Dioura",
       "event_type": "clash",
       "candidate_event": false,
       "title": "Operation Dougoukoloko: Heroic evacuation in Dioura, the Malian army pays tribute to its fallen sons",
@@ -816,7 +981,7 @@
       "language": "fr",
       "actor": null,
       "country": "Niger",
-      "city": null,
+      "city": "Niamey",
       "event_type": null,
       "candidate_event": false,
       "title": "Niger: FSSP strengthens the mobility of the Defence and Security Forces with a new endowment",
@@ -841,8 +1006,8 @@
       "source": "Journal du Mali",
       "language": "fr",
       "actor": null,
-      "country": null,
-      "city": null,
+      "country": "Mali",
+      "city": "Bamako",
       "event_type": null,
       "candidate_event": false,
       "title": "Algeria-Sahel: the return in force of an inescapable neighbor September 10, 2026",
@@ -899,45 +1064,6 @@
       "candidate_event": true,
       "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
       "url": "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
-    },
-    {
-      "published_at": "2026-09-19T19:48:00Z",
-      "discovered_at": "2026-09-19T20:57:03.747059Z",
-      "source": "Associated Press Africa",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T19:36:15.620490Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Fight against terrorism in Mali: The Army announces the destruction of several positions of armed groups",
-      "url": "https://lefaso.net/spip.php?article149345="
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T19:21:43.729350Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "National Volunteering: Burkina Faso aims to build a pool of one million reservists in five years",
-      "url": "https://lefaso.net/spip.php?article149349="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
