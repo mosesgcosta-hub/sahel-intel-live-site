@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T10:27:31.729927Z",
+  "generated_at": "2026-09-21T11:28:12.784352Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
+  "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 2,
+  "new_reports_this_cycle": 0,
   "trend_snapshot": {
     "JNIM": {
       "current": 1,
@@ -72,8 +72,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "91a47a7cef6b8fa6a47acc11ad2167a66e8af667",
-  "previous_fingerprint": "72b4b482ed938fadb1b903ee392632c20b9b25a7",
+  "briefing_fingerprint": "72b4b482ed938fadb1b903ee392632c20b9b25a7",
+  "previous_fingerprint": "91a47a7cef6b8fa6a47acc11ad2167a66e8af667",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -89,5 +89,5 @@
     "2216e336a5c56af861d7b2af645e74bf1e1440e1",
     "72883b166c8ab4049f6700d6a21d65ea2f4429ef"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 2 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: Africa Defense Forum (ADF Magazine) reports from Mali: JNIM Expansion Across Malian Border Threatens Guinea - Africa Defense Forum. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 2: Africa Defense Forum (ADF Magazine) reports from Mali: JNIM, FLA Alliance Intensifies Conflict in Mali - Africa Defense Forum. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 64 French or Arabic reports; 64 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 15 were degraded. The retained archive contains 64 French or Arabic reports; 64 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
