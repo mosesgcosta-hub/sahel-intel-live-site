@@ -182,18 +182,3 @@ html[data-theme="light"] th{background:#dce5e8!important;color:#384f5a!important
 html[data-theme="light"] .status.live{color:#1d664f!important;background:#d4e5df!important;border-color:#7fa999!important}html[data-theme="light"] .status.degraded{color:#765012!important;background:#e8dfcb!important;border-color:#b4a071!important}html[data-theme="light"] .status.offline{color:#8b3030!important;background:#ead7d7!important;border-color:#bd8b8b!important}
 html[data-theme="light"] .event-cluster-count{fill:#edf1f2!important;stroke:#1b303a!important}html[data-theme="light"] .eventdot{stroke:#e7edef!important}
 @media(max-width:700px){.unresolved-row{grid-template-columns:1fr}}
-
-/* v2.8 AES local-time strip */
-.sahel-timebar{display:flex;align-items:center;justify-content:center;gap:18px;min-height:34px;padding:5px 22px;background:#07131c;border-bottom:1px solid var(--line);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap;overflow-x:auto}
-.timebar-label{font-size:8px;font-weight:800;letter-spacing:1.2px;color:var(--muted)}
-.country-clock{display:inline-flex;align-items:baseline;gap:6px;padding:3px 8px;border-left:1px solid var(--line)}
-.country-clock b{font-size:8px;letter-spacing:.8px;color:var(--muted)}
-.country-clock strong{font-size:11px;letter-spacing:.6px;color:var(--text);font-variant-numeric:tabular-nums}
-.country-clock em{font-size:8px;font-style:normal;color:var(--cyan)}
-.country-clock small{font-size:8px;color:var(--muted)}
-html[data-theme="light"] .sahel-timebar{background:#dde6e9!important;border-color:#aebdc4!important}
-html[data-theme="light"] .country-clock{border-color:#aebdc4!important}
-html[data-theme="light"] .country-clock strong{color:#132833!important}
-html[data-theme="light"] .country-clock b,html[data-theme="light"] .country-clock small,html[data-theme="light"] .timebar-label{color:#526771!important}
-html[data-theme="light"] .country-clock em{color:#176982!important}
-@media(max-width:700px){.sahel-timebar{justify-content:flex-start;padding:5px 12px;gap:8px}.country-clock{padding:3px 6px}.timebar-label{position:sticky;left:0;background:inherit;padding-right:4px;z-index:1}}

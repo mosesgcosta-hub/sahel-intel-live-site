@@ -11,24 +11,7 @@ function applyStatus(status,detail){['systemBadge','opsBadge'].forEach(id=>{cons
 function pct(t){if(!t)return '—';if(t.change_pct===null||t.change_pct===undefined)return t.current>0?'▲ NEW':'—';const n=Number(t.change_pct)||0;return `${n>0?'▲':n<0?'▼':'•'} ${Math.abs(n).toFixed(1)}%`}
 function trendClass(t){if(!t||t.change_pct===null||t.change_pct===undefined)return t&&t.current>0?'up':'flat';return t.change_pct>1?'up':t.change_pct<-1?'down':'flat'}
 function actorColor(a){return a==='JNIM'?'#ef6262':a==='IS Sahel'?'#b47cff':a==='State'?'#e7ad53':'#63a8ff'}
-const AES_TIME_ZONES=[
-  {timeId:'clockMali',dateId:'dateMali',zone:'Africa/Bamako'},
-  {timeId:'clockBurkina',dateId:'dateBurkina',zone:'Africa/Ouagadougou'},
-  {timeId:'clockNiger',dateId:'dateNiger',zone:'Africa/Niamey'}
-];
-function zonedClockParts(now,zone){
-  const parts=new Intl.DateTimeFormat('en-GB',{timeZone:zone,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false,day:'2-digit',month:'short'}).formatToParts(now);
-  const get=t=>parts.find(p=>p.type===t)?.value||'';
-  return {time:`${get('hour')}:${get('minute')}:${get('second')}`,date:`${get('day')} ${get('month').toUpperCase()}`};
-}
-function clock(){
-  const now=new Date();
-  setText('clock',`YOUR TIME ${now.toLocaleTimeString([], {hour12:false})}`);
-  AES_TIME_ZONES.forEach(c=>{
-    try{const z=zonedClockParts(now,c.zone);setText(c.timeId,z.time);setText(c.dateId,z.date)}
-    catch(e){setText(c.timeId,'--:--:--');setText(c.dateId,'-- ---')}
-  });
-}
+function clock(){const now=new Date();setText('clock',`YOUR TIME ${now.toLocaleTimeString([], {hour12:false})}`);}
 setInterval(clock,1000);clock();
 function applyTheme(theme){
   const mode=theme==='light'?'light':'dark';
