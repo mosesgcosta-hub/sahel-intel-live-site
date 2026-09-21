@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='2.3';
+const SITE_UI_VERSION='2.3.1';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -169,8 +169,15 @@ function renderMap(){
   const visibleEvents=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate)&&(state.actorFilter==='all'||e.actor===state.actorFilter));
   const mapped=visibleEvents.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
   const countCountry=name=>mapped.filter(e=>e.country===name).length;
-  const unmapped=visibleEvents.filter(e=>!Number.isFinite(Number(e.lat))||!Number.isFinite(Number(e.lng))).length;
-  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Country-level ${countryLevel} • Unmapped ${unmapped}`);
+  const countryLevelCount=visibleEvents.filter(e=>{
+    const hasCoords=Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng));
+    return !hasCoords && Boolean(COUNTRY_EVENT_ANCHORS[e.country]);
+  }).length;
+  const unmapped=visibleEvents.filter(e=>{
+    const hasCoords=Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng));
+    return !hasCoords && !COUNTRY_EVENT_ANCHORS[e.country];
+  }).length;
+  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Country-level ${countryLevelCount} • Unmapped ${unmapped}`);
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 
