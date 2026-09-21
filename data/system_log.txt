@@ -1,304 +1,197 @@
-SAHEL INTEL SYSTEM LOG | patch 2.5 | collector 2.1-fresh-brief-geo-74-source | classifier 1.5-evidence-zones
-Run: c386e5172fa30ae9f1d6ef10d6add4e12a3cf094
-Started: 2026-09-21T03:26:46.582447Z
-Finished: 2026-09-21T03:28:47.212657Z
+SAHEL INTEL SYSTEM LOG | patch 2.6 | collector 2.2-pipeline-temporal-integrity | classifier 1.6-prefetch-arabic-sahel
+Run: 8909ed83b6c0a9bf67a7036d85fbbbd9778b5422
+Started: 2026-09-21T03:54:21.975877Z
+Finished: 2026-09-21T03:56:14.025363Z
 Status: LIVE
 
 PIPELINE
-Sources: 74/74 reachable (61 live, 13 degraded, 0 failed)
-Links discovered: 2080
-New URLs selected: 732
-Current-cycle retained: 1
-Archive after re-screen: 208
-Archive precision rejects: 0
-Candidate events in archive: 8
-Candidate events in last 7d: 7
+Sources: 61/74 reachable (61 live, 0 degraded, 13 failed)
+Links discovered: 1602
+New URLs selected: 91
+Pre-fetch filtered: 1409
+Title/source duplicates skipped: 1
+Current-cycle retained: 6
+Archive after re-screen: 185
+Archive precision rejects: 27
+Candidate events in archive: 21
+Candidate events in last 7d: 6
 Candidate events in last 30d: 7
-Relevant reports in last 30d: 126 from 30 sources
+Relevant reports in last 30d: 100 from 31 sources
 Translations: 0/0 succeeded; 0 failed
-Event changes: 0
+Event changes: 23
 
 DECISION COUNTS
-REJECTED: 599
-RETAINED: 1
+REJECTED: 85
+RETAINED: 6
 
 SOURCE HEALTH
-LIVE      | RFI Afrique | discovered=30 selected=10 retained=0 | 
+LIVE      | RFI Afrique | discovered=30 selected=3 retained=0 | 
 LIVE      | France 24 Afrique (FR) | discovered=30 selected=10 retained=0 | 
-LIVE      | Jeune Afrique | discovered=30 selected=10 retained=0 | 
-LIVE      | Studio Tamani | discovered=30 selected=10 retained=0 | 
-DEGRADED  | Maliweb | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | Malijet | discovered=30 selected=10 retained=0 | 
-LIVE      | Journal du Mali | discovered=30 selected=10 retained=0 | 
-LIVE      | Bamada | discovered=30 selected=10 retained=0 | 
-LIVE      | Agence d'Information du Burkina | discovered=30 selected=10 retained=0 | 
-LIVE      | Burkina24 | discovered=30 selected=10 retained=0 | 
-LIVE      | LeFaso.net | discovered=30 selected=10 retained=0 | 
-LIVE      | Sidwaya | discovered=30 selected=10 retained=0 | 
-LIVE      | Wakat Sera | discovered=30 selected=10 retained=0 | 
-LIVE      | Agence Nigérienne de Presse | discovered=30 selected=10 retained=0 | 
-LIVE      | ActuNiger | discovered=30 selected=10 retained=0 | 
-LIVE      | Niger Inter | discovered=30 selected=10 retained=0 | 
-LIVE      | Le Sahel | discovered=30 selected=10 retained=0 | 
-LIVE      | Aïr Info | discovered=30 selected=10 retained=0 | 
-DEGRADED  | Reuters Africa | discovered=20 selected=10 retained=0 | robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available
-DEGRADED  | Associated Press Africa | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | BBC Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | Africanews | discovered=30 selected=10 retained=0 | 
-LIVE      | Al Jazeera English | discovered=30 selected=10 retained=0 | 
-LIVE      | VOA Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | ReliefWeb | discovered=20 selected=10 retained=0 | 
-LIVE      | International Crisis Group | discovered=30 selected=10 retained=0 | homepage HTTP 403
-DEGRADED  | Africa Center for Strategic Studies | discovered=20 selected=10 retained=0 | robots.txt disallows homepage fetch; direct source unavailable; Google News discovery available
-LIVE      | The Defense Post Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | Al Jazeera Arabic | discovered=30 selected=10 retained=0 | 
-LIVE      | France 24 Arabic | discovered=30 selected=6 retained=0 | 
-LIVE      | BBC Arabic | discovered=30 selected=10 retained=0 | 
-LIVE      | Sky News Arabia | discovered=30 selected=10 retained=0 | 
-LIVE      | Anadolu Arabic | discovered=30 selected=10 retained=0 | 
-LIVE      | TV5MONDE Afrique | discovered=30 selected=10 retained=0 | 
-DEGRADED  | DW Afrique (FR) | discovered=20 selected=10 retained=0 | homepage HTTP 404; direct source unavailable; Google News discovery available
-LIVE      | VOA Afrique (FR) | discovered=30 selected=10 retained=0 | 
-LIVE      | Le Monde Afrique | discovered=30 selected=10 retained=0 | 
-DEGRADED  | APAnews (FR) | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | Afrik.com | discovered=30 selected=10 retained=0 | 
-LIVE      | Mondafrique | discovered=30 selected=10 retained=0 | 
-LIVE      | France 24 Africa (EN) | discovered=30 selected=6 retained=0 | 
-LIVE      | DW Africa (EN) | discovered=30 selected=10 retained=0 | 
-LIVE      | Institute for Security Studies Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | UN News Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | UNOWAS | discovered=30 selected=10 retained=0 | 
-DEGRADED  | HumAngle | discovered=20 selected=10 retained=0 | homepage HTTP 429; direct source unavailable; Google News discovery available
-LIVE      | The Africa Report | discovered=30 selected=10 retained=0 | 
-LIVE      | Africa Confidential | discovered=30 selected=10 retained=0 | 
-LIVE      | CSIS Africa | discovered=30 selected=10 retained=0 | 
-LIVE      | Council on Foreign Relations Africa | discovered=30 selected=10 retained=0 | 
-DEGRADED  | Chatham House Africa | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | Amnesty West and Central Africa | discovered=30 selected=10 retained=0 | homepage HTTP 403
-DEGRADED  | Human Rights Watch Africa | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | DW Arabic | discovered=30 selected=10 retained=0 | 
-DEGRADED  | Al Arabiya Arabic | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | Asharq Al-Awsat | discovered=30 selected=10 retained=0 | 
-LIVE      | Al-Araby Al-Jadeed | discovered=30 selected=10 retained=0 | 
-LIVE      | Independent Arabia | discovered=30 selected=10 retained=0 | 
-LIVE      | Al-Ain Arabic | discovered=30 selected=10 retained=0 | 
-LIVE      | Al-Quds Al-Arabi | discovered=30 selected=10 retained=0 | homepage HTTP 403
-DEGRADED  | Asharq News Arabic | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-DEGRADED  | Al Mayadeen Arabic | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | TRT Arabi | discovered=30 selected=10 retained=0 | 
-LIVE      | Africa Defense Forum (ADF Magazine) | discovered=30 selected=10 retained=1 | 
-LIVE      | Critical Threats Project - Africa File | discovered=30 selected=10 retained=0 | 
-LIVE      | DefenceWeb | discovered=30 selected=10 retained=0 | 
-LIVE      | FDD Long War Journal | discovered=30 selected=10 retained=0 | homepage HTTP 403
-LIVE      | Jamestown Foundation - Terrorism Monitor | discovered=30 selected=10 retained=0 | homepage HTTP 403
-LIVE      | African Arguments | discovered=30 selected=10 retained=0 | homepage HTTP 403
-LIVE      | Small Wars Journal | discovered=30 selected=10 retained=0 | homepage HTTP 403
-LIVE      | ECOWAS | discovered=30 selected=10 retained=0 | 
-DEGRADED  | Le Point Afrique | discovered=20 selected=10 retained=0 | homepage HTTP 403; direct source unavailable; Google News discovery available
-LIVE      | Ouestaf News | discovered=30 selected=10 retained=0 | 
-LIVE      | Mediapart Afrique(s) | discovered=30 selected=10 retained=0 | 
+LIVE      | Jeune Afrique | discovered=30 selected=4 retained=0 | 
+LIVE      | Studio Tamani | discovered=25 selected=0 retained=0 | 
+FAILED    | Maliweb | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | Malijet | discovered=30 selected=0 retained=0 | 
+LIVE      | Journal du Mali | discovered=30 selected=1 retained=0 | 
+LIVE      | Bamada | discovered=30 selected=0 retained=0 | 
+LIVE      | Agence d'Information du Burkina | discovered=30 selected=2 retained=0 | 
+LIVE      | Burkina24 | discovered=30 selected=0 retained=0 | 
+LIVE      | LeFaso.net | discovered=30 selected=0 retained=0 | 
+LIVE      | Sidwaya | discovered=30 selected=1 retained=0 | 
+LIVE      | Wakat Sera | discovered=30 selected=1 retained=0 | 
+LIVE      | Agence Nigérienne de Presse | discovered=30 selected=0 retained=0 | 
+LIVE      | ActuNiger | discovered=30 selected=0 retained=0 | 
+LIVE      | Niger Inter | discovered=30 selected=0 retained=0 | 
+LIVE      | Le Sahel | discovered=30 selected=1 retained=0 | 
+LIVE      | Aïr Info | discovered=10 selected=0 retained=0 | 
+FAILED    | Reuters Africa | discovered=0 selected=0 retained=0 | robots.txt disallows homepage fetch
+FAILED    | Associated Press Africa | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | BBC Africa | discovered=30 selected=0 retained=0 | 
+LIVE      | Africanews | discovered=30 selected=4 retained=0 | 
+LIVE      | Al Jazeera English | discovered=30 selected=4 retained=0 | 
+LIVE      | VOA Africa | discovered=30 selected=3 retained=0 | 
+LIVE      | ReliefWeb | discovered=0 selected=0 retained=0 | 
+LIVE      | International Crisis Group | discovered=10 selected=0 retained=0 | homepage HTTP 403
+FAILED    | Africa Center for Strategic Studies | discovered=0 selected=0 retained=0 | robots.txt disallows homepage fetch
+LIVE      | The Defense Post Africa | discovered=19 selected=1 retained=0 | 
+LIVE      | Al Jazeera Arabic | discovered=30 selected=3 retained=0 | 
+LIVE      | France 24 Arabic | discovered=30 selected=0 retained=0 | 
+LIVE      | BBC Arabic | discovered=30 selected=1 retained=0 | 
+LIVE      | Sky News Arabia | discovered=30 selected=3 retained=0 | 
+LIVE      | Anadolu Arabic | discovered=30 selected=1 retained=0 | 
+LIVE      | TV5MONDE Afrique | discovered=30 selected=7 retained=0 | 
+LIVE      | DW Afrique (FR) | discovered=30 selected=0 retained=0 | 
+LIVE      | VOA Afrique (FR) | discovered=24 selected=0 retained=0 | 
+FAILED    | Le Monde Afrique | discovered=0 selected=0 retained=0 | homepage HTTP 402
+FAILED    | APAnews (FR) | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | Afrik.com | discovered=30 selected=1 retained=0 | 
+LIVE      | Mondafrique | discovered=30 selected=3 retained=0 | 
+LIVE      | France 24 Africa (EN) | discovered=30 selected=0 retained=0 | 
+LIVE      | DW Africa (EN) | discovered=20 selected=0 retained=0 | 
+LIVE      | Institute for Security Studies Africa | discovered=22 selected=0 retained=0 | 
+LIVE      | UN News Africa | discovered=30 selected=0 retained=0 | 
+LIVE      | UNOWAS | discovered=30 selected=1 retained=0 | 
+FAILED    | HumAngle | discovered=0 selected=0 retained=0 | homepage HTTP 429
+LIVE      | The Africa Report | discovered=30 selected=3 retained=3 | 
+LIVE      | Africa Confidential | discovered=30 selected=0 retained=0 | 
+LIVE      | CSIS Africa | discovered=30 selected=0 retained=0 | 
+LIVE      | Council on Foreign Relations Africa | discovered=30 selected=1 retained=0 | 
+FAILED    | Chatham House Africa | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | Amnesty West and Central Africa | discovered=12 selected=1 retained=0 | homepage HTTP 403
+FAILED    | Human Rights Watch Africa | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | DW Arabic | discovered=30 selected=0 retained=0 | 
+FAILED    | Al Arabiya Arabic | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | Asharq Al-Awsat | discovered=30 selected=0 retained=0 | 
+LIVE      | Al-Araby Al-Jadeed | discovered=30 selected=1 retained=0 | 
+LIVE      | Independent Arabia | discovered=30 selected=1 retained=0 | 
+LIVE      | Al-Ain Arabic | discovered=30 selected=0 retained=0 | 
+LIVE      | Al-Quds Al-Arabi | discovered=10 selected=1 retained=0 | homepage HTTP 403
+FAILED    | Asharq News Arabic | discovered=0 selected=0 retained=0 | homepage HTTP 403
+FAILED    | Al Mayadeen Arabic | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | TRT Arabi | discovered=30 selected=3 retained=0 | 
+LIVE      | Africa Defense Forum (ADF Magazine) | discovered=10 selected=2 retained=0 | 
+LIVE      | Critical Threats Project - Africa File | discovered=30 selected=5 retained=2 | 
+LIVE      | DefenceWeb | discovered=30 selected=1 retained=0 | 
+LIVE      | FDD Long War Journal | discovered=30 selected=9 retained=1 | homepage HTTP 403
+LIVE      | Jamestown Foundation - Terrorism Monitor | discovered=10 selected=2 retained=0 | homepage HTTP 403
+LIVE      | African Arguments | discovered=10 selected=2 retained=0 | homepage HTTP 403
+LIVE      | Small Wars Journal | discovered=10 selected=1 retained=0 | homepage HTTP 403
+LIVE      | ECOWAS | discovered=30 selected=2 retained=0 | 
+FAILED    | Le Point Afrique | discovered=0 selected=0 retained=0 | homepage HTTP 403
+LIVE      | Ouestaf News | discovered=30 selected=1 retained=0 | 
+LIVE      | Mediapart Afrique(s) | discovered=30 selected=0 retained=0 | 
 
 TRANSLATION ATTEMPTS
 No translation attempts this cycle.
 
 ARTICLE DECISIONS
-REJECTED | precision   | Africa Confidential | score=0 | relevance score 0; no qualifying Sahel intelligence combination | SOUTH AFRICA
-REJECTED | precision   | Africa Confidential | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Under pressure, rivals agree an elite pact for unity
-REJECTED | precision   | Asharq Al-Awsat | score=0 | relevance score 0; no qualifying Sahel intelligence combination | واشنطن تقترح آلية إخطار مشتركة مع بكين لحوادث الذكاء الاصطناعي
-REJECTED | precision   | Asharq Al-Awsat | score=-6 | relevance score -6; supporting signal military_target: معسكر; negative topic sports: دوري | أجواء رائعة بين لاعبي «المانشافت» في أول معسكر تحت قيادة كلوب
-REJECTED | precision   | Asharq Al-Awsat | score=3 | relevance score 3; event signal: attack (هجوم) | تهديدات متبادلة تعيد «شبح الحرب»
-REJECTED | precision   | Asharq Al-Awsat | score=2 | relevance score 2; supporting signal casualties: قتل | الولايات المتحدة تتسلم 18 مشتبهاً بهم في اغتيال رئيس هايتي
-REJECTED | precision   | Asharq Al-Awsat | score=0 | relevance score 0; no qualifying Sahel intelligence combination | تقدم في تعز يُربك خطط الحوثيين
-REJECTED | precision   | Asharq Al-Awsat | score=10 | relevance score 10; event signal: attack (هجوم); supporting signal casualties: قتل; supporting signal civilians: قرية; security context: مسلح | تأهب إسرائيلي كبير في الضفة
-REJECTED | precision   | Asharq Al-Awsat | score=0 | relevance score 0; no qualifying Sahel intelligence combination | لبنان يراهن على لقاء روبيو لتجنب فراغ في الجنوب
-REJECTED | precision   | Asharq Al-Awsat | score=0 | relevance score 0; no qualifying Sahel intelligence combination | «تقرير»: إدارة ترمب تعتزم فرض عقوبات على المحكمة الجنائية الدولية
-REJECTED | extraction  | DW Arabic | score=- | insufficient extracted text (0 chars; feed excerpt 0 chars) | ملفات من الشرق الأوسط
-REJECTED | precision   | DW Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | صفعة انتخابية جديدة للمحافظين وميرتس يتمسك بمنصبه
-REJECTED | extraction  | DW Arabic | score=- | insufficient extracted text (0 chars; feed excerpt 0 chars) | ملفات من شمال إفريقيا
-REJECTED | precision   | Africa Confidential | score=3 | relevance score 3; event signal: security operation (struck) | Abdel Hamid Dubaiba
-REJECTED | precision   | Africa Confidential | score=0 | relevance score 0; no qualifying Sahel intelligence combination | EUROPEAN UNION
-REJECTED | precision   | Asharq Al-Awsat | score=-8 | relevance score -8; negative topic sports: كأس | الجوير يعتذر... و«تراكم الملاحظات» وراء استبعاده من المنتخب السعودي
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | مؤتمر في الدوحة يبحث مكافحة الفساد عربياً
-REJECTED | precision   | Al-Araby Al-Jadeed | score=3 | relevance score 3; headline event signal: attack (هجوم) | باكستان تلوّح بعمليات في أفغانستان بعد مقتل 6 من قواتها في هجوم جديد
-REJECTED | precision   | Asharq Al-Awsat | score=0 | relevance score 0; no qualifying Sahel intelligence combination | انفجارات في مستودعات أسلحة للجيش السوري جنوب حلب
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الخضر... دير مار جريس وكروم العنب بمواجهة زحف الاستيطان
-REJECTED | precision   | Al-Araby Al-Jadeed | score=3 | relevance score 3; regional geography: الساحل | اليمن | تدمير مركبات للحوثيين قرب مضيق باب المندب
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | من إلغاء محكمة الإرهاب في سورية إلى تفكيك إرثها
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | بيسنت: أجرينا مباحثات ناجحة جداً مع الصين
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الفحوص البيومترية تربك موسم السياحة الأوروبية
+REJECTED | precision   | France 24 Afrique (FR) | score=10 | relevance score 10; event signal: law enforcement (arrested); supporting signal casualties: killed; supporting signal territorial_control: occupied; supporting signal claim_language: suspected; security context: military | Israeli settler and Palestinian driver killed in West Bank shootings
+REJECTED | precision   | RFI Afrique | score=3 | relevance score 3; headline event signal: security operation (frappes); foreign headline dominates: yemen | Moyen-Orient: les Houthis du Yémen font état de 28 frappes saoudiennes en 24 heures
+REJECTED | precision   | Jeune Afrique | score=3 | relevance score 3; event signal: security operation (offensive); foreign headline dominates: centrafrique | Centrafrique : Hassan Bouba, l’ex-rebelle que Touadéra ne veut pas écarter
+REJECTED | precision   | Jeune Afrique | score=6 | relevance score 6; headline actor: Africa Corps/Wagner (wagner); security context: sécurité | Wagner et Africa Corps en Centrafrique : qui compose l’assurance russe de Touadéra ?
+REJECTED | precision   | Jeune Afrique | score=6 | relevance score 6; explicit country: Niger (niger); event signal: political/security policy (mutinerie) | Niger : dans la tête d’Abdourahamane Tiani, président retranché
+REJECTED | precision   | RFI Afrique | score=3 | relevance score 3; event signal: attack (attaquee) | Les agressions islamophobes se multiplient au Royaume-Uni
+REJECTED | precision   | France 24 Afrique (FR) | score=0 | relevance score 0; foreign headline dominates: saudi arabia | Why doesn't the US intervene to defend Saudi Arabia against the Houthis?
+REJECTED | precision   | France 24 Afrique (FR) | score=2 | relevance score 2; supporting signal casualties: killed | An Israeli settler and a Palestinian driver killed in West Bank shootings
+REJECTED | precision   | France 24 Afrique (FR) | score=0 | relevance score 0; foreign headline dominates: saudi arabia | Houthi attacks and no Western support: What are Saudi Arabia's options ?
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; event signal: security operation (offensive) | The week in pictures: Syria protests, Céline Dion on stage and Quito wildfires
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; headline event signal: attack (attack) | Ukraine fires over 1,000 drones at Russia in "largest ever" attack on Moscow
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; headline event signal: security operation (strikes) | Torres strikes again as PSG beat bitter rivals Marseille 2-1
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; security context: military | North Korea fires two ballistic missiles into the sea in latest weapons display
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; headline event signal: attack (attack) | Ukraine hits Russia with major drone attack, targeting refinery
+REJECTED | precision   | France 24 Afrique (FR) | score=3 | relevance score 3; event signal: attack (attack) | Russia's ruling party on track to win election after Ukraine's drone attacks on Moscow
+REJECTED | precision   | RFI Afrique | score=5 | relevance score 5; headline event signal: attack (attaque); supporting signal casualties: tué | Cisjordanie occupée: un colon israélien tué dans une attaque près de Ramallah, l'armée abat un automobiliste palestinien
+REJECTED | precision   | Africanews | score=5 | relevance score 5; headline event signal: political/security policy (military cooperation); security context: defence; foreign headline dominates: uganda | Uganda suspends military cooperation with Turkey amid political tensions
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: attack (attacked); supporting signal territorial_control: blockade; supporting signal insurgent_governance: blockade; foreign headline dominates: iran | Iran: Tehran stages largest demonstration since start of conflict
+REJECTED | precision   | Africanews | score=7 | relevance score 7; event signal: law enforcement (arrest); supporting signal casualties: dead; security context: security; foreign headline dominates: nigeria | Nigeria appoints panel to probe deaths of 37 miners in holding cell
+REJECTED | precision   | Journal du Mali | score=4 | relevance score 4; local source prior: Mali; security context: sécurité | BRICS : Un nouvel appui aux revendications africaines
+REJECTED | precision   | Africanews | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Torrential rain and flooding slam Tunis, forcing schools to close
+REJECTED | precision   | Al Jazeera English | score=-8 | relevance score -8; negative topic sports: football | Man Utd salvage Fulham draw as pressure mounts on Carrick
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; security context: security; foreign headline dominates: iran | Qatar PM urges Gulf security framework with Iran
+REJECTED | precision   | Al Jazeera English | score=2 | relevance score 2; headline event signal: law enforcement (detained) | Imran Khan’s family says three sisters detained ahead of Islamabad march
+REJECTED | precision   | Al Jazeera English | score=3 | relevance score 3; headline event signal: clash (fighting); foreign headline dominates: yemen | Iran war live: Tehran warns US against new strikes; fighting rages in Yemen
+REJECTED | precision   | Agence d'Information du Burkina | score=4 | relevance score 4; local source prior: Burkina Faso; security context: sécurité | Zondoma : Cinq CSPS de Gourcy dotés de vidoirs pour renforcer l’hygiène, la gestion des déchets et la sécurité des patients
+REJECTED | precision   | Agence d'Information du Burkina | score=7 | relevance score 7; local source prior: Burkina Faso; headline event signal: clash (combat); security context: defense | Sanguié/Koukouldi : L’église évangélique baptiste « le bon combat » mise sur la prière pour la paix et la cohésion sociale
+REJECTED | precision   | VOA Africa | score=7 | relevance score 7; headline event signal: security operation (drone strike); supporting signal casualties: killed; supporting signal civilians: civilians; foreign headline dominates: nigeria | 1 Nigeria’s President Tinubu Probes Drone Strike on Civilians
+REJECTED | precision   | Le Sahel | score=6 | relevance score 6; local source prior: Niger; event signal: political/security policy (chef d'état-major); security context: defense | A l’école de la Gendarmerie Nationale : Les élèves gendarmes de la 57è promotion prêts à servir la Patrie
+REJECTED | precision   | BBC Arabic | score=5 | relevance score 5; headline event signal: attack (هجوم); supporting signal casualties: قتل | مقتل شخصين في هجوم أوكراني "ضخم" بالطائرات المسيّرة على منطقة موسكو
+REJECTED | precision   | TV5MONDE Afrique | score=8 | relevance score 8; headline event signal: attack (attaque); supporting signal casualties: tué; security context: sécurité | Cisjordanie: un colon tué près de Ramallah, l'auteur présumé de l'attaque arrêté
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; security context: عسكري | قاعدة للمسيّرات والقناصة.. ترمب يوسع مشروع قوس النصر في واشنطن
+REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants Nigeria is considering the introduction of state police across the country’s 36 states as part of measures to tackle militant attacks, mass kidnappings and banditry activities that are wracking the country. The state police are a
+REJECTED | precision   | Sky News Arabia | score=5 | relevance score 5; headline event signal: clash (اشتباك); supporting signal military_target: قافلة | مقتل جنود باكستانيين ومسلحين في اشتباك قرب حدود أفغانستان
+REJECTED | precision   | Sky News Arabia | score=3 | relevance score 3; event signal: IED/explosion (انفجار) | فيديو.. انفجارات ضخمة متتالية في مخزن أسلحة بريف حلب
+REJECTED | precision   | Sky News Arabia | score=6 | relevance score 6; headline event signal: IED/explosion (انفجار); security context: عسكري | قبل انسحاب التحالف.. انفجار قرب مطار أربيل خلال تدريب عسكري
+REJECTED | precision   | TV5MONDE Afrique | score=5 | relevance score 5; headline event signal: attack (attaque); supporting signal casualties: morts | Russie: attaque massive de drones ukrainiens au dernier jour des législatives, au moins deux morts
+REJECTED | precision   | Al Jazeera Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | اليمن مباشر.. غارات جوية على الحوثيين وواشنطن تحذر رعاياها
+REJECTED | precision   | TV5MONDE Afrique | score=3 | relevance score 3; event signal: attack (attaque) | Russie: Moscou visée en plein scrutin
+REJECTED | precision   | TV5MONDE Afrique | score=3 | relevance score 3; security context: sécurité; foreign headline dominates: israel | Comment la Russie et Israël créent de faux instituts de recherche pour désinformer le grand public grâce aux agents d'IA
+REJECTED | precision   | Wakat Sera | score=3 | relevance score 3; local source prior: Burkina Faso; event signal: law enforcement (interpellés) | Trois suspects arrêtés dans une affaire de vol et de recel de motos
+REJECTED | precision   | VOA Africa | score=3 | relevance score 3; headline event signal: clash (combat); foreign headline dominates: nigeria | VOA Corruption Series: Nigeria to use state police to combat militants
+REJECTED | precision   | The Defense Post Africa | score=3 | relevance score 3; headline event signal: clash (combat) | Chinese J-16s Engage in Combat Against Egyptian Rafales in Second Joint Drill
+REJECTED | precision   | TV5MONDE Afrique | score=5 | relevance score 5; headline event signal: security operation (ciblé); supporting signal casualties: morts; foreign headline dominates: arabie saoudite | Arabie saoudite: l'aéroport de Ryad pris pour cible
+REJECTED | precision   | TV5MONDE Afrique | score=3 | relevance score 3; headline event signal: security operation (offensive); foreign headline dominates: yemen | 64' Débat: Yémen, les enjeux d'une offensive éclair
+REJECTED | precision   | TV5MONDE Afrique | score=8 | relevance score 8; event signal: attack (attaque); supporting signal casualties: tué; security context: militaire | Un colon tué en Cisjordanie, l'auteur présumé arrêté
+REJECTED | precision   | Sidwaya | score=4 | relevance score 4; local source prior: Burkina Faso; security context: sécurité | Ouahigouya : la CNSS témoigne sa solidarité aux personnes démunies
+REJECTED | precision   | Al Jazeera Arabic | score=3 | relevance score 3; headline event signal: IED/explosion (انفجار) | انفجار في موقع للجيش السوري بمحيط بلدة العيس جنوبي ‏حلب
+RETAINED | indexed_fallback | The Africa Report | score=14 | publisher HTTP 403; retained feed/index context only | Mali’s drone war: ‘They saw the children and still fired’
+RETAINED | indexed_fallback | The Africa Report | score=8 | publisher HTTP 403; retained feed/index context only | After Niger’s coup attempt, Tiani is running out of people to trust
+RETAINED | indexed_fallback | The Africa Report | score=7 | publisher HTTP 403; retained feed/index context only | Mali: Kyiv’s support for Sahel insurgents clashes with US goals
+REJECTED | fetch       | Amnesty West and Central Africa | score=- | HTTP 403 | Pakistan: Re-arrest of Imaan Mazari-Hazir and Hadi Ali Chattha is a terrible injustice
 REJECTED | precision   | Al-Araby Al-Jadeed | score=3 | relevance score 3; security context: إرهاب | "يحيى.. هذه أرضك"... إرهاب إسرائيلي على الهواء
-REJECTED | precision   | Africa Confidential | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Mnangagwa’s money men buy him time
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | قمة ترامب وشي تهدّد استقرار الاقتصاد العالمي
-REJECTED | precision   | Al-Araby Al-Jadeed | score=0 | relevance score 0; no qualifying Sahel intelligence combination | كريس دويل لـ"العربي الجديد": العقوبات على المستوطنات لن تردع إسرائيل
-REJECTED | precision   | Independent Arabia | score=0 | relevance score 0; no qualifying Sahel intelligence combination | حين نسي تشارلز درس الملكة: الصمت أبلغ من التبرير
-REJECTED | precision   | Independent Arabia | score=3 | relevance score 3; security context: security | 11 سبتمبر قلب أمن بريطانيا... وما سيأتي غير مسبوق
-REJECTED | precision   | Independent Arabia | score=-8 | relevance score -8; negative topic sports: premier league | أرسنال منفتح على إعارة داومان بعد بدايته اللافتة في الموسم الحالي
-REJECTED | precision   | Independent Arabia | score=6 | relevance score 6; event signal: security operation (military operation); security context: defence | بوتين يفوز انتخابيا... لكن ماذا عن أوكرانيا؟
-REJECTED | precision   | Independent Arabia | score=-13 | relevance score -13; security context: defence; negative topic sports: premier league; negative topic entertainment: fashion | برايتون يصعق أرسنال بانتصار ساحق في الدوري الإنجليزي
-REJECTED | precision   | Independent Arabia | score=-8 | relevance score -8; negative topic sports: champions league | لماذا يعود أندوني إيراولا إلى بورنموث ولا يزال لديه ما يثبته؟
-REJECTED | precision   | Independent Arabia | score=3 | relevance score 3; event signal: clash (fighting) | تفشي "إيبولا" في الكونغو... أزمة صحية يفاقمها فقدان الثقة
-REJECTED | precision   | Africa Confidential | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Dangote’s refinery goes public, and so does his ambition
+REJECTED | precision   | Council on Foreign Relations Africa | score=3 | relevance score 3; headline event signal: clash (fighting) | Elbows Up: How Canada Is Fighting Trump’s Tariffs
 REJECTED | precision   | Independent Arabia | score=-5 | relevance score -5; event signal: attack (attack); negative topic sports: football | كوماس المتفاني يترك مهاجمي ليفربول الباهظي الثمن بلا أعذار
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | تمبكتو… أرض الـ333 وليّاً: من أسطورة القوافل إلى أيقونة التراث المهدّد - القدس العربي
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | جيش الاحتلال الإسرائيلي يحذر نتنياهو من عجز مالي يهدد جاهزيته في 3 جبهات - القدس العربي
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | فايننشال تايمز: في هجوم الحوثيين الخاطف... القادة كانوا أول الهاربين أما المقاتلون فدفنوا أسلحتهم أو باعوها - القدس العربي
-REJECTED | extraction  | Al-Ain Arabic | score=- | insufficient extracted text (90 chars; feed excerpt 0 chars) | عينك على العالم
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | مبعوث الأمم المتحدة للساحل يطرق أبواب موريتانيا ويناقش ملفات سياسية متعددة بعمق حقوقي - القدس العربي
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | مساءلة برلمانية لوزير الطاقة السوري… نواب شككوا بعقود للصيانة وتحدثوا عن تستر عن فساد - القدس العربي
-REJECTED | precision   | Independent Arabia | score=3 | relevance score 3; security context: defence | أوروبا كشفت للتو عن سلاحها الجديد في مواجهة ترمب: كندا
-REJECTED | precision   | Al-Ain Arabic | score=3 | relevance score 3; event signal: IED/explosion (انفجار) | انفجارات في مخزن لأسلحة الجيش السوري بريف حلب
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الذكاء الاصطناعي
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ترامب يفتح جبهة جديدة.. عقوبات مرتقبة ضد «الجنائية الدولية»
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | تحالف الإمارات مع إسرائيل يفسر تقدم الحوثيين في اليمن وقطع الجزائر للعلاقات مع أبو ظبي - القدس العربي
-REJECTED | robots      | Al-Quds Al-Arabi | score=- | robots.txt disallows article fetch | الأمم المتحدة تدعو إلى دعم دولي عاجل للأسر النازحة من التصعيد في اليمن - القدس العربي
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | ضربات جوية تستهدف الحوثيين في الساحل الغربي - الشرق
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | خبير: القوات الحكومية قادرة على استعادة الساحل الغربي باليمن - الشرق للأخبار
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | إطلاق نار وانفجارات في النيجر.. وهجوم بمحيط القصر الرئاسي - الشرق
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | بعد فترة من القطيعة.. رئيس حكومة مالي يزور الجزائر - الشرق
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | بعد فترة من القطيعة.. رئيس حكومة مالي يزور الجزائر الاثنين - الشرق
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | من الساحل الغربي إلى مأرب.. جبهات اليمن على وقع التصعيد - الشرق
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | من تعز إلى الساحل الغربي.. هل تتغير موازين المعركة في اليمن؟ - الشرق للأخبار
-REJECTED | precision   | Independent Arabia | score=7 | relevance score 7; event signal: clash (combat); supporting signal claim_language: suspected; security context: security | قواعد بريطانية تحت خطر المسيرات وتهديدات بوتين تتصاعد
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | من الساحل إلى صنعاء.. ما هدف المرحلة المقبلة في اليمن؟ - الشرق للأخبار
-REJECTED | fetch       | UN News Africa | score=- | HTTP 406 | Advanced Search
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | تصعيد الحوثيين في الساحل الغربي يضاعف مخاطر الملاحة - الشرق للأخبار
-REJECTED | robots      | Asharq News Arabic | score=- | robots.txt disallows article fetch | حرب اليمن.. استنزاف مستمر ومعارك الساحل الغربي تحسم المشهد - الشرق للأخبار
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | مالي: هجمات تستهدف موقعاً أمنياً قرب باماكو وقاعدة مسيّرات في سيفاري - staging-ar.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | مالي: هجمات تستهدف موقعاً أمنياً قرب باماكو وقاعدة مسيّرات في سيفاري - almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | مالي توسع عملياتها ضد الجماعات المسلحة بعد مقتل أكثر من 100 جندي في ديورا - staging-ar.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | مالي توسع عملياتها ضد الجماعات المسلحة بعد مقتل أكثر من 100 جندي في ديورا - almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | اليمن من الساحل الغربي إلى مكة.. الميدان يتصاعد وحرب الروايات تشتعل - staging-ar.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | النيجر: هيئة الطيران المدني: نيامي تمنع الطائرات الفرنسية من التحليق فوق أجوائها - instance1.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | بعد سنتين من خروج قواتها.. واشنطن تعود إلى النيجر عبر تمويل مشروع اليورانيوم - almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | "أفريكا إنتلجنس": صدام حفتر يتحرك لإضعاف المجلس العسكري في النيجر - staging-ar.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | خارطة طريق لمكافحة الإرهاب والتعاون العسكري بين مالي والجزائر - staging-ar.almayadeen.net
-REJECTED | robots      | Al Mayadeen Arabic | score=- | robots.txt disallows article fetch | اليمن: عبد القادر مرتضى: القوات المسلحة اليمنية اعتقلت 800 أسير خلال عملية تحرير مناطق الساحل الغربي - staging-ar.almayadeen.net
-REJECTED | precision   | Al-Quds Al-Arabi | score=2 | relevance score 2; supporting signal casualties: قتل | الولايات المتحدة تتسلم 18 مشتبها بهم في اغتيال رئيس هايتي
-REJECTED | precision   | Al-Quds Al-Arabi | score=3 | relevance score 3; headline event signal: attack (هجوم) | النفط يصعد بفعل هجوم الحوثيين على العاصمة السعودية
 REJECTED | precision   | Al-Quds Al-Arabi | score=6 | relevance score 6; event signal: IED/explosion (انفجار); security context: عسكري | انفجارات متتالية في موقع عسكري سوري جنوب حلب والسلطات تقطع طرقا مؤدية إليه- (فيديو)
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | مقاطعة صينية تجعل الألماس رخيصاً مثل الكرنب!
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ترامب يلتقي ممداني في نيويورك.. «غراسي مانشن» تجمع الخصمين
-REJECTED | precision   | Al-Ain Arabic | score=3 | relevance score 3; regional geography: الساحل | في مواجهة ترامب.. فرنسا وكندا تعززان تحالفا عابرا للأطلسي
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | بيرنهام قد يُقدم على الخطوة.. انتخابات مبكرة في بريطانيا تلوح بالأفق
-REJECTED | precision   | Al-Ain Arabic | score=3 | relevance score 3; event signal: security operation (استهدفت) | أسعار النفط تصعد بفعل التوتر في الشرق الأوسط
-REJECTED | precision   | Al-Ain Arabic | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الإمارات تدعو إلى نهج شامل لمكافحة التطرف وخطاب الكراهية
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Sahel Archives - Page 26 of 27 - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Islamic State Group Affiliates Connect in Sahel - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Sahel Gold Mines Fuel Terror Groups - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Russia Targets Coastal West Africa as It Loses Ground in Sahel - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Extremism Spreads From the Sahel - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Sahel Feeling Fallout From ECOWAS Exits - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Motorbike Trafficking Drives Instability Throughout the Sahel - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | New Task Force Takes Shape in Sahel - Africa Defense Forum
-REJECTED | robots      | Africa Defense Forum (ADF Magazine) | score=- | robots.txt disallows article fetch | Ghana Faces ‘Brewing Crisis’ as it Avoids Conflict With JNIM - Africa Defense Forum
-RETAINED | precision   | Africa Defense Forum (ADF Magazine) | score=11 | explicit country: Mali (malian); headline actor: JNIM (jnim); security context: terrorism | JNIM Expansion Across Malian Border Threatens Guinea
-REJECTED | precision   | TRT Arabi | score=0 | relevance score 0; no qualifying Sahel intelligence combination | سوريا الجديدة
-REJECTED | precision   | TRT Arabi | score=0 | relevance score 0; no qualifying Sahel intelligence combination | "ننتقل بين عواصم مختلفة".. قطر تكشف عن جهود لاستئناف محادثات واشنطن وطهران كشف المتحدث باسم وزارة الخارجية القطرية ماجد الأنصاري، الأحد، عن جهود تبذلها الدوحة لاستئناف محادثات واشنطن وطهران، مشيراً إلى أنه يجري منذ أسبوعين تبادل أفكار مختلفة بشأن استئناف تلك المحادثات.
-REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; event signal: security operation (قصف) | الحرب على غزة
-REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: attack (هجوم) | هجوم أوكراني بالمسيّرات يقتل شخصين ويستهدف مصفاة نفط في موسكو قالت السلطات الروسية، الأحد، إن شخصين قُتلا في واحدة من أكبر هجمات الطائرات المسيّرة الأوكرانية على منطقة موسكو، فيما تعرضت مصفاة نفط في العاصمة للاستهداف، بالتزامن مع اليوم الأخير من التصويت في الانتخابات البرلمانية الروسية.
-REJECTED | precision   | TRT Arabi | score=0 | relevance score 0; no qualifying Sahel intelligence combination | الحرب على إيران
-REJECTED | precision   | TRT Arabi | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ترمب يدرس خياراته بشأن إيران ويبدي استعداداً للقاء بزشكيان.. وطهران تحدد شروط فتح هرمز أبدى الرئيس الأمريكي دونالد ترمب انفتاحه على لقاء الرئيس الإيراني مسعود بزشكيان على هامش اجتماعات الجمعية العامة للأمم المتحدة في نيويورك، في حين أكد رئيس مجلس الشورى الإيراني محمد باقر قاليباف أن طهران أبلغت واشن
-REJECTED | extraction  | Critical Threats Project - Africa File | score=- | insufficient extracted text (36 chars; feed excerpt 0 chars) | Contributors
-REJECTED | precision   | TRT Arabi | score=2 | relevance score 2; supporting signal military_target: قاعدة عسكرية | حادث جديد يطال مقاتلة "F-35" قرب قاعدة ميرامار في ولاية كاليفورنيا الأمريكية أعلنت السلطات الأمريكية تحطم طائرة مقاتلة من طراز "F-35" الجمعة قرب قاعدة عسكرية في سان دييغو بجنوب ولاية كاليفورنيا.
-REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: security operation (استهدف) | التحالف يتوعد الحوثيين ويؤكد اعتراض صاروخ باليستي استهدف الرياض لوّح تحالف دعم الشرعية في اليمن، السبت، باتخاذ إجراءات ضد جماعة الحوثي، مؤكداً اعتراض وتدمير صاروخ باليستي أطلقته الجماعة باتجاه العاصمة السعودية الرياض، وإحباط محاولات أخرى لاستهداف مدنيين وأعيان مدنية في 4 مناطق بالمملكة.
-REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: security operation (استهدف) | حرق منازل قضاء صور.. جيش الاحتلال يستهدف مسعفين في النبطية جنوبي لبنان استهدف جيش الاحتلال الإسرائيلي، السبت، مسعفين بغارة جوية في قضاء النبطية جنوبي لبنان دون وقوع إصابات، وأحرق مزيداً من المنازل قضاء صور، وسط عمليات نسف وتفجير وقصف بمناطق أخرى في الجنوب.
-REJECTED | precision   | TRT Arabi | score=4 | relevance score 4; supporting signal casualties: قتل; supporting signal insurgent_governance: تهريب | "إرهابيو المخدرات".. الجيش الأمريكي يعلن قتل 4 في ضربة لقارب بالبحر الكاريبي أعلن الجيش الأمريكي، السبت، مقتل أربعة أشخاص كانوا على متن قارب قال إنهم متورطون في تهريب المخدرات في منطقة البحر الكاريبي.
-REJECTED | precision   | Critical Threats Project - Africa File | score=6 | relevance score 6; regional geography: sahel; security context: security | Sustained Conflict in Tigray; North African Mediation in the Sahel: Africa File, August 27, 202
-REJECTED | precision   | Critical Threats Project - Africa File | score=10 | relevance score 10; explicit country: Mali (mali); actor: Africa Corps/Wagner (africa corps); security context: security; foreign headline dominates: sudan | Russia Operationalizes Military Presence in Togo; SAF Seizes Key Central Sudan Supply Line; Congolese National Dialogue Takes Shape: Africa File, July 30, 2026
-REJECTED | precision   | Critical Threats Project - Africa File | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Tech Partners
+REJECTED | precision   | Afrik.com | score=3 | relevance score 3; headline event signal: security operation (frappe); foreign headline dominates: centrafrique | Centrafrique : un deuxième incendie frappe le centre névralgique des élections à Bangui
+REJECTED | precision   | Mondafrique | score=6 | relevance score 6; event signal: attack (attaque); security context: sécurité | Les Houthis portent la guerre jusqu’à Riyad
+REJECTED | precision   | Mondafrique | score=3 | relevance score 3; headline event signal: IED/explosion (explosion) | La justice libanaise confrontée à l’explosion du port de Beyrouth
+REJECTED | precision   | Mondafrique | score=3 | relevance score 3; headline event signal: attack (embuscade); foreign headline dominates: maroc | Législatives Maroc : les partis à la peine et les islamistes en embuscade
 REJECTED | precision   | Critical Threats Project - Africa File | score=10 | relevance score 10; headline event signal: clash (clash); supporting signal territorial_control: blockade; supporting signal insurgent_governance: blockade; security context: security; foreign headline dominates: somalia | Houthi Blockade in the Red Sea; The Federal Government of Somalia and Puntland Clash: Africa File, July 23, 2026
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | IDF captures Hamas security chief, reports 29 Gaza ceasefire violations Aug. 19–Sept. 3
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Islamic state plots disrupted and operatives arrested in 4 countries
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Iran continues attacks on Kurdish opposition group in northern Iraq
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Top Islamic State spokesman killed in Yemen
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | FBI arrests Pennsylvania man accused of plotting Islamic State-inspired attack
-REJECTED | extraction  | Critical Threats Project - Africa File | score=- | insufficient extracted text (36 chars; feed excerpt 0 chars) | Subscriptions
-REJECTED | extraction  | Critical Threats Project - Africa File | score=- | insufficient extracted text (36 chars; feed excerpt 0 chars) | Hi, {{signed_in_name}}
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Yazidi armed group YBS to disarm, integrate into Iraqi security forces
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Kurdish-led Syrian Democratic Forces announce its dissolution
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Syria’s military is rebuilding, but foreign influence may slow security progress
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Iraq continues investigating attack on Saudi Arabia from Iraqi territory
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Security Risks of Centralized Satellite Internet in Junta-Led Sahel States - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Burkina Faso Archives - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Missiles, Money and Migration: The Impact of the Libyan Crisis on the African Sahel - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | JNIM Escalates Sahelian Offensives Amid Fratricidal War with ISSP - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Saad’s Betrayal: JNIM and ISGS Rivalry in West Africa - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Brief: Tuareg Separatists Intensify Attacks Against Russian Africa Corps - The Jamestown Foundation
-REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | LAF-Hezbollah coordination and the limits of Lebanon’s disarmament effort
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | Moscow Expands Military Influence in Africa - The Jamestown Foundation
-REJECTED | robots      | Jamestown Foundation - Terrorism Monitor | score=- | robots.txt disallows article fetch | France Seeks Influence Reboot in Africa Amid Sahelian Military Withdrawal - The Jamestown Foundation
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Bamako under Siege: How Coordinated Attacks Exposed the Mali Government’s Fragility—and Tested the AES - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Mali. The Missing Structural Factor - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Azawad Never Left: Reading Mali’s 2026 Crisis Through 2012 - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Côte d’Ivoire, Mali and Burkina Faso: a shared history collides with political fractures - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Delinking, Islam, and a New Vision for Burkina Faso - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Revolution without Reform: The Semiotics of Sovereignty in Burkina Faso - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Mali: Defiant and alone, will the junta defeat the jihadis? - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Making sense of the coup in Burkina Faso - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | Idriss Déby: The Chadian Warrior, Hero of Mali - African Arguments
-REJECTED | robots      | African Arguments | score=- | robots.txt disallows article fetch | 4 out of 4: Why has Mali had so many successful coups? - African Arguments
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Climate, Conflict, and Strategic Competition in the Central Sahel - Small Wars Journal
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Lebanese security forces incidentally discover Hezbollah weapons cache during raid
+RETAINED | indexed_fallback | FDD Long War Journal | score=8 | publisher HTTP 403; retained feed/index context only | Generation Jihad | Losing ground: Somalia and Mali’s jihad problem
+REJECTED | precision   | Africa Defense Forum (ADF Magazine) | score=7 | relevance score 7; event signal: law enforcement (arrested); supporting signal territorial_control: seized; security context: defense | South Africa Busts Meth Laboratory Linked to Mexican Cartels
+REJECTED | precision   | Africa Defense Forum (ADF Magazine) | score=5 | relevance score 5; event signal: law enforcement (arrested); security context: defense; foreign headline dominates: nigeria | Nigeria Arrests Chinese Nationals in Illegal Fishing Crackdown
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Somalia claims it killed senior Shabaab leader
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Analysis: Ukraine’s defense leadership crisis becomes blessing in disguise
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Israel says Hezbollah launched drone attack on strategic ridge amid ceasefire
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Suspect in deadly Berlin Pride attack pledged allegiance to Islamic State, prosecutors say
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | From Guantanamo Bay to ISCAP: The case of Jamal Kiyemba
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Houthis escalate attacks in Red Sea and on Saudi Arabia, Riyadh evaluates options
+REJECTED | fetch       | African Arguments | score=- | HTTP 403 | The Rivalry Between Ethiopia and Eritrea Is Reshaping Tigray
 REJECTED | fetch       | Jamestown Foundation - Terrorism Monitor | score=- | HTTP 403 | Ukraine’s Drone Campaign Reaches the Russian Arctic
 REJECTED | fetch       | Jamestown Foundation - Terrorism Monitor | score=- | HTTP 403 | Russia Militarizes Occupied Ukraine (Part II)
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Approaching the War on Terror in the Sahel - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Global Fragility Act in Coastal West Africa: Policy Lessons from US Engagement in the Sahel - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Al-Qaeda’s Growing Shadow in Africa: The Expanding Operational Reach of JNIM and Al-Shabaab - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Глаза видят, руки делают “The Eyes See, the Hands Do”: Africa Corps Does Neither - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | May 2026 Issue of CTC Sentinel by The Combating Terrorism Center at West Point - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | Ten African Security Trends from 2025 in Graphics - Small Wars Journal
-REJECTED | robots      | Small Wars Journal | score=- | robots.txt disallows article fetch | West Africa Divided: Challenges of the Fracturing of ECOWAS for Counterterrorism Efforts - Small Wars Journal
+REJECTED | fetch       | FDD Long War Journal | score=- | HTTP 403 | Iran reportedly tells Houthis to close Bab al Mandeb Strait if US strikes power grid
+REJECTED | fetch       | African Arguments | score=- | HTTP 403 | How much is a human worth? Nigeria’s growing kidnapping economy
+REJECTED | precision   | Anadolu Arabic | score=6 | relevance score 6; headline event signal: IED/explosion (انفجار); security context: عسكري | انفجار بموقع عسكري شمالي سوريا وسط استنفار حكومي
 REJECTED | fetch       | Small Wars Journal | score=- | HTTP 403 | 9/20/26 National Security and Korean News and Commentary
-REJECTED | fetch       | Small Wars Journal | score=- | HTTP 403 | 9/19/26 National Security and Korean News and Commentary
-REJECTED | fetch       | Critical Threats Project - Africa File | score=- | HTTP 500 | {{region.title}}
-REJECTED | extraction  | Critical Threats Project - Africa File | score=- | insufficient extracted text (36 chars; feed excerpt 0 chars) | Others (A FULL LIST)
-REJECTED | fetch       | Critical Threats Project - Africa File | score=- | HTTP 500 | {{person.title}}
-REJECTED | precision   | DefenceWeb | score=6 | relevance score 6; event signal: clash (combat); security context: defence | SA Army retraining exercise in Limpopo, CTC Vuk’uhlome stabling parade all part of building a better landward force
-REJECTED | precision   | DefenceWeb | score=2 | relevance score 2; headline event signal: law enforcement (arrest) | Mozambican sentenced three months after Lebombo Immigration Act arrest
-REJECTED | precision   | DefenceWeb | score=5 | relevance score 5; supporting signal civilians: civilian; security context: defence | Hensoldt introduces Automated Spectrum Management System
-REJECTED | precision   | DefenceWeb | score=3 | relevance score 3; security context: defence | Milkor and Safran sign MoU on optronics and navigation integration for UAVs
-REJECTED | precision   | DefenceWeb | score=6 | relevance score 6; event signal: attack (attack); security context: defence | SAAF Gripen and Hawk set to be airborne at AAD air show
-REJECTED | precision   | DefenceWeb | score=3 | relevance score 3; security context: defence | DCD Defence reveals new Bushbuck vehicle
-REJECTED | precision   | DefenceWeb | score=3 | relevance score 3; security context: defence | Paramount unveils Mbada light protected mobility vehicle
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Angel Losada : « Au Sahel, le vide de l'État, c'est l'oxygène du terrorisme » - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Au Niger, une embarrassante cargaison d’uranium bloquée à Niamey au cœur d’enjeux géopolitiques - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Photographie : lumière sur Philippe Koudjina à Niamey - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Au Niger, l’inquiétante disparition du journaliste Moussa Kaka - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Au Niger, une tentative de putsch ratée plonge le pays dans l’incertitude - lepoint.fr
-REJECTED | precision   | DefenceWeb | score=3 | relevance score 3; security context: defence | PIC Wire & Cable partners with Hiconnex to expand into SA and the UAE
-REJECTED | precision   | DefenceWeb | score=6 | relevance score 6; event signal: security operation (neutralised); security context: security | Parthenius Air debuts Zerathis Blindspot intelligence portal at AAD 2026
-REJECTED | precision   | DefenceWeb | score=3 | relevance score 3; security context: defence | Motshekga opens AAD 2026 with call for sovereign capability and industrial growth
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Alger entre en « guerre » au Niger - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Issa Kaou Djime : « IBK est le problème du Mali » - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Mali : Rokia Traoré arrêtée en France à la demande de la justice belge - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Mali : pourquoi la guerre s'enlise - lepoint.fr
-REJECTED | robots      | Le Point Afrique | score=- | robots.txt disallows article fetch | Mali : Minusma et Barkhane en difficulté, spectre des Russes en vue - lepoint.fr
-REJECTED | precision   | Ouestaf News | score=6 | relevance score 6; explicit country: Burkina Faso (burkina faso); supporting signal civilians: village | Burkina Faso : le gouvernement mise sur l’enseignement technique
-REJECTED | precision   | Ouestaf News | score=4 | relevance score 4; explicit country: Niger (niger) | Niger : Tiani remanie son gouvernement
-REJECTED | precision   | Ouestaf News | score=4 | relevance score 4; explicit country: Burkina Faso (burkina faso) | Médias : l’AES crée la Paremec pour renforcer la régulation dans l’espace confédéral
-REJECTED | precision   | Ouestaf News | score=4 | relevance score 4; explicit country: Niger (niger) | Niger : quatre proches de Bazoum et un activiste déchus de leur nationalité
-REJECTED | precision   | Ouestaf News | score=6 | relevance score 6; explicit country: Niger (niger); event signal: law enforcement (interpellé) | Niger : inquiétude autour de la disparition du journaliste Moussa Kaka
-REJECTED | precision   | Ouestaf News | score=4 | relevance score 4; explicit country: Burkina Faso (burkina faso) | Burkina Faso : suspension de l’exportation du bétail et inquiétudes
 REJECTED | precision   | Ouestaf News | score=5 | relevance score 5; headline event signal: political/security policy (chef d'état-major); security context: defense; foreign headline dominates: nigeria | Nigeria : la couverture médiatique des champs de bataille a brisé l’élan de la propagande de Boko Haram (ancien chef d’état-major)
-REJECTED | precision   | Ouestaf News | score=5 | relevance score 5; supporting signal insurgent_governance: orpaillage; security context: defense | Côte d’Ivoire : suspension de 6 mois des autorisations d’orpaillage semi-industriel et artisanal (CNS)
-REJECTED | precision   | Ouestaf News | score=3 | relevance score 3; security context: sécurité | Protection des citoyens : forces de sécurité à l’ère du numérique (Podcast)
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Économie et social
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Culture et idées
-REJECTED | precision   | Mediapart Afrique(s) | score=2 | relevance score 2; supporting signal casualties: morts; foreign headline dominates: algérie | En Algérie, des incendies dans le Nord-Est font au moins douze morts
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | International
-REJECTED | precision   | ECOWAS | score=3 | relevance score 3; security context: terrorism | The Inter-Governmental Action Group against Money Laundering and Terrorism Financing in West Africa (GIABA)
-REJECTED | precision   | Mediapart Afrique(s) | score=6 | relevance score 6; event signal: security operation (opération militaire); security context: militaire | Guerres au Moyen-Orient
-REJECTED | precision   | Ouestaf News | score=4 | relevance score 4; explicit country: Mali (mali) | Guinée, Burkina, Mali, Niger : plus besoin de censure
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Contenu principal
-REJECTED | precision   | ECOWAS | score=3 | relevance score 3; security context: security | ECOWAS RECEIVES AMBASSADOR KALILOU TRAORÉ OF CÔTE D’IVOIRE ON FIRST OFFICIAL VISIT TO COMMISSION PRESIDENT GENERAL BIRAME DIOP, HIGHLIGHTING REGIONAL COOPERATION, SECURITY AND INTEGRATION
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Rentrée politique
-REJECTED | precision   | Mediapart Afrique(s) | score=2 | relevance score 2; supporting signal casualties: mort | Procès du meurtre d’Aramburu
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Fil d’actualité
-REJECTED | precision   | ECOWAS | score=0 | relevance score 0; no qualifying Sahel intelligence combination | ECOWAS COMMISSION PRESIDENT LAUNCHES STAFF TRANSPORTATION INITIATIVE TO STRENGTHEN STAFF WELFARE AND INSTITUTIONAL PRODUCTIVITY
-REJECTED | precision   | ECOWAS | score=3 | relevance score 3; security context: security; foreign headline dominates: sudan | THE PRESIDENT OF THE ECOWAS COMMISSION RECEIVES THE AMBASSADORS OF QATAR AND SUDAN AT THE ECOWAS COMMISSION HEAD QUARTERS IN ABUJA
-REJECTED | precision   | Mediapart Afrique(s) | score=0 | relevance score 0; no qualifying Sahel intelligence combination | Panoramiques
+REJECTED | precision   | Jeune Afrique | score=5 | relevance score 5; event signal: political/security policy (coopération militaire); security context: security; foreign headline dominates: maroc | Comment le Maroc devient le pivot de la stratégie militaire américaine en Afrique
+REJECTED | precision   | DefenceWeb | score=6 | relevance score 6; event signal: clash (combat); security context: defence | SA Army retraining exercise in Limpopo, CTC Vuk’uhlome stabling parade all part of building a better landward force
+REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: security operation (استهدف) | حرق منازل قضاء صور.. جيش الاحتلال يستهدف مسعفين في النبطية جنوبي لبنان استهدف جيش الاحتلال الإسرائيلي، السبت، مسعفين بغارة جوية في قضاء النبطية جنوبي لبنان دون وقوع إصابات، وأحرق مزيداً من المنازل قضاء صور، وسط عمليات نسف وتفجير وقصف بمناطق أخرى في الجنوب.
+RETAINED | precision   | Critical Threats Project - Africa File | score=15 | explicit place: Kidal (kidal); headline actor: JNIM (jnim); headline event signal: security operation (offensive); security context: security | Fall of Kidal—What JNIM’s Latest Offensive Means for Mali’s Future
+REJECTED | precision   | Critical Threats Project - Africa File | score=6 | relevance score 6; headline event signal: security operation (strikes); security context: security; foreign headline dominates: sudan | Ethiopia-Sudan Tensions Rise over RSF Khartoum Strikes; TPLF Asserts Control of Tigray; US Sanctions on Kabila Could Backfire: Africa File, May 7, 2026
+REJECTED | precision   | Critical Threats Project - Africa File | score=8 | relevance score 8; headline event signal: security operation (offensive); supporting signal civilians: civilian; security context: terrorist | US Sanctions Sudanese Islamists; ISWAP Ramadan Offensive: Africa File, March 12, 2026
 REJECTED | precision   | ECOWAS | score=3 | relevance score 3; event signal: security operation (targeted) | ECOWAS CONVERGENCE COUNCIL REVIEWS PROGRESS TOWARDS SINGLE CURRENCY
+RETAINED | precision   | Critical Threats Project - Africa File | score=18 | explicit country: Mali (mali); headline actor: JNIM (jnim); headline event signal: security operation (offensive); supporting signal territorial_control: blockade; supporting signal insurgent_governance: blockade; security context: security | JNIM Continues Historic Offensive in Mali; Somali Piracy Revival Threatens Red Sea Shipping: Africa File, April 30, 2026
 REJECTED | precision   | ECOWAS | score=5 | relevance score 5; headline event signal: political/security policy (chief of staff); security context: security; foreign headline dominates: nigeria | CHIEF OF STAFF OF ECOWAS STANDBY FORCE PAYS COURTESY CALL ON THE CHIEF OF DEFENCE STAFF OF NIGERIA
-REJECTED | precision   | ECOWAS | score=3 | relevance score 3; security context: security | ECOWAS LOGISTICS DEPOT RECEIVES DELEGATION FROM EUROPEAN UNION AND EU MEMBER STATE REPRESENTATIVES IN SIERRA LEONE
-REJECTED | precision   | ECOWAS | score=0 | relevance score 0; no qualifying Sahel intelligence combination | THE EGDC AND THE AFDB OPEN NEW HORIZONS FOR STRATEGIC PARTNERSHIPS TO PROMOTE WOMEN’S EMPOWERMENT, CLIMATE ACTION, AND SUSTAINABLE DEVELOPMENT IN WEST AFRICA
-REJECTED | precision   | ECOWAS | score=0 | relevance score 0; foreign headline dominates: tunisia | ECOWAS COMMISSION’S PRESIDENT RECEIVES AMBASSADOR OF TUNISIA, REAFFIRMS COMMITMENT TO STRENGTHENED COOPERATION
-REJECTED | precision   | ECOWAS | score=0 | relevance score 0; no qualifying Sahel intelligence combination | THE CCDG ORGANIZED A RETREAT TO FINALIZE ITS 2027–2029 BUDGET AND BUILD STAFF CAPACITY ON NEW OPTIONS UNDER THE MEDIUM-TERM EXPENDITURE FRAMEWORK
+REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: security operation (استهدف) | التحالف يتوعد الحوثيين ويؤكد اعتراض صاروخ باليستي استهدف الرياض لوّح تحالف دعم الشرعية في اليمن، السبت، باتخاذ إجراءات ضد جماعة الحوثي، مؤكداً اعتراض وتدمير صاروخ باليستي أطلقته الجماعة باتجاه العاصمة السعودية الرياض، وإحباط محاولات أخرى لاستهداف مدنيين وأعيان مدنية في 4 مناطق بالمملكة.
+REJECTED | precision   | TRT Arabi | score=3 | relevance score 3; headline event signal: attack (هجوم) | هجوم أوكراني بالمسيّرات يقتل شخصين ويستهدف مصفاة نفط في موسكو قالت السلطات الروسية، الأحد، إن شخصين قُتلا في واحدة من أكبر هجمات الطائرات المسيّرة الأوكرانية على منطقة موسكو، فيما تعرضت مصفاة نفط في العاصمة للاستهداف، بالتزامن مع اليوم الأخير من التصويت في الانتخابات البرلمانية الروسية.
+REJECTED | precision   | UNOWAS | score=6 | relevance score 6; regional geography: sahel; security context: security | Before the Security Council, Special Representative Leonardo Santos Simão calls for strengthening regional dialogue to address persistent challenges in West Africa and the Sahel

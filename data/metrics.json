@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:28:47.184025Z",
+  "generated_at": "2026-09-21T03:56:14.016047Z",
   "series": {
     "JNIM": [
       {
@@ -188,7 +188,7 @@
       },
       {
         "date": "2026-05-11",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-05-12",
@@ -712,7 +712,7 @@
       },
       {
         "date": "2026-09-19",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-09-20",
@@ -720,7 +720,7 @@
       },
       {
         "date": "2026-09-21",
-        "count": 1
+        "count": 0
       }
     ],
     "IS Sahel": [
@@ -1904,7 +1904,7 @@
       },
       {
         "date": "2026-07-18",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-07-19",
@@ -2156,7 +2156,7 @@
       },
       {
         "date": "2026-09-19",
-        "count": 4
+        "count": 2
       },
       {
         "date": "2026-09-20",
@@ -2180,7 +2180,7 @@
       "change_pct": null
     },
     "State": {
-      "current": 6,
+      "current": 4,
       "previous": 0,
       "change_pct": 100.0
     }
@@ -2197,7 +2197,7 @@
       "change_pct": null
     },
     "State": {
-      "current": 6,
+      "current": 4,
       "previous": 0,
       "change_pct": 100.0
     }

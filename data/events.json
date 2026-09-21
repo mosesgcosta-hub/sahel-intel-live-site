@@ -1,35 +1,11 @@
 [
   {
-    "id": "063a0dd1583ad68824942f9a7136c3d4862a33d2",
-    "event_date": "2026-09-21",
-    "actor": "JNIM",
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "locations": [],
-    "title": "Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026",
-    "summary": "{{currentView.title}} July 09, 2026 Another JNIM Offensive Across Mali; SAF Advances on Secondary Fronts; New CAR Rebellion: Africa File, July 9, 2026 Contributors: Angus Muldoon and Abigail Taylor To receive the weekly Africa File or Congo War Security Review via email, please subscribe here. Follow CTP on X, LinkedIn, and BlueSky. Key Takeaways: - Mali. Al Qaeda’s Sahelian affiliate Jama’at Nusrat al Islam wa al Mu",
-    "sources": [
-      "Critical Threats Project - Africa File"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
-    ],
-    "created_at": "2026-09-21T03:26:02.367174Z",
-    "updated_at": "2026-09-21T03:26:02.367174Z",
-    "extraction_confidence": "moderate",
-    "corroboration": "single-source",
-    "confidence": "moderate"
-  },
-  {
     "id": "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
     "event_date": "2026-09-20",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-20T07:54:51Z",
+    "collected_at": "2026-09-20T08:26:52.057143Z",
     "actor": "State",
     "event_type": "security operation",
     "country": "Mali",
@@ -64,37 +40,45 @@
     "confidence": "low"
   },
   {
-    "id": "607cfbefb9a60e6bc107389c2eded47f686d31c2",
+    "id": "dfb3855d3f453b7b84b27c0091ea309c77be105a",
     "event_date": "2026-09-19",
-    "actor": "State",
-    "event_type": "clash",
-    "country": "Niger",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-19T19:48:00Z",
+    "collected_at": "2026-09-19T20:57:03.747059Z",
+    "actor": "JNIM",
+    "event_type": "attack",
+    "country": "Mali",
     "city": null,
     "lat": null,
     "lng": null,
     "locations": [],
-    "title": "Between Operation Klafoki and Information Warfare: An Analysis of Niger-Chad Tensions",
-    "summary": "Analysis of recent events reveals a tense situation between Niger and Chad, where mistrust is fuelled by real incidents, denials and the strategic use of information. The key to avoiding escalation lies in diplomatic de-escalation and transparency. Background to the Tensions The border between Niger and Chad is an unstable area In response, Niger launched Operation Klafoki in May 2026 to secure the Bilma region again",
+    "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
+    "summary": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers AP News",
     "sources": [
-      "Journal du Mali"
+      "Associated Press Africa"
     ],
     "languages": [
-      "fr"
+      "en"
     ],
     "source_count": 1,
     "report_urls": [
-      "https://journaldumali.com/entre-loperation-klafoki-et-la-guerre-de-linformation-analyse-des-tensions-niger-tchad/"
+      "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
     ],
-    "created_at": "2026-09-19T20:56:48.546987Z",
-    "updated_at": "2026-09-19T20:56:48.546987Z",
-    "extraction_confidence": "low",
+    "created_at": "2026-09-19T20:57:03.747059Z",
+    "updated_at": "2026-09-19T20:57:03.747059Z",
+    "extraction_confidence": "moderate",
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "moderate"
   },
   {
-    "id": "9d0115192e80c5d2dabceffdf725751d7536a692",
+    "id": "045e201ec819bb2707611660b05da6572820b8ac",
     "event_date": "2026-09-19",
-    "actor": "State",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-19T20:27:07Z",
+    "collected_at": "2026-09-19T20:56:41.947029Z",
+    "actor": "Other",
     "event_type": "security operation",
     "country": "Mali",
     "city": "Sévaré",
@@ -137,6 +121,10 @@
   {
     "id": "0d8f955ad44de7f83d1a1f5228824779711f5679",
     "event_date": "2026-09-19",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-19T11:26:16Z",
+    "collected_at": "2026-09-19T18:15:03.129399Z",
     "actor": "State",
     "event_type": "security operation",
     "country": "Mali",
@@ -163,8 +151,12 @@
     "confidence": "moderate"
   },
   {
-    "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+    "id": "fa718271ca7b2332366f4cf88b4003ace57789ef",
     "event_date": "2026-09-19",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-19T09:29:23Z",
+    "collected_at": "2026-09-19T18:14:59.965077Z",
     "actor": "State",
     "event_type": "security operation",
     "country": "Mali",
@@ -201,48 +193,52 @@
         "confidence": "explicit-place"
       }
     ],
-    "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
+    "title": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber",
     "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
     "sources": [
-      "Bamada",
-      "Malijet"
+      "Malijet",
+      "Bamada"
     ],
     "languages": [
       "fr"
     ],
     "source_count": 2,
     "report_urls": [
-      "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes",
-      "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html"
+      "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html",
+      "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes"
     ],
-    "created_at": "2026-09-19T18:15:00.857125Z",
-    "updated_at": "2026-09-19T18:14:59.965077Z",
+    "created_at": "2026-09-19T18:14:59.965077Z",
+    "updated_at": "2026-09-19T18:15:00.857125Z",
     "extraction_confidence": "moderate",
     "corroboration": "limited corroboration",
     "confidence": "moderate"
   },
   {
-    "id": "9318c0e7a4d3950c0f2b77b99145a2f7e0124728",
+    "id": "dc854ef4a52412c4b3c6a93015bd1142e4c3a1f9",
     "event_date": "2026-09-17",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-09-17T21:24:45Z",
+    "collected_at": "2026-09-19T20:56:45.703291Z",
     "actor": "State",
     "event_type": "security operation",
     "country": "Mali",
-    "city": "Kidal",
-    "lat": 18.4411,
-    "lng": 1.4078,
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
     "locations": [
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
-      },
       {
         "name": "Dioura",
         "country": "Mali",
         "lat": 14.82528,
         "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
         "confidence": "explicit-place"
       },
       {
@@ -272,8 +268,124 @@
     "confidence": "moderate"
   },
   {
+    "id": "889644f62f066fc2e2d8956e1237e69d27fb3895",
+    "event_date": "2026-08-29",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-08-29T07:00:00Z",
+    "collected_at": "2026-09-21T02:42:45.657991Z",
+    "actor": "Other",
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: Armed attack targeting the perimeter of the Presidential Palace and Niamey Airport - staging-ar.almayadeen.net",
+    "summary": "Niger: Armed attack targeting the perimeter of the Presidential Palace and Niamey Airport staging-ar.almayadeen.net",
+    "sources": [
+      "Al Mayadeen Arabic"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOVFdaYXR5V3pIbTlpLVZ3WG9FbG5NQ3p3MHNRMTMwSFFHWHdZV01mOEc5a3FKYzFRTE5pSmx5bVZTc1FfZ1p0NVRwc1dVUEYxN0k2Z01FNndjQ20yQWNseERVV0FFS1JCNF8xQ251SGJUT1ppN0VEYXFWZ0RMQ2JIb2hETmd1cVRESVB0T2dKSTVFbjVWVFhZTlAtWDFENmN6bEdrU0lRbmxiUm5RaGY0RHpBQ2hLenBaZHhTUE9UQXBRckN2N2laUi1kc1l6OFh2RTJZX05CVEx2WUowTjFGOHlnRGtMelRycnhXRVVxQ05wVGhwcXBBbnAtajZ2cnE2dWMxVWdpVXh0T3FIWHlaTGFCa3NTQm5FNGlQOXAzMElnWk00VzdQZ3dkSzFaQ01oc2tUYkFYY2ZMN2gyM25VNDhlUDExM0VyRzNCeUpPUlpTTVM0alNnWkE5RVlkOXdzMmw3dWJDSDc3XzdrQmR3T1FNT3BTWnZVZ0FhNHVfVldjS29xbkpNZHVZdGR3NThwa2cxQy1jczNVQUI5bURod25VRjdpbGpxejZiNnRLOTY4LU83TDlDOGMwT21HTVgzTWdVVm4wUV9zV0t5UGt4Q0NLb1lxRl9E?oc=5"
+    ],
+    "created_at": "2026-09-21T02:42:45.657991Z",
+    "updated_at": "2026-09-21T02:42:45.657991Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "63f3d98f81c1808178a03462a99bdd42eabf896e",
+    "event_date": "2026-07-18",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-07-18T07:00:00Z",
+    "collected_at": "2026-09-21T02:05:51.565737Z",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: A convoy of FAMa and their partners targeted by an ambush in the Kidal region - Bamada.net",
+    "summary": "Mali: A convoy of FAMa and their partners targeted by an ambush in the Kidal Bamada.net region",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3FEMnRVV01qZWNyU0t5NXZhQzlfWjZMdUNTcExSSmtIQmFNbTVvYWdfd2xrQkNTMDdQSFljdUxFak9UemdXTTFFQmZJTzBpV0pQTDM3Q2lJR0RoTzdrMzRjejU2dWVqcmhkVm85cTY1anQtVVN4UjZNTnVWM09DSV9mUDNxbE9hREVCUmVIM0tKeVV2aFBISDllOTlFb0loUDdZbUhVbGdZX0I1bUh1SDBhckQ?oc=5"
+    ],
+    "created_at": "2026-09-21T02:05:51.565737Z",
+    "updated_at": "2026-09-21T02:05:51.565737Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "58cd2f11c7cb90bec3ac035bb870812596ddad4f",
+    "event_date": "2026-07-12",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-07-12T07:00:00Z",
+    "collected_at": "2026-09-20T00:33:45.228595Z",
+    "actor": "Africa Corps/Wagner",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Battle of Anefis: the Africa Corps and the Malian Army announce that they have repelled a vast terrorist offensive in northern Mali - Bamada.net",
+    "summary": "Battle of Anefis: the Africa Corps and the Malian Army announce that they have repelled a vast terrorist offensive in northern Mali Bamada.net",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNb05leHFoVXBtbzRaYXdWcTR0UUVlV1pmSEtUdFZyYlJBcUZ6R0gwdmNsY0RBQ3ZGdjM4czJ2dzRZWEViV1VaY0JXTzlXZi15RFJCcFBEUlY0cDd1blNHRmNVeUVaTUhJTERCSkZkTDBzczg4Q3kxZGRIcU9zd3VzdTk0a1RQdW80aThrQWJtaGJrWlozQkNQTlVnOWI2cUNfbElGRk81M09yZF84dXJJR2tEM1E4YzM3TVBuMVdXM0JFM09kZzRheGtXWXRBVVExQVVYcjRpMzRjXy1qRXc?oc=5"
+    ],
+    "created_at": "2026-09-20T00:33:45.228595Z",
+    "updated_at": "2026-09-20T00:33:45.228595Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
     "id": "87b1bd9953a04cda293b66a0ea5d920a76e6dda2",
     "event_date": "2026-06-18",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-06-18T18:50:55Z",
+    "collected_at": "2026-09-19T18:26:58.796215Z",
     "actor": "Other",
     "event_type": "security operation",
     "country": "Niger",
@@ -303,6 +415,374 @@
     ],
     "created_at": "2026-09-19T18:26:58.796215Z",
     "updated_at": "2026-09-19T18:26:58.796215Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "2cd6a19259a4392a0e133ce72caa612eb3bf511c",
+    "event_date": "2026-05-11",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-05-11T07:00:00Z",
+    "collected_at": "2026-09-21T03:26:04.444316Z",
+    "actor": "JNIM",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "JNIM’s Mali Offensive and the Limits of Counterterrorism in the Sahel - Small Wars Journal",
+    "summary": "JNIM’s Mali Offensive and the Limits of Counterterrorism in the Sahel Small Wars Journal",
+    "sources": [
+      "Small Wars Journal"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMingFBVV95cUxQVkRoazBfQXdxX25nRTRseE1Eamo3dTJna1FwQW5fc29WcXlQOS15SkhSY0lPTFREVHhIdDY4TWxSaGwya2NvZ0h2ZkdIM0Rob1VqdkZheGxXdTRLSlRJb3h0bkRlblJmcjdZaEFqdXpLQkhfQzZ4c0xSV0VxTTA3MGpvQURSZlVrT1IxYmVYQmJWMk5MYTg2NjZfeXhPQQ?oc=5"
+    ],
+    "created_at": "2026-09-21T03:26:04.444316Z",
+    "updated_at": "2026-09-21T03:26:04.444316Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "eab5b3b9cd01e35b31e6b571859e8146a97d77c6",
+    "event_date": "2026-04-22",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2026-04-22T07:00:00Z",
+    "collected_at": "2026-09-19T20:57:03.753921Z",
+    "actor": "Africa Corps/Wagner",
+    "event_type": "kidnapping",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Russia says its Africa Corps has freed Russian and Ukrainian citizens abducted in Niger - AP News",
+    "summary": "Russia says its Africa Corps has freed Russian and Ukrainian citizens abducted in Niger AP News",
+    "sources": [
+      "Associated Press Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMDRyaGo3a2pQOExBTkJ2blRFRWdqQU1hV0F3N2MwbmJIaThRYkEtbmdJQkFaNHF0cUpjN0tYRWo3X0I4YlBzRFcwdFc2VXBfSWxEWVpaM2lFdUFMclZCRUJ6Nm9WaFh4eGFubzN4UmVxTjVJcjlaSFUzY0VZV1hvMlZLWTlacHFwNkZHXzZUcnptLU1WVkQwNFltTWVlRHZiV0VaTTAwbkMzb3JUYXc?oc=5"
+    ],
+    "created_at": "2026-09-19T20:57:03.753921Z",
+    "updated_at": "2026-09-19T20:57:03.753921Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "a0b218df8b8eab386a88d5d4ce46fee6c61e6218",
+    "event_date": "2025-05-15",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2025-05-15T07:00:00Z",
+    "collected_at": "2026-09-20T09:25:23.489464Z",
+    "actor": "State",
+    "event_type": "attack",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Major Jihadist Attack Exposes Military Failings in Burkina Faso - crisisgroup.org",
+    "summary": "Major Jihadist Attack Exposes Military Failings in Burkina Faso crisisgroup.org",
+    "sources": [
+      "International Crisis Group"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeVZZLVRUN29VcDVLUlZxVkVaYzRLblIxV2JhaUd4WHhzVzVlZFBUM1ZMWG05OE44MWk3bjNBclh2SnNVcXMtNnZ2VVVVYWRKRFNfbEUyWk9TN2pIMWhmT1U2R0c0NTgwTFVxb19qOWtFWlhET2R5NGN0R0I4bGtPVlE5SlR6SmRnUDQzMHVkYVNSS0VkZzhxTDFXMHNqUmhyeVpTb0Vpb2FCWnRMdHBGaUhn?oc=5"
+    ],
+    "created_at": "2026-09-20T09:25:23.489464Z",
+    "updated_at": "2026-09-20T09:25:23.489464Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "615e6662263214611ccf4dfebd8aa256c646f8b7",
+    "event_date": "2024-10-09",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2024-10-09T07:00:00Z",
+    "collected_at": "2026-09-21T03:26:04.351811Z",
+    "actor": "Africa Corps/Wagner",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Al-Qaeda Attack on Russians in Bamako Latest Setback for Russia’s Africa Corps - The Jamestown Foundation",
+    "summary": "Al-Qaeda Attack on Russians in Bamako Latest Setback for Russia’s Africa Corps The Jamestown Foundation",
+    "sources": [
+      "Jamestown Foundation - Terrorism Monitor"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQTZPVjdsejRsaDBnejRqVjJkWjR3Njh2QnJ1cE9RUEo3Y25iUlNQNGRtc0d6ejI0ZmlqTzFVcDRZVlhsSHhBTVQ3cEVpUGF2U3g3R05DaHVQN1JCRG1DS0ZTWjFiMUM4Y01Hay1CczgtV29LQzQ3ZHg0Tmpid2p4NWY2TUNLLTZJSVlfWWpKWWlia2NpU0NXX2dxUzQyWnBmU1E?oc=5"
+    ],
+    "created_at": "2026-09-21T03:26:04.351811Z",
+    "updated_at": "2026-09-21T03:26:04.351811Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
+    "id": "72c837c66f55eac865ec6cbb61312ae1eacf7103",
+    "event_date": "2024-09-24",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2024-09-24T07:00:00Z",
+    "collected_at": "2026-09-20T09:25:23.492163Z",
+    "actor": "Other",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "The 17 September Jihadist Attack in Bamako: Has Mali’s Security Strategy Failed? - crisisgroup.org",
+    "summary": "The 17 September Jihadist Attack in Bamako: Has Mali’s Security Strategy Failed? crisisgroup.org",
+    "sources": [
+      "International Crisis Group"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd1lhdkd5Wi1YWWFENVlUMk9jYXl0LUpDUUs5OHFSeWtNVW01d0hWakpZYmo5QzJhWU4yTzdJSmJaX01kUUx2TjdoUDJhdklpNWdrSHgtQ3UxNkpCeTRldERQZW9UWmdhTG1fRWJpRUZyc0RoQXZyMEstOGhWZENMSUl5RWRHcmpjcXl1YXR5eUF1NVllMVZlcFp3NnFHOHVMSm83bGJDUmpKaW5uclJTNVAyVHlJd1lFdmFEMkhqaC1uSGs?oc=5"
+    ],
+    "created_at": "2026-09-20T09:25:23.492163Z",
+    "updated_at": "2026-09-20T09:25:23.492163Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "876f20d4dc8474c88e3bbe99243800144d81c453",
+    "event_date": "2024-07-30",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2024-07-30T07:00:00Z",
+    "collected_at": "2026-09-19T20:57:08.783564Z",
+    "actor": "State",
+    "event_type": "clash",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Mali Army Admits ‘Large Number’ of Losses in Fighting in North - The Defense Post",
+    "summary": "Mali Army Admits ‘Large Number’ of Losses in Fighting in North The Defense Post",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqaXlZRy1qNXFjRnRkeVJFeTdRU1gtZHVRNlVaTDdqMzhUUnpXWktHOFpVX1NJNGxfWm9qOUh1V1I3eVBPM2pjQkY4T1FyTkx4VE00d21WbW41VGpIMEtuYXVjcWVoS2VJRzBINkJ30gFzQVVfeXFMTjQwOTZPOXhkVlRNbGpSUUpsUHlXTTBmUGZoSG5SU3V4bFFOR3FNVmRteGctM1RnNWxiS0FFNWUyWFkwNWRueXpXZlNvOXZ6bnM4bHZMTWh0T3dQd2NYdWhoZGt1UHFXaEp3dXdkazNQWnZfWQ?oc=5"
+    ],
+    "created_at": "2026-09-19T20:57:08.783564Z",
+    "updated_at": "2026-09-19T20:57:08.783564Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "7914bd0758ddae92b022e3cb4a920d216c83e29d",
+    "event_date": "2024-01-25",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2024-01-25T08:00:00Z",
+    "collected_at": "2026-09-21T02:42:40.455776Z",
+    "actor": "Other",
+    "event_type": "security operation",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Burkina Faso: Drone Strikes on Civilians Apparent War Crimes - hrw.org",
+    "summary": "Burkina Faso: Drone Strikes on Civilians Apparent War Crimes hrw.org",
+    "sources": [
+      "Human Rights Watch Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHhTdDZ3X2Z6UUFlRnBjZ0F6TFZRX01TemVHQ0NRbVRUOHI1ajZQOGJwT3F4Ql90ZFlFYnhmZkxNQ2xNOGlXUERfN2dKS3dScFEyRUF1YkllNVBIVmZkQU5xak5fWUtTYzNrT2FlNEcta08xcjJHNUJ3bV9kTzd5WmdwZGZESFo5N0p6LVJvQlRwNlBCSERR?oc=5"
+    ],
+    "created_at": "2026-09-21T02:42:40.455776Z",
+    "updated_at": "2026-09-21T02:42:40.455776Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "9a0da95e8f8ac137b26ca7246ea6ad4391a49ed2",
+    "event_date": "2022-09-06",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2022-09-06T07:00:00Z",
+    "collected_at": "2026-09-21T02:42:34.509627Z",
+    "actor": "Other",
+    "event_type": "IED/explosion",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Burkina Faso: Dozens dead after bus hits IED - dw.com",
+    "summary": "Burkina Faso: Dozens dead after bus hits IED dw.com",
+    "sources": [
+      "DW Africa (EN)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdU1VODdlcHA4ZExGb2pyWHl0ckg1SFVNbHFoMG9XSWdRNENKbTVDT2V1Y05abThrc2NQNzloOWdOOFUycmlVdUZRdHI0Ti1CcWdFcUVFUUxnNU1pendDaklQZ2V4Vi03c091azhKY2sxUjNSU2lpM3Z2elNNWWJfUlh30gGCAUFVX3lxTE1fYTRHRUVGcHpaM3BKUDJlWlMwTUd4NTMtT0VTTEpDanU5dHFVYkdZVzNqZV93YUhOaHgzaUJPQTJMNFdCa2VpLWZTVWlySkI4RnB2MldvTTNUVWNQdGt4RnZZMDhDVGZxUlpoVVRjaTFhZF9Id2p0VjVaczB0a3NZN3c?oc=5"
+    ],
+    "created_at": "2026-09-21T02:42:34.509627Z",
+    "updated_at": "2026-09-21T02:42:34.509627Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "71b51bfa5ba46d9a6ff79cad7a4cb02a23748d75",
+    "event_date": "2022-06-12",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2022-06-12T07:00:00Z",
+    "collected_at": "2026-09-21T02:42:27.335094Z",
+    "actor": "Other",
+    "event_type": "attack",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "'Terrorist attack' kills at least 5 in Mali - VOA Africa",
+    "summary": "'Terrorist attack' kills at least 5 in Mali VOA Africa",
+    "sources": [
+      "VOA Afrique (FR)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ2ZISEhxN1JpdmdoSFVCa2JmVHNYcmNIZWhDVjRZc0hTQTZxeDM1Z3R1bVFhVVlCTEJ1U3U5eTY3bHR5dktfSlQ5d014NXVFaXNMVVFyNEprdmZ2ZDR1S05reWNPS3pYeGNpUlRqVEFiODdTd09lUnhaQVVneUxSLW9mU01XczFkRFNVRE1jeFZmaXQ1QVpCUHg1MmFEQWNDY1BhNk5OeW51anF4a3ZKamRKV25MX3PSAboBQVVfeXFMT3FSRnpXcWdRLWZZbThvT05uTjdDbEQ1U2JHN1RCQVpYaHdEQ1h2RFJkZWJmTG1BSTlaQklxaEtkVG5acERjMXUwQnZvckNnZG96ZVpXdWdxMHZVdnZ3a055dUJXY1BGZ0ZxWkFQYk8tMW5iSm9oaUNLMTVsSHRYVFpFNEd1R0ZWdTBwS3RYMHZ2NTRvcXRSaUpfUVJ6cXRxSUpZU3I5X0RYWnk3S2ktal9KVVA0eXhCcGJR?oc=5"
+    ],
+    "created_at": "2026-09-21T02:42:27.335094Z",
+    "updated_at": "2026-09-21T02:42:27.335094Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "b79891bb2a09ada00a93cb498b6eab621ebbac89",
+    "event_date": "2019-05-10",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2019-05-10T07:00:00Z",
+    "collected_at": "2026-09-20T06:31:33.344118Z",
+    "actor": "Other",
+    "event_type": "attack",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "French soldiers killed in Burkina Faso raid to free foreign hostages - The Defense Post",
+    "summary": "French soldiers killed in Burkina Faso raid to free foreign hostages The Defense Post",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHk5Q2NCVUF4OTBuOEdFQkFmeXVnaDFGeXlZT1RyNl85M0EtalJkYkMteUlLei1NRkp6SFNEVU9UckEzN3hqTHNCd3lOaUprT0xmYUdJMlRDYjFtbElRZnBSUGhLTVY0VUtnU0VqSkMxQloyNHFnSFhzMmJyWHlyZnpoLVQ1bTFP0gGOAUFVX3lxTE9VMW1KQXk1VWRoMnpzODdhWnBkR2JwUVcwTDduZ1F4ZW5QMS1CQTVSUGtLeGZYbU5JMHM1cVZYU0tGWkNwcDJ6d0I0dHZxWWxmT0hjMlFVZDR5Y1NBZXBuamxfQVR1SW84Yml4N2ozV3FOOEhuQ2hHdElzSEpVNXdJa3YxeEhOdEN5OXRZMUE?oc=5"
+    ],
+    "created_at": "2026-09-20T06:31:33.344118Z",
+    "updated_at": "2026-09-20T06:31:33.344118Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
+    "id": "85552cb7e34ecd9250a8aaf44c30d5e179566779",
+    "event_date": "2018-08-22",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "stored",
+    "published_at": "2018-08-22T07:00:00Z",
+    "collected_at": "2026-09-21T02:42:27.338092Z",
+    "actor": "Other",
+    "event_type": "attack",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "A customs officer killed in an attack in Burkina Faso - VOA Africa",
+    "summary": "A customs officer killed in an attack in Burkina Faso VOA Africa",
+    "sources": [
+      "VOA Afrique (FR)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU3JVSVJEQkV5TV9rc0M4VmRHMXExcU95c1M5QlRyRmc1MVlNWkpRVGFOYjlEcVh1clVhUDNTcEdpWXFxSHpjVVVUV3p0Q2xqRXNsZkNIeV96Yno2ODlRMWZoeFNDSUFkbklfNXM0QUl1SGhYRnNud2xBZHJhVFpad0tMT1BmMWJoOFY4aXRaeFg0N1pKeU5wTGVxN2FUNGFn0gGjAUFVX3lxTE1WNUNUcGdjdGg1U1BPYkhxYnlrRllndi10cWx1SzRNdTl4enRydkJoNl92NzN4Wjg4VlV6bjFHcHloTG9rY2RES1lEd1BGdFhXNF8zbC1aZldTX0hhanlkTzJCa1VidDdrdGtDSDhlZzJFbnVsS2xqQ3hSRDlZRHRBV3VlLXM2RS1GZWJfREtoRWlVaFdUOFJyakQtRGgzLU1ET28?oc=5"
+    ],
+    "created_at": "2026-09-21T02:42:27.338092Z",
+    "updated_at": "2026-09-21T02:42:27.338092Z",
     "extraction_confidence": "low",
     "corroboration": "single-source",
     "confidence": "low"
