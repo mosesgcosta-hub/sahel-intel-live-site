@@ -1,5 +1,60 @@
 [
   {
+    "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
+    "event_date": "2026-09-19",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-21T11:30:07Z",
+    "collected_at": "2026-09-21T12:30:39.468220Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura",
+    "summary": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura As part of their sovereign missions to monitor and secure the national territory, the Malian Armed Forces (FAMa) shot down a Ukrainian-made drone on Saturday, September 19, 2026 at 5:30 p.m. . The craft was intercepted and neutralized by special forces about 5 kilometers north of the locality of Dioura, in the Mopti region. According to av",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/flash-info/311945-securite-un-drone-ukrainien-abattu-par-les-forces-speciale.html"
+    ],
+    "created_at": "2026-09-21T12:30:39.468220Z",
+    "updated_at": "2026-09-21T12:30:39.468220Z",
+    "extraction_confidence": "low",
+    "corroboration": "single-source",
+    "confidence": "low"
+  },
+  {
     "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
     "event_date": "2026-09-19",
     "event_date_confidence": "explicit-text",
