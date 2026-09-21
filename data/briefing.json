@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-21T04:39:50.339165Z",
+  "generated_at": "2026-09-21T05:27:21.293550Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "NO MATERIAL CHANGE",
+  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
-  "new_reports_this_cycle": 0,
+  "new_reports_this_cycle": 1,
   "trend_snapshot": {
     "JNIM": {
       "current": 1,
@@ -54,8 +54,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "21a9afce5567bd32c3deec0014ba33356d91c766",
-  "previous_fingerprint": "571ab3b88a53da91f75f921fdf147c92085cbf21",
+  "briefing_fingerprint": "6632f6a8453132fd1d18e74e0d443f32c5344f88",
+  "previous_fingerprint": "21a9afce5567bd32c3deec0014ba33356d91c766",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -64,7 +64,8 @@
     "3e445546a0e7bf2a9fe76dd7c46632d409e300a8",
     "f3723263da07faad118eaee2ea2089f0310c0273",
     "6d1ab670e95d588b79dd37d28abfa38548924576",
-    "6b772473813abe122422b4ec494203180aebacd1"
+    "6b772473813abe122422b4ec494203180aebacd1",
+    "92ccf064bcc7a9354fb1678a63b9871cba8d0102"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 117 French or Arabic reports; 117 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 1 new relevant report, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Institute for Security Studies Africa reports from Niger: Niger and Mali should reconcile justice and military responses to terrorism - ISS Africa. This is retained reporting context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 117 French or Arabic reports; 117 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
