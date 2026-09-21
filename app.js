@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='2.2';
+const SITE_UI_VERSION='2.3';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -56,6 +56,11 @@ const COUNTRY_LABELS=[
   {name:'BURKINA FASO',lat:11.0102,lng:-1.6595,anchor:'middle'},
   {name:'NIGER',lat:21.1015,lng:12.7713,anchor:'end'}
 ];
+const COUNTRY_EVENT_ANCHORS={
+  'Mali':{lat:19.4,lng:-5.4},
+  'Burkina Faso':{lat:12.0,lng:-3.5},
+  'Niger':{lat:18.8,lng:9.8}
+};
 // City coordinates are pinned to known populated-place coordinates rather than inferred from article text.
 const CITY_LABELS=[
   {name:'Bamako',country:'Mali',lat:12.60915,lng:-7.97522,dx:7,dy:-7,anchor:'start'},
@@ -102,15 +107,29 @@ function renderMap(){
   window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
 
 
-  let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate));
+  let events=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
+  const countryOnlySeen={};
   events.slice(0,400).forEach(e=>{
-    const [x,y]=project(Number(e.lng),Number(e.lat));
+    let lat=Number(e.lat),lng=Number(e.lng),countryLevel=false;
+    if(!Number.isFinite(lat)||!Number.isFinite(lng)){
+      const a=COUNTRY_EVENT_ANCHORS[e.country];
+      if(!a)return;
+      countryLevel=true;
+      const n=countryOnlySeen[e.country]||0;countryOnlySeen[e.country]=n+1;
+      const offsets=[[0,0],[.55,.65],[-.5,.65],[.7,-.55],[-.7,-.5],[1.0,.15],[-1.0,.1]];
+      const o=offsets[n%offsets.length];lat=a.lat+o[0];lng=a.lng+o[1];
+    }
+    const [x,y]=project(lng,lat);
     if(x<0||x>1000||y<0||y>560)return;
     const g=svgEl('g');const c=actorColor(e.actor);
     g.appendChild(svgEl('circle',{cx:x,cy:y,r:13,fill:c,class:'eventhalo'}));
-    const dot=svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
-    g.appendChild(dot);g.classList.add('event-marker');g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventDetail(e));svg.appendChild(g)
+    const dot=countryLevel
+      ? svgEl('rect',{x:x-5.2,y:y-5.2,width:10.4,height:10.4,transform:`rotate(45 ${x} ${y})`,fill:'none',stroke:c,'stroke-width':2.4,class:'eventdot country-event-dot'})
+      : svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
+    g.appendChild(dot);g.classList.add('event-marker');
+    const displayEvent=countryLevel?{...e,_country_level:true}:e;
+    g.addEventListener('mouseenter',ev=>showTip(ev,displayEvent));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventDetail(displayEvent));svg.appendChild(g)
   });
 
   // Cities: collision-aware label placement. Keep coordinates exact; move only the text label.
@@ -151,7 +170,7 @@ function renderMap(){
   const mapped=visibleEvents.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
   const countCountry=name=>mapped.filter(e=>e.country===name).length;
   const unmapped=visibleEvents.filter(e=>!Number.isFinite(Number(e.lat))||!Number.isFinite(Number(e.lng))).length;
-  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Unmapped ${unmapped}`);
+  setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Country-level ${countryLevel} • Unmapped ${unmapped}`);
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 
@@ -163,7 +182,7 @@ function showEventDetail(e){
 }
 function hideTip(){const t=$('#maptip');if(t)t.style.display='none'}
 
-function lineSVG(seriesList,{height=100,showAxes=false}={}){const width=800,pad=showAxes?32:4;const vals=seriesList.flatMap(s=>s.values);const max=Math.max(1,...vals),min=0;const n=Math.max(2,...seriesList.map(s=>s.values.length));const sx=i=>pad+(i/(n-1))*(width-pad*2);const sy=v=>height-pad-(v-min)/(max-min||1)*(height-pad*2);let grid='';if(showAxes){for(let i=0;i<5;i++){const y=pad+i*(height-pad*2)/4;grid+=`<line x1="${pad}" y1="${y}" x2="${width-pad}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/><text x="4" y="${y+3}" fill="var(--chart-axis)" font-size="9">${Math.round(max*(1-i/4))}</text>`}}const lines=seriesList.map(s=>{if(!s.values.length)return'';const pts=s.values.map((v,i)=>`${sx(i)},${sy(v)}`).join(' ');return `<polyline fill="none" stroke="${s.color}" stroke-width="2.2" points="${pts}" vector-effect="non-scaling-stroke"/>`}).join('');return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${grid}${lines}</svg>`}
+function lineSVG(seriesList,{height=100,showAxes=false}={}){const width=800,pad=showAxes?32:4;const vals=seriesList.flatMap(s=>s.values);const max=Math.max(1,...vals),min=0;const n=Math.max(2,...seriesList.map(s=>s.values.length));const sx=i=>pad+(i/(n-1))*(width-pad*2);const sy=v=>height-pad-(v-min)/(max-min||1)*(height-pad*2);let grid='';if(showAxes){for(let i=0;i<5;i++){const y=pad+i*(height-pad*2)/4;grid+=`<line x1="${pad}" y1="${y}" x2="${width-pad}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/><text x="4" y="${y+3}" fill="var(--chart-axis)" font-size="9">${Math.round(max*(1-i/4))}</text>`}}const lines=seriesList.map(s=>{if(!s.values.length)return'';const pts=s.values.map((v,i)=>`${sx(i)},${sy(v)}`).join(' ');return `<polyline fill="none" stroke="${s.color}" stroke-width="2.3" points="${pts}" vector-effect="non-scaling-stroke"/>`}).join('');return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${grid}${lines}</svg>`}
 function renderActors(){const m=state.metrics;if(!m)return;const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark']};Object.entries(ids).forEach(([a,[countId,chgId,sparkId]])=>{const t=m.trends_7d?.[a],rows=m.series?.[a]||[];setText(countId,t?.current??0);const ch=$(`#${chgId}`);ch.textContent=pct(t);ch.className=trendClass(t);$(`#${sparkId}`).innerHTML=lineSVG([{values:rows.slice(-30).map(x=>x.count),color:actorColor(a)}],{height:72})});}
 function renderQuant(){
   const m=state.metrics;if(!m)return;

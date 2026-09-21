@@ -28,7 +28,17 @@
         <section class="panel map-panel">
           <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Central Sahel Event Map</h2><p class="subnote">Red AES borders • high-visibility pinned city labels • country names positioned away from city text.</p></div><div class="map-controls"><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange"><button class="map-range" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range active" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div></div>
           <div id="map" class="map"></div>
-          <div class="legend"><span><i class="dot jnim"></i> JNIM event</span><span><i class="dot is"></i> IS Sahel event</span><span><i class="dot state"></i> State event</span><span><i class="dot other"></i> Other event</span><span><i class="city-key"></i> City</span><span>Embedded vector map • no map API</span></div><div id="mapCountryCounts" class="map-country-counts">Mapped candidate events • Mali 0 • Burkina Faso 0 • Niger 0 • Unmapped 0</div>
+          <div class="legend"><span><i class="dot jnim"></i> JNIM event</span><span><i class="dot is"></i> IS Sahel event</span><span><i class="dot state"></i> State event</span><span><i class="dot other"></i> Other event</span><span><i class="city-key"></i> City</span><span><i class="country-event-key"></i> Country-level event (exact location unresolved)</span><span>Embedded vector map • no map API</span></div><div id="mapCountryCounts" class="map-country-counts">Candidate events • Mali 0 • Burkina Faso 0 • Niger 0 • Country-level 0 • Unmapped 0</div>
+        </section>
+
+        <section class="panel actor-board">
+          <div class="panelhead"><div><span class="eyebrow">OSINT EVENT SIGNAL</span><h2>Actor Momentum</h2></div><div class="methodpill">7D vs previous 7D</div></div>
+          <div class="actorcards">
+            <article class="actorcard" data-actor="JNIM"><span>JNIM</span><strong id="jnim7">0</strong><em id="jnimChange">—</em><div id="jnimSpark" class="spark"></div></article>
+            <article class="actorcard" data-actor="IS Sahel"><span>IS SAHEL</span><strong id="is7">0</strong><em id="isChange">—</em><div id="isSpark" class="spark"></div></article>
+            <article class="actorcard" data-actor="State"><span>STATE ACTIVITY</span><strong id="state7">0</strong><em id="stateChange">—</em><div id="stateSpark" class="spark"></div></article>
+          </div>
+          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. They are not automatically verified incidents.</p>
         </section>
 
         <aside class="panel sitrep">
@@ -61,16 +71,6 @@
           <h3 class="timeline-title">Latest relevant reporting in the 30-day window</h3>
           <div id="thirtyReports" class="event-timeline report-timeline"></div>
           <p id="thirtyNote" class="note"></p>
-        </section>
-
-        <section class="panel actor-board">
-          <div class="panelhead"><div><span class="eyebrow">OSINT EVENT SIGNAL</span><h2>Actor Momentum</h2></div><div class="methodpill">7D vs previous 7D</div></div>
-          <div class="actorcards">
-            <article class="actorcard" data-actor="JNIM"><span>JNIM</span><strong id="jnim7">0</strong><em id="jnimChange">—</em><div id="jnimSpark" class="spark"></div></article>
-            <article class="actorcard" data-actor="IS Sahel"><span>IS SAHEL</span><strong id="is7">0</strong><em id="isChange">—</em><div id="isSpark" class="spark"></div></article>
-            <article class="actorcard" data-actor="State"><span>STATE ACTIVITY</span><strong id="state7">0</strong><em id="stateChange">—</em><div id="stateSpark" class="spark"></div></article>
-          </div>
-          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. They are not automatically verified incidents.</p>
         </section>
 
         <aside class="panel sultana">
