@@ -47,7 +47,7 @@
             <div><span>Reports retained</span><strong id="reports24">0</strong></div>
             <div><span>Sources represented</span><strong id="sources24">0</strong></div>
             <div><span>Mapped reports</span><strong id="mapped24">0</strong></div>
-            <div><span>Configured sources</span><strong id="configuredSources">33</strong></div>
+            <div><span>Configured sources</span><strong id="configuredSources">63</strong></div>
           </div>
           <div class="source-health-mini"><div><span>Live</span><strong id="liveSources">0</strong></div><div><span>Degraded</span><strong id="degradedSources">0</strong></div><div><span>Failed</span><strong id="failedSources">0</strong></div></div>
           <div class="runbox" id="runBox">Awaiting first collection run.</div>
@@ -123,9 +123,13 @@
 
     <section id="view-sources" class="view">
       <section class="panel full">
-        <div class="panelhead"><div><span class="eyebrow">COLLECTION OPERATIONS</span><h2>33-Source Collection Monitor</h2></div><div><a class="methodpill" href="./diagnostics.html">SYSTEM LOG ↗</a> <span id="opsBadge" class="status offline">OFFLINE</span></div></div>
+        <div class="panelhead"><div><span class="eyebrow">COLLECTION OPERATIONS</span><h2>63-Source Collection Monitor</h2></div><div><a class="methodpill" href="./diagnostics.html">SYSTEM LOG ↗</a> <span id="opsBadge" class="status offline">OFFLINE</span></div></div>
         <div id="opsSummary" class="ops-summary"></div>
-        <div class="source-table-wrap"><table><thead><tr><th>Source</th><th>Lang</th><th>Focus</th><th>Status</th><th>Last check</th><th>Discovered</th><th>Retained</th><th>Translations</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
+        <div class="integrity-grid">
+          <section class="integrity-card"><span class="eyebrow">PIPELINE HEALTH</span><div id="pipelineFunnel" class="pipeline-funnel"></div></section>
+          <section class="integrity-card"><span class="eyebrow">LANGUAGE COVERAGE</span><div id="languageCoverage" class="language-coverage"></div><div id="languageWarning" class="coverage-warning"></div></section>
+        </div>
+        <div class="source-table-wrap"><table><thead><tr><th>Source</th><th>Lang</th><th>Type</th><th>Focus</th><th>Status</th><th>Last check</th><th>Discovered</th><th>Retained</th><th>Translations</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
         <h3>Recent Collection Runs</h3><div id="runHistory" class="runs"></div>
       </section>
     </section>

@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-21T02:27:22.282056Z",
+  "generated_at": "2026-09-21T02:43:22.735543Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 107,
+  "reports": 117,
+  "incident_reports": 7,
   "candidate_events": 6,
   "corroborated_events": 1,
   "mapped_events": 3,
-  "distinct_sources": 18,
+  "distinct_sources": 26,
   "by_actor": {
     "State": 6
   },
@@ -19,8 +20,9 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 102,
-    "en": 5
+    "fr": 107,
+    "en": 7,
+    "ar": 3
   },
   "by_confidence": {
     "low": 3,
@@ -111,7 +113,7 @@
     },
     {
       "date": "2026-08-25",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     },
     {
@@ -131,7 +133,7 @@
     },
     {
       "date": "2026-08-29",
-      "reports": 2,
+      "reports": 4,
       "events": 0
     },
     {
@@ -146,17 +148,17 @@
     },
     {
       "date": "2026-09-01",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     },
     {
       "date": "2026-09-02",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     },
     {
       "date": "2026-09-03",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -206,7 +208,7 @@
     },
     {
       "date": "2026-09-13",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -241,12 +243,12 @@
     },
     {
       "date": "2026-09-20",
-      "reports": 18,
+      "reports": 20,
       "events": 1
     },
     {
       "date": "2026-09-21",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     }
   ],
@@ -418,6 +420,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-21T02:42:38.807676Z",
+      "source": "UNOWAS",
+      "language": "en",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "COP29 Baku - Deputy Special Representative Barrie Freeman calls on West African actors to mobilize to better combat the impact of climate change on peace and security in the sub-region",
+      "url": "https://unowas.unmissions.org/en/press-releases/cop29-baku-deputy-special-representative-barrie-freeman-calls-on-west-african"
+    },
+    {
       "published_at": "2026-09-20T23:08:03Z",
       "discovered_at": "2026-09-20T23:23:58.935603Z",
       "source": "Sidwaya",
@@ -561,6 +576,19 @@
       "url": "https://anp.ne/syndicat-ouverture-a-niamey-des-travaux-du-6eme-congres-confederal-ordinaire-de-la-cdtn/"
     },
     {
+      "published_at": "2026-09-20T19:47:44Z",
+      "discovered_at": "2026-09-21T02:42:26.472459Z",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "64' Debate: Ukraine/ Russia, Africa the other war ground?",
+      "url": "https://information.tv5monde.com/afrique/video/64-debat-ukraine-russie-lafrique-lautre-terrain-de-guerre-2838368"
+    },
+    {
       "published_at": "2026-09-20T19:37:36Z",
       "discovered_at": "2026-09-20T20:25:17.052139Z",
       "source": "Aïr Info",
@@ -624,6 +652,19 @@
       "candidate_event": false,
       "title": "Burkina: the alleged perpetrator of the rape of the 13-year-old girl arrested",
       "url": "https://www.wakatsera.com/burkina-le-presume-auteur-de-viol-de-la-fille-de-13-ans-interpelle/"
+    },
+    {
+      "published_at": "2026-09-20T08:01:46Z",
+      "discovered_at": "2026-09-21T02:42:32.429296Z",
+      "source": "Afrik.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Uranium in Niger: Niamey's real bet is not to choose between Washington and Moscow",
+      "url": "https://www.afrik.com/uranium-au-niger-le-vrai-pari-de-niamey-n-est-pas-de-choisir-entre-washington-et-moscou"
     },
     {
       "published_at": "2026-09-20T07:54:51Z",
@@ -897,45 +938,6 @@
       "candidate_event": false,
       "title": "National Volunteering: Burkina Faso aims to build a pool of one million reservists in five years",
       "url": "https://lefaso.net/spip.php?article149349="
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T18:56:21.932137Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Gao",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Gao: Reconciliation Village launched",
-      "url": "https://bamada.net/gao-lancement-du-village-de-la-reconciliation"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T18:56:21.887723Z",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Bamako: Better traffic management before the next tragedy",
-      "url": "https://journaldumali.com/bamako-mieux-organiser-la-circulation-avant-le-prochain-drame/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T18:26:47.284957Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso/ Higher Military Education: Prime Minister Rimtalba Jean Emmanuel Ouédraogo officially opens the War School",
-      "url": "https://lefaso.net/spip.php?article149320="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

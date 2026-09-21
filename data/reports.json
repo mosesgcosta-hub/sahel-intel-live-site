@@ -1,5 +1,44 @@
 [
   {
+    "id": "5ee3989257c207ef926fef0cd49037a8af4935a8",
+    "source_id": "unowas",
+    "source": "UNOWAS",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://unowas.unmissions.org/en/press-releases/cop29-baku-deputy-special-representative-barrie-freeman-calls-on-west-african",
+    "title": "COP29 Baku - Deputy Special Representative Barrie Freeman calls on West African actors to mobilize to better combat the impact of climate change on peace and security in the sub-region",
+    "translated_title": null,
+    "excerpt": "During the COP29, UNOWAS, in collaboration with its partners, organized two important meetings to raise awareness and to mobilize public and private players on the impact of climate change on peace and security in West Africa and the Sahel. Dakar, November 19, 2024 - The Deputy Special Representative of the United Nations Secretary-General for West Africa and the Sahel (UNOWAS), Barrie Freeman, undertook a working mission to Baku, Azerbaijan, from November 14 to 18, 2024, to participate at the COP29. On Monday November 18, Ms. Freeman chaired a working meeting on “Water Security and Diplomacy in West Africa and the Sahel”. Organized by UNOWAS in collaboration with the African Development Bank (AfDB) and the African Union (AU), the meeting highlighted the importance of fostering peace and development through water diplomacy. “UNOWAS will continue to work with its partners to ensure that access to water is integrated into conflict prevention strategies to strengthen peace and prosperity in the sub-region,” said Ms Freeman in her opening remarks. The meeting recommended strengthening co",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": null,
+    "discovered_at": "2026-09-21T02:42:38.807676Z",
+    "discovery": "homepage",
+    "fetch_status": "full-text",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline event signal: clash (combat)",
+      "security context: security"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "clash",
+    "operational_event": true,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "multilateral",
+    "configured_language": "en"
+  },
+  {
     "id": "f2e889606ef6c3ba5cd2b666455b99c2fb789859",
     "source_id": "sidwaya",
     "source": "Sidwaya",
@@ -34,7 +73,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "dde9920d56f72859e04136d8c1a51ff525d6bd8f",
@@ -72,7 +113,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "actor-inferred-country"
+    "geo_confidence": "actor-inferred-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b35167cf5b640d7097fb35d6d839d7ab0785bdd0",
@@ -109,7 +152,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6f5bed023012b90a5c5c4ff3dd7d040e612c306a",
@@ -146,7 +191,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "ed209c1b6854921a29b7ef675735c29a53ccd2de",
@@ -183,7 +230,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "1368dbee61164a3ad415ffbe9ce7a43044ae125c",
@@ -221,7 +270,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "26ee5dad58ec1adb70a827f0577d4000b4946cf8",
@@ -259,7 +310,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "1aa1d1c8984db3fccaa3298fb9be2b39ea34c1e5",
@@ -296,7 +349,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "9479f8725d9360d499e965da75c11829d275e090",
@@ -334,7 +389,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "82f2bf219803a072f68e721b7199e86d9495b2a4",
@@ -371,7 +428,9 @@
     "city": "Dosso",
     "lat": 13.049,
     "lng": 3.1937,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "818d1920854487beef1a81c23ab49b8c9111bff6",
@@ -408,7 +467,47 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "491fac2e2eef39e241488b57b59bfca32d58198b",
+    "source_id": "tv5monde-afrique",
+    "source": "TV5MONDE Afrique",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://information.tv5monde.com/afrique/video/64-debat-ukraine-russie-lafrique-lautre-terrain-de-guerre-2838368",
+    "title": "64' Débat: Ukraine/ Russie, l'Afrique l'autre terrain de guerre ?",
+    "translated_title": "64' Debate: Ukraine/ Russia, Africa the other war ground?",
+    "excerpt": "Une dernière enquête de CNN atteste de la présence d'instructeurs ukrainiens dans le nord Mali. Quelles peuvent être les conséquences de cet affrontement larvé ? On en débat avec Ulrich Bounat, analyste géopolitique Europe centrale/Est, Ukraine, chercheur associé à Euro Créative, et Noé Michalon, journaliste pour Africa Intelligence, le premier site d'information sur l'Afrique destiné à un public professionnel.",
+    "translated_excerpt": "A final CNN investigation attests to the presence of Ukrainian instructors in northern Mali. What can be the consequences of this latent confrontation? We discuss it with Ulrich Bounat, geopolitical analyst Central/Eastern Europe, Ukraine, associate researcher at Euro Créative, and Noé Michalon, journalist for Africa Intelligence, the first news site on Africa for a professional audience.",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-09-20T19:47:44Z",
+    "discovered_at": "2026-09-21T02:42:26.472459Z",
+    "discovery": "rss:/rss.xml",
+    "fetch_status": "full-text",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "event signal: clash (affrontement)"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "clash",
+    "operational_event": true,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "6e04ab65c46b1ba5f1ca6978e723625dea26d2bd",
@@ -445,7 +544,9 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "7147dbb517dc1312d7d8ac54a7702f4d78c1767d",
@@ -482,7 +583,9 @@
     "city": "Tillabéri",
     "lat": 14.2071,
     "lng": 1.4542,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "87f8221cfe058bd3eee2f77875a9d7d7736d9679",
@@ -519,7 +622,9 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "1fc7dacae4ab4e8232938b036a8bc93f930650e0",
@@ -557,7 +662,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "a66b065188073150bb6e8abf6b31fce790a3ca4a",
@@ -595,7 +702,47 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "e37bf0aae10fbc403d519b10b815418d14a93857",
+    "source_id": "afrik-fr",
+    "source": "Afrik.com",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://www.afrik.com/uranium-au-niger-le-vrai-pari-de-niamey-n-est-pas-de-choisir-entre-washington-et-moscou",
+    "title": "Uranium au Niger : le vrai pari de Niamey n’est pas de choisir entre Washington et Moscou",
+    "translated_title": "Uranium in Niger: Niamey's real bet is not to choose between Washington and Moscow",
+    "excerpt": "Le 16 septembre, l’agence américaine de financement du développement (DFC) a approuvé un investissement jusqu’à 414,2 millions de dollars pour la mine d’uranium de Dasa, portée par le canadien Global Atomic. Beaucoup y ont vu le signe d’un retour américain sur les décombres de l’influence française au Niger. Le tableau est en réalité plus large car au moment même où Niamey courtise les capitaux américains pour sa mine principale, elle approfondit sur son propre sol sa coopération sécuritaire avec la Russie. Le conseil d’administration de la DFC a approuvé, le 16 septembre, une facilité de dette pouvant atteindre 414,2 millions de dollars pour le projet Dasa, dans la région d’Agadez. Global Atomic a précisé deux jours plus tard la structure de ce financement avec jusqu’à 397,4 millions de dollars de prêt principal et 16,8 millions pour couvrir d’éventuels dépassements de coûts. Le coût total du projet atteint désormais environ 777 millions de dollars, dont plus de 228 millions avaient déjà été investis à la fin juin. La production commerciale est visée pour le second semestre 2028. Un",
+    "translated_excerpt": "On September 16, the US development finance agency (DFC) approved an investment of up to $414.2 million for the DASA uranium mine, supported by the Canadian Global Atomic. Many saw it as a sign of an American return to the rubble of French influence in Niger . The picture is actually broader because at the same time that Niamey is courting American capital for its main mine, it is deepening its security cooperation with Russia on its own soil. On 16 September, the DFC Board of Directors approved a debt facility of up to $414.2 million for the DASA project in the Agadez region . Global Atomic clarified two days later the structure of this financing with up to $397.4 million in principal loan and $16.8 million to cover possible cost overruns. The total cost of the project now stands at approximately $777 million, of which more than $228 million had already been invested by the end of June. Commercial production is targeted for the second half of 2028. A",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-09-20T08:01:46Z",
+    "discovered_at": "2026-09-21T02:42:32.429296Z",
+    "discovery": "rss:/feed",
+    "fetch_status": "full-text",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit place: Niamey (niamey)",
+      "event signal: political/security policy (coopération sécuritaire)"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "political/security policy",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "geo_confidence": "explicit-place",
+    "source_type": "regional_media",
+    "configured_language": "fr"
   },
   {
     "id": "464ef4cf8f18389db84302d90ef5fbda2c040b26",
@@ -635,7 +782,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "50530952a7a3dbdded83baaf4d79bcaf8da31bd4",
@@ -672,7 +821,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "60c3114b99eb93af5018571d65b2544faac44cda",
@@ -710,7 +861,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "064ee18e749102e2071986ced7b26dd162ea853c",
@@ -747,7 +900,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "2ca239411df2d209b2e267898e5a490c6c023690",
@@ -787,7 +942,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "51dbb7ef9c5e8d430e471dbece2e28b76ada38de",
@@ -824,7 +981,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "8cc6e73a622c200b7de5c035055f586b12cb3f68",
@@ -863,7 +1022,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "actor-inferred-country"
+    "geo_confidence": "actor-inferred-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "673a61ec61fe0bc4f061b616b86c1ad0b52690ae",
@@ -900,7 +1061,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "actor-inferred-country"
+    "geo_confidence": "actor-inferred-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "30217d56ebd6d6d3d8b24161074054f0d5c9b717",
@@ -938,7 +1101,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "651b27451e8786d0a0d7e9ababdc88531562a71e",
@@ -975,7 +1140,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "d59c0cbb106bf0db3dacc968a1593ba340e71fae",
@@ -1012,7 +1179,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "8bbd0e7b823c74f9ef269e3f0f42ecfc56569540",
@@ -1049,7 +1218,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "241241d8331e2f5008b17badad47859bf26f592f",
@@ -1087,7 +1258,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "50be5abf21724115e2a52767ff6c6c5f1a743c40",
@@ -1124,7 +1297,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "regional"
+    "geo_confidence": "regional",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6239bd61f6421d3b0820c686699a92dee9a4d72b",
@@ -1161,7 +1336,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "54dcd81f1212992210fc301eab1d0e3d7d9f44c6",
@@ -1198,7 +1375,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "89a551d5f3807f26c70ca2b8040b61a888664ac2",
@@ -1235,7 +1414,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "9375d1b3e21f94512167f0b7692d444589cab982",
@@ -1273,7 +1454,9 @@
     "city": "Sévaré",
     "lat": 14.5272,
     "lng": -4.0934,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "8dfe6d2e51bcc9f2fd6473235877147db8ffc772",
@@ -1311,7 +1494,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "a0f9f99fd2ebb80dc0243ce57a2f97c60d05671a",
@@ -1348,7 +1533,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "66eca0b90ef907335f4f862cf380ef4172d772dd",
@@ -1385,7 +1572,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "cfd75f7c70db21e5982792c12efceb61def7f703",
@@ -1422,7 +1611,9 @@
     "lat": 16.2717,
     "lng": -0.0447,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e5182923c6080827b3a61fa08dfe6e862f1f3d0b",
@@ -1459,7 +1650,9 @@
     "lat": 12.6392,
     "lng": -8.0029,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "819f4901a3e18cb640b96b45f32823a589a0a941",
@@ -1496,7 +1689,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "85d6ad5a95a1003bfa93a150c76b4cad55f554c4",
@@ -1533,7 +1728,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "67ee766cd684e14d367d7a5897d072beb376534b",
@@ -1570,7 +1767,9 @@
     "lat": 12.3714,
     "lng": -1.5197,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "4a970a8a74c9412240716ff7a3947258517d78b9",
@@ -1607,7 +1806,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "014d263772f7366e6037f8252a598bf219c8dfaf",
@@ -1645,7 +1846,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e91dfec4c2a20949cd327b0cf249f376cfbb11f3",
@@ -1682,7 +1885,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "971af52ae8415a8806b78b39d554b26423b1baba",
@@ -1719,7 +1924,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "3a6650f0a1974b2b5af79e43bad0871d8dce5227",
@@ -1757,7 +1964,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e2e525a7d1e36a118084171646b2e1e1eed0b45c",
@@ -1794,7 +2003,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "24e1b9c1c06f1960f7c2fee0334cef727b5507fb",
@@ -1831,7 +2042,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b7bb9e23ee3f0a6a006d662f992921006e1f8f1e",
@@ -1870,7 +2083,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "932fbe3941393d7c072ef8448668df05d7439325",
@@ -1907,7 +2122,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e49b74251b5562ba9ab643933c502a2c101ab436",
@@ -1944,7 +2161,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "546bdf962659d72f229460e7fcef2ea50a52d492",
@@ -1982,7 +2201,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "1d4b4dfafd532e363cdd313b0ea5147fc41ea3c7",
@@ -2019,7 +2240,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6ac401a1f8112c15cf9986bbf3a87d83cf2fe2f3",
@@ -2056,7 +2279,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "f904d8e38e6293c9d34985e662124de0ef5a9dcf",
@@ -2093,7 +2318,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "7b42631aa85d52ccdddb912211f8c8d429235dec",
@@ -2130,7 +2357,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "8e6eaed671a99e99df046ca2850fefa317283971",
@@ -2167,7 +2396,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6e343203430055c6c92ce64b5ca749c025c216e4",
@@ -2204,7 +2435,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "0ec155a9bcd3f44aad2e1a641c23907407ae4428",
@@ -2240,7 +2473,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "1c440d92e3cf11e1ef10f8f5bbeccd3c56066e96",
@@ -2277,7 +2512,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "regional",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "a5ed2016c3ad81cbe482fc0687034d39f4037efe",
@@ -2314,7 +2551,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "d1ef6260d0875c7b72ab9ae8333c6e5e2e6e3574",
@@ -2351,7 +2590,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "58870ed4c4619463124fa21b72b8b562ff1dd460",
@@ -2387,7 +2628,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "29c74fd89c15e2b8ed22cf5020538dcb9c140848",
@@ -2424,7 +2667,9 @@
     "lat": 16.2717,
     "lng": -0.0447,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "29d232f6e6ddda2effa2ed3f8452ee8ca7766584",
@@ -2461,7 +2706,9 @@
     "lat": 12.6392,
     "lng": -8.0029,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "75ca72e746729bdbef2ab2b4e06c2c8d6fb4551b",
@@ -2498,7 +2745,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b1a56cee9e28308f3c8538bb3b70338905a84c29",
@@ -2535,7 +2784,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "8d466a278e1ca4d121a94209fbffceb8b6f57c14",
@@ -2572,7 +2823,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "303070ef79215993aafd6b3d1835051e06542030",
@@ -2609,7 +2862,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "aa8becd92b732df8fd3fd347f39a2a7cad398dc9",
@@ -2646,7 +2901,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "75c5b2987bda4c5fb33e3be677ace32894555610",
@@ -2683,7 +2940,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "cda7e3f8cace26e8a208c03bfc2772fe1a113594",
@@ -2720,7 +2979,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "actor-inferred-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "3b05c319d0b1fb3ab6a1f559c5c14ec18f885cf3",
@@ -2758,7 +3019,9 @@
     "city": "Tahoua",
     "lat": 14.8888,
     "lng": 5.2692,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "88d0ab9103ec75cae2fa52045506a816121caee7",
@@ -2795,7 +3058,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6e4438af43a83e4ac9de94d7cfe6fe4f8057b516",
@@ -2833,7 +3098,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "083d865cd32551e68ccad0e5862b4c0344e9feee",
@@ -2870,7 +3137,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e01d0fb186fa575383bc507061e20c60305028e8",
@@ -2908,7 +3177,9 @@
     "city": "Kidal",
     "lat": 18.4411,
     "lng": 1.4078,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "7d5a69ef03278c9e3d73361a2ab30174b0ab465e",
@@ -2945,7 +3216,9 @@
     "translation_status": "success",
     "translation_attempts": 6,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b65b3962af4dbe740f62df6b023dbd8640023879",
@@ -2982,7 +3255,9 @@
     "city": "Tahoua",
     "lat": 14.8888,
     "lng": 5.2692,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "c2faf358d9aca753ce81588545c9d10b259c4eb7",
@@ -3019,7 +3294,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b5d710010c0b709c7bb725500f60dccea5f7cf05",
@@ -3057,7 +3334,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "eb1a624cbff04f0fb8d2f79abe048481f59084cb",
@@ -3096,7 +3375,9 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "18c07815f05168d2449a4739586996dab2bfa8ef",
@@ -3133,7 +3414,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e3831c18aabc4dc4856086afd73efecba9069c54",
@@ -3171,7 +3454,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "d71d0b845b9676bc688f11ad50a9f55fd660e46a",
@@ -3209,7 +3494,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "0be7ea14d6b738fc0de0471a9d60797dd61182cd",
@@ -3246,7 +3533,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6d654243058cb7453730b128d2d939743973a67f",
@@ -3283,7 +3572,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "fba7dd30cc18b9c2e37a748abb794622663ebc08",
@@ -3321,7 +3612,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "db1028fe238c6fc4df1b41950d0788e495141162",
@@ -3359,7 +3652,9 @@
     "translation_status": "success",
     "translation_attempts": 10,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "87a2968e53c80432ca165f5240870def9a7bfee4",
@@ -3396,7 +3691,9 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "39001ccef62dde0290cb63c10d1974c5dc88cd13",
@@ -3433,7 +3730,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "374a7f60ab78e42c9e73d05fe1f75248ad7c7c09",
@@ -3470,7 +3769,9 @@
     "city": "Diffa",
     "lat": 13.3154,
     "lng": 12.6113,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e27028c5193fcc2021a176627924d7fa3d7754a9",
@@ -3507,7 +3808,48 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "02799ac9b43fc90434af863969f44437349cefd0",
+    "source_id": "asharq-ar",
+    "source": "Asharq News Arabic",
+    "source_language": "ar",
+    "language": "ar",
+    "url": "https://news.google.com/rss/articles/CBMi0ANBVV95cUxPWkJUMGlCd29SZ21INGtJVXVfdjJWYWthTExtUG1welp4NkpVMzRZV2lSOU5pX3BwVUtETF9vam83YmlQaFRPTlB3RWM4MVB4bE10cjBaMHRKVHZyTGJDUmh0eDFXU1ZoR0xNaHNDVWo1eWVlOHJfOGJUUGg2bkFVRE1fRG0yUzBNSzQyUms1ZjZKNVpZQmgtbVl4RGFCejU2RmFGQlZCMEFrcENHYTlfc2l2a091YUJjWnpmQTExZzJLOHNCbFJyTEZXUElSdTEwTnJtTGl4WDZxQVFtWVZSQTVnN2s3WEc5YTdqeHI4dE1NRmpyWFdQaVdBY1FzU1Z6Yzl0WUp5WUJ0QjhMUWlSSy0zT1NVMmszWElGeFlEamlWaWZHNzdrc0xuWlhudmFhaXNmTzlsVExneWFYNzZOdWFTRGZPVnQ5MlcxNUZFeUdRb3ZhV3FEV3d0WVkzdG9GZlRGYURiM3F1ZTQwMEFsTDVOYW0tWmF2MGl4S1JGMk9PblE0dEQxZktiMXBfdTR1RHNZeTVjMjhyZmhPZG5KLTBJUGRQNm96Tzh0V1lhN2RRbWNPNWRrQk0zMkppT0RuV1BKY3JIcXpHWHNEMHNHTg?oc=5",
+    "title": "تطورات معارك الساحل الغربي لليمن واستعادة معسكر العمري - الشرق للأخبار",
+    "translated_title": "Developments in the battles of the west coast of Yemen and the restoration of Al-Omari Camp - Al-Sharq News",
+    "excerpt": "تطورات معارك الساحل الغربي لليمن واستعادة معسكر العمري الشرق للأخبار",
+    "translated_excerpt": "Developments in the battles of the west coast of Yemen and the restoration of the eastern Omari camp for news",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-09-13T15:14:29Z",
+    "discovered_at": "2026-09-21T02:42:45.618325Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 8,
+    "relevance_reasons": [
+      "regional geography: الساحل",
+      "headline event signal: clash (معارك)",
+      "supporting signal military_target: معسكر"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "clash",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "international_media",
+    "configured_language": "ar"
   },
   {
     "id": "a1e84c9eca10e842df64c3bba2dfd9090b035796",
@@ -3544,7 +3886,9 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "5693be3ae9a08c2c19028c3706b19dd3dcf69763",
@@ -3582,7 +3926,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "b33bfbb56989f9c71df0862395de4d707dbd83c2",
@@ -3619,7 +3965,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b67c5bf0c74d5613a3ba7f42c3f2eaef169f0009",
@@ -3656,7 +4004,9 @@
     "translation_status": "success",
     "translation_attempts": 4,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b9589390e93f05f46db6616ed857d1cb68e077d1",
@@ -3693,7 +4043,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "f73698a6941e91110671cbc2461a162c345c35b4",
@@ -3730,7 +4082,124 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "1e9e80a62b4cdac875d00f10bb1c0bdd9f3519b2",
+    "source_id": "apanews-fr",
+    "source": "APAnews (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeHFJUUVKZHE3N2M4OEkwcU5kM1FJVm5XWjdiUUt4OGc4X3pCaUViVlV5ZmNVMXg1YWRiTmpCNVNFX2ItaWpTbnFpN0w1N0VKS0x1STYxY3Y3b2pLWmtpT3F4TzNvZl8tNzF0bHd0Q0cxSWVBVHp6cXcyLXVEUmxadGx2Ri1Rd3NRUDNz?oc=5",
+    "title": "Mali : 37 ex-combattants intègrent les FAMa à Anéfis - APAnews - Agence de Presse Africaine",
+    "translated_title": "Mali: 37 ex-combatants join FAMa in Anéfis - APAnews - African News Agency",
+    "excerpt": "Mali : 37 ex-combattants intègrent les FAMa à Anéfis APAnews - Agence de Presse Africaine",
+    "translated_excerpt": "Mali: 37 ex-combatants integrate the FAMa in Anéfis APAnews - African News Agency",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-09-03T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:32.265037Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "state/security force: fama"
+    ],
+    "actor_bucket": "State",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "regional_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "c11cb8cfefba64e226b3ed082251c8f08da9dc06",
+    "source_id": "iss-africa",
+    "source": "Institute for Security Studies Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRFpNY1ZHTjlxSjJFWU51WEIzbnMySzQ4UHVVNE5WbFpJSnc3eUNuT2NxcHpGTS1PVjhsTTV1M3YtVGpMemh3R2pJbllwRFN6UjMzQ0lSZ1FCYkJ0U0FsYzE3ZURWOUw0cXVaVDdsT1Z1V3pfWDJJaEFZR0JINmZ5bkU1Z1Q1d2ZTN2Vrd2t5c2ZENHNVRHVvQnhURXVSNzgwdGdz?oc=5",
+    "title": "Can Mali’s FLA-JNIM insurgent alliance survive its internal divisions? - ISS Africa",
+    "translated_title": null,
+    "excerpt": "Can Mali’s FLA-JNIM insurgent alliance survive its internal divisions? ISS Africa",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2026-09-02T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:34.725346Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 11,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "headline actor: JNIM (jnim)",
+      "security context: insurgent"
+    ],
+    "actor_bucket": "JNIM",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
+  },
+  {
+    "id": "b57fb05eaaff7c082d3d65352e6d6d1e765f2028",
+    "source_id": "dw-afrique-fr",
+    "source": "DW Afrique (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUW9GcUR3SVo4cFdJMlZmT2Y1REpzWXlNUkhrSUpobTlZS0oyOXVZUkJCTkVrYjV6RnlDalVBVU0wdkIzbkNLWVBPaWVBZHgyQWluQ1pkbk1VX3Q4clFxVnVVSnM4QkJyYlJqb3FELTR0MElSQWJBbEtoZnpvZl9MTEFwUnNZSjNoTGowQXA4TGxDd9IBkgFBVV95cUxPelJ5ODQxMUtGT0h0LUdwa2Q3T2IxYVdCbFBJcDYzbjFzYXRmNm5HSE85ZWpLbGtyQjlNX3J4emw2aUY4TlctbEtHbWNQWWgyTEloZnJ4TExmVS1RU3B0LUZGX0JDd0pVb0tZSDhHNlY4Vk5XMlQ2MlFqcnlFOEU0RlhqN3JhVnM4N0NES3lleFM0Zw?oc=5",
+    "title": "Niger : l'Africa corps, le bras sécuritaire du pouvoir ? - dw.com",
+    "translated_title": "Niger: Africa Corps, the security arm of power? - dw.com",
+    "excerpt": "Niger : l'Africa corps, le bras sécuritaire du pouvoir ? dw.com",
+    "translated_excerpt": "Niger: Africa Corps, the safe arm of power? dw.com",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-09-01T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:27.298264Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Niger (niger)",
+      "headline actor: Africa Corps/Wagner (africa corps)"
+    ],
+    "actor_bucket": "Africa Corps/Wagner",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "3f8cefc21ecb56faa8339bb8be9f300e849cc527",
@@ -3768,7 +4237,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "3c808a6a4f3d6c3ed519af368422b0101a3be6fd",
@@ -3804,7 +4275,87 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "wire",
+    "configured_language": "en"
+  },
+  {
+    "id": "557e9104daaad38be7d3bef0a37f35f647a78eff",
+    "source_id": "dw-afrique-fr",
+    "source": "DW Afrique (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN3R6Qm15a0NNTnV3dFBpTThPek45MUdxRzNONGw4R3owaFdzU1ZHR0JqS29ST0dObzZnQURpejkzSTVwT0hUaWRCWlhNMXRqWUpleXY3Rko1bU5oWFFfX2dyMUl2Umt5T2hkU1ZULV9SbTB0ckEyQlpZVjdmN3N4ZNIBgAFBVV95cUxPa2hRYmV0ZVJlaGEtZXVkQUgxTzJ6Y2NiWmhDZjl3U1hIY25JVkZleHdESER6SHJHM2VXaWZnT2h3d0I2Zl8yYzl0ZWpOd1NCUVFDdWszbDdPckFiRVRqcHd1NFVFNVphMVEwYnNFejVYQlZ3Wkd4aGU1b3RXcmNLSw?oc=5",
+    "title": "Niger : après des tirs à Niamey, l'armée parle de mutinerie - dw.com",
+    "translated_title": "Niger: after shooting in Niamey, the army speaks of mutiny - dw.com",
+    "excerpt": "Niger : après des tirs à Niamey, l'armée parle de mutinerie dw.com",
+    "translated_excerpt": "Niger: after shooting in Niamey, the army speaks of mutiny dw.com",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-08-29T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:27.301412Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit place: Niamey (niamey)",
+      "headline event signal: political/security policy (mutinerie)"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "political/security policy",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "3d96bf3f3fe9fb14315b4315c6dda0a8cdc2fca4",
+    "source_id": "almayadeen-ar",
+    "source": "Al Mayadeen Arabic",
+    "source_language": "ar",
+    "language": "ar",
+    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOVFdaYXR5V3pIbTlpLVZ3WG9FbG5NQ3p3MHNRMTMwSFFHWHdZV01mOEc5a3FKYzFRTE5pSmx5bVZTc1FfZ1p0NVRwc1dVUEYxN0k2Z01FNndjQ20yQWNseERVV0FFS1JCNF8xQ251SGJUT1ppN0VEYXFWZ0RMQ2JIb2hETmd1cVRESVB0T2dKSTVFbjVWVFhZTlAtWDFENmN6bEdrU0lRbmxiUm5RaGY0RHpBQ2hLenBaZHhTUE9UQXBRckN2N2laUi1kc1l6OFh2RTJZX05CVEx2WUowTjFGOHlnRGtMelRycnhXRVVxQ05wVGhwcXBBbnAtajZ2cnE2dWMxVWdpVXh0T3FIWHlaTGFCa3NTQm5FNGlQOXAzMElnWk00VzdQZ3dkSzFaQ01oc2tUYkFYY2ZMN2gyM25VNDhlUDExM0VyRzNCeUpPUlpTTVM0alNnWkE5RVlkOXdzMmw3dWJDSDc3XzdrQmR3T1FNT3BTWnZVZ0FhNHVfVldjS29xbkpNZHVZdGR3NThwa2cxQy1jczNVQUI5bURod25VRjdpbGpxejZiNnRLOTY4LU83TDlDOGMwT21HTVgzTWdVVm4wUV9zV0t5UGt4Q0NLb1lxRl9E?oc=5",
+    "title": "النيجر: هجوم مسلح يستهدف محيط القصر الرئاسي ومطار نيامي - staging-ar.almayadeen.net",
+    "translated_title": "Niger: Armed attack targeting the perimeter of the Presidential Palace and Niamey Airport - staging-ar.almayadeen.net",
+    "excerpt": "النيجر: هجوم مسلح يستهدف محيط القصر الرئاسي ومطار نيامي staging-ar.almayadeen.net",
+    "translated_excerpt": "Niger: Armed attack targeting the perimeter of the Presidential Palace and Niamey Airport staging-ar.almayadeen.net",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-08-29T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:45.657991Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 11,
+    "relevance_reasons": [
+      "explicit place: Niamey (نيامي)",
+      "headline event signal: attack (هجوم)",
+      "security context: مسلح",
+      "actor unresolved: retained as Other"
+    ],
+    "actor_bucket": "Other",
+    "actor_relation": "involved/mentioned",
+    "event_type": "attack",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "ar"
   },
   {
     "id": "1bbfe781963a473761e1b2466454f3ac85559c83",
@@ -3841,7 +4392,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "a5fdef00ec7ddc673d911e504e5c9857e12cd490",
@@ -3878,7 +4431,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "54176fdf64077a943d8fc8301c34d064754f872f",
@@ -3915,7 +4470,47 @@
     "city": "Agadez",
     "lat": 16.9733,
     "lng": 7.9911,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
+  },
+  {
+    "id": "0c24e66c69e8cf67fedc257ff99f9aa3a3f133fb",
+    "source_id": "asharq-ar",
+    "source": "Asharq News Arabic",
+    "source_language": "ar",
+    "language": "ar",
+    "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxQakhGXzdKcldkbktxbXlyMmlZeXU4Q015U0RRX3dSZUNhc3E4VTFGQW5EYy1YMUhIM055TDF3WmhEWGp1MkNGd1hHTHdRNy01eUl5OW5CS0pJeTR3NFM4TGJNNlYzTE1tczk5b3pCUTRLcFFodjlFLUo4Uk1QRU5iTEtRaTg4TDV4c3g0dFRMdUsycThDd2toWThmS0hNckxOdElfNDhpcTNWcE1JcEhoTUtNcVE4WGFuekhuZmdiejBTSElXV2xuM2x4R0x6bXNMWW0tTW05RXpLdlg4dlVmbEVOUkZCeDlFWm4yc3lsUDYzUkNmaG5kLXhNRFFpajJDZWE2SkR5eTZxNWpsX293RzBXX2lCckhxNHZEX2V3dEk5QlpXMzIzekNrRFAxSF9QcXhhNWdndmt3LUhnLTlHTFVyZ3NCUFVNendPTFhIN2JwQmtaZ0N1RFg5UHFZYWpYcXhsN1JUX2dZQ1N6UldQb3h4bVo0aXJFbi11TWNxTENjdU40ZXBXdEptUG1xY01iOUtyVkxQRUZPSVQwNFJ0M2FqNWtpYVBuaUdjVzBMem5janFNalVkX2RSVmx2WXY1LWpvWGh6NEozOE5rMUhZODZB?oc=5",
+    "title": "بيسنت يتوعد إيران بـ\"أكبر هجوم مالي\" مع دخول الحرب \"مرحلتها النهائية\" - الشرق",
+    "translated_title": "Besant threatens Iran with 'biggest financial attack' as war enters' its final phase '- East",
+    "excerpt": "بيسنت يتوعد إيران بـ\"أكبر هجوم مالي\" مع دخول الحرب \"مرحلتها النهائية\" الشرق",
+    "translated_excerpt": "Besant threatens Iran with “biggest financial attack” as war enters its “final phase” east",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2026-08-25T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:45.621394Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Mali (مالي)",
+      "headline event signal: attack (هجوم)"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "attack",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "ar"
   },
   {
     "id": "904e2086735df5923b419ca5fd6945719d6fda95",
@@ -3953,7 +4548,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "adc54a6eafe734cd00194bb1478f28feace38f08",
@@ -3991,7 +4588,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b5e7a4d2be726fc6841d882cf5626a6077787f52",
@@ -4028,7 +4627,9 @@
     "city": "Diffa",
     "lat": 13.3154,
     "lng": 12.6113,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "0d0d06b66fd4accffbbbc563110e508d666d23aa",
@@ -4067,7 +4668,9 @@
     "city": "Ouagadougou",
     "lat": 12.3714,
     "lng": -1.5197,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "b660382e4157f2ac1ebe3f1199201c851f45e450",
@@ -4103,7 +4706,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "29848d1e2a3548f14042619c5620052d7a97ee8e",
@@ -4140,7 +4745,9 @@
     "city": "Dosso",
     "lat": 13.049,
     "lng": 3.1937,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "443a5dabe9fa3885c8f0b4ad6b9426e7dc3a2455",
@@ -4177,7 +4784,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "bf2ed07a07b6e5e24aa32ed1f09895dfaa807518",
@@ -4214,7 +4823,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "2f5746483d838e8707fc493f14b7e9e4343a3332",
@@ -4252,7 +4863,9 @@
     "city": "Kidal",
     "lat": 18.4411,
     "lng": 1.4078,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "d48bc2ff8b690ae33bc71c5b3ce1f4ec4819c253",
@@ -4291,7 +4904,9 @@
     "city": "Kidal",
     "lat": 18.4411,
     "lng": 1.4078,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "4219a8c915feba2ebdf96ca16b4c411bfae4d688",
@@ -4330,7 +4945,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "06a140bfbbbef60e96ac14c8010442c46c5bb4a6",
@@ -4367,7 +4984,9 @@
     "translation_status": "success",
     "translation_attempts": 4,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "2d4fa6af51937f88d1d1522e7819cdc5d8becde5",
@@ -4404,7 +5023,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "48dc2e00803d3302d69f9f1b6c6818ecadf660b4",
@@ -4441,7 +5062,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "regional"
+    "geo_confidence": "regional",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "fb5745accb204ae2d213458154fcf0ebafaeadaf",
@@ -4478,7 +5101,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "regional"
+    "geo_confidence": "regional",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "afebe704cd02a203ad4962dffa366acd478e6756",
@@ -4514,7 +5139,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "9d6d14bc162e347a376fd3cdde7973ec3d606576",
@@ -4551,7 +5178,9 @@
     "city": "Tahoua",
     "lat": 14.8888,
     "lng": 5.2692,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "33e4b8137ac746315b0c3c7b32218028d784cd73",
@@ -4590,7 +5219,9 @@
     "city": "Niamey",
     "lat": 13.5116,
     "lng": 2.1254,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "e69750a09c6150e21b14064468bd85678b0b3959",
@@ -4629,7 +5260,9 @@
     "translation_status": "success",
     "translation_attempts": 12,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "67e2f833901c5a4b926f51ee9c68d959ed245a50",
@@ -4668,7 +5301,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "regional",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "388c3b29178cb0faba5ebc213638e313845c72d8",
@@ -4705,7 +5340,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "94988c1f997caec070275f166c500a01678aba69",
@@ -4743,7 +5380,48 @@
     "city": "Bamako",
     "lat": 12.6392,
     "lng": -8.0029,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "9d11fd734f3cce36481461cb849fa1d40127d896",
+    "source_id": "chatham-africa",
+    "source": "Chatham House Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQjAtU3g4YkYtN01YREhSRkV3Z2xqb3B5alhrdEItY3BBSzlCemRlRU94TnF0QWNaZkNGM24wVldndUVTbjBlMjVUOVhPVk8wNHFsb1piR2drYjctTlZTdXNhNjJPNnB6S1lDTTZZaFdQQTNBcndCcGZHb2d0a3hEa0thZ1JHMExHdWFmSUZRMlBacjk4cTBLd3NjbGQ0cE1jNjQ5TVd0NA?oc=5",
+    "title": "Mali attacks show security cannot be delivered by military means alone - Chatham House",
+    "translated_title": null,
+    "excerpt": "Mali attacks show security cannot be delivered by military means alone Chatham House",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2026-04-30T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:39.996388Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "generic state/security force: military",
+      "security context: security"
+    ],
+    "actor_bucket": "State",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "efff50076afd7d307944d1b5fcfaef82d997bbc6",
@@ -4780,7 +5458,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "4e0efacae56dd74bb45e1c2b7594d4d0ff007eac",
@@ -4817,7 +5497,87 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
+  },
+  {
+    "id": "b227b6d5281f68e9848908205078e902caa96777",
+    "source_id": "humangle",
+    "source": "HumAngle",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZFRmV0M4ZlJING9nX3c5SzdwYWt4MmZ0anJxbGMxcUJaRkhwek13djVJNlNabWJ0eG9WRlJ4Um9ZTl9GR1RzSXFZUXdVOTRoc2lkQUc1Rk9rS3pua1FzdUs5cElvNXZMQjJFZEFFU2tBQlRlSDRtV0NRVlpSdi14bGdreWtXYzU1NXdJemVNQlc?oc=5",
+    "title": "What JNIM’s Entry into Nigeria Means for Security in the Sahel - humanglemedia.com",
+    "translated_title": null,
+    "excerpt": "What JNIM’s Entry into Nigeria Means for Security in the Sahel humanglemedia.com",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2025-12-22T08:00:00Z",
+    "discovered_at": "2026-09-21T02:42:35.930600Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 10,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline actor: JNIM (jnim)",
+      "security context: security"
+    ],
+    "actor_bucket": "JNIM",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "regional_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "06255e86a6610706aedaa06a50a78c1574f075cb",
+    "source_id": "chatham-africa",
+    "source": "Chatham House Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWUk5Vmh5LTVOaGs1dG5YZE01bkNTaUZPQ2NJUzRfZXFUdzNzUXBNMTg4TjlRUzllYWZYMGl4ajdyTTVLM1VaWTdNYzFiR3NtVkwyVE9JSHZyZ3JoZmRjeEdyUkRNejRzb2tYR3llbUd1eXdqRU5UODMzUGtTY0dDNzBPMWdmS3duYXhGUG03bEdFc3FLdFlPOXNrMkdMbWoxYy1ZSy1iR3Q5ZmtjbDZPY05lOA?oc=5",
+    "title": "West Africa needs regional solutions to combat the escalating Sahel security crisis - Chatham House",
+    "translated_title": null,
+    "excerpt": "West Africa needs regional solutions to combat the escalating Sahel security crisis Chatham House",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2025-12-10T08:00:00Z",
+    "discovered_at": "2026-09-21T02:42:39.999729Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline event signal: clash (combat)",
+      "security context: security"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": "clash",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "33bd07c252030748a940d7fe0cc19a4223cb3d2d",
@@ -4854,7 +5614,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "a24239b4a3d4bdd512796389ff052eb5046ef6f6",
@@ -4891,7 +5653,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "regional"
+    "geo_confidence": "regional",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "81c3d7a6cb91f1ed3bb2c3580ffe3cb39e2fd6e2",
@@ -4927,7 +5691,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "c030c49f62bd6be94da6617c075cbc45aa168f3a",
@@ -4964,7 +5730,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "00bb52c5a79939f693973303b2eeb01787f58596",
@@ -5002,7 +5770,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "e43e2aa10cde165d9ad4344523a4fb3ae4b1484d",
@@ -5040,7 +5810,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "5fdc0da02b7433568c51cff9362915602a80cdb0",
@@ -5077,7 +5849,9 @@
     "lat": null,
     "lng": null,
     "geo_confidence": "explicit-country",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "2df6331a0e38d8f3e06df9873aa464761c39a812",
@@ -5114,7 +5888,9 @@
     "translation_status": "success",
     "translation_attempts": 4,
     "translation_error": null,
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "4ed09e98f37203b09e9c5a09ea9805fa8d023a53",
@@ -5151,7 +5927,9 @@
     "lat": 13.5116,
     "lng": 2.1254,
     "geo_confidence": "explicit-place",
-    "classifier_version": "1.5-evidence-zones"
+    "classifier_version": "1.5-evidence-zones",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "6e566949d4b25c9d1fb8fd9c3795130721603043",
@@ -5187,7 +5965,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "2912ba8fa91506bc688bb92dd1c466a1eadaaf7c",
@@ -5225,7 +6005,47 @@
     "city": "Bamako",
     "lat": 12.6392,
     "lng": -8.0029,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "research",
+    "configured_language": "en"
+  },
+  {
+    "id": "1df3d1a1f77b4726d1f5ea7ef832665c54205c7b",
+    "source_id": "voa-afrique-fr",
+    "source": "VOA Afrique (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IN1B4UkdTVG1BTklJb05XRFVtZmJxYi00OWZZREx5alFna1k0RXBhT3kwbHlMdEMta2doNXcyZG5jWjR0QVZKeE1SRVRPM2dwUmZv0gFWQVVfeXFMTU5MYmJ2UTV2ZVZLSWZ1UlJITDg0amVvdnJHRy1CR1lDdjQ0WlBldTZGZk5nbVlSd1NkeHpXWW5TMjdCaG0wVjFYVXJqZllwVVRVNTRPY2c?oc=5",
+    "title": "La Russie réaffirme son soutien au Mali après les lourdes pertes de Wagner, selon Bamako - VOA Afrique",
+    "translated_title": "Russia reaffirms its support for Mali after Wagner's heavy losses, according to Bamako - VOA Africa",
+    "excerpt": "La Russie réaffirme son soutien au Mali après les lourdes pertes de Wagner, selon Bamako VOA Afrique",
+    "translated_excerpt": "Russia reaffirms its support for Mali after Wagner's heavy losses, according to Bamako VOA Africa",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2024-08-02T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:27.341958Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 8,
+    "relevance_reasons": [
+      "explicit place: Bamako (bamako)",
+      "headline actor: Africa Corps/Wagner (wagner)"
+    ],
+    "actor_bucket": "Africa Corps/Wagner",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "244e211842b7dac0c862e87de28e6fa3e1e53dce",
@@ -5263,7 +6083,47 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "e78d9838ff5fc806b1ef347153867cffdb972954",
+    "source_id": "humangle",
+    "source": "HumAngle",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
+    "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - humanglemedia.com",
+    "translated_title": null,
+    "excerpt": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations humanglemedia.com",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2024-05-18T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:36.027384Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline actor: JNIM (jnim)"
+    ],
+    "actor_bucket": "JNIM",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "regional_media",
+    "configured_language": "en"
   },
   {
     "id": "6acd2304a9e08f76d403b247cce185e1ca73c644",
@@ -5299,7 +6159,49 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "7f3fd6cada3751c4de5f5445ca5d9f8367349c65",
+    "source_id": "hrw-africa",
+    "source": "Human Rights Watch Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHhTdDZ3X2Z6UUFlRnBjZ0F6TFZRX01TemVHQ0NRbVRUOHI1ajZQOGJwT3F4Ql90ZFlFYnhmZkxNQ2xNOGlXUERfN2dKS3dScFEyRUF1YkllNVBIVmZkQU5xak5fWUtTYzNrT2FlNEcta08xcjJHNUJ3bV9kTzd5WmdwZGZESFo5N0p6LVJvQlRwNlBCSERR?oc=5",
+    "title": "Burkina Faso: Drone Strikes on Civilians Apparent War Crimes - hrw.org",
+    "translated_title": null,
+    "excerpt": "Burkina Faso: Drone Strikes on Civilians Apparent War Crimes hrw.org",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2024-01-25T08:00:00Z",
+    "discovered_at": "2026-09-21T02:42:40.455776Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit country: Burkina Faso (burkina faso)",
+      "headline event signal: security operation (strikes)",
+      "supporting signal civilians: civilians",
+      "actor unresolved: retained as Other"
+    ],
+    "actor_bucket": "Other",
+    "actor_relation": "involved/mentioned",
+    "event_type": "security operation",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "ngo",
+    "configured_language": "en"
   },
   {
     "id": "42fd855d30a95c612891626b0b3dd6acd7b59cf2",
@@ -5336,7 +6238,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "95fb76de88273107be27b687ef6835e26afbd29d",
@@ -5373,7 +6277,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "wire",
+    "configured_language": "en"
   },
   {
     "id": "e9ec3f11bbf78a5ec27dac1d2d153b4497921c9c",
@@ -5410,7 +6316,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "local_media",
+    "configured_language": "fr"
   },
   {
     "id": "89ba2487bfde17a07e75d8466a0431abc95510d5",
@@ -5447,7 +6355,48 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "b3fc6b87f74a99fc9c1487ba5702af91d3b84484",
+    "source_id": "humangle",
+    "source": "HumAngle",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdjBNTXdDal8xRXVyS1BtV20tWDhVZzhTOUhwMl9femtUdXU4QkY5MmlxeGp6VTFKRHhiRWRGWk5EQWg2aFAwMUMtMjBzZDNPclNrNTl5ZzcycDZzb2JlcENVWWE3eXF4REZCWFZ0cnhpRkU3akROVi1Qa1h1V0hnUWJDSzVqNzFmWUo0WHpiS1pHaERsdXRCY0VCeWxtaEZnSy1KMl9udU5zNHZGZVVoWlJ6aWF3dw?oc=5",
+    "title": "JNIM Calls for More Offensive Against ISGS As Battle For Supremacy Continues In The Sahel - humanglemedia.com",
+    "translated_title": null,
+    "excerpt": "JNIM Calls for More Offensive Against ISGS As Battle For Supremacy Continues In The Sahel humanglemedia.com",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2022-11-07T08:00:00Z",
+    "discovered_at": "2026-09-21T02:42:35.830716Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 10,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline actor: JNIM (jnim)",
+      "headline event signal: security operation (offensive)"
+    ],
+    "actor_bucket": "JNIM",
+    "actor_relation": "involved/mentioned",
+    "event_type": "security operation",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "regional_media",
+    "configured_language": "en"
   },
   {
     "id": "2b97b000d39bc68b44fedee145c36a1bf0d0e900",
@@ -5483,7 +6432,90 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "c429f793e389e136976d1ac827d8c37f9eab0aa2",
+    "source_id": "dw-africa-en",
+    "source": "DW Africa (EN)",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdU1VODdlcHA4ZExGb2pyWHl0ckg1SFVNbHFoMG9XSWdRNENKbTVDT2V1Y05abThrc2NQNzloOWdOOFUycmlVdUZRdHI0Ti1CcWdFcUVFUUxnNU1pendDaklQZ2V4Vi03c091azhKY2sxUjNSU2lpM3Z2elNNWWJfUlh30gGCAUFVX3lxTE1fYTRHRUVGcHpaM3BKUDJlWlMwTUd4NTMtT0VTTEpDanU5dHFVYkdZVzNqZV93YUhOaHgzaUJPQTJMNFdCa2VpLWZTVWlySkI4RnB2MldvTTNUVWNQdGt4RnZZMDhDVGZxUlpoVVRjaTFhZF9Id2p0VjVaczB0a3NZN3c?oc=5",
+    "title": "Burkina Faso: Dozens dead after bus hits IED - dw.com",
+    "translated_title": null,
+    "excerpt": "Burkina Faso: Dozens dead after bus hits IED dw.com",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2022-09-06T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:34.509627Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit country: Burkina Faso (burkina faso)",
+      "headline event signal: IED/explosion (ied)",
+      "supporting signal casualties: dead",
+      "actor unresolved: retained as Other"
+    ],
+    "actor_bucket": "Other",
+    "actor_relation": "involved/mentioned",
+    "event_type": "IED/explosion",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "a04d3416690268fde53cf9212d90c2c6c5c7f3c4",
+    "source_id": "voa-afrique-fr",
+    "source": "VOA Afrique (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ2ZISEhxN1JpdmdoSFVCa2JmVHNYcmNIZWhDVjRZc0hTQTZxeDM1Z3R1bVFhVVlCTEJ1U3U5eTY3bHR5dktfSlQ5d014NXVFaXNMVVFyNEprdmZ2ZDR1S05reWNPS3pYeGNpUlRqVEFiODdTd09lUnhaQVVneUxSLW9mU01XczFkRFNVRE1jeFZmaXQ1QVpCUHg1MmFEQWNDY1BhNk5OeW51anF4a3ZKamRKV25MX3PSAboBQVVfeXFMT3FSRnpXcWdRLWZZbThvT05uTjdDbEQ1U2JHN1RCQVpYaHdEQ1h2RFJkZWJmTG1BSTlaQklxaEtkVG5acERjMXUwQnZvckNnZG96ZVpXdWdxMHZVdnZ3a055dUJXY1BGZ0ZxWkFQYk8tMW5iSm9oaUNLMTVsSHRYVFpFNEd1R0ZWdTBwS3RYMHZ2NTRvcXRSaUpfUVJ6cXRxSUpZU3I5X0RYWnk3S2ktal9KVVA0eXhCcGJR?oc=5",
+    "title": "Une \"attaque terroriste\" fait au moins 5 morts au Mali - VOA Afrique",
+    "translated_title": "'Terrorist attack' kills at least 5 in Mali - VOA Africa",
+    "excerpt": "Une \"attaque terroriste\" fait au moins 5 morts au Mali VOA Afrique",
+    "translated_excerpt": "'Terrorist attack' kills at least 5 in Mali VOA Africa",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 3,
+    "published_at": "2022-06-12T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:27.335094Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 12,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "headline event signal: attack (attaque)",
+      "supporting signal casualties: morts",
+      "security context: terroriste",
+      "actor unresolved: retained as Other"
+    ],
+    "actor_bucket": "Other",
+    "actor_relation": "involved/mentioned",
+    "event_type": "attack",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "9e86e87c990e824f2ed88e4872c5dff974ef8983",
@@ -5520,7 +6552,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "b6f07eeecb8ccfc97fdd61add55d1fb91bd212d6",
@@ -5556,7 +6590,47 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "68a999e20a162faba2e9278c29020ab8a73a8420",
+    "source_id": "humangle",
+    "source": "HumAngle",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
+    "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - humanglemedia.com",
+    "translated_title": null,
+    "excerpt": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel humanglemedia.com",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2021-09-16T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:36.348236Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "regional geography: sahel",
+      "headline actor: JNIM (jnim)"
+    ],
+    "actor_bucket": "JNIM",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": null,
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "regional",
+    "source_type": "regional_media",
+    "configured_language": "en"
   },
   {
     "id": "3fb6cc27bbcc415f9c4023fb85c24923fba9f2a6",
@@ -5592,7 +6666,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "8b4409ba578b55238d2bbd180c21dd52f19b140d",
@@ -5630,7 +6706,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "943cc2edb9609f47dd850e994a1bf7cebb315675",
@@ -5666,7 +6744,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "6faf7d389e8545c6b8bba6e52f597d5d1a88c926",
@@ -5702,7 +6782,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "regional"
+    "geo_confidence": "regional",
+    "source_type": "research",
+    "configured_language": "en"
   },
   {
     "id": "b1fc1730a3ee211a3199cd8ffcd6e4b5fe1fb605",
@@ -5741,7 +6823,9 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "e6b9b19c29abe83d93f88b9a992e37fe920b6c00",
@@ -5777,7 +6861,87 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "e683f78d31e0a6f344de9e067d206368ab47b6e0",
+    "source_id": "hrw-africa",
+    "source": "Human Rights Watch Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlY1RTQ2Zl8ycU9jZjJYS2RwclZfUmZJYnNYNndKdmx1MktVZGV6akhjRHVEQm9QOFFwVmF3cFQ0WnQxUWViZUpfWUJYVVQxLXRSQzV2TnR0ZjVZRFl0VnlmeU5IZ2VIUGN0S3lZSWFpbkRfUC1TbnpTLUVWY00xYlN6dWFJci1yMHZNZkJsd2g4aW9XN3l4eDduRGc?oc=5",
+    "title": "“We Used to Be Brothers”: Self-Defense Group Abuses in Central Mali | HRW - hrw.org",
+    "translated_title": null,
+    "excerpt": "“We Used to Be Brothers”: Self-Defense Group Abuses in Central Mali | HRW hrw.org",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2018-12-07T08:00:00Z",
+    "discovered_at": "2026-09-21T02:42:40.528304Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 7,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "security context: defense"
+    ],
+    "actor_bucket": null,
+    "actor_relation": null,
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "ngo",
+    "configured_language": "en"
+  },
+  {
+    "id": "a29691e45a922581870e28f74f8a9176cac7976a",
+    "source_id": "voa-afrique-fr",
+    "source": "VOA Afrique (FR)",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU3JVSVJEQkV5TV9rc0M4VmRHMXExcU95c1M5QlRyRmc1MVlNWkpRVGFOYjlEcVh1clVhUDNTcEdpWXFxSHpjVVVUV3p0Q2xqRXNsZkNIeV96Yno2ODlRMWZoeFNDSUFkbklfNXM0QUl1SGhYRnNud2xBZHJhVFpad0tMT1BmMWJoOFY4aXRaeFg0N1pKeU5wTGVxN2FUNGFn0gGjAUFVX3lxTE1WNUNUcGdjdGg1U1BPYkhxYnlrRllndi10cWx1SzRNdTl4enRydkJoNl92NzN4Wjg4VlV6bjFHcHloTG9rY2RES1lEd1BGdFhXNF8zbC1aZldTX0hhanlkTzJCa1VidDdrdGtDSDhlZzJFbnVsS2xqQ3hSRDlZRHRBV3VlLXM2RS1GZWJfREtoRWlVaFdUOFJyakQtRGgzLU1ET28?oc=5",
+    "title": "Un douanier tué dans une attaque au Burkina Faso - VOA Afrique",
+    "translated_title": "A customs officer killed in an attack in Burkina Faso - VOA Africa",
+    "excerpt": "Un douanier tué dans une attaque au Burkina Faso VOA Afrique",
+    "translated_excerpt": "A customs officer killed in an attack in Burkina Faso VOA Africa",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 2,
+    "published_at": "2018-08-22T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:27.338092Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit country: Burkina Faso (burkina faso)",
+      "headline event signal: attack (attaque)",
+      "supporting signal casualties: tué",
+      "actor unresolved: retained as Other"
+    ],
+    "actor_bucket": "Other",
+    "actor_relation": "involved/mentioned",
+    "event_type": "attack",
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Burkina Faso",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "fr"
   },
   {
     "id": "880242e1ace81aea2a506096f5b0f9bf84c83b26",
@@ -5813,7 +6977,9 @@
     "city": "Gao",
     "lat": 16.2717,
     "lng": -0.0447,
-    "geo_confidence": "explicit-place"
+    "geo_confidence": "explicit-place",
+    "source_type": "international_media",
+    "configured_language": "en"
   },
   {
     "id": "3b2f588e025817fefe5d4a54924d5c76ec1b97ab",
@@ -5849,7 +7015,48 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "international_media",
+    "configured_language": "en"
+  },
+  {
+    "id": "9840c77867adba36c1bdf1b09526d4236688dd79",
+    "source_id": "hrw-africa",
+    "source": "Human Rights Watch Africa",
+    "source_language": "en",
+    "language": "en",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NLZlhOM3Z1cVR5UXpfVUcyRFE3cTdNZHdaZ3BWcWdjQWZ5ZHJVOXhGTEJpbVNZeFdNcDBINVZweGptR0g2alRYeF9yNDl1SGtDT3Rkcm55bnFZSnVfVWxRclp1Mkp6YU12MkdSTjZHbUJMYWR0dENUbEZOZG9ObE9QYw?oc=5",
+    "title": "Mali: Unchecked Abuses in Military Operations - hrw.org",
+    "translated_title": null,
+    "excerpt": "Mali: Unchecked Abuses in Military Operations hrw.org",
+    "translated_excerpt": null,
+    "translation_status": "not_needed",
+    "translation_error": null,
+    "translation_attempts": 0,
+    "published_at": "2017-09-08T07:00:00Z",
+    "discovered_at": "2026-09-21T02:42:40.459102Z",
+    "discovery": "google-news-domain",
+    "fetch_status": "indexed-title-only",
+    "classifier_version": "1.5-evidence-zones",
+    "relevance_score": 9,
+    "relevance_reasons": [
+      "explicit country: Mali (mali)",
+      "generic state/security force: military",
+      "security context: military"
+    ],
+    "actor_bucket": "State",
+    "actor_relation": "mentioned",
+    "event_type": null,
+    "operational_event": false,
+    "candidate_event": false,
+    "event_confidence": "not-an-event",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "geo_confidence": "explicit-country",
+    "source_type": "ngo",
+    "configured_language": "en"
   },
   {
     "id": "7d76c9f2d43bd774397ab28ea33044e87dd1f86d",
@@ -5885,6 +7092,8 @@
     "city": null,
     "lat": null,
     "lng": null,
-    "geo_confidence": "explicit-country"
+    "geo_confidence": "explicit-country",
+    "source_type": "research",
+    "configured_language": "en"
   }
 ]

@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='2.3.1';
+const SITE_UI_VERSION='2.4';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -44,7 +44,7 @@ async function refresh(){
     console.error(e);
   }
 }
-function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=o.site_patch_version||SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Site patch v${patch} • Collector ${o.collector_version||'unknown'} • Classifier ${o.classifier_version||'unknown'}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_24h??0);setText('configuredSources',o.sources_configured??33);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
+function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=o.site_patch_version||SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Site patch v${patch} • Collector ${o.collector_version||'unknown'} • Classifier ${o.classifier_version||'unknown'}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_24h??0);setText('configuredSources',o.sources_configured??63);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
 function reportCard(r){const english=r.translated_title||r.title;const hasTranslation=r.translated_title&&r.translated_title!==r.title;const excerpt=r.translated_excerpt||'';const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';const collected=r.discovered_at?relTime(r.discovered_at):'unknown';const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');const reasons=(r.relevance_reasons||[]).slice(0,6).join(' • ');const type=r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT';return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${excerpt?`<p>${esc(excerpt.slice(0,520))}${excerpt.length>520?'…':''}</p>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')} • relevance ${esc(r.relevance_score??'—')} • ${esc(r.fetch_status)}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}${reasons?`<details class="original"><summary>Why retained?</summary><p>${esc(reasons)}</p></details>`:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a></article>`}
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
@@ -109,27 +109,31 @@ function renderMap(){
 
   let events=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
-  const countryOnlySeen={};
+  // Cluster events that resolve to the same coordinates. A count badge prevents five
+  // events at three locations from looking like only three events.
+  const clusters=new Map();
   events.slice(0,400).forEach(e=>{
     let lat=Number(e.lat),lng=Number(e.lng),countryLevel=false;
     if(!Number.isFinite(lat)||!Number.isFinite(lng)){
       const a=COUNTRY_EVENT_ANCHORS[e.country];
       if(!a)return;
-      countryLevel=true;
-      const n=countryOnlySeen[e.country]||0;countryOnlySeen[e.country]=n+1;
-      const offsets=[[0,0],[.55,.65],[-.5,.65],[.7,-.55],[-.7,-.5],[1.0,.15],[-1.0,.1]];
-      const o=offsets[n%offsets.length];lat=a.lat+o[0];lng=a.lng+o[1];
+      countryLevel=true;lat=a.lat;lng=a.lng;
     }
-    const [x,y]=project(lng,lat);
-    if(x<0||x>1000||y<0||y>560)return;
-    const g=svgEl('g');const c=actorColor(e.actor);
-    g.appendChild(svgEl('circle',{cx:x,cy:y,r:13,fill:c,class:'eventhalo'}));
-    const dot=countryLevel
-      ? svgEl('rect',{x:x-5.2,y:y-5.2,width:10.4,height:10.4,transform:`rotate(45 ${x} ${y})`,fill:'none',stroke:c,'stroke-width':2.4,class:'eventdot country-event-dot'})
-      : svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
-    g.appendChild(dot);g.classList.add('event-marker');
-    const displayEvent=countryLevel?{...e,_country_level:true}:e;
-    g.addEventListener('mouseenter',ev=>showTip(ev,displayEvent));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventDetail(displayEvent));svg.appendChild(g)
+    const key=countryLevel?`country:${e.country}`:`geo:${lat.toFixed(4)},${lng.toFixed(4)}`;
+    if(!clusters.has(key))clusters.set(key,{lat,lng,countryLevel,events:[]});
+    clusters.get(key).events.push(countryLevel?{...e,_country_level:true}:e);
+  });
+  clusters.forEach(cluster=>{
+    const [x,y]=project(cluster.lng,cluster.lat);if(x<0||x>1000||y<0||y>560)return;
+    const rows=cluster.events;const lead=rows[0];const c=actorColor(lead.actor);const g=svgEl('g');
+    g.appendChild(svgEl('circle',{cx:x,cy:y,r:rows.length>1?16:13,fill:c,class:'eventhalo'}));
+    const dot=cluster.countryLevel
+      ? svgEl('rect',{x:x-6,y:y-6,width:12,height:12,transform:`rotate(45 ${x} ${y})`,fill:'none',stroke:c,'stroke-width':2.4,class:'eventdot country-event-dot'})
+      : svgEl('circle',{cx:x,cy:y,r:rows.length>1?8:6.2,fill:c,class:'eventdot'});
+    g.appendChild(dot);
+    if(rows.length>1){const n=svgEl('text',{x,y:y+3.2,class:'event-cluster-count','text-anchor':'middle'});n.textContent=String(rows.length);g.appendChild(n)}
+    g.classList.add('event-marker');
+    g.addEventListener('mouseenter',ev=>showClusterTip(ev,rows));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventCluster(rows));svg.appendChild(g);
   });
 
   // Cities: collision-aware label placement. Keep coordinates exact; move only the text label.
@@ -181,6 +185,19 @@ function renderMap(){
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
 
+function showClusterTip(ev,rows){
+  if(rows.length===1)return showTip(ev,rows[0]);
+  const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';
+  const loc=[rows[0].city,rows[0].country].filter(Boolean).join(', ')||'country-level location';
+  tip.innerHTML=`<strong>${rows.length} EVENTS • ${esc(loc)}</strong><br>${rows.map(e=>esc(`${e.event_date||'—'} • ${e.actor||'Other'} • ${e.event_type||'Unclassified'}`)).join('<br>')}<br><span class="report-meta">Click to inspect the event stack.</span>`;
+}
+function showEventCluster(rows){
+  if(rows.length===1)return showEventDetail(rows[0]);
+  const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
+  box.innerHTML=`<button class="detail-close" aria-label="Close">×</button><span class="eyebrow">EVENT STACK</span><h3>${rows.length} candidate events at this mapped location</h3><div class="cluster-event-list">${rows.map(e=>`<button class="cluster-event-row"><strong>${esc(e.event_date||'—')} • ${esc(e.actor||'Other')} • ${esc(e.event_type||'Unclassified')}</strong><span>${esc(e.title||'No title')}</span></button>`).join('')}</div>`;
+  box.querySelector('.detail-close').onclick=()=>{box.hidden=true};
+  [...box.querySelectorAll('.cluster-event-row')].forEach((b,i)=>b.onclick=()=>showEventDetail(rows[i]));
+}
 function showEventDetail(e){
   const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
   const src=(e.sources||e.source_names||[]);const sourceText=Array.isArray(src)?src.join(' • '):(e.source||`${e.source_count||1} monitored source(s)`);
@@ -241,7 +258,21 @@ function renderThirty(){
 
 function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
 
-function renderOps(){const o=state.overview||{},r=o.last_run||{};$('#opsSummary').innerHTML=[['Patch',o.site_patch_version||SITE_UI_VERSION],['Collector',o.collector_version||'—'],['Classifier',o.classifier_version||'—'],['Sources',o.sources_configured??33],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Events 30D',r.candidate_events_30d??state.thirty?.candidate_events??0],['Reports 30D',r.reports_30d??state.thirty?.reports??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');$('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.last_error||'')}</td></tr>`).join('');$('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';}
+function renderOps(){
+  const o=state.overview||{},r=o.last_run||{};
+  $('#opsSummary').innerHTML=[['Patch',o.site_patch_version||SITE_UI_VERSION],['Collector',o.collector_version||'—'],['Classifier',o.classifier_version||'—'],['Sources',o.sources_configured??63],['Live',o.sources_live??0],['Degraded',o.sources_degraded??0],['Failed',o.sources_failed??0],['Links discovered',r.documents_discovered??0],['Articles attempted',r.documents_selected??0],['New relevant',r.documents_retained??0],['Archive total',r.archive_reports??state.reports.length],['Candidate events',r.candidate_events_archive??state.events.length],['Events 7D',r.candidate_events_7d??0],['Events 30D',r.candidate_events_30d??state.thirty?.candidate_events??0],['Reports 30D',r.reports_30d??state.thirty?.reports??0],['Archive rejects',r.archive_rejected_by_precision_rules??0],['Translations',r.translations??0],['Translation fails',r.translation_failures??0]].map(([k,v])=>`<div class="opscard"><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
+  const lc=o.language_coverage||{};
+  const langs=[['fr','French'],['en','English'],['ar','Arabic']];
+  const total30=langs.reduce((n,[k])=>n+(lc[k]?.reports_30d||0),0);
+  $('#languageCoverage').innerHTML=langs.map(([k,label])=>{const x=lc[k]||{};const share=total30?Math.round((x.reports_30d||0)*100/total30):0;return `<div class="language-row"><strong>${label}</strong><span>${x.configured_sources??0} sources</span><span>${x.reports_30d??0} reports / 30D</span><span>${x.distinct_sources_30d??0} contributing</span><b>${share}%</b></div>`}).join('');
+  const ar30=lc.ar?.reports_30d||0,en30=lc.en?.reports_30d||0,fr30=lc.fr?.reports_30d||0;
+  const warnings=[];if(ar30===0)warnings.push('ARABIC COLLECTION GAP: zero retained Arabic reports in the last 30 days.');if(en30>0&&fr30/en30>=5)warnings.push('LANGUAGE IMBALANCE: French reporting exceeds English by at least 5:1.');if(total30&&Math.max(fr30,en30,ar30)/total30>.85)warnings.push('COLLECTION BIAS WARNING: one language supplies more than 85% of retained 30-day reporting.');
+  $('#languageWarning').textContent=warnings.join(' ' )||'No severe language-coverage warning in the current 30-day corpus.';
+  const t=state.thirty||{};const reports30=t.reports??0,incidentReports=t.incident_reports??0,events30=t.candidate_events??0,corroborated=t.corroborated_events??0;
+  $('#pipelineFunnel').innerHTML=`<span>${reports30} relevant reports / 30D</span><i>→</i><span>${incidentReports} incident reports</span><i>→</i><span>${events30} unique fused events</span><i>→</i><span>${corroborated} multi-source events</span>`;
+  $('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.source_type||'—')}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.last_error||'')}</td></tr>`).join('');
+  $('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';
+}
 
 function loadVoices(){state.voices=speechSynthesis.getVoices();const sel=$('#voiceSelect');if(!sel)return;const prior=sel.value;sel.innerHTML='';state.voices.forEach((v,i)=>{const o=document.createElement('option');o.value=i;o.textContent=v.name;sel.appendChild(o)});let idx=prior!==''?Number(prior):-1;if(!Number.isFinite(idx)||!state.voices[idx])idx=state.voices.findIndex(v=>/Microsoft Ava Online \(Natural\)/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>/Ava/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));if(idx>=0)sel.value=idx;setText('voiceStatus',idx>=0?state.voices[idx].name:'default browser voice')}
 if('speechSynthesis'in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
