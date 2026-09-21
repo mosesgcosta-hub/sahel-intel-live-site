@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T21:26:51.921986Z",
+  "generated_at": "2026-09-21T22:27:11.515808Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 69,
+  "reports": 70,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 54,
+    "fr": 55,
     "en": 14,
     "ar": 1
   },
@@ -40,7 +40,7 @@
     },
     {
       "source": "Bamada",
-      "count": 5
+      "count": 6
     },
     {
       "source": "Malijet",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 6,
+      "reports": 7,
       "events": 1
     }
   ],
@@ -941,6 +941,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-21T22:06:07Z",
+      "discovered_at": "2026-09-21T22:27:00.921705Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Sévaré",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
+      "url": "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura"
+    },
+    {
       "published_at": "2026-09-21T17:28:05Z",
       "discovered_at": "2026-09-21T18:29:59.485797Z",
       "source": "Bamada",
@@ -1446,19 +1459,6 @@
       "candidate_event": false,
       "title": "After Niger’s coup attempt, Tiani is running out of people to trust",
       "url": "https://www.theafricareport.com/431154/after-nigers-coup-attempt-tiani-is-running-out-of-people-to-trust/"
-    },
-    {
-      "published_at": "2026-09-18T14:08:09Z",
-      "discovered_at": "2026-09-19T18:15:06.745899Z",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "‚‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚",
-      "url": "https://www.sidwaya.info/%f0%9d%90%84%f0%9d%90%a7%f0%9d%90%ac%f0%9d%90%9e%f0%9d%90%a2%f0%9d%90%a0%f0%9d%90%a7%f0%9d%90%9e%f0%9d%90%a6%f0%9d%90%9e%f0%9d%90%a7%f0%9d%90%ad-%f0%9d%90%a6%f0%9d%90%a2%f0%9d%90%a5%f0%9d%90%a2/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
