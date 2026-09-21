@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T07:28:52.597598Z",
+  "generated_at": "2026-09-21T07:30:43.401675Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 61,
+  "reports": 62,
   "incident_reports": 11,
   "candidate_events": 11,
   "corroborated_events": 0,
   "mapped_events": 6,
   "mapped_locations": 14,
-  "distinct_sources": 22,
+  "distinct_sources": 23,
   "by_actor": {
     "State": 5,
     "Africa Corps/Wagner": 3,
@@ -26,7 +26,7 @@
   },
   "by_language": {
     "fr": 50,
-    "en": 10,
+    "en": 11,
     "ar": 1
   },
   "by_confidence": {
@@ -159,7 +159,7 @@
     },
     {
       "date": "2026-08-30",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
