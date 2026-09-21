@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T05:27:21.279018Z",
+  "generated_at": "2026-09-21T06:35:03.685309Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 103,
+  "reports": 104,
   "incident_reports": 8,
   "candidate_events": 7,
   "corroborated_events": 1,
@@ -23,7 +23,7 @@
     "attack": 2
   },
   "by_language": {
-    "fr": 86,
+    "fr": 87,
     "en": 15,
     "ar": 2
   },
@@ -33,11 +33,11 @@
   },
   "top_sources": [
     {
-      "source": "Agence Nigérienne de Presse",
-      "count": 12
+      "source": "LeFaso.net",
+      "count": 13
     },
     {
-      "source": "LeFaso.net",
+      "source": "Agence Nigérienne de Presse",
       "count": 12
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "date": "2026-08-30",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
