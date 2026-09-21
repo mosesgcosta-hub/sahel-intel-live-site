@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T14:28:14.452070Z",
+  "generated_at": "2026-09-21T15:25:48.321767Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 4,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 1,
@@ -78,8 +78,8 @@
       "location_count": 2
     }
   ],
-  "briefing_fingerprint": "6c6b7dfea22ba41ab1ae1d0c83820dea33defb27",
-  "previous_fingerprint": "f47af260a5f68e927138116535dbeb87afa571b7",
+  "briefing_fingerprint": "f0dbd75bcf3198ddaaa2cb9027ba665d0336b03a",
+  "previous_fingerprint": "6c6b7dfea22ba41ab1ae1d0c83820dea33defb27",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -98,7 +98,9 @@
     "2fcea70b498ea41fc8f21215e2fa0ab42adda9df",
     "48549439e3ba634bd0e701f5ce0ea82e5f98d796",
     "dafc4a72124c536988e7264904b2373465fc1658",
-    "51b697b70ee1f99428a1e484f4da7138c0be2d9e"
+    "51b697b70ee1f99428a1e484f4da7138c0be2d9e",
+    "c714847b87c2526e5ba8e3396604263681184f6a",
+    "5f19b9266ab75f147aea916a73765777b809e5d4"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 4 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: African Arguments reports from Bamako, Mali: There’s No Conspiracy in the Sahel — There’s a Gap, and Bamako Knows How to Use It. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 2: The Defense Post Africa reports from Burkina Faso: Burkina Faso adopts law restricting media coverage of military operations - The Defense Post. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 66 French or Arabic reports; 66 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 2 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: Maliweb reports from Mali: Éventuelle intervention militaire contre les groupes terroristes dans le Sahel : Le Mali n’est ni demandeur ni preneur d’une opération militaire américaine contre-productive - maliweb.net. This is retained context and is not automatically treated as a new incident.\n\nFresh report 2: Maliweb reports from Mali: Mali : les six routiers Sénégalais enlevés par JNIM libérés - maliweb.net. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 15 were degraded. The retained archive contains 68 French or Arabic reports; 68 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
