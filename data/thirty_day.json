@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T03:56:14.016053Z",
+  "generated_at": "2026-09-21T04:29:04.102139Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 100,
+  "reports": 103,
   "incident_reports": 8,
   "candidate_events": 7,
   "corroborated_events": 1,
   "mapped_events": 5,
   "mapped_locations": 11,
-  "distinct_sources": 31,
+  "distinct_sources": 32,
   "by_actor": {
     "State": 4,
     "Other": 2,
@@ -23,7 +23,7 @@
     "attack": 2
   },
   "by_language": {
-    "fr": 83,
+    "fr": 86,
     "en": 15,
     "ar": 2
   },
@@ -232,7 +232,7 @@
     },
     {
       "date": "2026-09-14",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "date": "2026-09-18",
-      "reports": 16,
+      "reports": 18,
       "events": 0
     },
     {
