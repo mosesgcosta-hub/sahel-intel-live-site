@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T13:27:06.276488Z",
+  "generated_at": "2026-09-21T14:28:14.445951Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 64,
+  "reports": 67,
   "incident_reports": 12,
   "candidate_events": 12,
   "corroborated_events": 0,
   "mapped_events": 7,
   "mapped_locations": 16,
-  "distinct_sources": 24,
+  "distinct_sources": 25,
   "by_actor": {
     "State": 6,
     "Africa Corps/Wagner": 3,
@@ -26,7 +26,7 @@
   },
   "by_language": {
     "fr": 52,
-    "en": 11,
+    "en": 14,
     "ar": 1
   },
   "by_confidence": {
@@ -44,6 +44,10 @@
     },
     {
       "source": "ActuNiger",
+      "count": 4
+    },
+    {
+      "source": "Africa Defense Forum (ADF Magazine)",
       "count": 4
     },
     {
@@ -76,10 +80,6 @@
     },
     {
       "source": "Le Sahel",
-      "count": 3
-    },
-    {
-      "source": "Wakat Sera",
       "count": 3
     }
   ],
@@ -204,7 +204,7 @@
     },
     {
       "date": "2026-09-08",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -239,7 +239,7 @@
     },
     {
       "date": "2026-09-15",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -872,6 +872,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-21T14:14:20Z",
+      "discovered_at": "2026-09-21T14:28:13.387443Z",
+      "source": "African Arguments",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "There’s No Conspiracy in the Sahel — There’s a Gap, and Bamako Knows How to Use It",
+      "url": "https://africanarguments.org/2026/09/theres-no-conspiracy-in-the-sahel-theres-a-gap-and-bamako-knows-how-to-use-it/"
+    },
+    {
       "published_at": "2026-09-21T12:35:21Z",
       "discovered_at": "2026-09-21T13:27:01.069898Z",
       "source": "Studio Tamani",
@@ -1377,19 +1390,6 @@
       "candidate_event": false,
       "title": "Defence: the 57th promotion of the National Gendarmerie presented to the flag and now ready to serve the Republic and defend the Homeland",
       "url": "https://www.actuniger.com/societe/22361-defense-la-57e-promotion-de-la-gendarmerie-nationale-presentee-au-drapeau-et-desormais-prete-a-servir-la-republique-et-defendre-la-patrie.html"
-    },
-    {
-      "published_at": "2026-09-17T21:24:45Z",
-      "discovered_at": "2026-09-19T20:56:45.703291Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311895-operation-dougoukoloko-les-fama-neutralisent-des-groupes-t-1.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
