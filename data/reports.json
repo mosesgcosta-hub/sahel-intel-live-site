@@ -1,5 +1,93 @@
 [
   {
+    "id": "d1a7ec5db31a1bff728917e23f489b10de7faf13",
+    "source_id": "bamada",
+    "source": "Bamada",
+    "source_language": "fr",
+    "language": "fr",
+    "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens",
+    "title": "CHASSE CONTRE LES GROUPES ARMÉS TERRORISTES DANS LES SECTEURS DE DJENNÉ, SÉVARÉ ET BER : DES DÉPÔTS ET BASES TERRORISTES FRAPPÉS PAR LES VECTEURS AÉRIENS",
+    "translated_title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
+    "excerpt": "Les opérations de sécurisation se poursuivent sur plusieurs fronts au Mali. Dans cette dynamique, les Forces Armées Maliennes (FAMa) ont ciblé, les 17 et 18 septembre 2026, plusieurs positions des groupes armés terroristes dans les secteurs de Djenné, Sévaré à Mopti et Ber (…)Par Mahamane TOURE – NOUVEL HORIZONRETROUVEZ LE RESTE DE VOTRE ARTICLE DANS LE NOUVEL HORIZON DU LUNDI 21 SEPTEMBRE 2026 Suivez-nous sur Facebook, Telegram, WhatsApp pour ne rien rater de l'actualité malienne Suivez-nous sur Facebook, Telegram, WhatsApp pour ne rien rater de l'actualité malienne",
+    "translated_excerpt": "Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 21, 2026 Follow US ON Facebook, Telegram, WhatsApp TO don't miss anything about Malian news Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news",
+    "translation_status": "success",
+    "translation_error": null,
+    "translation_attempts": 3,
+    "published_at": "2026-09-21T17:28:05Z",
+    "published_date_source": "feed",
+    "discovered_at": "2026-09-21T18:29:59.485797Z",
+    "discovery": "rss:/rss",
+    "fetch_status": "full-text",
+    "retention_class": "candidate_event_report",
+    "classifier_version": "1.7-two-pass-roles",
+    "archive_screen_version": "2.8-integrity-1",
+    "date_model_version": "2.8-incident-date-1",
+    "geo_model_version": "2.8-gazetteer-1",
+    "relevance_score": 14,
+    "geo_relevance_score": 8,
+    "topic_relevance_score": 6,
+    "relevance_reasons": [
+      "explicit place: Djenné (djenne)",
+      "local source prior: Mali",
+      "state/security force: forces armées maliennes",
+      "headline event signal: security operation (frappes)"
+    ],
+    "actor_bucket": "State",
+    "actor_relation": "perpetrator/conducted",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "event_type": "security operation",
+    "operational_event": true,
+    "candidate_event": true,
+    "event_confidence": "moderate",
+    "country": "Mali",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "geo_confidence": "explicit-place",
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ber",
+        "country": "Mali",
+        "lat": 16.7667,
+        "lng": -3.0167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
+    "source_type": "local_media",
+    "configured_language": "fr",
+    "analytical_container": false,
+    "event_date": "2026-09-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date"
+  },
+  {
     "id": "d6e8ae7d15e406ae823f4a7246f8ca5d4841cdf8",
     "source_id": "studio-tamani",
     "source": "Studio Tamani",

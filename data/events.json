@@ -1,5 +1,74 @@
 [
   {
+    "id": "c340bb5acd8ff9a5ff34f320461c2cdc22ec93b6",
+    "event_date": "2026-09-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-21T17:28:05Z",
+    "collected_at": "2026-09-21T18:29:59.485797Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ber",
+        "country": "Mali",
+        "lat": 16.7667,
+        "lng": -3.0167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
+    "summary": "Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 21, 2026 Follow US ON Facebook, Telegram, WhatsApp TO don't miss anyt",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
+    ],
+    "created_at": "2026-09-21T18:29:59.485797Z",
+    "updated_at": "2026-09-21T18:29:59.485797Z",
+    "extraction_confidence": "moderate",
+    "corroboration": "single-source",
+    "confidence": "moderate"
+  },
+  {
     "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
     "event_date": "2026-09-19",
     "event_date_confidence": "explicit-text",

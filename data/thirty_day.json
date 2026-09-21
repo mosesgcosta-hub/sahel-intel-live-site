@@ -1,42 +1,46 @@
 {
-  "generated_at": "2026-09-21T17:24:49.263600Z",
+  "generated_at": "2026-09-21T18:30:06.339666Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 68,
-  "incident_reports": 12,
-  "candidate_events": 12,
+  "reports": 69,
+  "incident_reports": 13,
+  "candidate_events": 13,
   "corroborated_events": 0,
-  "mapped_events": 7,
-  "mapped_locations": 16,
+  "mapped_events": 8,
+  "mapped_locations": 20,
   "distinct_sources": 25,
   "by_actor": {
-    "State": 6,
+    "State": 7,
     "Africa Corps/Wagner": 3,
     "Other": 2,
     "JNIM": 1
   },
   "by_country": {
-    "Mali": 11,
+    "Mali": 12,
     "Niger": 1
   },
   "by_event_type": {
-    "security operation": 7,
+    "security operation": 8,
     "attack": 4,
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 53,
+    "fr": 54,
     "en": 14,
     "ar": 1
   },
   "by_confidence": {
-    "moderate": 7,
+    "moderate": 8,
     "low": 5
   },
   "top_sources": [
     {
       "source": "LeFaso.net",
       "count": 8
+    },
+    {
+      "source": "Bamada",
+      "count": 5
     },
     {
       "source": "Malijet",
@@ -52,10 +56,6 @@
     },
     {
       "source": "Agence Nigérienne de Presse",
-      "count": 4
-    },
-    {
-      "source": "Bamada",
       "count": 4
     },
     {
@@ -89,27 +89,27 @@
       "count": 5
     },
     {
+      "location": "Sévaré",
+      "count": 4
+    },
+    {
+      "location": "Ber",
+      "count": 3
+    },
+    {
       "location": "Dioura",
       "count": 3
     },
     {
-      "location": "Sévaré",
+      "location": "Djenné",
+      "count": 3
+    },
+    {
+      "location": "Mopti",
       "count": 3
     },
     {
       "location": "Bamako",
-      "count": 2
-    },
-    {
-      "location": "Ber",
-      "count": 2
-    },
-    {
-      "location": "Djenné",
-      "count": 2
-    },
-    {
-      "location": "Mopti",
       "count": 2
     },
     {
@@ -269,11 +269,80 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 5,
-      "events": 0
+      "reports": 6,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "c340bb5acd8ff9a5ff34f320461c2cdc22ec93b6",
+      "event_date": "2026-09-21",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-21T17:28:05Z",
+      "collected_at": "2026-09-21T18:29:59.485797Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Djenné",
+      "lat": 13.9061,
+      "lng": -4.555,
+      "locations": [
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ber",
+          "country": "Mali",
+          "lat": 16.7667,
+          "lng": -3.0167,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
+      "summary": "Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 21, 2026 Follow US ON Facebook, Telegram, WhatsApp TO don't miss anyt",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
+      ],
+      "created_at": "2026-09-21T18:29:59.485797Z",
+      "updated_at": "2026-09-21T18:29:59.485797Z",
+      "extraction_confidence": "moderate",
+      "corroboration": "single-source",
+      "confidence": "moderate"
+    },
     {
       "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
       "event_date": "2026-09-19",
@@ -872,6 +941,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-21T17:28:05Z",
+      "discovered_at": "2026-09-21T18:29:59.485797Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Djenné",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
+      "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
+    },
+    {
       "published_at": "2026-09-21T16:17:43Z",
       "discovered_at": "2026-09-21T17:24:40.300675Z",
       "source": "Studio Tamani",
@@ -1377,19 +1459,6 @@
       "candidate_event": false,
       "title": "‚‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚",
       "url": "https://www.sidwaya.info/%f0%9d%90%84%f0%9d%90%a7%f0%9d%90%ac%f0%9d%90%9e%f0%9d%90%a2%f0%9d%90%a0%f0%9d%90%a7%f0%9d%90%9e%f0%9d%90%a6%f0%9d%90%9e%f0%9d%90%a7%f0%9d%90%ad-%f0%9d%90%a6%f0%9d%90%a2%f0%9d%90%a5%f0%9d%90%a2/"
-    },
-    {
-      "published_at": "2026-09-18T11:37:56Z",
-      "discovered_at": "2026-09-19T18:15:12.686750Z",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger: four relatives of Bazoum in exile and a social media activist residing in the United States still stripped of their nationality",
-      "url": "https://www.actuniger.com/societe/22362-niger-quatre-proches-de-bazoum-en-exil-et-un-activiste-des-reseaux-sociaux-residant-aux-etats-unis-encore-dechus-de-leur-nationalite.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
