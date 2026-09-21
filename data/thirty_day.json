@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T03:26:24.030746Z",
+  "generated_at": "2026-09-21T03:28:47.184034Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 125,
+  "reports": 126,
   "incident_reports": 8,
   "candidate_events": 7,
   "corroborated_events": 1,
@@ -23,7 +23,7 @@
   },
   "by_language": {
     "fr": 108,
-    "en": 14,
+    "en": 15,
     "ar": 3
   },
   "by_confidence": {
@@ -236,7 +236,7 @@
     },
     {
       "date": "2026-09-15",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
