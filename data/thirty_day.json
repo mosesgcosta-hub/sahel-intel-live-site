@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:28:17.744321Z",
+  "generated_at": "2026-09-21T17:24:49.263600Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
   "reports": 68,
@@ -873,7 +873,7 @@
   "latest_reports": [
     {
       "published_at": "2026-09-21T16:17:43Z",
-      "discovered_at": "2026-09-21T16:28:08.941320Z",
+      "discovered_at": "2026-09-21T17:24:40.300675Z",
       "source": "Studio Tamani",
       "language": "fr",
       "actor": "State",
@@ -882,7 +882,7 @@
       "event_type": "security operation",
       "candidate_event": false,
       "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
-      "url": "https://www.studiotamani.org/208003-mali-les-fama-ciblees-a-kassala-sevare-et-dioura"
+      "url": "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes"
     },
     {
       "published_at": "2026-09-21T14:14:20Z",
