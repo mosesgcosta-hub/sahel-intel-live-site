@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T15:25:48.311177Z",
+  "generated_at": "2026-09-21T16:28:17.744321Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 67,
+  "reports": 68,
   "incident_reports": 12,
   "candidate_events": 12,
   "corroborated_events": 0,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 52,
+    "fr": 53,
     "en": 14,
     "ar": 1
   },
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -872,6 +872,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-21T16:17:43Z",
+      "discovered_at": "2026-09-21T16:28:08.941320Z",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Sévaré",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
+      "url": "https://www.studiotamani.org/208003-mali-les-fama-ciblees-a-kassala-sevare-et-dioura"
+    },
+    {
       "published_at": "2026-09-21T14:14:20Z",
       "discovered_at": "2026-09-21T14:28:13.387443Z",
       "source": "African Arguments",
@@ -1377,19 +1390,6 @@
       "candidate_event": false,
       "title": "Niger: four relatives of Bazoum in exile and a social media activist residing in the United States still stripped of their nationality",
       "url": "https://www.actuniger.com/societe/22362-niger-quatre-proches-de-bazoum-en-exil-et-un-activiste-des-reseaux-sociaux-residant-aux-etats-unis-encore-dechus-de-leur-nationalite.html"
-    },
-    {
-      "published_at": "2026-09-18T09:40:20Z",
-      "discovered_at": "2026-09-19T18:15:14.146940Z",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Defence: the 57th promotion of the National Gendarmerie presented to the flag and now ready to serve the Republic and defend the Homeland",
-      "url": "https://www.actuniger.com/societe/22361-defense-la-57e-promotion-de-la-gendarmerie-nationale-presentee-au-drapeau-et-desormais-prete-a-servir-la-republique-et-defendre-la-patrie.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
