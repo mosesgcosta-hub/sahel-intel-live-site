@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-09-21T06:35:03.709308Z",
+  "generated_at": "2026-09-21T07:21:39.029490Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
-  "new_event_ids": [],
+  "freshness_status": "NEW OR UPDATED EVENTS",
+  "new_event_ids": [
+    "ecedb77d7e97358a5343f986b38665e5f66e47a5",
+    "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
+    "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3"
+  ],
   "updated_event_ids": [],
-  "new_reports_this_cycle": 1,
+  "new_corroboration_ids": [],
+  "new_reports_this_cycle": 0,
   "trend_snapshot": {
+    "JNIM": {
+      "current": 1,
+      "previous": 0,
+      "change_pct": 100.0
+    },
+    "IS Sahel": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "State": {
+      "current": 5,
+      "previous": 0,
+      "change_pct": 100.0
+    }
+  },
+  "previous_briefing_trend_snapshot": {
     "JNIM": {
       "current": 1,
       "previous": 0,
@@ -24,16 +46,16 @@
   },
   "event_snapshots": [
     {
-      "id": "fa718271ca7b2332366f4cf88b4003ace57789ef",
-      "source_count": 2,
-      "updated_at": "2026-09-19T18:15:00.857125Z",
-      "location_count": 4
+      "id": "ecedb77d7e97358a5343f986b38665e5f66e47a5",
+      "source_count": 1,
+      "updated_at": "2026-09-21T04:28:31.181790Z",
+      "location_count": 0
     },
     {
-      "id": "0d8f955ad44de7f83d1a1f5228824779711f5679",
+      "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
       "source_count": 1,
-      "updated_at": "2026-09-19T18:15:03.129399Z",
-      "location_count": 0
+      "updated_at": "2026-09-19T18:15:00.857125Z",
+      "location_count": 4
     },
     {
       "id": "045e201ec819bb2707611660b05da6572820b8ac",
@@ -48,14 +70,14 @@
       "location_count": 0
     },
     {
-      "id": "b7308f5a1c6986fe93c318c702bf5ac858f6f6a6",
+      "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
       "source_count": 1,
       "updated_at": "2026-09-20T08:26:52.057143Z",
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "f0c975d01a4855b6eb9b4863192cefddc8eb4164",
-  "previous_fingerprint": "6632f6a8453132fd1d18e74e0d443f32c5344f88",
+  "briefing_fingerprint": "fb94c85b028d5aabc59347b6a7531904887e7b74",
+  "previous_fingerprint": "f0c975d01a4855b6eb9b4863192cefddc8eb4164",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -68,5 +90,5 @@
     "92ccf064bcc7a9354fb1678a63b9871cba8d0102",
     "e266739ec4da6c9240d5bea1f245c2b6509e7a3d"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 1 new relevant report, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: LeFaso.net reports from Niger: Situation au Niger : L'AES salue la loyauté, le courage et le sens du devoir des Forces de Défense et de Sécurité nigériennes - leFaso.net - L'actualité au Burkina Faso. This is retained reporting context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 14 were degraded. The retained archive contains 118 French or Arabic reports; 118 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 3 new event(s), 0 materially updated event(s), and 0 event(s) with new corroboration. The leading change is a attack signal involving Africa Corps/Wagner around Mali.\n\nNew event 1: attack involving Africa Corps/Wagner in Mali. 1 monitored source across FR reporting. In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report by Le Monde.fr Confidence is moderate; details remain subject to revision.\n\nNew event 2: security operation involving State in Dioura. 1 monitored source across FR reporting. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday Confidence is low; details remain subject to revision.\n\nNew event 3: security operation involving State in Djenné, Sévaré, Ber, Bamako. 1 monitored source across FR reporting. Targeted operations conducted south-east of Djenné, north-west of Sévaré and in Ber Bamako, 19 September 2026 – The Malian Armed Forces (FAMa) are continuing their mission to monitor, control and secure the national territory as part of Operation Dougoukoloko. Confidence is moderate; details remain subject to revision.\n\nQuantitative picture: JNIM has 1 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 5 extracted candidate events in the latest seven-day window, up from zero in the preceding window.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 14 were degraded. The retained archive contains 64 French or Arabic reports; 64 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
