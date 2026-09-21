@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T01:27:15.514530Z",
+  "generated_at": "2026-09-21T01:37:56.696627Z",
   "window_days": 30,
   "cutoff": "2026-08-22",
-  "reports": 106,
+  "reports": 107,
   "candidate_events": 6,
   "corroborated_events": 1,
   "mapped_events": 3,
@@ -19,7 +19,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 101,
+    "fr": 102,
     "en": 5
   },
   "by_confidence": {
@@ -56,11 +56,11 @@
       "count": 7
     },
     {
-      "source": "Sidwaya",
-      "count": 6
+      "source": "Wakat Sera",
+      "count": 7
     },
     {
-      "source": "Wakat Sera",
+      "source": "Sidwaya",
       "count": 6
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "date": "2026-09-20",
-      "reports": 17,
+      "reports": 18,
       "events": 1
     },
     {
@@ -601,6 +601,19 @@
     },
     {
       "published_at": "2026-09-20T16:02:34Z",
+      "discovered_at": "2026-09-21T01:37:29.254546Z",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Burkina: \"The Mayor\", alleged perpetrator of the rape of a 13-year-old girl arrested",
+      "url": "https://www.wakatsera.com/burkina-le-maire-presume-auteur-du-viol-dune-fille-de-13-ans-interpelle/"
+    },
+    {
+      "published_at": "2026-09-20T16:02:34Z",
       "discovered_at": "2026-09-20T16:26:05.705492Z",
       "source": "Wakat Sera",
       "language": "fr",
@@ -923,19 +936,6 @@
       "candidate_event": false,
       "title": "Burkina Faso/ Higher Military Education: Prime Minister Rimtalba Jean Emmanuel Ouédraogo officially opens the War School",
       "url": "https://lefaso.net/spip.php?article149320="
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T18:15:08.691884Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "How Burkina finances its fight against terrorism",
-      "url": "https://lefaso.net/spip.php?article149346="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

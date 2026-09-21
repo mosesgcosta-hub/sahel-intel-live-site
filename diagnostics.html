@@ -30,7 +30,7 @@
   <div id="summary" class="grid"></div>
   <h2>Published data-file checks</h2>
   <table><thead><tr><th>File</th><th>Status</th><th>Observed content</th></tr></thead><tbody id="checks"></tbody></table>
-  <h2>Latest collector trace</h2>
+  <h2>Run history</h2><div id="history"></div><h2>Latest collector trace</h2>
   <pre id="raw">Loading…</pre>
 <script>
 const files=['overview','reports','events','metrics','thirty_day','sources','runs','briefing','diagnostics'];
@@ -48,7 +48,7 @@ async function load(){
     }catch(e){return {name,ok:false,size:e.message,data:null}}
   }));
   document.getElementById('checks').innerHTML=results.map(x=>`<tr><td>${esc(x.name)}.json</td><td class="${x.ok?'ok':'bad'}">${x.ok?'OK':'FAILED'}</td><td>${esc(x.size)}</td></tr>`).join('');
-  const d=results.find(x=>x.name==='diagnostics')?.data;
+  const d=results.find(x=>x.name==='diagnostics')?.data; const runs=results.find(x=>x.name==='runs')?.data||[]; document.getElementById('history').innerHTML=(runs||[]).slice(0,12).map(r=>`<div class="card"><strong>Patch ${esc(r.site_patch_version||'—')}</strong><span>${esc(r.finished_at||'')}</span><span>${esc(r.status||'')} • ${esc(r.documents_retained??0)} retained • ${esc(r.candidate_events_archive??0)} events • ${esc(r.translations??0)}/${esc(r.translations_attempted??0)} translations</span></div>`).join('')||'<p class="muted">No run history yet.</p>'; 
   if(d){
     const p=d.pipeline||{};
     document.getElementById('summary').innerHTML=[

@@ -1,5 +1,5 @@
-const SITE_UI_VERSION='2.1';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0};
+const SITE_UI_VERSION='2.2';
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -102,7 +102,7 @@ function renderMap(){
   window.SAHEL_MAP_DATA.countries.forEach(f=>svg.appendChild(svgEl('path',{d:geometryPath(f.geometry),class:`country ${f.properties.aes?'aes':'context'}`})));
 
 
-  let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays));
+  let events=state.events.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate));
   if(state.actorFilter!=='all')events=events.filter(e=>e.actor===state.actorFilter);
   events.slice(0,400).forEach(e=>{
     const [x,y]=project(Number(e.lng),Number(e.lat));
@@ -110,16 +110,29 @@ function renderMap(){
     const g=svgEl('g');const c=actorColor(e.actor);
     g.appendChild(svgEl('circle',{cx:x,cy:y,r:13,fill:c,class:'eventhalo'}));
     const dot=svgEl('circle',{cx:x,cy:y,r:6.2,fill:c,class:'eventdot'});
-    g.appendChild(dot);g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());svg.appendChild(g)
+    g.appendChild(dot);g.classList.add('event-marker');g.addEventListener('mouseenter',ev=>showTip(ev,e));g.addEventListener('mouseleave',()=>hideTip());g.addEventListener('click',()=>showEventDetail(e));svg.appendChild(g)
   });
 
-  // Cities: text is restored, but only at pinned coordinates with per-city offsets.
+  // Cities: collision-aware label placement. Keep coordinates exact; move only the text label.
   const cityLayer=svgEl('g',{'aria-label':'city-labels'});
-  CITY_LABELS.forEach(c=>{
+  const occupied=[];
+  const capitalNames=new Set(['Bamako','Ouagadougou','Niamey']);
+  const operationalNames=new Set(['Timbuktu','Gao','Kidal','Ménaka','Mopti','Djibo','Dori','Tillabéri','Agadez']);
+  const priority=c=>capitalNames.has(c.name)?3:operationalNames.has(c.name)?2:1;
+  const candidates=[[8,-8],[-8,-8],[8,13],[-8,13],[12,2],[-12,2],[18,-14],[-18,-14],[18,18],[-18,18]];
+  const overlaps=b=>occupied.some(o=>!(b.x2<o.x1||b.x1>o.x2||b.y2<o.y1||b.y1>o.y2));
+  [...CITY_LABELS].sort((a,b)=>priority(b)-priority(a)).forEach(c=>{
     const [x,y]=project(c.lng,c.lat);
     if(x<0||x>1000||y<0||y>560)return;
     cityLayer.appendChild(svgEl('circle',{cx:x,cy:y,r:2.5,class:'city-dot'}));
-    const label=svgEl('text',{x:x+(c.dx||0),y:y+(c.dy||0),class:'city-label','text-anchor':c.anchor||'start'});
+    const width=Math.max(28,c.name.length*7.2),height=14;
+    let chosen=null;
+    for(const [dx,dy] of candidates){const anchor=dx<0?'end':'start';const lx=x+dx,ly=y+dy;const box={x1:anchor==='end'?lx-width:lx,x2:anchor==='end'?lx:lx+width,y1:ly-height+3,y2:ly+4};if(!overlaps(box)){chosen={dx,dy,anchor,box};break}}
+    if(!chosen && priority(c)<2)return;
+    chosen=chosen||{dx:8,dy:-8,anchor:'start',box:{x1:x+8,x2:x+8+width,y1:y-19,y2:y-4}};
+    occupied.push(chosen.box);
+    if(Math.abs(chosen.dx)>10||Math.abs(chosen.dy)>14)cityLayer.appendChild(svgEl('line',{x1:x,y1:y,x2:x+chosen.dx*.72,y2:y+chosen.dy*.72,class:'city-leader'}));
+    const label=svgEl('text',{x:x+chosen.dx,y:y+chosen.dy,class:`city-label ${capitalNames.has(c.name)?'capital-label':''}`,'text-anchor':chosen.anchor});
     label.textContent=c.name;cityLayer.appendChild(label);
   });
   svg.appendChild(cityLayer);
@@ -134,13 +147,20 @@ function renderMap(){
   svg.appendChild(countryLayer);
   host.appendChild(svg);
 
-  const visibleEvents=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(state.actorFilter==='all'||e.actor===state.actorFilter));
+  const visibleEvents=state.events.filter(e=>eventInWindow(e,state.mapDays)&&(!state.timelineDate||e.event_date===state.timelineDate)&&(state.actorFilter==='all'||e.actor===state.actorFilter));
   const mapped=visibleEvents.filter(e=>Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng)));
   const countCountry=name=>mapped.filter(e=>e.country===name).length;
   const unmapped=visibleEvents.filter(e=>!Number.isFinite(Number(e.lat))||!Number.isFinite(Number(e.lng))).length;
   setText('mapCountryCounts',`Mapped candidate events • Mali ${countCountry('Mali')} • Burkina Faso ${countCountry('Burkina Faso')} • Niger ${countCountry('Niger')} • Unmapped ${unmapped}`);
 }
 function showTip(ev,e){const tip=$('#maptip');tip.style.display='block';const rect=$('#map').getBoundingClientRect();tip.style.left=Math.min(rect.width-290,Math.max(8,ev.clientX-rect.left+10))+'px';tip.style.top=Math.min(rect.height-120,Math.max(8,ev.clientY-rect.top+10))+'px';tip.innerHTML=`<strong>${esc(e.actor)} • ${esc(e.event_type)}</strong><br>${esc([e.city,e.country].filter(Boolean).join(', '))}<br>${esc(e.title)}<br><span class="report-meta">${esc(e.source_count)} monitored source${e.source_count===1?'':'s'} • ${esc(e.corroboration)}</span>`}
+
+function showEventDetail(e){
+  const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
+  const src=(e.sources||e.source_names||[]);const sourceText=Array.isArray(src)?src.join(' • '):(e.source||`${e.source_count||1} monitored source(s)`);
+  box.innerHTML=`<button class="detail-close" aria-label="Close">×</button><span class="eyebrow">EVENT EVIDENCE CARD</span><h3>${esc(e.actor||'Unattributed')} • ${esc(e.event_type||'Unclassified')}</h3><div class="event-detail-grid"><div><small>DATE</small><strong>${esc(e.event_date||'Unresolved')}</strong></div><div><small>LOCATION</small><strong>${esc([e.city,e.country].filter(Boolean).join(', ')||'Unresolved')}</strong></div><div><small>CONFIDENCE</small><strong>${esc(e.confidence||e.corroboration||'Candidate')}</strong></div><div><small>SOURCES</small><strong>${esc(e.source_count??1)}</strong></div></div><p>${esc(e.title||'No event summary available.')}</p><div class="report-meta">${esc(sourceText)}</div>`;
+  box.querySelector('.detail-close').onclick=()=>{box.hidden=true};
+}
 function hideTip(){const t=$('#maptip');if(t)t.style.display='none'}
 
 function lineSVG(seriesList,{height=100,showAxes=false}={}){const width=800,pad=showAxes?32:4;const vals=seriesList.flatMap(s=>s.values);const max=Math.max(1,...vals),min=0;const n=Math.max(2,...seriesList.map(s=>s.values.length));const sx=i=>pad+(i/(n-1))*(width-pad*2);const sy=v=>height-pad-(v-min)/(max-min||1)*(height-pad*2);let grid='';if(showAxes){for(let i=0;i<5;i++){const y=pad+i*(height-pad*2)/4;grid+=`<line x1="${pad}" y1="${y}" x2="${width-pad}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/><text x="4" y="${y+3}" fill="var(--chart-axis)" font-size="9">${Math.round(max*(1-i/4))}</text>`}}const lines=seriesList.map(s=>{if(!s.values.length)return'';const pts=s.values.map((v,i)=>`${sx(i)},${sy(v)}`).join(' ');return `<polyline fill="none" stroke="${s.color}" stroke-width="2.2" points="${pts}" vector-effect="non-scaling-stroke"/>`}).join('');return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${grid}${lines}</svg>`}
@@ -183,9 +203,14 @@ function renderThirty(){
   const reportSeries=(t.daily||[]).map(x=>x.reports||0),eventSeries=(t.daily||[]).map(x=>x.events||0);
   $('#thirtyChart').innerHTML=lineSVG([{values:reportSeries,color:'#59c3d8'},{values:eventSeries,color:'#e7ad53'}],{height:180,showAxes:true})+
     '<div class="chartlegend"><span><i class="dot" style="background:#59c3d8"></i>Relevant reports</span><span><i class="dot state"></i>Candidate events</span></div>';
-  $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map(e=>`<div class="timeline-row"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}</p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
+  $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map(e=>`<div class="timeline-row timeline-event" data-event-date="${esc(e.event_date||'')}"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}</p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
   $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?new Date(r.published_at).toLocaleDateString():'undated')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc(r.source||'')}</strong><p>${esc(r.title||'')}</p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
   setText('thirtyNote',t.method_note||'');
+  const dates=[...new Set((t.latest_events||[]).map(e=>e.event_date).filter(Boolean))].sort().reverse();
+  const strip=$('#eventDateStrip');if(strip)strip.innerHTML=dates.map(d=>`<button class="date-chip ${state.timelineDate===d?'active':''}" data-date="${esc(d)}">${esc(d.slice(5))}</button>`).join('')||'<span class="report-meta">No dated candidate events.</span>';
+  $$('.date-chip').forEach(b=>b.onclick=()=>{state.timelineDate=b.dataset.date;$('#clearTimelineFilter').hidden=false;renderMap();renderThirty()});
+  $$('.timeline-event').forEach(r=>r.onclick=()=>{if(r.dataset.eventDate){state.timelineDate=r.dataset.eventDate;$('#clearTimelineFilter').hidden=false;renderMap();renderThirty();window.scrollTo({top:0,behavior:'smooth'})}});
+  const clear=$('#clearTimelineFilter');if(clear){clear.hidden=!state.timelineDate;clear.onclick=()=>{state.timelineDate=null;renderMap();renderThirty()}};
 }
 
 function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
