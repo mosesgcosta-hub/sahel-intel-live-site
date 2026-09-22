@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T11:28:54.799703Z",
+  "generated_at": "2026-09-22T12:34:21.328790Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 88,
+  "reports": 90,
   "incident_reports": 14,
   "candidate_events": 14,
   "corroborated_events": 0,
   "mapped_events": 9,
   "mapped_locations": 23,
-  "distinct_sources": 38,
+  "distinct_sources": 39,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 64,
+    "fr": 66,
     "en": 19,
     "ar": 5
   },
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 5,
+      "reports": 7,
       "events": 0
     }
   ],
@@ -1219,7 +1219,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T11:28:28.472624Z",
+      "discovered_at": "2026-09-22T12:33:44.839261Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1229,6 +1229,32 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T12:22:16Z",
+      "discovered_at": "2026-09-22T12:33:46.849426Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "66th anniversary of independence: Governor of Kayes calls for commitment to national construction",
+      "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-le-gouverneur-de-kayes-appelle-a-lengagement-pour-la-construction-nationale/"
+    },
+    {
+      "published_at": "2026-09-22T11:49:09Z",
+      "discovered_at": "2026-09-22T12:33:46.796615Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Sikasso",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "66th anniversary of independence in Koutiala:Governor calls on populations to \"healthy collaboration\" with FAMa",
+      "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-a-koutiala-le-gouverneur-appelle-les-populations-a-une-saine-collaboration-avec-fama/"
     },
     {
       "published_at": "2026-09-22T09:27:47Z",
@@ -1710,32 +1736,6 @@
       "candidate_event": false,
       "title": "Sévaré: five suspects arrested in an online fraud case",
       "url": "https://malijet.com/les_faits_divers_au_mali/311918-sevare-cinq-suspects-interpelles-dans-une-affaire-descroq.html"
-    },
-    {
-      "published_at": "2026-09-19T08:30:00Z",
-      "discovered_at": "2026-09-19T18:56:18.827615Z",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Drone war in Mali, exclusive interview with Fouzi Lekjaâ, the secrets of Cameroonian intelligence... The 5 facts you shouldn't miss",
-      "url": "https://www.jeuneafrique.com/1843111/politique/guerre-des-drones-au-mali-interview-exclusive-de-fouzi-lekjaa-les-secrets-du-renseignement-camerounais-les-5-infos-quil-ne-fallait-pas-manquer/"
-    },
-    {
-      "published_at": "2026-09-19T01:09:53Z",
-      "discovered_at": "2026-09-20T20:25:09.933273Z",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Change of command in the Military District of Niamey: Brigadier General Mamane Sani Kiaou officially takes office at the head of the armies - lesahel.org",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaGhlTm9fZENwU0tjQjhwTmpqdFhnd2k3TU9lZnJnQ21BOTJPcExMZnBkMzZWc0YxYUtCRkxneC0tU3YtRzAxUFM4b3h1MWk1RXhBWGNIZ3UtMTNKYnJBU3hrMGtOczQyN2NGV3FRUzZXZGtnOXYwQXlZOXNkamxBaC00TGlCMlRHZ25GUDZOR3QzMXlGYm5aZmVVU0JiUW5kUEZCM2NlNzI3SXJxYkdscEd2ck54RWxpVEwtRmZDY1VES21jQkt4ZnpWVXJnZXdRcTlNcm9rcWZ4SWlfZXFLYndYcWcyQ2xEZGJVZGQzU1FiZmcwaXJWQWM0MWFVQ0ZnMTRXLWpueVR3YXRmSmxN?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
