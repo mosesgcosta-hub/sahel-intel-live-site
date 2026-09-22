@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-22T12:34:21.328790Z",
+  "generated_at": "2026-09-22T13:30:50.383726Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 90,
-  "incident_reports": 14,
-  "candidate_events": 14,
+  "reports": 91,
+  "incident_reports": 15,
+  "candidate_events": 15,
   "corroborated_events": 0,
-  "mapped_events": 9,
-  "mapped_locations": 23,
+  "mapped_events": 10,
+  "mapped_locations": 25,
   "distinct_sources": 39,
   "by_actor": {
-    "State": 7,
+    "State": 8,
     "Africa Corps/Wagner": 3,
     "JNIM": 2,
     "Other": 2
   },
   "by_country": {
-    "Mali": 13,
+    "Mali": 14,
     "Niger": 1
   },
   "by_event_type": {
-    "security operation": 8,
+    "security operation": 9,
     "attack": 5,
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 66,
+    "fr": 67,
     "en": 19,
     "ar": 5
   },
   "by_confidence": {
-    "moderate": 8,
+    "moderate": 9,
     "low": 6
   },
   "top_sources": [
@@ -47,11 +47,11 @@
       "count": 6
     },
     {
-      "source": "Agence Nigérienne de Presse",
-      "count": 5
+      "source": "Malijet",
+      "count": 6
     },
     {
-      "source": "Malijet",
+      "source": "Agence Nigérienne de Presse",
       "count": 5
     },
     {
@@ -85,16 +85,16 @@
   ],
   "top_locations": [
     {
-      "location": "Mali",
-      "count": 5
-    },
-    {
       "location": "Sévaré",
-      "count": 5
+      "count": 6
     },
     {
       "location": "Dioura",
-      "count": 4
+      "count": 5
+    },
+    {
+      "location": "Mali",
+      "count": 5
     },
     {
       "location": "Bamako",
@@ -265,15 +265,85 @@
     {
       "date": "2026-09-21",
       "reports": 9,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-09-22",
-      "reports": 7,
+      "reports": 8,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "29287febb6ad28dcee240f5096976b06453d5b37",
+      "event_date": "2026-09-21",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-09-22T13:19:30Z",
+      "collected_at": "2026-09-22T13:30:20.996068Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Sévaré",
+      "lat": 14.5272,
+      "lng": -4.0934,
+      "locations": [
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
+      "summary": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups . In recent days, troops deploy",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
+      ],
+      "created_at": "2026-09-22T13:30:20.996068Z",
+      "updated_at": "2026-09-22T13:30:20.996068Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-22T13:30:20.996068Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "c340bb5acd8ff9a5ff34f320461c2cdc22ec93b6",
       "event_date": "2026-09-21",
@@ -1219,7 +1289,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T12:33:44.839261Z",
+      "discovered_at": "2026-09-22T13:30:20.844037Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1229,6 +1299,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T13:19:30Z",
+      "discovered_at": "2026-09-22T13:30:20.996068Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Sévaré",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
     },
     {
       "published_at": "2026-09-22T12:22:16Z",
@@ -1723,19 +1806,6 @@
       "candidate_event": true,
       "title": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html"
-    },
-    {
-      "published_at": "2026-09-19T09:08:29Z",
-      "discovered_at": "2026-09-19T18:14:59.901315Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Sévaré",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Sévaré: five suspects arrested in an online fraud case",
-      "url": "https://malijet.com/les_faits_divers_au_mali/311918-sevare-cinq-suspects-interpelles-dans-une-affaire-descroq.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

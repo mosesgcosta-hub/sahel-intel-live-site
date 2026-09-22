@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-09-22T12:34:21.355720Z",
+  "generated_at": "2026-09-22T13:30:50.411454Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
-  "new_event_ids": [],
+  "freshness_status": "NEW OR UPDATED EVENTS",
+  "new_event_ids": [
+    "29287febb6ad28dcee240f5096976b06453d5b37"
+  ],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 3,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -18,7 +20,7 @@
       "change_pct": null
     },
     "State": {
-      "current": 7,
+      "current": 8,
       "previous": 0,
       "change_pct": 100.0
     }
@@ -82,10 +84,16 @@
       "source_count": 1,
       "updated_at": "2026-09-21T18:29:59.485797Z",
       "location_count": 4
+    },
+    {
+      "id": "29287febb6ad28dcee240f5096976b06453d5b37",
+      "source_count": 1,
+      "updated_at": "2026-09-22T13:30:20.996068Z",
+      "location_count": 2
     }
   ],
-  "briefing_fingerprint": "2a39977527698668470374f586d7c040de3c7784",
-  "previous_fingerprint": "2e1158f0189a23c9095cd1d5cd9e360cda7c0eff",
+  "briefing_fingerprint": "fa3f983f49067059b8253b3695a662d00710e672",
+  "previous_fingerprint": "2a39977527698668470374f586d7c040de3c7784",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -144,7 +152,8 @@
     "b8106355ef5f4b407910d335d1713752afde6105",
     "3190425ec6c5e6b1539de38bf97c1014d9e9a45d",
     "162a32416ff11a04186c44734393c11f51fae441",
-    "7d91181a59cfd756d5bace6b5bae978da58afe24"
+    "7d91181a59cfd756d5bace6b5bae978da58afe24",
+    "76c4d486aab822cb5ddc4c653869194df8fb6176"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 3 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: AMAP (Agence Malienne de Presse et de Publicité) reports from Sikasso, Mali: 66e anniversaire de l’indépendance à Koutiala :Le gouverneur appelle les populations à une «saine collaboration» avec FAMa. This is retained context and is not automatically treated as a new incident.\n\nFresh report 2: AMAP (Agence Malienne de Presse et de Publicité) reports from Mali: 66e anniversaire de l’indépendance : le Gouverneur de Kayes appelle à l’engagement pour la construction nationale. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 105 French or Arabic reports; 105 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 1 new event(s), 0 materially updated event(s), and 0 event(s) with new corroboration. The leading change is a security operation signal involving State around Sévaré, Dioura.\n\nNew event 1: security operation involving State in Sévaré, Dioura. 1 monitored source across FR reporting. Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions ill Confidence is moderate; details remain subject to revision.\n\nQuantitative picture: JNIM has 2 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 8 extracted candidate events in the latest seven-day window, up from zero in the preceding window.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 106 French or Arabic reports; 106 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

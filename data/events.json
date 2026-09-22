@@ -1,5 +1,75 @@
 [
   {
+    "id": "29287febb6ad28dcee240f5096976b06453d5b37",
+    "event_date": "2026-09-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-09-22T13:19:30Z",
+    "collected_at": "2026-09-22T13:30:20.996068Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Sévaré",
+    "lat": 14.5272,
+    "lng": -4.0934,
+    "locations": [
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
+    "summary": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups . In recent days, troops deploy",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
+    ],
+    "created_at": "2026-09-22T13:30:20.996068Z",
+    "updated_at": "2026-09-22T13:30:20.996068Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-22T13:30:20.996068Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "c340bb5acd8ff9a5ff34f320461c2cdc22ec93b6",
     "event_date": "2026-09-21",
     "event_date_confidence": "explicit-text",
