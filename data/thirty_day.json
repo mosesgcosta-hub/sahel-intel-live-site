@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T20:27:57.034269Z",
+  "generated_at": "2026-09-22T21:26:35.206011Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 100,
+  "reports": 101,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 71,
+    "fr": 72,
     "en": 24,
     "ar": 5
   },
@@ -55,12 +55,12 @@
       "count": 6
     },
     {
-      "source": "Agence Nigérienne de Presse",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 5
     },
     {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 4
+      "source": "Agence Nigérienne de Presse",
+      "count": 5
     },
     {
       "source": "Sidwaya",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 16,
+      "reports": 17,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T20:27:35.816334Z",
+      "discovered_at": "2026-09-22T21:26:08.651428Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1315,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T21:21:44Z",
+      "discovered_at": "2026-09-22T21:26:10.664692Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Assimi Goïta calls for unity around the Republic and support for FAMa",
+      "url": "https://amap.ml/2026/09/22/mali-assimi-goita-appelle-a-lunion-autour-de-la-republique-et-au-soutien-aux-fama/"
     },
     {
       "published_at": "2026-09-22T19:00:00Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": true,
       "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
       "url": "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
-    },
-    {
-      "published_at": "2026-09-19T19:48:00Z",
-      "discovered_at": "2026-09-19T20:57:03.747059Z",
-      "source": "Associated Press Africa",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

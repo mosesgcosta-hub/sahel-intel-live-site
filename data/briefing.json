@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T20:27:57.059906Z",
+  "generated_at": "2026-09-22T21:26:35.226488Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 2,
+  "new_reports_this_cycle": 3,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -90,8 +90,8 @@
       "location_count": 3
     }
   ],
-  "briefing_fingerprint": "34df0e7fc9e6a36d688841f11fc6dce52f7e0cea",
-  "previous_fingerprint": "d5d934e827e784340539cd34981220250e58164a",
+  "briefing_fingerprint": "e4a067a8fd1afe6a25d194e34d19b48b6d10b1dc",
+  "previous_fingerprint": "34df0e7fc9e6a36d688841f11fc6dce52f7e0cea",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -165,7 +165,9 @@
     "2b441d6f670c4a4de06dacc217b2a7eb416ef12d",
     "9384bd84b9a5e4fd21822273b56581e7e9bddaae",
     "f742c12af4a38bf4f634e24587d1916d5c55205d",
-    "abbb5b06902bf40bfe2c886b115796b4e4b3e587"
+    "abbb5b06902bf40bfe2c886b115796b4e4b3e587",
+    "7621a4d53304fee76dece69881c7cd4dcbd0305f",
+    "91f7c01ee20a6853a1d15b4cca01cbfec44ebfcd"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 2 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Africa Defense Forum (ADF Magazine) reports from regional: Diplomatic Divide Threatens Sahel Security. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 111 French or Arabic reports; 111 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 3 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: AMAP (Agence Malienne de Presse et de Publicité) reports from Mali: Mali : Assimi Goïta appelle à l’union autour de la République et au soutien aux FAMa. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 2: The Defense Post Africa reports from Gao, Mali: Three Irish soldiers injured in IED blast east of Gao in Mali - The Defense Post. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 42 were degraded. The retained archive contains 112 French or Arabic reports; 112 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
