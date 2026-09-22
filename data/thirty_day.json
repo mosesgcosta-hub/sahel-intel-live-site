@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T19:27:06.744524Z",
+  "generated_at": "2026-09-22T20:27:57.034269Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 99,
+  "reports": 100,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -26,7 +26,7 @@
   },
   "by_language": {
     "fr": 71,
-    "en": 23,
+    "en": 24,
     "ar": 5
   },
   "by_confidence": {
@@ -43,16 +43,16 @@
       "count": 6
     },
     {
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "count": 6
+    },
+    {
       "source": "LeFaso.net",
       "count": 6
     },
     {
       "source": "Malijet",
       "count": 6
-    },
-    {
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "count": 5
     },
     {
       "source": "Agence Nigérienne de Presse",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 15,
+      "reports": 16,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T19:26:36.501825Z",
+      "discovered_at": "2026-09-22T20:27:35.816334Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1341,6 +1341,19 @@
       "candidate_event": false,
       "title": "Niger Mutiny Highlights Russia’s Regime Protection Role",
       "url": "https://adf-magazine.com/2026/09/niger-mutiny-highlights-russias-regime-protection-role/"
+    },
+    {
+      "published_at": "2026-09-22T17:19:28Z",
+      "discovered_at": "2026-09-22T20:27:38.172292Z",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "language": "en",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Diplomatic Divide Threatens Sahel Security",
+      "url": "https://adf-magazine.com/2026/09/diplomatic-divide-threatens-sahel-security/"
     },
     {
       "published_at": "2026-09-22T15:36:44Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": true,
       "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T19:36:15.620490Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Djenné",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Fight against terrorism in Mali: The Army announces the destruction of several positions of armed groups",
-      "url": "https://lefaso.net/spip.php?article149345="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
