@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:28:54.193781Z",
+  "generated_at": "2026-09-22T16:30:09.262272Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
   "reports": 97,
@@ -1304,6 +1304,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-22T16:29:47.272988Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
       "published_at": "2026-09-22T15:36:44Z",
       "discovered_at": "2026-09-22T15:28:23.616741Z",
       "source": "Punch Newspapers (Nigeria)",
@@ -1315,19 +1328,6 @@
       "candidate_event": false,
       "title": "FULL LIST: Names of 37 ‘illegal miners’ who died in NSCDC custody in Niger – Report",
       "url": "https://punchng.com/full-list-names-of-37-illegal-miners-who-died-in-nscdc-custody-in-niger-report/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-22T15:28:23.532889Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-22T15:20:44Z",
