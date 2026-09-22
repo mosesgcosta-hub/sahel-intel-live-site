@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T03:28:55.903644Z",
+  "generated_at": "2026-09-22T04:28:18.821232Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 71,
+  "reports": 75,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
   "mapped_events": 8,
   "mapped_locations": 20,
-  "distinct_sources": 25,
+  "distinct_sources": 27,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
@@ -25,9 +25,9 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 56,
+    "fr": 59,
     "en": 14,
-    "ar": 1
+    "ar": 2
   },
   "by_confidence": {
     "moderate": 8,
@@ -43,16 +43,16 @@
       "count": 6
     },
     {
+      "source": "ActuNiger",
+      "count": 5
+    },
+    {
       "source": "Agence Nigérienne de Presse",
       "count": 5
     },
     {
       "source": "Malijet",
       "count": 5
-    },
-    {
-      "source": "ActuNiger",
-      "count": 4
     },
     {
       "source": "Africa Defense Forum (ADF Magazine)",
@@ -154,7 +154,7 @@
     },
     {
       "date": "2026-08-30",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "date": "2026-09-12",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -229,7 +229,7 @@
     },
     {
       "date": "2026-09-14",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     }
   ],
@@ -1140,6 +1140,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-22T04:21:25.977798Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
       "published_at": "2026-09-21T22:06:07Z",
       "discovered_at": "2026-09-21T22:27:00.921705Z",
       "source": "Bamada",
@@ -1645,19 +1658,6 @@
       "candidate_event": false,
       "title": "Security: Mali and Burkina Faso reaffirm their solidarity with the Nigerien people",
       "url": "https://anp.ne/securite-le-mali-et-le-burkina-faso-reaffirment-leur-solidarite-au-peuple-nigerien/"
-    },
-    {
-      "published_at": "2026-09-18T14:17:18Z",
-      "discovered_at": "2026-09-21T03:56:07.983526Z",
-      "source": "The Africa Report",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "After Niger’s coup attempt, Tiani is running out of people to trust",
-      "url": "https://www.theafricareport.com/431154/after-nigers-coup-attempt-tiani-is-running-out-of-people-to-trust/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

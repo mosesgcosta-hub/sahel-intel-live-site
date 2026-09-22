@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:28:55.922820Z",
+  "generated_at": "2026-09-22T04:28:18.842497Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -12,6 +12,7 @@
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
+      "assessment_status": "ASSESSED",
       "events_7d": 11,
       "events_30d": 12,
       "baseline_7d_equivalent": 0.3,
@@ -27,29 +28,31 @@
     },
     "Burkina Faso": {
       "score": 0,
-      "level": "LOW",
+      "level": "INSUFFICIENT DATA",
       "trend": "STABLE",
       "confidence": "LOW",
+      "assessment_status": "INSUFFICIENT_DATA",
       "events_7d": 0,
       "events_30d": 0,
       "baseline_7d_equivalent": 0.0,
       "tempo_ratio": 1.0,
       "drivers": [
-        "limited fused-event signal in the current 7-day window"
+        "insufficient fused-event evidence for a current 7-day threat classification"
       ],
       "independent_domains_7d": 0
     },
     "Niger": {
       "score": 0,
-      "level": "LOW",
+      "level": "INSUFFICIENT DATA",
       "trend": "STABLE",
       "confidence": "LOW",
+      "assessment_status": "INSUFFICIENT_DATA",
       "events_7d": 0,
       "events_30d": 1,
       "baseline_7d_equivalent": 0.3,
       "tempo_ratio": 0.77,
       "drivers": [
-        "limited fused-event signal in the current 7-day window"
+        "insufficient fused-event evidence for a current 7-day threat classification"
       ],
       "independent_domains_7d": 0
     }
