@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-22T09:28:49.961080Z",
+  "generated_at": "2026-09-22T10:30:12.025429Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "NEW OR UPDATED EVENTS",
-  "new_event_ids": [
-    "0bafe8d9dcaf99063585c5b23f2c739d3b289bb4"
-  ],
+  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
+  "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 7,
+  "new_reports_this_cycle": 6,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -27,7 +25,7 @@
   },
   "previous_briefing_trend_snapshot": {
     "JNIM": {
-      "current": 1,
+      "current": 2,
       "previous": 0,
       "change_pct": 100.0
     },
@@ -86,8 +84,8 @@
       "location_count": 4
     }
   ],
-  "briefing_fingerprint": "922d2237fd0eadb02371fc74a5a8ed4b7fe79468",
-  "previous_fingerprint": "893cb320f94df3ba0a432b0cbb5bce6c670763ed",
+  "briefing_fingerprint": "508950d61efa5f0803b63d5773363875edffdf9b",
+  "previous_fingerprint": "922d2237fd0eadb02371fc74a5a8ed4b7fe79468",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -139,7 +137,11 @@
     "388bc46ff2587fe5c2d64c094dad30d8708d7ed4",
     "a89a1e8e5137dc3a48d194cbb6e9a41e0b249166",
     "a8077a58f164a8855882c0d4f80adf8060fef62e",
-    "421e0d0745eb6c1f0979341d6b12df481146b807"
+    "421e0d0745eb6c1f0979341d6b12df481146b807",
+    "ef88fa757488787a0bc8955d6cf45ed450ac76d4",
+    "d3ffe2546c0969de17de6a0da2873146c05fcb12",
+    "43d8e51385c93884e3df815c01992ec855a19f92",
+    "b8106355ef5f4b407910d335d1713752afde6105"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 1 new event(s), 0 materially updated event(s), and 0 event(s) with new corroboration. The leading change is a attack signal involving JNIM around Dioura, Sévaré, Bamako.\n\nNew event 1: attack involving JNIM in Dioura, Sévaré, Bamako. 1 monitored source across FR reporting. Mali: 150 dead after multiple JNIM attacks To view this YouTube content, it is necessary to allow audience measurement and advertising cookies. A browser extension appears to be blocking the video player from loading. To be able to watch this content, you must Confidence is low; details remain subject to revision.\n\nQuantitative picture: JNIM has 2 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 7 extracted candidate events in the latest seven-day window, up from zero in the preceding window.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 163 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 99 French or Arabic reports; 99 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 6 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: Studio Tamani reports from Mopti, Mali: Une attaque contre un bateau fait un mort entre Mopti et Tombouctou - Studio Tamani. This is retained context and is not automatically treated as a new incident.\n\nFresh report 2: ActuNiger reports from Niger: Gardiennage et sécurité : la Nigérienne des Eaux lance un appel d’offres pour le recrutement de 536 vigiles dans huit régions. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 3: Financial Afrik reports from Niger: Le Niger offre 82 citernes d'hydrocarbures au Mali pour rompre le blocus imposé par les jihadistes - Financial Afrik. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 102 French or Arabic reports; 102 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

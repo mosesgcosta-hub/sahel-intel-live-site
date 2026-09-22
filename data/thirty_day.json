@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T09:28:49.940342Z",
+  "generated_at": "2026-09-22T10:30:12.002402Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 87,
+  "reports": 88,
   "incident_reports": 14,
   "candidate_events": 14,
   "corroborated_events": 0,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 63,
+    "fr": 64,
     "en": 19,
     "ar": 5
   },
@@ -35,16 +35,16 @@
   },
   "top_sources": [
     {
+      "source": "ActuNiger",
+      "count": 6
+    },
+    {
       "source": "Bamada",
       "count": 6
     },
     {
       "source": "LeFaso.net",
       "count": 6
-    },
-    {
-      "source": "ActuNiger",
-      "count": 5
     },
     {
       "source": "Agence Nigérienne de Presse",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -1219,7 +1219,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T09:28:09.963638Z",
+      "discovered_at": "2026-09-22T10:29:37.676861Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1229,6 +1229,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T09:27:47Z",
+      "discovered_at": "2026-09-22T10:29:38.385360Z",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Guarding and security: the Nigerienne des Eaux launches a call for tenders for the recruitment of 536 guards in eight regions",
+      "url": "https://www.actuniger.com/societe/22368-gardiennage-et-securite-la-nigerienne-des-eaux-lance-un-appel-doffres-pour-le-recrutement-de-536-vigiles-dans-huit-regions.html"
     },
     {
       "published_at": "2026-09-22T09:16:31Z",
@@ -1723,19 +1736,6 @@
       "candidate_event": false,
       "title": "Change of command in the Military District of Niamey: Brigadier General Mamane Sani Kiaou officially takes office at the head of the armies - lesahel.org",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaGhlTm9fZENwU0tjQjhwTmpqdFhnd2k3TU9lZnJnQ21BOTJPcExMZnBkMzZWc0YxYUtCRkxneC0tU3YtRzAxUFM4b3h1MWk1RXhBWGNIZ3UtMTNKYnJBU3hrMGtOczQyN2NGV3FRUzZXZGtnOXYwQXlZOXNkamxBaC00TGlCMlRHZ25GUDZOR3QzMXlGYm5aZmVVU0JiUW5kUEZCM2NlNzI3SXJxYkdscEd2ck54RWxpVEwtRmZDY1VES21jQkt4ZnpWVXJnZXdRcTlNcm9rcWZ4SWlfZXFLYndYcWcyQ2xEZGJVZGQzU1FiZmcwaXJWQWM0MWFVQ0ZnMTRXLWpueVR3YXRmSmxN?oc=5"
-    },
-    {
-      "published_at": "2026-09-18T21:11:32Z",
-      "discovered_at": "2026-09-19T18:15:12.768265Z",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Attempted destabilization: an ESA delegation in Niamey to mark the solidarity of the Confederation in Niger",
-      "url": "https://www.actuniger.com/politique/22363-tentative-de-destabilisation-une-delegation-de-laes-a-niamey-pour-marquer-la-solidarite-de-la-confederation-au-niger.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
