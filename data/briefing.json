@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T16:30:09.290826Z",
+  "generated_at": "2026-09-22T17:28:38.069996Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "NO MATERIAL CHANGE",
+  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 1,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -90,8 +90,8 @@
       "location_count": 3
     }
   ],
-  "briefing_fingerprint": "b821d6cd1dc85fb2ad35ba21db805ec63e2f726d",
-  "previous_fingerprint": "9382c19d9967665ed6e63b26a2856eb7aedb34c9",
+  "briefing_fingerprint": "ef43ac775f857ec2c7bd9163d19f886d68b6b71c",
+  "previous_fingerprint": "b821d6cd1dc85fb2ad35ba21db805ec63e2f726d",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -158,7 +158,8 @@
     "24dfee3f3c1e8d2335bf58690e81cfa39a8ed8c2",
     "24dc754287d6b697bf74e3cdac40be4445ac228a",
     "5877fb7bf6e3a3cc64c14022b73caa9a4e43d5db",
-    "48ead802b5c0fa185e2593a1b72d5b6b490acba9"
+    "48ead802b5c0fa185e2593a1b72d5b6b490acba9",
+    "c6190714a3c110e828466d8da29bcddb6bce9d29"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 40 were degraded. The retained archive contains 110 French or Arabic reports; 110 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 2 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: VOA Africa reports from Burkina Faso: Burkina Faso Leader Discusses Military Cooperation with Russian Delegation - VOA Africa. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 110 French or Arabic reports; 110 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
