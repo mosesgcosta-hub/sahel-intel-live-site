@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T18:32:19.171338Z",
+  "generated_at": "2026-09-22T19:27:06.785542Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 9,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -90,8 +90,8 @@
       "location_count": 3
     }
   ],
-  "briefing_fingerprint": "4701e764143e53865b71bd56a588aaccc85445c5",
-  "previous_fingerprint": "ef43ac775f857ec2c7bd9163d19f886d68b6b71c",
+  "briefing_fingerprint": "d5d934e827e784340539cd34981220250e58164a",
+  "previous_fingerprint": "4701e764143e53865b71bd56a588aaccc85445c5",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -163,7 +163,8 @@
     "8dc04f6231a6b6334e2b129dd0bf6d49d7664cc0",
     "54bf2f751c4b26988805f8f8e38b3aa1cd31829e",
     "2b441d6f670c4a4de06dacc217b2a7eb416ef12d",
-    "9384bd84b9a5e4fd21822273b56581e7e9bddaae"
+    "9384bd84b9a5e4fd21822273b56581e7e9bddaae",
+    "f742c12af4a38bf4f634e24587d1916d5c55205d"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 9 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: France 24 Africa (EN) reports from Burkina Faso: At least 14 members of Burkina Faso security forces killed in terror attack - France 24. This is retained context and is not automatically treated as a new incident.\n\nFresh report 2: Africa Defense Forum (ADF Magazine) reports from Niger: Niger Mutiny Highlights Russia’s Regime Protection Role. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 3: The Defense Post Africa reports from Mali: Russia’s Wagner, Malian Army Kill 13 Civilians: Local Sources - The Defense Post. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 110 French or Arabic reports; 110 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 2 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Studio Tamani reports from Bamako, Mali: À Macina et Bamako, des déplacés demandent davantage d’assistance.. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 111 French or Arabic reports; 111 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

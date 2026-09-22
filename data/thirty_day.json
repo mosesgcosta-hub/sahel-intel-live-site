@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T18:32:19.154856Z",
+  "generated_at": "2026-09-22T19:27:06.744524Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 98,
+  "reports": 99,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 70,
+    "fr": 71,
     "en": 23,
     "ar": 5
   },
@@ -67,6 +67,10 @@
       "count": 4
     },
     {
+      "source": "Studio Tamani",
+      "count": 4
+    },
+    {
       "source": "Associated Press Africa",
       "count": 3
     },
@@ -76,10 +80,6 @@
     },
     {
       "source": "Jeune Afrique",
-      "count": 3
-    },
-    {
-      "source": "Le Monde Afrique",
       "count": 3
     }
   ],
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 14,
+      "reports": 15,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T18:32:02.899600Z",
+      "discovered_at": "2026-09-22T19:26:36.501825Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1315,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T19:00:00Z",
+      "discovered_at": "2026-09-22T19:26:37.033177Z",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "In Macina and Bamako, displaced people are asking for more assistance.",
+      "url": "https://www.studiotamani.org/208049-a-macina-et-bamako-des-deplaces-demandent-davantage-dassistance"
     },
     {
       "published_at": "2026-09-22T17:23:49Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": false,
       "title": "Fight against terrorism in Mali: The Army announces the destruction of several positions of armed groups",
       "url": "https://lefaso.net/spip.php?article149345="
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T18:26:47.284957Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso/ Higher Military Education: Prime Minister Rimtalba Jean Emmanuel Ouédraogo officially opens the War School",
-      "url": "https://lefaso.net/spip.php?article149320="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
