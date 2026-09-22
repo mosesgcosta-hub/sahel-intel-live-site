@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T04:28:18.821232Z",
+  "generated_at": "2026-09-22T04:32:29.137342Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 75,
+  "reports": 76,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
   "mapped_events": 8,
   "mapped_locations": 20,
-  "distinct_sources": 27,
+  "distinct_sources": 28,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 59,
+    "fr": 60,
     "en": 14,
     "ar": 2
   },
@@ -254,7 +254,7 @@
     },
     {
       "date": "2026-09-19",
-      "reports": 17,
+      "reports": 18,
       "events": 5
     },
     {
@@ -1141,7 +1141,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T04:21:25.977798Z",
+      "discovered_at": "2026-09-22T04:31:09.814646Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1478,6 +1478,19 @@
       "url": "https://www.wakatsera.com/burkina-faso-niger-un-message-de-solidarite-au-peuple-nigerien/"
     },
     {
+      "published_at": "2026-09-19T16:55:30Z",
+      "discovered_at": "2026-09-22T04:31:09.372883Z",
+      "source": "Dakaractu",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Mali: the toll of the attack by Jnim jihadists in Dioura rises to a hundred soldiers killed - DAKARACTU.COM",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRkF4Tjhpb1U0N2RmQVdoQ19nb0lVUEFkOFNvZnFMOXZVZ2tpXzd1dWtSRDJWbjZwM0lkQ3VuNktDUUdCNnBGaG9iaVZMaGR5aVVERXJVaVZfczRMaTE4ODY2bGx1bUkzRk5qN2NjNDFBZmxja0t2NU5KMjhzWHBYYXhUaW03aE1tcFJSNzJlZDRXU3VpN1lWOWF2eW1iSUNEZlczaGUtSHQyb2xrcTZ5a01jWDk2dlAtbExvWHV2RGtCenJkbHFSWkJJYlg5XzhFTUJTdC00Sk55cm5TQnVj?oc=5"
+    },
+    {
       "published_at": "2026-09-19T15:14:10Z",
       "discovered_at": "2026-09-19T18:15:03.300498Z",
       "source": "Agence d'Information du Burkina",
@@ -1645,19 +1658,6 @@
       "candidate_event": false,
       "title": "Bréhima Ely Dicko: \"Without popular appropriation, any agreement will remain a dead letter\"",
       "url": "https://journaldumali.com/brehima-ely-dicko-sans-appropriation-populaire-tout-accord-restera-lettre-morte/"
-    },
-    {
-      "published_at": "2026-09-18T14:39:35Z",
-      "discovered_at": "2026-09-19T18:15:12.098390Z",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Security: Mali and Burkina Faso reaffirm their solidarity with the Nigerien people",
-      "url": "https://anp.ne/securite-le-mali-et-le-burkina-faso-reaffirment-leur-solidarite-au-peuple-nigerien/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
