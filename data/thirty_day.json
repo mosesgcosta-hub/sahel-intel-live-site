@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T14:30:07.960666Z",
+  "generated_at": "2026-09-22T15:28:54.193781Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 94,
+  "reports": 97,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
   "mapped_events": 10,
   "mapped_locations": 26,
-  "distinct_sources": 40,
+  "distinct_sources": 41,
   "by_actor": {
     "State": 8,
     "Africa Corps/Wagner": 3,
@@ -25,8 +25,8 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 69,
-    "en": 20,
+    "fr": 70,
+    "en": 22,
     "ar": 5
   },
   "by_confidence": {
@@ -55,16 +55,16 @@
       "count": 5
     },
     {
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 4
+    },
+    {
       "source": "Africa Defense Forum (ADF Magazine)",
       "count": 4
     },
     {
       "source": "Sidwaya",
       "count": 4
-    },
-    {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 3
     },
     {
       "source": "Associated Press Africa",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 10,
+      "reports": 13,
       "events": 0
     }
   ],
@@ -1304,6 +1304,58 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-22T15:36:44Z",
+      "discovered_at": "2026-09-22T15:28:23.616741Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "FULL LIST: Names of 37 ‘illegal miners’ who died in NSCDC custody in Niger – Report",
+      "url": "https://punchng.com/full-list-names-of-37-illegal-miners-who-died-in-nscdc-custody-in-niger-report/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-22T15:28:23.532889Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T15:20:44Z",
+      "discovered_at": "2026-09-22T15:28:24.039563Z",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Names of 37 Niger Miners Who Died in Custody",
+      "url": "https://newscentraltv.com/names-of-37-niger-miners-who-died-in-custody/"
+    },
+    {
+      "published_at": "2026-09-22T15:16:21Z",
+      "discovered_at": "2026-09-22T15:28:25.611368Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Tominian: Independence Day marked by the rise of colours",
+      "url": "https://amap.ml/2026/09/22/tominian-la-fete-de-lindependance-marquee-par-la-montee-des-couleurs/"
+    },
+    {
       "published_at": null,
       "discovered_at": "2026-09-22T14:29:27.016064Z",
       "source": "Bamada",
@@ -1315,19 +1367,6 @@
       "candidate_event": true,
       "title": "FAMa: Operation Dougoukoloko continues with new strikes in Sévaré, Dioura and Tessalit",
       "url": "https://bamada.net/fama-loperation-dougoukoloko-se-poursuit-avec-de-nouvelles-frappes-a-sevare-dioura-et-tessalit"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-22T14:29:26.957778Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-22T13:35:42Z",
@@ -1783,45 +1822,6 @@
       "candidate_event": false,
       "title": "Burkina Faso-Niger: a message of solidarity to the Nigerien people",
       "url": "https://www.wakatsera.com/burkina-faso-niger-un-message-de-solidarite-au-peuple-nigerien/"
-    },
-    {
-      "published_at": "2026-09-19T16:55:30Z",
-      "discovered_at": "2026-09-22T04:31:09.372883Z",
-      "source": "Dakaractu",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Mali: the toll of the attack by Jnim jihadists in Dioura rises to a hundred soldiers killed - DAKARACTU.COM",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRkF4Tjhpb1U0N2RmQVdoQ19nb0lVUEFkOFNvZnFMOXZVZ2tpXzd1dWtSRDJWbjZwM0lkQ3VuNktDUUdCNnBGaG9iaVZMaGR5aVVERXJVaVZfczRMaTE4ODY2bGx1bUkzRk5qN2NjNDFBZmxja0t2NU5KMjhzWHBYYXhUaW03aE1tcFJSNzJlZDRXU3VpN1lWOWF2eW1iSUNEZlczaGUtSHQyb2xrcTZ5a01jWDk2dlAtbExvWHV2RGtCenJkbHFSWkJJYlg5XzhFTUJTdC00Sk55cm5TQnVj?oc=5"
-    },
-    {
-      "published_at": "2026-09-19T15:14:10Z",
-      "discovered_at": "2026-09-19T18:15:03.300498Z",
-      "source": "Agence d'Information du Burkina",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Ziro: Agricultural VDPs take action for cleaner living environments",
-      "url": "https://www.aib.media/ziro-les-vdp-agricoles-passent-a-laction-pour-des-cadres-de-vie-plus-propres/"
-    },
-    {
-      "published_at": "2026-09-19T13:26:58Z",
-      "discovered_at": "2026-09-19T18:15:00.857125Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Djenné",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
-      "url": "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
