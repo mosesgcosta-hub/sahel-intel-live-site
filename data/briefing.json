@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:33:16.974773Z",
+  "generated_at": "2026-09-22T01:25:09.234194Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
@@ -79,7 +79,7 @@
     }
   ],
   "briefing_fingerprint": "893cb320f94df3ba0a432b0cbb5bce6c670763ed",
-  "previous_fingerprint": "2e111915051d71e77d08c2f2e81b410b3adcb230",
+  "previous_fingerprint": "893cb320f94df3ba0a432b0cbb5bce6c670763ed",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -109,5 +109,5 @@
     "448c3959c204f83b709a6609b0f307050c73d1fc",
     "614612a9776050da1f37ab63a40ddebbf98a236b"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 14 were degraded. The retained archive contains 71 French or Arabic reports; 71 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 74 configured sources failed during the latest cycle and 13 were degraded. The retained archive contains 71 French or Arabic reports; 71 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
