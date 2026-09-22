@@ -1,8 +1,8 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.8",
-  "status_detail": "Last automated GitHub collection completed 2026-09-21T23:26:06.359537Z; 74/74 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-21T23:26:06.359537Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-22T00:33:16.974919Z; 74/74 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-22T00:33:16.974919Z",
   "reports_24h": 7,
   "distinct_sources_24h": 5,
   "candidate_events_24h": 1,
@@ -61,21 +61,21 @@
     "ngo": 3
   },
   "last_run": {
-    "started_at": "2026-09-21T23:24:35.821841Z",
-    "finished_at": "2026-09-21T23:26:06.359537Z",
+    "started_at": "2026-09-22T00:31:52.793589Z",
+    "finished_at": "2026-09-22T00:33:16.974919Z",
     "status": "complete",
     "site_patch_version": "2.8",
     "sources_total": 74,
     "sources_success": 74,
     "sources_failed": 0,
     "documents_discovered": 2070,
-    "documents_selected": 6,
+    "documents_selected": 5,
     "prefetch_skipped": 1998,
-    "known_url_skipped": 66,
+    "known_url_skipped": 67,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
-    "documents_retained": 1,
+    "documents_retained": 0,
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
     "archive_duplicates_removed": 0,
@@ -98,13 +98,13 @@
     "funnel_unaccounted": 0,
     "selected_by_language": {
       "fr": 1,
-      "en": 5,
+      "en": 4,
       "ar": 0,
       "other": 0
     },
     "retained_cycle_by_language": {
       "fr": 0,
-      "en": 1,
+      "en": 0,
       "ar": 0,
       "other": 0
     },

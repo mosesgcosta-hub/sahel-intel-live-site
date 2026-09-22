@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T23:26:06.343460Z",
+  "generated_at": "2026-09-22T00:33:16.964846Z",
   "window_days": 30,
-  "cutoff": "2026-08-22",
+  "cutoff": "2026-08-23",
   "reports": 70,
   "incident_reports": 13,
   "candidate_events": 13,
@@ -122,11 +122,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-08-23",
-      "reports": 2,
-      "events": 0
-    },
     {
       "date": "2026-08-24",
       "reports": 0,
@@ -271,6 +266,11 @@
       "date": "2026-09-21",
       "reports": 7,
       "events": 1
+    },
+    {
+      "date": "2026-09-22",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
