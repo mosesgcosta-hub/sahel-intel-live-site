@@ -85,6 +85,84 @@
     ]
   },
   {
+    "id": "0bafe8d9dcaf99063585c5b23f2c739d3b289bb4",
+    "event_date": "2026-09-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-09-22T09:16:31Z",
+    "collected_at": "2026-09-22T09:28:10.537169Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": "State",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: 150 dead after several JNIM attacks",
+    "summary": "Mali: 150 dead after multiple JNIM attacks To view this YouTube content, it is necessary to allow audience measurement and advertising cookies. A browser extension appears to be blocking the video player from loading. To be able to watch this content, you must disable or uninstall it . Published on: In recent days, the jihadist group has repeatedly attacked the Malian army and its Russian partner, in Dioura and Sévar",
+    "sources": [
+      "France 24 Afrique (FR)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20260922-mali-150-morts-apr%C3%A8s-plusieurs-attaques-du-jnim"
+    ],
+    "created_at": "2026-09-22T09:28:10.537169Z",
+    "updated_at": "2026-09-22T09:28:10.537169Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-22T09:28:10.537169Z",
+        "type": "event_created",
+        "source": "France 24 Afrique (FR)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "france24.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
     "event_date": "2026-09-19",
     "event_date_confidence": "explicit-text",

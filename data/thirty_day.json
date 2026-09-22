@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T08:30:59.422287Z",
+  "generated_at": "2026-09-22T09:28:49.940342Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 82,
-  "incident_reports": 13,
-  "candidate_events": 13,
+  "reports": 87,
+  "incident_reports": 14,
+  "candidate_events": 14,
   "corroborated_events": 0,
-  "mapped_events": 8,
-  "mapped_locations": 20,
-  "distinct_sources": 35,
+  "mapped_events": 9,
+  "mapped_locations": 23,
+  "distinct_sources": 38,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
-    "Other": 2,
-    "JNIM": 1
+    "JNIM": 2,
+    "Other": 2
   },
   "by_country": {
-    "Mali": 12,
+    "Mali": 13,
     "Niger": 1
   },
   "by_event_type": {
     "security operation": 8,
-    "attack": 4,
+    "attack": 5,
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 62,
-    "en": 18,
-    "ar": 2
+    "fr": 63,
+    "en": 19,
+    "ar": 5
   },
   "by_confidence": {
     "moderate": 8,
-    "low": 5
+    "low": 6
   },
   "top_sources": [
     {
@@ -90,14 +90,18 @@
     },
     {
       "location": "Sévaré",
-      "count": 4
-    },
-    {
-      "location": "Ber",
-      "count": 3
+      "count": 5
     },
     {
       "location": "Dioura",
+      "count": 4
+    },
+    {
+      "location": "Bamako",
+      "count": 3
+    },
+    {
+      "location": "Ber",
       "count": 3
     },
     {
@@ -107,10 +111,6 @@
     {
       "location": "Mopti",
       "count": 3
-    },
-    {
-      "location": "Bamako",
-      "count": 2
     },
     {
       "location": "Kidal",
@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-08-29",
-      "reports": 4,
+      "reports": 5,
       "events": 1
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "date": "2026-09-08",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -209,12 +209,12 @@
     },
     {
       "date": "2026-09-10",
-      "reports": 0,
+      "reports": 1,
       "events": 1
     },
     {
       "date": "2026-09-11",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -260,7 +260,7 @@
     {
       "date": "2026-09-20",
       "reports": 8,
-      "events": 0
+      "events": 1
     },
     {
       "date": "2026-09-21",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -356,6 +356,84 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "0bafe8d9dcaf99063585c5b23f2c739d3b289bb4",
+      "event_date": "2026-09-20",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-22T09:16:31Z",
+      "collected_at": "2026-09-22T09:28:10.537169Z",
+      "actor": "JNIM",
+      "perpetrator": "JNIM",
+      "target": "State",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: 150 dead after several JNIM attacks",
+      "summary": "Mali: 150 dead after multiple JNIM attacks To view this YouTube content, it is necessary to allow audience measurement and advertising cookies. A browser extension appears to be blocking the video player from loading. To be able to watch this content, you must disable or uninstall it . Published on: In recent days, the jihadist group has repeatedly attacked the Malian army and its Russian partner, in Dioura and Sévar",
+      "sources": [
+        "France 24 Afrique (FR)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20260922-mali-150-morts-apr%C3%A8s-plusieurs-attaques-du-jnim"
+      ],
+      "created_at": "2026-09-22T09:28:10.537169Z",
+      "updated_at": "2026-09-22T09:28:10.537169Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-22T09:28:10.537169Z",
+          "type": "event_created",
+          "source": "France 24 Afrique (FR)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "france24.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
         "multi-location activity"
       ]
     },
@@ -1141,7 +1219,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T08:30:28.727813Z",
+      "discovered_at": "2026-09-22T09:28:09.963638Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1151,6 +1229,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T09:16:31Z",
+      "discovered_at": "2026-09-22T09:28:10.537169Z",
+      "source": "France 24 Afrique (FR)",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Mali: 150 dead after several JNIM attacks",
+      "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20260922-mali-150-morts-apr%C3%A8s-plusieurs-attaques-du-jnim"
     },
     {
       "published_at": "2026-09-22T07:11:01Z",
@@ -1645,19 +1736,6 @@
       "candidate_event": false,
       "title": "Attempted destabilization: an ESA delegation in Niamey to mark the solidarity of the Confederation in Niger",
       "url": "https://www.actuniger.com/politique/22363-tentative-de-destabilisation-une-delegation-de-laes-a-niamey-pour-marquer-la-solidarite-de-la-confederation-au-niger.html"
-    },
-    {
-      "published_at": "2026-09-18T20:32:15Z",
-      "discovered_at": "2026-09-19T18:15:15.320065Z",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "At the Palace of the Republic: the Head of State meets with a delegation of the AES Confederation and with the Sudanese Ambassador to Niger",
-      "url": "https://www.lesahel.org/au-palais-de-la-republique-le-chef-de-letat-sentretien-avec-une-delegation-de-la-confederation-aes-et-avec-lambassadeur-du-soudan-au-niger/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
