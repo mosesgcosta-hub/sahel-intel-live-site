@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T05:28:24.417732Z",
+  "generated_at": "2026-09-22T06:34:05.512719Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 81,
+  "reports": 84,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
   "mapped_events": 8,
   "mapped_locations": 20,
-  "distinct_sources": 32,
+  "distinct_sources": 35,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
@@ -26,7 +26,7 @@
   },
   "by_language": {
     "fr": 64,
-    "en": 15,
+    "en": 18,
     "ar": 2
   },
   "by_confidence": {
@@ -169,7 +169,7 @@
     },
     {
       "date": "2026-09-02",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 1,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -1140,8 +1140,21 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-22T07:11:01Z",
+      "discovered_at": "2026-09-22T06:33:32.645956Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "How stray bullet killed Niger varsity 400-level student",
+      "url": "https://punchng.com/how-stray-bullet-killed-niger-varsity-400-level-student/"
+    },
+    {
       "published_at": null,
-      "discovered_at": "2026-09-22T05:27:00.254540Z",
+      "discovered_at": "2026-09-22T06:33:32.595480Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1151,6 +1164,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T02:44:00Z",
+      "discovered_at": "2026-09-22T06:33:33.267654Z",
+      "source": "Vanguard News (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "33 months unpaid rent threatens war against oil bunkering",
+      "url": "https://www.vanguardngr.com/2026/09/33-months-unpaid-rent-threatens-war-against-oil-bunkering/"
     },
     {
       "published_at": "2026-09-21T22:06:07Z",
@@ -1632,32 +1658,6 @@
       "candidate_event": false,
       "title": "At the Palace of the Republic: the Head of State meets with a delegation of the AES Confederation and with the Sudanese Ambassador to Niger",
       "url": "https://www.lesahel.org/au-palais-de-la-republique-le-chef-de-letat-sentretien-avec-une-delegation-de-la-confederation-aes-et-avec-lambassadeur-du-soudan-au-niger/"
-    },
-    {
-      "published_at": "2026-09-18T19:59:25Z",
-      "discovered_at": "2026-09-21T04:28:31.181790Z",
-      "source": "Le Monde Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVk05UFNXY3k5bnBGRHFhVEktV3NQRTctVG5pQk53U3RLYWhOVjdJbmt2dVl0N1BBeFRhaUdqanI4dG0zYktGWUlUQ2ZGVVBlV3ppSHFhbmROcWMzTXRnV0dFVHdaY29qZDBwUVduRS1welZ1OVBHZ1JjVUhzZ0Q0MGs0QW83V0FxeTV0bF9vQW5wemtTeG00N0hTNG1WRlpsZU9EMFROd1VSQWZXUFNNN0NSSWxTWjJKTEJYWV9mb3RDUlk3WDI0UGdydk1PZTdTT0gyRDhuUzVkWXZTUmVUZU16SkdOTU1tWG42V0xmaVRGVzZnZEtYd2xMTE1rYXMtaGo5SXBqa3UxbnN0ZEJJ?oc=5"
-    },
-    {
-      "published_at": "2026-09-18T17:48:05Z",
-      "discovered_at": "2026-09-19T18:15:10.671679Z",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Defence and Security:Niger and Sudan intend to strengthen their bilateral cooperation",
-      "url": "https://anp.ne/defense-et-securite-le-niger-et-le-soudan-entendent-renforcer-leur-cooperation-bilaterale/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
