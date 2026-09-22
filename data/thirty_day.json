@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T06:34:05.512719Z",
+  "generated_at": "2026-09-22T07:28:55.495345Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 84,
+  "reports": 82,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 64,
+    "fr": 62,
     "en": 18,
     "ar": 2
   },
@@ -35,11 +35,11 @@
   },
   "top_sources": [
     {
-      "source": "LeFaso.net",
-      "count": 8
+      "source": "Bamada",
+      "count": 6
     },
     {
-      "source": "Bamada",
+      "source": "LeFaso.net",
       "count": 6
     },
     {
@@ -1140,6 +1140,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-22T07:28:36.031870Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
       "published_at": "2026-09-22T07:11:01Z",
       "discovered_at": "2026-09-22T06:33:32.645956Z",
       "source": "Punch Newspapers (Nigeria)",
@@ -1151,19 +1164,6 @@
       "candidate_event": false,
       "title": "How stray bullet killed Niger varsity 400-level student",
       "url": "https://punchng.com/how-stray-bullet-killed-niger-varsity-400-level-student/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-22T06:33:32.595480Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-22T02:44:00Z",
