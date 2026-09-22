@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T21:26:35.206011Z",
+  "generated_at": "2026-09-22T22:27:44.125516Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 101,
+  "reports": 102,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 72,
+    "fr": 73,
     "en": 24,
     "ar": 5
   },
@@ -37,6 +37,10 @@
     {
       "source": "Bamada",
       "count": 7
+    },
+    {
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 6
     },
     {
       "source": "ActuNiger",
@@ -53,10 +57,6 @@
     {
       "source": "Malijet",
       "count": 6
-    },
-    {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 5
     },
     {
       "source": "Agence Nigérienne de Presse",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 17,
+      "reports": 18,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T21:26:08.651428Z",
+      "discovered_at": "2026-09-22T22:27:13.154019Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1315,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T22:08:40Z",
+      "discovered_at": "2026-09-22T22:27:14.794565Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Mopti",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Tenenkou: National Day in Cohesion",
+      "url": "https://amap.ml/2026/09/23/tenenkou-la-fete-nationale-dans-la-cohesion/"
     },
     {
       "published_at": "2026-09-22T21:21:44Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": false,
       "title": "Niger-Sudan: Niamey and Khartoum want to strengthen their cooperation in the face of security challenges",
       "url": "https://airinfoagadez.com/2026/09/19/niger-soudan-niamey-et-khartoum-veulent-renforcer-leur-cooperation-face-aux-defis-securitaires/"
-    },
-    {
-      "published_at": "2026-09-19T20:27:07Z",
-      "discovered_at": "2026-09-19T20:56:41.947029Z",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Sévaré",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
-      "url": "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
