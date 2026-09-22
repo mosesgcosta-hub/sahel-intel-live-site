@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:30:50.402968Z",
+  "generated_at": "2026-09-22T14:30:07.986085Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -8,7 +8,7 @@
   },
   "countries": {
     "Mali": {
-      "score": 73,
+      "score": 76,
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
