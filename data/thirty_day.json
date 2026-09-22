@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T04:32:29.137342Z",
+  "generated_at": "2026-09-22T05:28:24.417732Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 76,
+  "reports": 81,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
   "mapped_events": 8,
   "mapped_locations": 20,
-  "distinct_sources": 28,
+  "distinct_sources": 32,
   "by_actor": {
     "State": 7,
     "Africa Corps/Wagner": 3,
@@ -25,8 +25,8 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 60,
-    "en": 14,
+    "fr": 64,
+    "en": 15,
     "ar": 2
   },
   "by_confidence": {
@@ -154,7 +154,7 @@
     },
     {
       "date": "2026-08-30",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "date": "2026-09-11",
-      "reports": 0,
+      "reports": 2,
       "events": 0
     },
     {
@@ -264,7 +264,7 @@
     },
     {
       "date": "2026-09-21",
-      "reports": 7,
+      "reports": 9,
       "events": 1
     },
     {
@@ -1141,7 +1141,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T04:31:09.814646Z",
+      "discovered_at": "2026-09-22T05:27:00.254540Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1179,6 +1179,19 @@
       "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
     },
     {
+      "published_at": "2026-09-21T16:53:13Z",
+      "discovered_at": "2026-09-22T05:27:00.636420Z",
+      "source": "La Croix (Afrique)",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "In central Mali, jihadists inflict heavy losses on the army: \"A drama of unprecedented magnitude\"",
+      "url": "https://www.la-croix.com/international/dans-le-centre-du-mali-les-djihadistes-infligent-de-lourdes-pertes-a-l-armee-un-drame-dune-ampleur-inedite-20260921"
+    },
+    {
       "published_at": "2026-09-21T16:17:43Z",
       "discovered_at": "2026-09-21T17:24:40.300675Z",
       "source": "Studio Tamani",
@@ -1190,6 +1203,19 @@
       "candidate_event": false,
       "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
       "url": "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes"
+    },
+    {
+      "published_at": "2026-09-21T15:01:11Z",
+      "discovered_at": "2026-09-22T05:26:59.894852Z",
+      "source": "Courrier International",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Mali: after the jihadist attack in Dioura, the state “refuses to count its dead” - International Courier",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVZ3RlZHMjZaVDBta09kYjdMSnZGeHBMRnY1cklyWUNmeXFlNTd0czFpVm9URGx3QnlJd3NhR0tIRV9YeTJQeDMzRHY2UGdPLWh0WnhBR0k2b0VaWjYtMFAwRkZZdG9jSGNfSGJtbjBjZjFob3pQUE1zRGVqblUxZW9FODFtVGVmZ05ydlZBajV3Ry1zaVZmSk80aC1yM056VURKeTZQRlF4Sy11dkpNMTFhR0pqRmhkb014enhzb0EySWVjTGI0emd1Tjd2YmFtYzk4UUJn?oc=5"
     },
     {
       "published_at": "2026-09-21T14:14:20Z",
@@ -1632,32 +1658,6 @@
       "candidate_event": false,
       "title": "Defence and Security:Niger and Sudan intend to strengthen their bilateral cooperation",
       "url": "https://anp.ne/defense-et-securite-le-niger-et-le-soudan-entendent-renforcer-leur-cooperation-bilaterale/"
-    },
-    {
-      "published_at": "2026-09-18T16:00:06Z",
-      "discovered_at": "2026-09-21T04:28:31.190804Z",
-      "source": "Le Monde Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "In central Mali, GSIM jihadists are relaunching major offensives - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOURRY3dsa3Z5XzY2bmJhTmRFaFJqMW5rbkhfOVFRMEVMVGJmeTNxZ05pQlRQdlNjSVFjTlpsY0pidUptLW13MU5mazdXWnN5ekNhRnNrXzdJbU8zdHFwbXd4TlVLOHdsLWVsX3R6dzNaelBJd2FGa1hNUjk0ckkwVU9LWmV2N2JLczE0Z24xTXRUNjdtUWcxNnJFNktkNE9wV1NwTjdhdXVwSHM0VmI4YnFZRHlXV3l1VXVQN01ZampPc2dLRExLVlRfNUgzLV9NRFI2TDJ4WHBpckRqeVh6alNRT1RxUQ?oc=5"
-    },
-    {
-      "published_at": "2026-09-18T15:07:28Z",
-      "discovered_at": "2026-09-19T19:21:36.817389Z",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Bréhima Ely Dicko: \"Without popular appropriation, any agreement will remain a dead letter\"",
-      "url": "https://journaldumali.com/brehima-ely-dicko-sans-appropriation-populaire-tout-accord-restera-lettre-morte/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
