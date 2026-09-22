@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T17:28:38.031369Z",
+  "generated_at": "2026-09-22T18:32:19.154856Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 97,
+  "reports": 98,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -26,7 +26,7 @@
   },
   "by_language": {
     "fr": 70,
-    "en": 22,
+    "en": 23,
     "ar": 5
   },
   "by_confidence": {
@@ -51,15 +51,15 @@
       "count": 6
     },
     {
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "count": 5
+    },
+    {
       "source": "Agence Nigérienne de Presse",
       "count": 5
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 4
-    },
-    {
-      "source": "Africa Defense Forum (ADF Magazine)",
       "count": 4
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 13,
+      "reports": 14,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-22T17:28:13.972602Z",
+      "discovered_at": "2026-09-22T18:32:02.899600Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1315,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-22T17:23:49Z",
+      "discovered_at": "2026-09-22T18:32:02.943364Z",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Niger Mutiny Highlights Russia’s Regime Protection Role",
+      "url": "https://adf-magazine.com/2026/09/niger-mutiny-highlights-russias-regime-protection-role/"
     },
     {
       "published_at": "2026-09-22T15:36:44Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": false,
       "title": "Burkina Faso/ Higher Military Education: Prime Minister Rimtalba Jean Emmanuel Ouédraogo officially opens the War School",
       "url": "https://lefaso.net/spip.php?article149320="
-    },
-    {
-      "published_at": "2026-09-19T17:01:50Z",
-      "discovered_at": "2026-09-19T18:15:08.017644Z",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso-Niger: a message of solidarity to the Nigerien people",
-      "url": "https://www.wakatsera.com/burkina-faso-niger-un-message-de-solidarite-au-peuple-nigerien/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
