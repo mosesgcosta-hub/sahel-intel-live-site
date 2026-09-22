@@ -65,8 +65,24 @@
     "created_at": "2026-09-21T18:29:59.485797Z",
     "updated_at": "2026-09-21T18:29:59.485797Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T18:29:59.485797Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
   },
   {
     "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
@@ -120,8 +136,23 @@
     "created_at": "2026-09-21T12:30:39.468220Z",
     "updated_at": "2026-09-21T12:30:39.468220Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T12:30:39.468220Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
   },
   {
     "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
@@ -168,8 +199,23 @@
     "created_at": "2026-09-20T08:26:52.057143Z",
     "updated_at": "2026-09-20T08:26:52.057143Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-20T08:26:52.057143Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "dfb3855d3f453b7b84b27c0091ea309c77be105a",
@@ -208,8 +254,23 @@
     "created_at": "2026-09-19T20:57:03.747059Z",
     "updated_at": "2026-09-19T20:57:03.747059Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:57:03.747059Z",
+        "type": "event_created",
+        "source": "Associated Press Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "045e201ec819bb2707611660b05da6572820b8ac",
@@ -261,8 +322,24 @@
     "created_at": "2026-09-19T20:56:41.947029Z",
     "updated_at": "2026-09-19T20:56:41.947029Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:56:41.947029Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
   },
   {
     "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
@@ -330,8 +407,24 @@
     "created_at": "2026-09-19T18:15:00.857125Z",
     "updated_at": "2026-09-19T18:15:00.857125Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T18:15:00.857125Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
   },
   {
     "id": "ecedb77d7e97358a5343f986b38665e5f66e47a5",
@@ -370,8 +463,23 @@
     "created_at": "2026-09-21T04:28:31.181790Z",
     "updated_at": "2026-09-21T04:28:31.181790Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T04:28:31.181790Z",
+        "type": "event_created",
+        "source": "Le Monde Afrique"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "de8becd9f70ded6f4621b871d4e289740188ba34",
@@ -410,8 +518,23 @@
     "created_at": "2026-09-21T03:56:07.980715Z",
     "updated_at": "2026-09-21T03:56:07.980715Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:56:07.980715Z",
+        "type": "event_created",
+        "source": "The Africa Report"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "theafricareport.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
   },
   {
     "id": "dc854ef4a52412c4b3c6a93015bd1142e4c3a1f9",
@@ -472,8 +595,24 @@
     "created_at": "2026-09-19T20:56:45.703291Z",
     "updated_at": "2026-09-19T20:56:45.703291Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:56:45.703291Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
   },
   {
     "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
@@ -512,8 +651,23 @@
     "created_at": "2026-09-19T18:15:03.129399Z",
     "updated_at": "2026-09-19T18:15:03.129399Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T18:15:03.129399Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "edb762a03a294a019de37018bec5aab5e93879dc",
@@ -574,8 +728,23 @@
     "created_at": "2026-09-19T18:14:59.965077Z",
     "updated_at": "2026-09-19T18:14:59.965077Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T18:14:59.965077Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
   },
   {
     "id": "49a010bed8728cedc2a1329288e5290eb58aa820",
@@ -614,8 +783,23 @@
     "created_at": "2026-09-21T04:28:31.185520Z",
     "updated_at": "2026-09-21T04:28:31.185520Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T04:28:31.185520Z",
+        "type": "event_created",
+        "source": "Le Monde Afrique"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "889644f62f066fc2e2d8956e1237e69d27fb3895",
@@ -660,8 +844,76 @@
     "created_at": "2026-09-21T02:42:45.657991Z",
     "updated_at": "2026-09-21T02:42:45.657991Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:42:45.657991Z",
+        "type": "event_created",
+        "source": "Al Mayadeen Arabic"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "1cb14150da39c1877bba0a50306228cbabffde99",
+    "event_date": "2026-07-27",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2026-07-27T07:00:00Z",
+    "collected_at": "2026-09-21T15:25:40.257071Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Possible military intervention against terrorist groups in the Sahel: Mali is neither a requester nor a taker of a counterproductive US military operation - maliweb.net",
+    "summary": "Possible military intervention against terrorist groups in the Sahel: Mali is neither a requestor nor a taker of a counterproductive US military operation maliweb.net",
+    "sources": [
+      "Maliweb"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMiywJBVV95cUxQUjI0OW1SLU1TbEdxWWRxUXFkclctbDQ3blUxam96RTRyempoemMzNTR3dUR4MklMbDNwajJxX3YwYjdURW9BVWRXYnhqajBUUW1nSEhMRGxaRU0yVlU2Vnd5U1FmTmVDN042WTFLWXgyRVJzSHE4bHFYWFNXVkRLYXZEY2ZhU0x5ZUNYakpWWWRIdzFIbjZkLXlmblRBcW1NTHdScVdRRVE2aDFSQlhGcVVfSHpyU3FHaEZXcUpGanFyVXFYQjUtVjZZNlpnRDFxNzZmRWM4N1lQQkZRa19heWFqOWxqa2RHMWtucDA3RnN6YVBhV3VjRUpqNUQwZEpqN1o5WHM1UmNlUWtiYmoxSFppNHJEd3NuQWZOZXhrY0Q1dEJreWd4VlhUUEszUjFHemlMbURJc19PUkN3dVRsRVZjaFhudnBOZm1r?oc=5"
+    ],
+    "created_at": "2026-09-21T15:25:40.257071Z",
+    "updated_at": "2026-09-21T15:25:40.257071Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T15:25:40.257071Z",
+        "type": "event_created",
+        "source": "Maliweb"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "9a3d5da15e7647754aabc3e55b26bf28e4e9199a",
@@ -708,8 +960,23 @@
     "created_at": "2026-09-21T02:05:51.565737Z",
     "updated_at": "2026-09-21T02:05:51.565737Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:05:51.565737Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
   },
   {
     "id": "1345fc3b9092e62104c3642268d1d93fdb6710f4",
@@ -749,8 +1016,23 @@
     "created_at": "2026-09-20T00:33:45.228595Z",
     "updated_at": "2026-09-20T00:33:45.228595Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-20T00:33:45.228595Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "12c25c4a19b8419e9f6ee8817c0fd16941de7e95",
@@ -789,8 +1071,23 @@
     "created_at": "2026-09-21T03:26:02.367174Z",
     "updated_at": "2026-09-21T03:26:02.367174Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:26:02.367174Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "9a9ed49b9f32a7f76341a1e44ea88a2b89c0af66",
@@ -835,8 +1132,23 @@
     "created_at": "2026-09-19T18:26:58.796215Z",
     "updated_at": "2026-09-19T18:26:58.796215Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T18:26:58.796215Z",
+        "type": "event_created",
+        "source": "Le Sahel"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "lesahel.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "a1d9f1b9130658597d57710bedcb6722ffc21706",
@@ -875,8 +1187,23 @@
     "created_at": "2026-09-21T03:26:04.444316Z",
     "updated_at": "2026-09-21T03:26:04.444316Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:26:04.444316Z",
+        "type": "event_created",
+        "source": "Small Wars Journal"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "7abe61a7003a81539f6fb61324522108bb00d56c",
@@ -921,8 +1248,23 @@
     "created_at": "2026-09-19T20:57:08.799376Z",
     "updated_at": "2026-09-19T20:57:08.799376Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:57:08.799376Z",
+        "type": "event_created",
+        "source": "The Defense Post Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "126da9a48057086e6e98962ba78f1ec44b99b01d",
@@ -961,8 +1303,23 @@
     "created_at": "2026-09-21T03:56:11.218040Z",
     "updated_at": "2026-09-21T03:56:11.218040Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:56:11.218040Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "d6734bd97ecef8d22737cd7b496ac90365cb3a7b",
@@ -1009,8 +1366,23 @@
     "created_at": "2026-09-21T03:56:10.705556Z",
     "updated_at": "2026-09-21T03:56:10.705556Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:56:10.705556Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "ef6059bf193bf34c521b23e1169b3c098f6a9fb5",
@@ -1057,8 +1429,23 @@
     "created_at": "2026-09-21T03:56:11.218040Z",
     "updated_at": "2026-09-21T03:56:11.218040Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:56:11.218040Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "1d54df7bd7ddc0af481cb4756786d1687e569292",
@@ -1105,8 +1492,23 @@
     "created_at": "2026-09-21T03:56:11.218040Z",
     "updated_at": "2026-09-21T03:56:11.218040Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:56:11.218040Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "40445605aa393a0876d6c44d1f463cb7ad23bbd3",
@@ -1143,8 +1545,23 @@
     "created_at": "2026-09-19T20:56:44.635209Z",
     "updated_at": "2026-09-19T20:56:44.635209Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:56:44.635209Z",
+        "type": "event_created",
+        "source": "Maliweb"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "eab5b3b9cd01e35b31e6b571859e8146a97d77c6",
@@ -1183,8 +1600,84 @@
     "created_at": "2026-09-19T20:57:03.753921Z",
     "updated_at": "2026-09-19T20:57:03.753921Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:57:03.753921Z",
+        "type": "event_created",
+        "source": "Associated Press Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "ee274af4fa830ab731e452f6f76befbfc6e83de6",
+    "event_date": "2026-02-04",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2026-02-04T08:00:00Z",
+    "collected_at": "2026-09-22T02:27:24.070540Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Attack on Niamey airbase sounds alarms on uranium security - Africa Confidential",
+    "summary": "Attack on Niamey airbase sounds alarms on uranium security Africa Confidential",
+    "sources": [
+      "Africa Confidential"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaXJFV21xTWFVdFBYcVVZR3VRSnNJSEtrMWFfUXFJS1VYekZyUDkxLWZyMzNSczk3cnNaMzRXaGlvYnZxMkRNeU9la1NxMEtONDRndENRTWppa1FNSmc4SWRaYXA1WkRId1FqNW4tckJsSVBicVIxOS1GVUJHSDVZdUdWMU8yMWM2TWw4VXNDN2M1NjZUaUc4bWp0SUdSMDU3eFZyRmxwN1JYc3EzQkltVA?oc=5"
+    ],
+    "created_at": "2026-09-22T02:27:24.070540Z",
+    "updated_at": "2026-09-22T02:27:24.070540Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-22T02:27:24.070540Z",
+        "type": "event_created",
+        "source": "Africa Confidential"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "d9dd2877a0bfd405cdaf7985020e3cc753ed25b6",
@@ -1221,8 +1714,76 @@
     "created_at": "2026-09-19T20:57:03.778323Z",
     "updated_at": "2026-09-19T20:57:03.778323Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:57:03.778323Z",
+        "type": "event_created",
+        "source": "Associated Press Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "909d973d3ab31949c45ef288af285cb5bdb48c05",
+    "event_date": "2025-09-16",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2025-09-16T07:00:00Z",
+    "collected_at": "2026-09-21T23:26:04.234610Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "territorial seizure/blockade",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Al-Qaida-linked militants target fuel trucks in Mali in a blockade that could squeeze the economy - AP News",
+    "summary": "Al-Qaida-linked militants target fuel trucks in Mali in a blockade that could squeeze the economy AP News",
+    "sources": [
+      "Associated Press Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2RTcUtWQV9lYTdoTFp5dmJheUNzWUstT3BtM0h5TGNXcDBiZjJXa1JjdG0wOERST2VGOGFpdS1jSWVwc1hIazlyOHJzVGx3cWY5bWxNOHBIa0NxeVBabGZlOWlvZklXNVg0YlAyMzEwT0xJWUNPUmNKRkR5akNmNllHa1luaFJlVllWQ0laTlNPNWhsQWx3?oc=5"
+    ],
+    "created_at": "2026-09-21T23:26:04.234610Z",
+    "updated_at": "2026-09-21T23:26:04.234610Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T23:26:04.234610Z",
+        "type": "event_created",
+        "source": "Associated Press Africa"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "a0b218df8b8eab386a88d5d4ce46fee6c61e6218",
@@ -1259,8 +1820,23 @@
     "created_at": "2026-09-20T09:25:23.489464Z",
     "updated_at": "2026-09-20T09:25:23.489464Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-20T09:25:23.489464Z",
+        "type": "event_created",
+        "source": "International Crisis Group"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "615e6662263214611ccf4dfebd8aa256c646f8b7",
@@ -1307,8 +1883,23 @@
     "created_at": "2026-09-21T03:26:04.351811Z",
     "updated_at": "2026-09-21T03:26:04.351811Z",
     "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-21T03:26:04.351811Z",
+        "type": "event_created",
+        "source": "Jamestown Foundation - Terrorism Monitor"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "moderate"
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "144a8b29f1b51afbe0a7092f1f7dce81382c66af",
@@ -1353,8 +1944,23 @@
     "created_at": "2026-09-20T09:25:23.492163Z",
     "updated_at": "2026-09-20T09:25:23.492163Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-20T09:25:23.492163Z",
+        "type": "event_created",
+        "source": "International Crisis Group"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "876f20d4dc8474c88e3bbe99243800144d81c453",
@@ -1391,8 +1997,23 @@
     "created_at": "2026-09-19T20:57:08.783564Z",
     "updated_at": "2026-09-19T20:57:08.783564Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-19T20:57:08.783564Z",
+        "type": "event_created",
+        "source": "The Defense Post Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "7914bd0758ddae92b022e3cb4a920d216c83e29d",
@@ -1429,8 +2050,23 @@
     "created_at": "2026-09-21T02:42:40.455776Z",
     "updated_at": "2026-09-21T02:42:40.455776Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:42:40.455776Z",
+        "type": "event_created",
+        "source": "Human Rights Watch Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "9a0da95e8f8ac137b26ca7246ea6ad4391a49ed2",
@@ -1467,8 +2103,23 @@
     "created_at": "2026-09-21T02:42:34.509627Z",
     "updated_at": "2026-09-21T02:42:34.509627Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:42:34.509627Z",
+        "type": "event_created",
+        "source": "DW Africa (EN)"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
   },
   {
     "id": "71b51bfa5ba46d9a6ff79cad7a4cb02a23748d75",
@@ -1505,8 +2156,23 @@
     "created_at": "2026-09-21T02:42:27.335094Z",
     "updated_at": "2026-09-21T02:42:27.335094Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:42:27.335094Z",
+        "type": "event_created",
+        "source": "VOA Afrique (FR)"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   },
   {
     "id": "b967fe3f8432a013ef2814c1779677101baf7cf0",
@@ -1543,8 +2209,76 @@
     "created_at": "2026-09-20T06:31:33.344118Z",
     "updated_at": "2026-09-20T06:31:33.344118Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-20T06:31:33.344118Z",
+        "type": "event_created",
+        "source": "The Defense Post Africa"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "450a8a7d3253409025c927425436c43985bb0e36",
+    "event_date": "2019-01-20",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2019-01-20T08:00:00Z",
+    "collected_at": "2026-09-21T16:28:07.729294Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Mali: 10 UN peacekeepers killed in attack on Aguelhok base - The Defense Post",
+    "summary": "Mali: 10 UN peacekeepers killed in attack on Aguelhok base The Defense Post",
+    "sources": [
+      "The Defense Post Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM2VSWEhGRmJqSXRsS2VJUDEtQlUyUnNhMUV2eUp2bmRYeFJkbEo3Qk5CU0ZKRWxDU2JPRzZVLUFHQi04TXJfcmMtaWdrOU5pUDl5NzdhXy1sYk4wa0o0T1p5OEpiYmx5VDRsTUZYcjRuUlRQeXlUcHF0NEZIWm1GVEdvY9IBiAFBVV95cUxOR3c1Z3V4d3ZTSXdBcTlyQUhjMlVlWWdkN1RzQTI0cHJDUFo4YlgtQnpIZUdjWnJIbDVPMF9WbGZKVDFjZkxfQktjZ0E0RjA3b1phZFhUT3lIdnZFMHhRVUpDVzNKVnBieUpJbExaM0FndzluYmVOVURDTzE3cjQtV256NFM0c05Q?oc=5"
+    ],
+    "created_at": "2026-09-21T16:28:07.729294Z",
+    "updated_at": "2026-09-21T16:28:07.729294Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T16:28:07.729294Z",
+        "type": "event_created",
+        "source": "The Defense Post Africa"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
   },
   {
     "id": "85552cb7e34ecd9250a8aaf44c30d5e179566779",
@@ -1581,7 +2315,22 @@
     "created_at": "2026-09-21T02:42:27.338092Z",
     "updated_at": "2026-09-21T02:42:27.338092Z",
     "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-21T02:42:27.338092Z",
+        "type": "event_created",
+        "source": "VOA Afrique (FR)"
+      }
+    ],
     "corroboration": "single-source",
-    "confidence": "low"
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
   }
 ]

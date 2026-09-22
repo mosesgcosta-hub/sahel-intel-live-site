@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T02:27:25.721784Z",
+  "generated_at": "2026-09-22T03:22:29.981173Z",
   "window_days": 30,
   "cutoff": "2026-08-23",
-  "reports": 70,
+  "reports": 71,
   "incident_reports": 13,
   "candidate_events": 13,
   "corroborated_events": 0,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 55,
+    "fr": 56,
     "en": 14,
     "ar": 1
   },
@@ -43,6 +43,10 @@
       "count": 6
     },
     {
+      "source": "Agence Nigérienne de Presse",
+      "count": 5
+    },
+    {
       "source": "Malijet",
       "count": 5
     },
@@ -52,10 +56,6 @@
     },
     {
       "source": "Africa Defense Forum (ADF Magazine)",
-      "count": 4
-    },
-    {
-      "source": "Agence Nigérienne de Presse",
       "count": 4
     },
     {
@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-08-29",
-      "reports": 3,
+      "reports": 4,
       "events": 1
     },
     {
@@ -340,8 +340,24 @@
       "created_at": "2026-09-21T18:29:59.485797Z",
       "updated_at": "2026-09-21T18:29:59.485797Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-21T18:29:59.485797Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
     },
     {
       "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
@@ -395,8 +411,23 @@
       "created_at": "2026-09-21T12:30:39.468220Z",
       "updated_at": "2026-09-21T12:30:39.468220Z",
       "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-21T12:30:39.468220Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "low"
+      "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
     },
     {
       "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
@@ -443,8 +474,23 @@
       "created_at": "2026-09-20T08:26:52.057143Z",
       "updated_at": "2026-09-20T08:26:52.057143Z",
       "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-20T08:26:52.057143Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "low"
+      "confidence": "low",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
     },
     {
       "id": "dfb3855d3f453b7b84b27c0091ea309c77be105a",
@@ -483,8 +529,23 @@
       "created_at": "2026-09-19T20:57:03.747059Z",
       "updated_at": "2026-09-19T20:57:03.747059Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-19T20:57:03.747059Z",
+          "type": "event_created",
+          "source": "Associated Press Africa"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "news.google.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
     },
     {
       "id": "045e201ec819bb2707611660b05da6572820b8ac",
@@ -536,8 +597,24 @@
       "created_at": "2026-09-19T20:56:41.947029Z",
       "updated_at": "2026-09-19T20:56:41.947029Z",
       "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-19T20:56:41.947029Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "low"
+      "confidence": "low",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
     },
     {
       "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
@@ -605,8 +682,24 @@
       "created_at": "2026-09-19T18:15:00.857125Z",
       "updated_at": "2026-09-19T18:15:00.857125Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-19T18:15:00.857125Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
     },
     {
       "id": "ecedb77d7e97358a5343f986b38665e5f66e47a5",
@@ -645,8 +738,23 @@
       "created_at": "2026-09-21T04:28:31.181790Z",
       "updated_at": "2026-09-21T04:28:31.181790Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-21T04:28:31.181790Z",
+          "type": "event_created",
+          "source": "Le Monde Afrique"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "news.google.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
     },
     {
       "id": "de8becd9f70ded6f4621b871d4e289740188ba34",
@@ -685,8 +793,23 @@
       "created_at": "2026-09-21T03:56:07.980715Z",
       "updated_at": "2026-09-21T03:56:07.980715Z",
       "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-21T03:56:07.980715Z",
+          "type": "event_created",
+          "source": "The Africa Report"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "low"
+      "confidence": "low",
+      "independent_source_domains": [
+        "theafricareport.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
     },
     {
       "id": "dc854ef4a52412c4b3c6a93015bd1142e4c3a1f9",
@@ -747,8 +870,24 @@
       "created_at": "2026-09-19T20:56:45.703291Z",
       "updated_at": "2026-09-19T20:56:45.703291Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-19T20:56:45.703291Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
     },
     {
       "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
@@ -787,8 +926,23 @@
       "created_at": "2026-09-19T18:15:03.129399Z",
       "updated_at": "2026-09-19T18:15:03.129399Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-19T18:15:03.129399Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
     },
     {
       "id": "edb762a03a294a019de37018bec5aab5e93879dc",
@@ -849,8 +1003,23 @@
       "created_at": "2026-09-19T18:14:59.965077Z",
       "updated_at": "2026-09-19T18:14:59.965077Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-19T18:14:59.965077Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
     },
     {
       "id": "49a010bed8728cedc2a1329288e5290eb58aa820",
@@ -889,8 +1058,23 @@
       "created_at": "2026-09-21T04:28:31.185520Z",
       "updated_at": "2026-09-21T04:28:31.185520Z",
       "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-21T04:28:31.185520Z",
+          "type": "event_created",
+          "source": "Le Monde Afrique"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "moderate"
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "news.google.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
     },
     {
       "id": "889644f62f066fc2e2d8956e1237e69d27fb3895",
@@ -935,8 +1119,23 @@
       "created_at": "2026-09-21T02:42:45.657991Z",
       "updated_at": "2026-09-21T02:42:45.657991Z",
       "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-21T02:42:45.657991Z",
+          "type": "event_created",
+          "source": "Al Mayadeen Arabic"
+        }
+      ],
       "corroboration": "single-source",
-      "confidence": "low"
+      "confidence": "low",
+      "independent_source_domains": [
+        "news.google.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
     }
   ],
   "latest_reports": [

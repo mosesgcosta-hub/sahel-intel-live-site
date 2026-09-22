@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='2.8';
+const SITE_UI_VERSION='2.9';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -36,7 +36,7 @@ async function refresh(){
       data('thirty_day').catch(()=>null)
     ]);
     Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty});
-    renderOverview();renderMap();renderActors();renderFeeds();renderBriefing();renderThirty();updateReaderStatus();
+    renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderBriefing();renderThirty();updateReaderStatus();
     const active=$('.view.active')?.id;
     if(active==='view-quant')renderQuant();
     if(active==='view-sources')renderOps();
@@ -48,6 +48,15 @@ async function refresh(){
 function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=o.site_patch_version||SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Sahel Intel public dashboard patch v${patch}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained} relevant documents retained • ${r.translations} translations • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
 function reportCard(r){const english=r.translated_title||r.title;const hasTranslation=r.translated_title&&r.translated_title!==r.title;const excerpt=r.translated_excerpt||'';const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';const collected=r.discovered_at?relTime(r.discovered_at):'unknown';const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');const type=r.research_lead||r.retention_class==='research_lead'?'RESEARCH LEAD':(r.analytical_container?'ANALYTICAL CONTEXT':(r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT'));return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${excerpt?`<p>${esc(excerpt.slice(0,520))}${excerpt.length>520?'…':''}</p>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • Event date: ${esc(r.event_date||'unresolved')} (${esc(r.event_date_confidence||'unresolved')}) • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')}${r.perpetrator?` • Perpetrator: ${esc(r.perpetrator)}`:''}${r.target?` • Target: ${esc(r.target)}`:''}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a></article>`}
+function renderThreat(){
+  const t=state.overview?.threat;if(!t)return;
+  const r=t.regional||{};
+  const trendIcon=x=>x==='DETERIORATING'?'↑':x==='IMPROVING'?'↓':'→';
+  $('#threatRegional').innerHTML=`<span>REGIONAL</span><strong class="threat-level level-${esc((r.level||'LOW').toLowerCase())}">${esc(r.level||'—')}</strong><em>Confidence ${esc(r.confidence||'—')}</em>`;
+  $('#threatCountries').innerHTML=['Mali','Burkina Faso','Niger'].map(name=>{const x=t.countries?.[name]||{};const drivers=(x.drivers||[]).slice(0,3).map(d=>`<li>${esc(d)}</li>`).join('');return `<article class="threat-country"><div><b>${esc(name.toUpperCase())}</b><strong class="level-${esc((x.level||'low').toLowerCase())}">${esc(x.level||'—')} ${trendIcon(x.trend)}</strong></div><span>Index ${esc(x.score??'—')}/100 • ${esc(x.confidence||'—')} confidence</span><ul>${drivers}</ul></article>`}).join('');
+  setText('threatNote',t.method_note||'');
+}
+
 function renderFeeds(){const filter=r=>state.langFilter==='all'||r.language===state.langFilter;const rows=state.reports.filter(filter);$('#feedPreview').innerHTML=rows.slice(0,7).map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';$('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports yet. Wait for the first collector cycle.</div>';}
 
 function svgEl(tag,attrs={}){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e}
@@ -269,6 +278,10 @@ function renderOps(){
   const ar30=lc.ar?.reports_30d||0,en30=lc.en?.reports_30d||0,fr30=lc.fr?.reports_30d||0;
   const warnings=[];if(ar30===0)warnings.push('ARABIC COLLECTION GAP: zero retained Arabic reports in the last 30 days.');if(en30>0&&fr30/en30>=5)warnings.push('LANGUAGE IMBALANCE: French reporting exceeds English by at least 5:1.');if(total30&&Math.max(fr30,en30,ar30)/total30>.85)warnings.push('COLLECTION BIAS WARNING: one language supplies more than 85% of retained 30-day reporting.');
   $('#languageWarning').textContent=warnings.join(' ' )||'No severe language-coverage warning in the current 30-day corpus.';
+  const q=o.data_quality||{};setText('qualityStatus',q.collection_status||'—');
+  const qm=[['Date resolution',q.date_resolution_pct],['Precise geography',q.precise_geography_pct],['Actor attribution',q.actor_attribution_pct],['Multi-source corroboration',q.multi_source_corroboration_pct]];
+  $('#qualityMetrics').innerHTML=qm.map(([k,v])=>`<div><span>${esc(k)}</span><strong>${esc(v??0)}%</strong><i><b style="width:${Math.max(0,Math.min(100,Number(v)||0))}%"></b></i></div>`).join('');
+  const blind=q.collection_blind_spots||[];$('#blindSpotWarning').textContent=blind.length?'COLLECTION DEGRADED: '+blind.join(' • '):'No major collection blind spot detected by the current automated checks.';
   const t=state.thirty||{};const reports30=t.reports??0,incidentReports=t.incident_reports??0,events30=t.candidate_events??0,corroborated=t.corroborated_events??0;
   $('#pipelineFunnel').innerHTML=`<span>${reports30} relevant reports / 30D</span><i>→</i><span>${incidentReports} incident reports</span><i>→</i><span>${events30} unique fused events</span><i>→</i><span>${corroborated} multi-source events</span>`;
   $('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.source_type||'—')}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(s.access_mode||'—')}</td><td>${esc(s.contribution_status||'—')}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.error_category||'')}</td></tr>`).join('');
