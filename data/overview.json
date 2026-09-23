@@ -1,28 +1,28 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-23T08:30:51.057362Z; 169/169 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-23T08:30:51.057362Z",
-  "reports_24h": 17,
-  "distinct_sources_24h": 10,
+  "status_detail": "Last automated GitHub collection completed 2026-09-23T09:29:35.327749Z; 171/171 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-23T09:29:35.327749Z",
+  "reports_24h": 15,
+  "distinct_sources_24h": 8,
   "candidate_events_24h": 0,
   "mapped_events_24h": 0,
   "mapped_locations_24h": 0,
-  "sources_configured": 169,
-  "sources_live": 128,
+  "sources_configured": 171,
+  "sources_live": 130,
   "sources_degraded": 41,
   "sources_failed": 0,
   "source_onboarding": {
     "candidate_total": 300,
-    "verified_or_active": 152,
-    "dynamic_sources_enabled": 95,
+    "verified_or_active": 154,
+    "dynamic_sources_enabled": 97,
     "verified_this_run": 36,
     "status_counts": {
       "VERIFIED_FEED": 35,
-      "INDEX_ONLY": 26,
+      "INDEX_ONLY": 27,
       "ACTIVE_EXISTING": 48,
-      "NEEDS_DOMAIN": 147,
-      "VERIFIED_DIRECT": 34,
+      "NEEDS_DOMAIN": 145,
+      "VERIFIED_DIRECT": 35,
       "ACTIVE_EXISTING_DOMAIN": 9,
       "RESTRICTED": 1
     }
@@ -47,7 +47,7 @@
       "translations_pending_or_failed": 0
     },
     "ar": {
-      "configured_sources": 30,
+      "configured_sources": 32,
       "archive_reports": 5,
       "reports_30d": 5,
       "distinct_sources_30d": 3,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-23T08:30:51.043610Z",
+    "generated_at": "2026-09-23T09:29:35.314239Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -139,7 +139,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-23T08:30:51.057009Z",
+    "generated_at": "2026-09-23T09:29:35.327410Z",
     "events_30d": 15,
     "date_resolution_pct": 73,
     "precise_geography_pct": 67,
@@ -155,17 +155,17 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-23T08:27:25.691958Z",
-    "finished_at": "2026-09-23T08:30:51.057362Z",
+    "started_at": "2026-09-23T09:26:17.755893Z",
+    "finished_at": "2026-09-23T09:29:35.327749Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
-    "sources_total": 169,
-    "sources_success": 169,
+    "sources_total": 171,
+    "sources_success": 171,
     "sources_failed": 0,
-    "documents_discovered": 6722,
+    "documents_discovered": 6814,
     "documents_selected": 7,
-    "prefetch_skipped": 7329,
-    "known_url_skipped": 113,
+    "prefetch_skipped": 7428,
+    "known_url_skipped": 110,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
@@ -183,9 +183,9 @@
     "fetch_candidates_attempted": 7,
     "targeted_sources_queried": 36,
     "targeted_links_discovered": 0,
-    "dynamic_sources_loaded": 95,
+    "dynamic_sources_loaded": 97,
     "source_candidates_total": 300,
-    "source_candidates_verified_or_active": 152,
+    "source_candidates_verified_or_active": 154,
     "source_candidates_verified_this_run": 36,
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
@@ -208,9 +208,9 @@
     "event_date_proxy_reports": 23,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 3,
+      "fr": 2,
       "en": 4,
-      "ar": 0,
+      "ar": 1,
       "other": 0
     },
     "retained_cycle_by_language": {
