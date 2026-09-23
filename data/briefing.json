@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:29:19.739674Z",
+  "generated_at": "2026-09-23T04:06:46.223797Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
@@ -142,5 +142,5 @@
     "7ed6b5a990b190331c5a292d702972f5ae0ced5f",
     "2c520bc601f2158db5bda2c91380248e552ddb49"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 168 configured sources failed during the latest cycle and 40 were degraded. The retained archive contains 113 French or Arabic reports; 113 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 168 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 113 French or Arabic reports; 113 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
