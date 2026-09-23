@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T23:26:17.186737Z",
+  "generated_at": "2026-09-23T00:35:07.565194Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
@@ -42,36 +42,6 @@
   },
   "event_snapshots": [
     {
-      "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
-      "source_count": 1,
-      "updated_at": "2026-09-19T18:15:00.857125Z",
-      "location_count": 4
-    },
-    {
-      "id": "045e201ec819bb2707611660b05da6572820b8ac",
-      "source_count": 1,
-      "updated_at": "2026-09-19T20:56:41.947029Z",
-      "location_count": 2
-    },
-    {
-      "id": "dfb3855d3f453b7b84b27c0091ea309c77be105a",
-      "source_count": 1,
-      "updated_at": "2026-09-19T20:57:03.747059Z",
-      "location_count": 0
-    },
-    {
-      "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
-      "source_count": 1,
-      "updated_at": "2026-09-20T08:26:52.057143Z",
-      "location_count": 1
-    },
-    {
-      "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
-      "source_count": 1,
-      "updated_at": "2026-09-21T12:30:39.468220Z",
-      "location_count": 2
-    },
-    {
       "id": "0bafe8d9dcaf99063585c5b23f2c739d3b289bb4",
       "source_count": 1,
       "updated_at": "2026-09-22T09:28:10.537169Z",
@@ -91,7 +61,7 @@
     }
   ],
   "briefing_fingerprint": "b821d6cd1dc85fb2ad35ba21db805ec63e2f726d",
-  "previous_fingerprint": "4f6b017ab85ebdb488a69d190921f1cd4e89b698",
+  "previous_fingerprint": "b821d6cd1dc85fb2ad35ba21db805ec63e2f726d",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -170,5 +140,5 @@
     "91f7c01ee20a6853a1d15b4cca01cbfec44ebfcd",
     "8f9108da279040aeb8508886e0ec777fb8c10757"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 167 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 113 French or Arabic reports; 113 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 168 configured sources failed during the latest cycle and 42 were degraded. The retained archive contains 113 French or Arabic reports; 113 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

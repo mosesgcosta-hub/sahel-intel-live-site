@@ -1,28 +1,28 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.2",
-  "status_detail": "Last automated GitHub collection completed 2026-09-22T23:26:17.186984Z; 167/167 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-22T23:26:17.186984Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-23T00:35:07.565377Z; 168/168 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-23T00:35:07.565377Z",
   "reports_24h": 18,
   "distinct_sources_24h": 11,
-  "candidate_events_24h": 2,
-  "mapped_events_24h": 2,
-  "mapped_locations_24h": 7,
-  "sources_configured": 167,
+  "candidate_events_24h": 0,
+  "mapped_events_24h": 0,
+  "mapped_locations_24h": 0,
+  "sources_configured": 168,
   "sources_live": 126,
-  "sources_degraded": 41,
+  "sources_degraded": 42,
   "sources_failed": 0,
   "source_onboarding": {
     "candidate_total": 300,
-    "verified_or_active": 149,
-    "dynamic_sources_enabled": 93,
+    "verified_or_active": 150,
+    "dynamic_sources_enabled": 94,
     "verified_this_run": 36,
     "status_counts": {
       "VERIFIED_FEED": 34,
       "INDEX_ONLY": 26,
       "ACTIVE_EXISTING": 48,
-      "NEEDS_DOMAIN": 150,
-      "VERIFIED_DIRECT": 33,
+      "NEEDS_DOMAIN": 149,
+      "VERIFIED_DIRECT": 34,
       "ACTIVE_EXISTING_DOMAIN": 8,
       "RESTRICTED": 1
     }
@@ -38,7 +38,7 @@
       "translations_pending_or_failed": 0
     },
     "en": {
-      "configured_sources": 81,
+      "configured_sources": 82,
       "archive_reports": 101,
       "reports_30d": 24,
       "distinct_sources_30d": 14,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-22T23:26:17.177344Z",
+    "generated_at": "2026-09-23T00:35:07.552549Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -139,14 +139,14 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-22T23:26:17.186723Z",
+    "generated_at": "2026-09-23T00:35:07.565183Z",
     "events_30d": 15,
     "date_resolution_pct": 73,
     "precise_geography_pct": 67,
     "actor_attribution_pct": 87,
     "multi_source_corroboration_pct": 7,
     "collection_blind_spots": [
-      "41 configured sources are degraded or failed"
+      "42 configured sources are degraded or failed"
     ],
     "collection_status": "DEGRADED",
     "language_reports_30d": {
@@ -157,16 +157,16 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-22T23:23:03.414261Z",
-    "finished_at": "2026-09-22T23:26:17.186984Z",
+    "started_at": "2026-09-23T00:30:44.774147Z",
+    "finished_at": "2026-09-23T00:35:07.565377Z",
     "status": "complete",
     "site_patch_version": "2.9.2",
-    "sources_total": 167,
-    "sources_success": 167,
+    "sources_total": 168,
+    "sources_success": 168,
     "sources_failed": 0,
-    "documents_discovered": 6639,
+    "documents_discovered": 6659,
     "documents_selected": 7,
-    "prefetch_skipped": 7248,
+    "prefetch_skipped": 7265,
     "known_url_skipped": 113,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
@@ -185,9 +185,9 @@
     "fetch_candidates_attempted": 7,
     "targeted_sources_queried": 36,
     "targeted_links_discovered": 0,
-    "dynamic_sources_loaded": 93,
+    "dynamic_sources_loaded": 94,
     "source_candidates_total": 300,
-    "source_candidates_verified_or_active": 149,
+    "source_candidates_verified_or_active": 150,
     "source_candidates_verified_this_run": 36,
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
