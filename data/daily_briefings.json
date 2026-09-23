@@ -1,40 +1,41 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-23T10:29:31.120093Z",
+  "generated_at": "2026-09-23T11:29:43.595562Z",
   "active_limit": 33,
-  "total_briefings": 139,
+  "total_briefings": 141,
   "active_count": 33,
-  "archived_count": 106,
+  "archived_count": 108,
   "briefings": [
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-09-23T10:29:31.053847Z",
+      "generated_at": "2026-09-23T11:29:43.591948Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
         "Niger"
       ],
       "classification": "OPEN SOURCE",
-      "collection_confidence": "MODERATE",
+      "collection_confidence": "HIGH",
       "headline_metrics": {
         "events_occurring_on_date": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 7,
-        "reports_published_on_date": 1,
+        "reports_collected_on_date": 11,
+        "reports_published_on_date": 2,
         "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 5
+        "events_awaiting_date_verification": 1,
+        "distinct_sources_collected": 9
       },
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 7 reports on that reporting date from 5 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 11 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
       "key_judgments": [
-        "No fused candidate event currently has 2026-09-23 as its event date; collection confidence for that date is moderate."
+        "No fused candidate event currently has 2026-09-23 as its event date; collection confidence for that date is high.",
+        "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: -81 retained report(s) versus 2026-09-22 (88 → 7).",
+        "Collection volume: -77 retained report(s) versus 2026-09-22 (88 → 11).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -42,7 +43,7 @@
         "State 7-day activity is higher than the preceding 7-day window (0 → 8)."
       ],
       "intelligence_gaps": [
-        "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
+        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates."
       ],
       "actor_counts": {
         "JNIM": 0,
@@ -55,8 +56,8 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 2,
-        "Burkina Faso": 3,
+        "Mali": 5,
+        "Burkina Faso": 4,
         "Niger": 2
       },
       "actor_profiles": {
@@ -88,7 +89,7 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 2,
+          "reports_collected": 5,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -99,7 +100,7 @@
         },
         "Burkina Faso": {
           "events": 0,
-          "reports_collected": 3,
+          "reports_collected": 4,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -121,36 +122,36 @@
         }
       },
       "collection_notes": {
-        "sources_total": 171,
-        "sources_success": 171,
+        "sources_total": 172,
+        "sources_success": 172,
         "sources_failed": 0,
-        "sources_degraded": 43,
-        "documents_discovered": 6750,
-        "documents_retained": 3,
+        "sources_degraded": 42,
+        "documents_discovered": 6818,
+        "documents_retained": 5,
         "report_target": 100,
-        "translations_attempted": 1,
-        "translations_success": 1,
+        "translations_attempted": 3,
+        "translations_success": 3,
         "translation_failures": 0,
-        "collection_confidence": "MODERATE",
+        "collection_confidence": "HIGH",
         "collection_confidence_reasons": [
-          "171/171 source paths reached",
-          "43 degraded / 0 failed of 171 configured sources"
+          "172/172 source paths reached",
+          "42 degraded / 0 failed of 172 configured sources"
         ],
-        "reports_collected": 7,
-        "reports_published": 1,
-        "distinct_sources_collected": 5,
+        "reports_collected": 11,
+        "reports_published": 2,
+        "distinct_sources_collected": 9,
         "language_counts": {
-          "fr": 2,
-          "en": 5
+          "fr": 4,
+          "en": 7
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 7 reports on that reporting date from 5 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -81 retained report(s) versus 2026-09-22 (88 → 7). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 171/171 source paths reached 43 degraded / 0 failed of 171 configured sources\n\nNothing further to report at this time."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 11 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -77 retained report(s) versus 2026-09-22 (88 → 11). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 172/172 source paths reached 42 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-09-23T10:29:31.080423Z",
+      "generated_at": "2026-09-23T11:29:43.567388Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -290,7 +291,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-09-23T10:29:31.097438Z",
+      "generated_at": "2026-09-23T11:29:43.568804Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -523,7 +524,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-09-23T10:29:31.064358Z",
+      "generated_at": "2026-09-23T11:29:43.559603Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -717,7 +718,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-09-23T10:29:31.105097Z",
+      "generated_at": "2026-09-23T11:29:43.541926Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1063,7 +1064,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-09-23T10:29:31.115677Z",
+      "generated_at": "2026-09-23T11:29:43.531863Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1240,7 +1241,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-09-23T10:29:31.063866Z",
+      "generated_at": "2026-09-23T11:29:43.583442Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1539,7 +1540,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-09-23T10:29:31.085558Z",
+      "generated_at": "2026-09-23T11:29:43.556489Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1673,7 +1674,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-09-23T10:29:31.069714Z",
+      "generated_at": "2026-09-23T11:29:43.535094Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1807,7 +1808,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-09-23T10:29:31.094582Z",
+      "generated_at": "2026-09-23T11:29:43.557790Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1941,7 +1942,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-09-23T10:29:31.107247Z",
+      "generated_at": "2026-09-23T11:29:43.556047Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2075,7 +2076,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-09-23T10:29:31.109934Z",
+      "generated_at": "2026-09-23T11:29:43.593721Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2209,7 +2210,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-09-23T10:29:31.119177Z",
+      "generated_at": "2026-09-23T11:29:43.571875Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2343,7 +2344,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-09-23T10:29:31.063335Z",
+      "generated_at": "2026-09-23T11:29:43.578482Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2520,7 +2521,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-09-23T10:29:31.104105Z",
+      "generated_at": "2026-09-23T11:29:43.572736Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2654,7 +2655,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-09-23T10:29:31.074216Z",
+      "generated_at": "2026-09-23T11:29:43.554293Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2788,7 +2789,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-09-23T10:29:31.108129Z",
+      "generated_at": "2026-09-23T11:29:43.571006Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2800,7 +2801,7 @@
         "events_occurring_on_date": 0,
         "multi_source_events": 0,
         "reports_collected_on_date": 0,
-        "reports_published_on_date": 0,
+        "reports_published_on_date": 1,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
         "distinct_sources_collected": 0
@@ -2912,7 +2913,7 @@
           "no completed collection run recorded for this date"
         ],
         "reports_collected": 0,
-        "reports_published": 0,
+        "reports_published": 1,
         "distinct_sources_collected": 0,
         "language_counts": {}
       },
@@ -2922,7 +2923,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-09-23T10:29:31.088735Z",
+      "generated_at": "2026-09-23T11:29:43.546784Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3056,7 +3057,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-09-23T10:29:31.055591Z",
+      "generated_at": "2026-09-23T11:29:43.534205Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3190,7 +3191,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-09-23T10:29:31.076381Z",
+      "generated_at": "2026-09-23T11:29:43.560476Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3324,7 +3325,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-09-23T10:29:31.091701Z",
+      "generated_at": "2026-09-23T11:29:43.555184Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3458,7 +3459,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-09-23T10:29:31.092666Z",
+      "generated_at": "2026-09-23T11:29:43.562209Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3592,7 +3593,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-09-23T10:29:31.080887Z",
+      "generated_at": "2026-09-23T11:29:43.586587Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3769,7 +3770,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-23",
-      "generated_at": "2026-09-23T10:29:31.075524Z",
+      "generated_at": "2026-09-23T11:29:43.583873Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3903,7 +3904,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-10",
-      "generated_at": "2026-09-23T10:29:31.083915Z",
+      "generated_at": "2026-09-23T11:29:43.575351Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4037,7 +4038,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-09",
-      "generated_at": "2026-09-23T10:29:31.057015Z",
+      "generated_at": "2026-09-23T11:29:43.570581Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4171,7 +4172,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-04",
-      "generated_at": "2026-09-23T10:29:31.095542Z",
+      "generated_at": "2026-09-23T11:29:43.565939Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4305,7 +4306,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-03",
-      "generated_at": "2026-09-23T10:29:31.120038Z",
+      "generated_at": "2026-09-23T11:29:43.547214Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4439,7 +4440,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-02",
-      "generated_at": "2026-09-23T10:29:31.057479Z",
+      "generated_at": "2026-09-23T11:29:43.595039Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4573,7 +4574,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-31",
-      "generated_at": "2026-09-23T10:29:31.062439Z",
+      "generated_at": "2026-09-23T11:29:43.585685Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4707,7 +4708,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-27",
-      "generated_at": "2026-09-23T10:29:31.089750Z",
+      "generated_at": "2026-09-23T11:29:43.588798Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4885,7 +4886,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-22",
-      "generated_at": "2026-09-23T10:29:31.116528Z",
+      "generated_at": "2026-09-23T11:29:43.576654Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5019,7 +5020,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-18",
-      "generated_at": "2026-09-23T10:29:31.083054Z",
+      "generated_at": "2026-09-23T11:29:43.565063Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
