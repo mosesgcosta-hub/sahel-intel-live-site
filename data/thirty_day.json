@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T22:27:20.014796Z",
+  "generated_at": "2026-09-23T23:25:18.301829Z",
   "window_days": 30,
   "cutoff": "2026-08-24",
-  "reports": 107,
-  "incident_reports": 16,
-  "candidate_events": 15,
+  "reports": 108,
+  "incident_reports": 17,
+  "candidate_events": 16,
   "corroborated_events": 1,
-  "mapped_events": 10,
-  "mapped_locations": 26,
+  "mapped_events": 11,
+  "mapped_locations": 27,
   "distinct_sources": 42,
   "by_actor": {
     "State": 8,
     "Africa Corps/Wagner": 3,
-    "JNIM": 2,
-    "Other": 2
+    "Other": 3,
+    "JNIM": 2
   },
   "by_country": {
     "Mali": 14,
-    "Niger": 1
+    "Niger": 2
   },
   "by_event_type": {
     "security operation": 9,
-    "attack": 5,
+    "attack": 6,
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 77,
+    "fr": 78,
     "en": 25,
     "ar": 5
   },
   "by_confidence": {
     "moderate": 9,
-    "low": 6
+    "low": 7
   },
   "top_sources": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "source": "ActuNiger",
-      "count": 6
+      "count": 7
     },
     {
       "source": "Africa Defense Forum (ADF Magazine)",
@@ -118,6 +118,10 @@
     },
     {
       "location": "Niamey",
+      "count": 1
+    },
+    {
+      "location": "Tillabéri",
       "count": 1
     }
   ],
@@ -269,11 +273,72 @@
     },
     {
       "date": "2026-09-23",
-      "reports": 5,
-      "events": 0
+      "reports": 6,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "c9fca84b2d219d19ed9a5a86e10c3b5b309d3431",
+      "event_date": "2026-09-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-23T23:04:12Z",
+      "collected_at": "2026-09-23T23:24:52.009243Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Niger",
+      "city": "Tillabéri",
+      "lat": 14.2071,
+      "lng": 1.4542,
+      "locations": [
+        {
+          "name": "Tillabéri",
+          "country": "Niger",
+          "lat": 14.2071,
+          "lng": 1.4542,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
+      "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle ",
+      "sources": [
+        "ActuNiger"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala.html"
+      ],
+      "created_at": "2026-09-23T23:24:52.009243Z",
+      "updated_at": "2026-09-23T23:24:52.009243Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-23T23:24:52.009243Z",
+          "type": "event_created",
+          "source": "ActuNiger"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "actuniger.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "29287febb6ad28dcee240f5096976b06453d5b37",
       "event_date": "2026-09-21",
@@ -1305,7 +1370,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-23T22:27:02.418895Z",
+      "discovered_at": "2026-09-23T23:24:51.468473Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1380,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-23T23:04:12Z",
+      "discovered_at": "2026-09-23T23:24:52.009243Z",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Tillabéri",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
+      "url": "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala.html"
     },
     {
       "published_at": "2026-09-23T15:16:24Z",
@@ -1809,19 +1887,6 @@
       "candidate_event": true,
       "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
       "url": "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T22:24:13.791319Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso–Niger: Ouagadougou reaffirms its solidarity with Niamey",
-      "url": "https://lefaso.net/spip.php?article149352="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

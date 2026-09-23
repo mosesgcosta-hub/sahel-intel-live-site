@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-23T22:27:20.033284Z",
-  "events_30d": 15,
-  "date_resolution_pct": 73,
-  "precise_geography_pct": 67,
-  "actor_attribution_pct": 87,
-  "multi_source_corroboration_pct": 7,
+  "generated_at": "2026-09-23T23:25:18.339712Z",
+  "events_30d": 16,
+  "date_resolution_pct": 75,
+  "precise_geography_pct": 69,
+  "actor_attribution_pct": 81,
+  "multi_source_corroboration_pct": 6,
   "collection_blind_spots": [],
   "collection_status": "NOMINAL",
   "language_reports_30d": {
-    "fr": 77,
+    "fr": 78,
     "en": 25,
     "ar": 5
   },

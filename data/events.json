@@ -1,5 +1,66 @@
 [
   {
+    "id": "c9fca84b2d219d19ed9a5a86e10c3b5b309d3431",
+    "event_date": "2026-09-23",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-23T23:04:12Z",
+    "collected_at": "2026-09-23T23:24:52.009243Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Tillabéri",
+    "lat": 14.2071,
+    "lng": 1.4542,
+    "locations": [
+      {
+        "name": "Tillabéri",
+        "country": "Niger",
+        "lat": 14.2071,
+        "lng": 1.4542,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
+    "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle ",
+    "sources": [
+      "ActuNiger"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala.html"
+    ],
+    "created_at": "2026-09-23T23:24:52.009243Z",
+    "updated_at": "2026-09-23T23:24:52.009243Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-23T23:24:52.009243Z",
+        "type": "event_created",
+        "source": "ActuNiger"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "actuniger.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "29287febb6ad28dcee240f5096976b06453d5b37",
     "event_date": "2026-09-21",
     "event_date_confidence": "explicit-text",
