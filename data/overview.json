@@ -1,16 +1,16 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-23T17:29:17.072537Z; 172/172 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-23T17:29:17.072537Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-23T18:33:53.718106Z; 172/172 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-23T18:33:53.718106Z",
   "reports_24h": 8,
   "distinct_sources_24h": 5,
   "candidate_events_24h": 0,
   "mapped_events_24h": 0,
   "mapped_locations_24h": 0,
   "sources_configured": 172,
-  "sources_live": 131,
-  "sources_degraded": 41,
+  "sources_live": 130,
+  "sources_degraded": 42,
   "sources_failed": 0,
   "source_onboarding": {
     "candidate_total": 300,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-23T17:29:17.064672Z",
+    "generated_at": "2026-09-23T18:33:53.703562Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -139,7 +139,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-23T17:29:17.072327Z",
+    "generated_at": "2026-09-23T18:33:53.717792Z",
     "events_30d": 15,
     "date_resolution_pct": 73,
     "precise_geography_pct": 67,
@@ -155,17 +155,17 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-23T17:25:43.891436Z",
-    "finished_at": "2026-09-23T17:29:17.072537Z",
+    "started_at": "2026-09-23T18:29:21.175727Z",
+    "finished_at": "2026-09-23T18:33:53.718106Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 172,
     "sources_success": 172,
     "sources_failed": 0,
-    "documents_discovered": 6841,
+    "documents_discovered": 6814,
     "documents_selected": 8,
-    "prefetch_skipped": 7444,
-    "known_url_skipped": 110,
+    "prefetch_skipped": 7421,
+    "known_url_skipped": 107,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
