@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T06:35:07.952444Z",
+  "generated_at": "2026-09-23T07:30:04.730643Z",
   "window_days": 30,
   "cutoff": "2026-08-24",
-  "reports": 102,
+  "reports": 103,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 73,
+    "fr": 74,
     "en": 24,
     "ar": 5
   },
@@ -35,12 +35,12 @@
   },
   "top_sources": [
     {
-      "source": "Bamada",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 7
     },
     {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 6
+      "source": "Bamada",
+      "count": 7
     },
     {
       "source": "ActuNiger",
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-23",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-23T06:34:50.760015Z",
+      "discovered_at": "2026-09-23T07:29:35.934245Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1315,6 +1315,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-23T07:12:27Z",
+      "discovered_at": "2026-09-23T07:29:37.603999Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Timbuktu: Celebration of Mali's Independence Day",
+      "url": "https://amap.ml/2026/09/23/tombouctou-celebration-de-la-fete-de-lindependence-du-mali/"
     },
     {
       "published_at": "2026-09-22T22:08:40Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": false,
       "title": "Burkina Faso",
       "url": "https://www.jeuneafrique.com/pays/burkina-faso/"
-    },
-    {
-      "published_at": "2026-09-19T20:36:13Z",
-      "discovered_at": "2026-09-19T20:57:08.054906Z",
-      "source": "Aïr Info",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger-Sudan: Niamey and Khartoum want to strengthen their cooperation in the face of security challenges",
-      "url": "https://airinfoagadez.com/2026/09/19/niger-soudan-niamey-et-khartoum-veulent-renforcer-leur-cooperation-face-aux-defis-securitaires/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
