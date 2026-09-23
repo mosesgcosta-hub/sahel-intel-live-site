@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "site_patch_version": "2.9.3",
+  "reporting_date": "2026-09-23",
+  "generated_at": "2026-09-23T04:47:28.071870Z",
+  "coverage": [
+    "Mali",
+    "Burkina Faso",
+    "Niger"
+  ],
+  "classification": "OPEN SOURCE",
+  "collection_confidence": "HIGH",
+  "headline_metrics": {
+    "events_occurring_on_date": 0,
+    "multi_source_events": 0,
+    "reports_collected_on_date": 4,
+    "reports_published_on_date": 0,
+    "newly_discovered_older_events": 0,
+    "events_awaiting_date_verification": 0,
+    "distinct_sources_collected": 3
+  },
+  "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 4 reports on that reporting date from 3 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
+  "key_judgments": [
+    "No fused candidate event currently has 2026-09-23 as its event date; collection confidence for that date is high."
+  ],
+  "significant_events": [],
+  "what_changed_since_yesterday": [
+    "Collection volume: -84 retained report(s) versus 2026-09-22 (88 → 4).",
+    "Actor-level same-day fused event counts are unchanged from the previous date."
+  ],
+  "emerging_patterns": [
+    "JNIM 7-day activity is higher than the preceding 7-day window (0 → 2).",
+    "State 7-day activity is higher than the preceding 7-day window (0 → 8)."
+  ],
+  "intelligence_gaps": [
+    "No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review."
+  ],
+  "actor_counts": {
+    "JNIM": 0,
+    "IS Sahel": 0,
+    "State": 0
+  },
+  "country_counts": {
+    "Mali": 0,
+    "Burkina Faso": 0,
+    "Niger": 0
+  },
+  "country_reporting_counts": {
+    "Mali": 0,
+    "Burkina Faso": 2,
+    "Niger": 2
+  },
+  "actor_profiles": {
+    "JNIM": {
+      "events": 0,
+      "delta_vs_previous_day": 0,
+      "current_7d": 2,
+      "previous_7d": 0,
+      "countries": [],
+      "event_types": []
+    },
+    "IS Sahel": {
+      "events": 0,
+      "delta_vs_previous_day": 0,
+      "current_7d": 0,
+      "previous_7d": 0,
+      "countries": [],
+      "event_types": []
+    },
+    "State": {
+      "events": 0,
+      "delta_vs_previous_day": 0,
+      "current_7d": 8,
+      "previous_7d": 0,
+      "countries": [],
+      "event_types": []
+    }
+  },
+  "country_profiles": {
+    "Mali": {
+      "events": 0,
+      "reports_collected": 0,
+      "actor_counts": {
+        "JNIM": 0,
+        "IS Sahel": 0,
+        "State": 0
+      },
+      "delta_events_vs_previous_day": 0,
+      "top_event_types": []
+    },
+    "Burkina Faso": {
+      "events": 0,
+      "reports_collected": 2,
+      "actor_counts": {
+        "JNIM": 0,
+        "IS Sahel": 0,
+        "State": 0
+      },
+      "delta_events_vs_previous_day": 0,
+      "top_event_types": []
+    },
+    "Niger": {
+      "events": 0,
+      "reports_collected": 2,
+      "actor_counts": {
+        "JNIM": 0,
+        "IS Sahel": 0,
+        "State": 0
+      },
+      "delta_events_vs_previous_day": 0,
+      "top_event_types": []
+    }
+  },
+  "collection_notes": {
+    "sources_total": 169,
+    "sources_success": 169,
+    "sources_failed": 0,
+    "sources_degraded": 41,
+    "documents_discovered": 6735,
+    "documents_retained": 1,
+    "report_target": 100,
+    "translations_attempted": 1,
+    "translations_success": 1,
+    "translation_failures": 0,
+    "collection_confidence": "HIGH",
+    "collection_confidence_reasons": [
+      "169/169 source paths reached",
+      "41 degraded / 0 failed of 169 configured sources"
+    ],
+    "reports_collected": 4,
+    "reports_published": 0,
+    "distinct_sources_collected": 3,
+    "language_counts": {
+      "fr": 1,
+      "en": 3
+    }
+  },
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 4 reports on that reporting date from 3 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -84 retained report(s) versus 2026-09-22 (88 → 4). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review.\n\nCollection confidence: HIGH. 169/169 source paths reached 41 degraded / 0 failed of 169 configured sources\n\nNothing further to report at this time."
+}
