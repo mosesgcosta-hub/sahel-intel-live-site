@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T12:33:58.723875Z",
+  "generated_at": "2026-09-23T13:31:17.121684Z",
   "window_days": 30,
   "cutoff": "2026-08-24",
-  "reports": 105,
+  "reports": 106,
   "incident_reports": 16,
   "candidate_events": 15,
   "corroborated_events": 1,
@@ -25,7 +25,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 75,
+    "fr": 76,
     "en": 25,
     "ar": 5
   },
@@ -35,11 +35,11 @@
   },
   "top_sources": [
     {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 7
+      "source": "Bamada",
+      "count": 8
     },
     {
-      "source": "Bamada",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 7
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "date": "2026-09-23",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -1304,6 +1304,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-23T13:30:54.603781Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
       "published_at": "2026-09-23T12:48:16Z",
       "discovered_at": "2026-09-23T11:29:06.852398Z",
       "source": "Jeune Afrique",
@@ -1317,17 +1330,17 @@
       "url": "https://www.jeuneafrique.com/1844908/politique/mali-etats-unis-pourquoi-le-soutien-de-lukraine-au-fla-contrarie-ladministration-trump/"
     },
     {
-      "published_at": null,
-      "discovered_at": "2026-09-23T12:33:41.965630Z",
-      "source": "aNiamey.com",
+      "published_at": "2026-09-23T11:48:13Z",
+      "discovered_at": "2026-09-23T13:30:54.768326Z",
+      "source": "Bamada",
       "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
       "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
+      "title": "Mali: Arrival of a historic convoy of 1,289 tankers in Bamako",
+      "url": "https://bamada.net/mali-arrivee-dun-convoi-historique-de-1-289-camions-citernes-a-bamako"
     },
     {
       "published_at": "2026-09-23T07:12:27Z",
@@ -1809,19 +1822,6 @@
       "candidate_event": false,
       "title": "Operation Dougoukoloko: Heroic evacuation in Dioura, the Malian army pays tribute to its fallen sons",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311932-operation-dougoukoloko-evacuation-heroique-a-dioura-larm.html"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-19T20:56:49.031451Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger: FSSP strengthens the mobility of the Defence and Security Forces with a new endowment",
-      "url": "https://bamada.net/niger-le-fssp-renforce-la-mobilite-des-forces-de-defense-et-de-securite-grace-a-une-nouvelle-dotation"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

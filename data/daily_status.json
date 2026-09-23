@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-23",
-  "generated_at": "2026-09-23T12:33:58.941581Z",
+  "generated_at": "2026-09-23T13:31:17.373260Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -13,20 +13,20 @@
   "headline_metrics": {
     "events_occurring_on_date": 0,
     "multi_source_events": 0,
-    "reports_collected_on_date": 11,
-    "reports_published_on_date": 2,
+    "reports_collected_on_date": 12,
+    "reports_published_on_date": 3,
     "newly_discovered_older_events": 0,
     "events_awaiting_date_verification": 1,
     "distinct_sources_collected": 9
   },
-  "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 11 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
+  "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 12 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
   "key_judgments": [
     "No fused candidate event currently has 2026-09-23 as its event date; collection confidence for that date is high.",
     "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
   ],
   "significant_events": [],
   "what_changed_since_yesterday": [
-    "Collection volume: -77 retained report(s) versus 2026-09-22 (88 → 11).",
+    "Collection volume: -76 retained report(s) versus 2026-09-22 (88 → 12).",
     "Actor-level same-day fused event counts are unchanged from the previous date."
   ],
   "emerging_patterns": [
@@ -47,7 +47,7 @@
     "Niger": 0
   },
   "country_reporting_counts": {
-    "Mali": 5,
+    "Mali": 6,
     "Burkina Faso": 4,
     "Niger": 2
   },
@@ -80,7 +80,7 @@
   "country_profiles": {
     "Mali": {
       "events": 0,
-      "reports_collected": 5,
+      "reports_collected": 6,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
@@ -116,25 +116,25 @@
     "sources_total": 172,
     "sources_success": 172,
     "sources_failed": 0,
-    "sources_degraded": 41,
-    "documents_discovered": 6846,
-    "documents_retained": 1,
+    "sources_degraded": 42,
+    "documents_discovered": 6819,
+    "documents_retained": 2,
     "report_target": 100,
-    "translations_attempted": 1,
-    "translations_success": 1,
+    "translations_attempted": 2,
+    "translations_success": 2,
     "translation_failures": 0,
     "collection_confidence": "HIGH",
     "collection_confidence_reasons": [
       "172/172 source paths reached",
-      "41 degraded / 0 failed of 172 configured sources"
+      "42 degraded / 0 failed of 172 configured sources"
     ],
-    "reports_collected": 11,
-    "reports_published": 2,
+    "reports_collected": 12,
+    "reports_published": 3,
     "distinct_sources_collected": 9,
     "language_counts": {
-      "fr": 4,
+      "fr": 5,
       "en": 7
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 11 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -77 retained report(s) versus 2026-09-22 (88 → 11). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 172/172 source paths reached 41 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Sahel Intel records 0 fused candidate events with an event date of 2026-09-23. The collector retained 12 reports on that reporting date from 9 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -76 retained report(s) versus 2026-09-22 (88 → 12). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 172/172 source paths reached 42 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
 }
