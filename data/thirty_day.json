@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:31:17.121684Z",
+  "generated_at": "2026-09-23T14:31:20.704319Z",
   "window_days": 30,
   "cutoff": "2026-08-24",
   "reports": 106,
@@ -1305,7 +1305,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-23T13:30:54.603781Z",
+      "discovered_at": "2026-09-23T14:30:58.076346Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
