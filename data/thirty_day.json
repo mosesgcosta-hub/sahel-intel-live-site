@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-09-24T16:32:06.405172Z",
+  "generated_at": "2026-09-24T17:28:33.563888Z",
   "window_days": 30,
   "cutoff": "2026-08-25",
-  "reports": 114,
-  "incident_reports": 19,
-  "candidate_events": 18,
+  "reports": 115,
+  "incident_reports": 20,
+  "candidate_events": 19,
   "corroborated_events": 1,
-  "mapped_events": 13,
-  "mapped_locations": 30,
+  "mapped_events": 14,
+  "mapped_locations": 31,
   "distinct_sources": 43,
   "by_actor": {
     "State": 8,
-    "Other": 4,
+    "Other": 5,
     "Africa Corps/Wagner": 3,
     "JNIM": 3
   },
   "by_country": {
     "Mali": 15,
-    "Niger": 3
+    "Niger": 3,
+    "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 9,
+    "security operation": 10,
     "attack": 7,
     "clash": 1,
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 82,
+    "fr": 83,
     "en": 26,
     "ar": 6
   },
   "by_confidence": {
     "moderate": 10,
-    "low": 8
+    "low": 9
   },
   "top_sources": [
     {
@@ -52,6 +53,10 @@
       "count": 6
     },
     {
+      "source": "Jeune Afrique",
+      "count": 6
+    },
+    {
       "source": "LeFaso.net",
       "count": 6
     },
@@ -61,10 +66,6 @@
     },
     {
       "source": "Agence Nigérienne de Presse",
-      "count": 5
-    },
-    {
-      "source": "Jeune Afrique",
       "count": 5
     },
     {
@@ -116,6 +117,10 @@
     {
       "location": "Tillabéri",
       "count": 2
+    },
+    {
+      "location": "Dori",
+      "count": 1
     },
     {
       "location": "Kidal",
@@ -274,11 +279,72 @@
     },
     {
       "date": "2026-09-24",
-      "reports": 5,
-      "events": 0
+      "reports": 6,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "1a000f1627ed4678b4d5a3a06ca6d6dc1a16b7c8",
+      "event_date": "2026-09-24",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-today",
+      "published_at": "2026-09-24T18:00:36Z",
+      "collected_at": "2026-09-24T17:28:03.775866Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Burkina Faso",
+      "city": "Dori",
+      "lat": 14.0354,
+      "lng": -0.0345,
+      "locations": [
+        {
+          "name": "Dori",
+          "country": "Burkina Faso",
+          "lat": 14.0354,
+          "lng": -0.0345,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall",
+      "summary": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall Abandoned sites, billions promised never arrived... In Burkina Faso, projects to restore degraded lands have stalled. The jihadist violence and the vagueness surrounding donor funding promises got the better of one of Africa's most ambitious ecological projects . Published today at 18:00, modified at 18:52 Reading: 6 minutes. From the sma",
+      "sources": [
+        "Jeune Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.jeuneafrique.com/1845416/societe/reportage-au-burkina-faso-quand-la-violence-jihadiste-detruit-la-grande-muraille-verte/"
+      ],
+      "created_at": "2026-09-24T17:28:03.775866Z",
+      "updated_at": "2026-09-24T17:28:03.775866Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-24T17:28:03.775866Z",
+          "type": "event_created",
+          "source": "Jeune Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "jeuneafrique.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "6126bf9826acabc9a1d3e13f80db81f12a317602",
       "event_date": "2026-09-23",
@@ -1502,8 +1568,21 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-24T18:00:36Z",
+      "discovered_at": "2026-09-24T17:28:03.775866Z",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Burkina Faso",
+      "city": "Dori",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall",
+      "url": "https://www.jeuneafrique.com/1845416/societe/reportage-au-burkina-faso-quand-la-violence-jihadiste-detruit-la-grande-muraille-verte/"
+    },
+    {
       "published_at": null,
-      "discovered_at": "2026-09-24T16:31:37.218272Z",
+      "discovered_at": "2026-09-24T17:28:03.682009Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2007,19 +2086,6 @@
       "candidate_event": false,
       "title": "Burkina – Niger: a message of solidarity to the Nigerien people",
       "url": "https://www.sidwaya.info/burkina-niger-un-message-de-solidarite-au-peuple-nigerien/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-20T20:25:02.013071Z",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina/War on Terrorism: General Célestin Simporé details the changes in the army and believes in a near end",
-      "url": "https://lefaso.net/spip.php?article149363="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
