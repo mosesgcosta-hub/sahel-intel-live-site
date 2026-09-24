@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-24T13:31:38.232782Z",
+  "generated_at": "2026-09-24T14:30:45.656991Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "NEW OR UPDATED EVENTS",
-  "new_event_ids": [
-    "6126bf9826acabc9a1d3e13f80db81f12a317602"
-  ],
+  "freshness_status": "NO MATERIAL CHANGE",
+  "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 2,
+  "new_reports_this_cycle": 1,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -68,8 +66,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "099ca367f24f7ad26cf930ad50479286c5275ffb",
-  "previous_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
+  "briefing_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
+  "previous_fingerprint": "099ca367f24f7ad26cf930ad50479286c5275ffb",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -174,5 +172,5 @@
     "4cca2674b1ae6e5dd986f808e3ae61cba5907446",
     "a8ccb4d0184cd4ff3879f31976d0ac364a98288c"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 1 new event(s), 0 materially updated event(s), and 0 event(s) with new corroboration. The leading change is a clash signal involving Other around Tillabéri.\n\nNew event 1: clash involving Other in Tillabéri. 1 monitored source across EN reporting. Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercen Confidence is low; details remain subject to revision.\n\nQuantitative picture: JNIM has 2 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 5 extracted candidate events in the latest seven-day window, 66.7 percent higher than the preceding seven days.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 42 were degraded. The retained archive contains 128 French or Arabic reports; 128 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 128 French or Arabic reports; 128 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
