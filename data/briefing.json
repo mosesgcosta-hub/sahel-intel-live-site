@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-24T18:32:38.208095Z",
+  "generated_at": "2026-09-24T19:28:08.355995Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
+  "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 4,
+  "new_reports_this_cycle": 1,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -72,8 +72,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "e4397da4a22a68e5f124bb24f9461f0a7291cacf",
-  "previous_fingerprint": "1ef7d3b95a2db8345fea983d9c4912bb4b4b8fc0",
+  "briefing_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
+  "previous_fingerprint": "e4397da4a22a68e5f124bb24f9461f0a7291cacf",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -183,5 +183,5 @@
     "576087019a631e32f87b255b4c7bd63cc2ab53a7",
     "c2f3c8279ab8f513901b3e234c04714a525723a3"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 4 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: France 24 Africa (EN) reports from Niger: Niger : premier affrontement inter-jihadistes entre l'État islamique et le JNIM - France 24. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 2: Reuters Africa reports from Burkina Faso: Russia to provide more military aid, instructors to Burkina Faso - Reuters. This is retained context and is not automatically treated as a new incident.\n\nFresh report 3: France 24 Arabic reports from Mali: مالي: عشرة أيام دامية وسط البلاد بعد هجمات لجماعة نصرة الإسلام والمسلمين ضد الجيش - France 24. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 42 were degraded. The retained archive contains 132 French or Arabic reports; 132 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 42 were degraded. The retained archive contains 132 French or Arabic reports; 132 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
