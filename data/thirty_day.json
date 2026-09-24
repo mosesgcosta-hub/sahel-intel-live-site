@@ -1,37 +1,38 @@
 {
-  "generated_at": "2026-09-24T12:36:02.379947Z",
+  "generated_at": "2026-09-24T13:31:38.188949Z",
   "window_days": 30,
   "cutoff": "2026-08-25",
-  "reports": 112,
-  "incident_reports": 18,
-  "candidate_events": 17,
+  "reports": 113,
+  "incident_reports": 19,
+  "candidate_events": 18,
   "corroborated_events": 1,
-  "mapped_events": 12,
-  "mapped_locations": 29,
+  "mapped_events": 13,
+  "mapped_locations": 30,
   "distinct_sources": 43,
   "by_actor": {
     "State": 8,
+    "Other": 4,
     "Africa Corps/Wagner": 3,
-    "JNIM": 3,
-    "Other": 3
+    "JNIM": 3
   },
   "by_country": {
     "Mali": 15,
-    "Niger": 2
+    "Niger": 3
   },
   "by_event_type": {
     "security operation": 9,
     "attack": 7,
+    "clash": 1,
     "offensive/campaign": 1
   },
   "by_language": {
     "fr": 81,
-    "en": 25,
+    "en": 26,
     "ar": 6
   },
   "by_confidence": {
     "moderate": 10,
-    "low": 7
+    "low": 8
   },
   "top_sources": [
     {
@@ -113,15 +114,15 @@
       "count": 3
     },
     {
+      "location": "Tillabéri",
+      "count": 2
+    },
+    {
       "location": "Kidal",
       "count": 1
     },
     {
       "location": "Niamey",
-      "count": 1
-    },
-    {
-      "location": "Tillabéri",
       "count": 1
     }
   ],
@@ -269,15 +270,76 @@
     {
       "date": "2026-09-23",
       "reports": 5,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-09-24",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "6126bf9826acabc9a1d3e13f80db81f12a317602",
+      "event_date": "2026-09-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-24T12:53:05Z",
+      "collected_at": "2026-09-24T13:31:15.159442Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Niger",
+      "city": "Tillabéri",
+      "lat": 14.2071,
+      "lng": 1.4542,
+      "locations": [
+        {
+          "name": "Tillabéri",
+          "country": "Niger",
+          "lat": 14.2071,
+          "lng": 1.4542,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger Soldiers Killed in Fighting Near Mali Border",
+      "summary": "Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercenaries”, a term authorities in the junta-led country use to refer to terrorists. The ministry said the fighting occurred around 6:30 am on Wednesday near Fartel ",
+      "sources": [
+        "News Central TV (Nigeria)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://newscentraltv.com/niger-soldiers-killed-in-fighting-near-mali-border/"
+      ],
+      "created_at": "2026-09-24T13:31:15.159442Z",
+      "updated_at": "2026-09-24T13:31:15.159442Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-24T13:31:15.159442Z",
+          "type": "event_created",
+          "source": "News Central TV (Nigeria)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "newscentraltv.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "c9fca84b2d219d19ed9a5a86e10c3b5b309d3431",
       "event_date": "2026-09-23",
@@ -1441,6 +1503,32 @@
   "latest_reports": [
     {
       "published_at": null,
+      "discovered_at": "2026-09-24T13:31:15.316150Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-24T12:53:05Z",
+      "discovered_at": "2026-09-24T13:31:15.159442Z",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Tillabéri",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Niger Soldiers Killed in Fighting Near Mali Border",
+      "url": "https://newscentraltv.com/niger-soldiers-killed-in-fighting-near-mali-border/"
+    },
+    {
+      "published_at": null,
       "discovered_at": "2026-09-24T12:35:43.065968Z",
       "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
       "language": "en",
@@ -1451,19 +1539,6 @@
       "candidate_event": false,
       "title": "Niger Coup: Survival of the Military Regime and Growing Fragility",
       "url": "https://studies.aljazeera.net/en/policy-briefs/niger-coup-survival-military-regime-and-growing-fragility"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-24T12:35:42.593361Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-24T11:54:22Z",
@@ -1945,19 +2020,6 @@
       "candidate_event": false,
       "title": "Burkina Faso: The National Gendarmerie announces the arrest of Pierre Zida after the wanted notice launched",
       "url": "https://lefaso.net/spip.php?article149362="
-    },
-    {
-      "published_at": "2026-09-20T16:02:34Z",
-      "discovered_at": "2026-09-21T01:37:29.254546Z",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Burkina: \"The Mayor\", alleged perpetrator of the rape of a 13-year-old girl arrested",
-      "url": "https://www.wakatsera.com/burkina-le-maire-presume-auteur-du-viol-dune-fille-de-13-ans-interpelle/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

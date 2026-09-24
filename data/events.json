@@ -1,5 +1,66 @@
 [
   {
+    "id": "6126bf9826acabc9a1d3e13f80db81f12a317602",
+    "event_date": "2026-09-23",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-09-24T12:53:05Z",
+    "collected_at": "2026-09-24T13:31:15.159442Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Niger",
+    "city": "Tillabéri",
+    "lat": 14.2071,
+    "lng": 1.4542,
+    "locations": [
+      {
+        "name": "Tillabéri",
+        "country": "Niger",
+        "lat": 14.2071,
+        "lng": 1.4542,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger Soldiers Killed in Fighting Near Mali Border",
+    "summary": "Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercenaries”, a term authorities in the junta-led country use to refer to terrorists. The ministry said the fighting occurred around 6:30 am on Wednesday near Fartel ",
+    "sources": [
+      "News Central TV (Nigeria)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://newscentraltv.com/niger-soldiers-killed-in-fighting-near-mali-border/"
+    ],
+    "created_at": "2026-09-24T13:31:15.159442Z",
+    "updated_at": "2026-09-24T13:31:15.159442Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-24T13:31:15.159442Z",
+        "type": "event_created",
+        "source": "News Central TV (Nigeria)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "newscentraltv.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "c9fca84b2d219d19ed9a5a86e10c3b5b309d3431",
     "event_date": "2026-09-23",
     "event_date_confidence": "explicit-text",
