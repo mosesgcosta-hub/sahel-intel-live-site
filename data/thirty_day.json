@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:32:52.071906Z",
+  "generated_at": "2026-09-24T11:30:27.124585Z",
   "window_days": 30,
   "cutoff": "2026-08-25",
   "reports": 112,
@@ -1454,7 +1454,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-09-24T10:32:12.838842Z",
+      "discovered_at": "2026-09-24T11:30:03.829333Z",
       "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
       "language": "en",
       "actor": "State",
@@ -1467,7 +1467,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-09-24T10:32:12.447573Z",
+      "discovered_at": "2026-09-24T11:30:03.388807Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
