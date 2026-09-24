@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:31:13.082923Z",
+  "generated_at": "2026-09-24T10:32:52.101473Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -14,9 +14,9 @@
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
       "events_7d": 9,
-      "events_30d": 14,
-      "baseline_7d_equivalent": 1.5,
-      "tempo_ratio": 3.97,
+      "events_30d": 15,
+      "baseline_7d_equivalent": 1.8,
+      "tempo_ratio": 3.54,
       "drivers": [
         "9 fused candidate event(s) in 7 days",
         "2 JNIM/IS Sahel-linked event(s)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:31:13.065531Z",
+  "generated_at": "2026-09-24T10:32:52.071898Z",
   "series": {
     "JNIM": [
       {
@@ -664,7 +664,7 @@
       },
       {
         "date": "2026-09-10",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-09-11",
@@ -2187,7 +2187,7 @@
   },
   "trends_30d": {
     "JNIM": {
-      "current": 2,
+      "current": 3,
       "previous": 0,
       "change_pct": 100.0
     },
