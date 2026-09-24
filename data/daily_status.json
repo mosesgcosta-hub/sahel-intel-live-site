@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-24",
-  "generated_at": "2026-09-24T21:28:49.862497Z",
+  "generated_at": "2026-09-24T22:29:38.403934Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -156,10 +156,10 @@
   },
   "collection_notes": {
     "sources_total": 172,
-    "sources_success": 170,
-    "sources_failed": 2,
-    "sources_degraded": 39,
-    "documents_discovered": 6856,
+    "sources_success": 171,
+    "sources_failed": 1,
+    "sources_degraded": 40,
+    "documents_discovered": 6906,
     "documents_retained": 1,
     "report_target": 100,
     "translations_attempted": 1,
@@ -167,9 +167,9 @@
     "translation_failures": 0,
     "collection_confidence": "MODERATE",
     "collection_confidence_reasons": [
-      "170/172 source paths reached",
-      "2 failed source paths",
-      "39 degraded / 2 failed of 172 configured sources"
+      "171/172 source paths reached",
+      "1 failed source paths",
+      "40 degraded / 1 failed of 172 configured sources"
     ],
     "reports_collected": 20,
     "reports_published": 4,
@@ -180,5 +180,5 @@
       "ar": 2
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 20 reports on that reporting date from 14 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.\n\nActor picture: JNIM 0, IS Sahel 0, State 0.\n\nWhat changed: Collection volume: +5 retained report(s) versus 2026-09-23 (15 → 20). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 same-day event(s) carry low extraction/analytic confidence. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 170/172 source paths reached 2 failed source paths 39 degraded / 2 failed of 172 configured sources\n\nNothing further to report at this time."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 20 reports on that reporting date from 14 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.\n\nActor picture: JNIM 0, IS Sahel 0, State 0.\n\nWhat changed: Collection volume: +5 retained report(s) versus 2026-09-23 (15 → 20). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 same-day event(s) carry low extraction/analytic confidence. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 171/172 source paths reached 1 failed source paths 40 degraded / 1 failed of 172 configured sources\n\nNothing further to report at this time."
 }
