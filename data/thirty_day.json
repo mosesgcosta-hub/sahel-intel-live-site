@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:30:25.869069Z",
+  "generated_at": "2026-09-24T08:33:29.404596Z",
   "window_days": 30,
   "cutoff": "2026-08-25",
   "reports": 111,
@@ -203,7 +203,7 @@
     },
     {
       "date": "2026-09-10",
-      "reports": 1,
+      "reports": 0,
       "events": 1
     },
     {
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-09-24",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -1370,7 +1370,20 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-24T06:34:49.181299Z",
+      "discovered_at": "2026-09-24T08:33:05.330276Z",
+      "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Niger Coup: Survival of the Military Regime and Growing Fragility",
+      "url": "https://studies.aljazeera.net/en/policy-briefs/niger-coup-survival-military-regime-and-growing-fragility"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-24T08:33:05.050973Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1874,19 +1887,6 @@
       "candidate_event": false,
       "title": "Burkina: the alleged perpetrator of the rape of the 13-year-old girl arrested",
       "url": "https://www.wakatsera.com/burkina-le-presume-auteur-de-viol-de-la-fille-de-13-ans-interpelle/"
-    },
-    {
-      "published_at": "2026-09-20T07:54:51Z",
-      "discovered_at": "2026-09-20T08:26:52.057143Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
-      "url": "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
