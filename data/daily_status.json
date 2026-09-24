@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-24",
-  "generated_at": "2026-09-24T11:30:27.448511Z",
+  "generated_at": "2026-09-24T12:36:02.673538Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -116,8 +116,8 @@
     "sources_success": 172,
     "sources_failed": 0,
     "sources_degraded": 43,
-    "documents_discovered": 6853,
-    "documents_retained": 3,
+    "documents_discovered": 6835,
+    "documents_retained": 2,
     "report_target": 100,
     "translations_attempted": 1,
     "translations_success": 1,
@@ -131,8 +131,8 @@
     "reports_published": 1,
     "distinct_sources_collected": 9,
     "language_counts": {
-      "fr": 8,
       "en": 3,
+      "fr": 8,
       "ar": 1
     }
   },

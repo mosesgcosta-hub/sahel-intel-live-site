@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:30:27.124585Z",
+  "generated_at": "2026-09-24T12:36:02.379947Z",
   "window_days": 30,
   "cutoff": "2026-08-25",
   "reports": 112,
@@ -1440,21 +1440,8 @@
   ],
   "latest_reports": [
     {
-      "published_at": "2026-09-24T11:54:22Z",
-      "discovered_at": "2026-09-24T10:32:12.535303Z",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "In Mali, the deadly attack in Dioura reveals the shortcomings of the security system",
-      "url": "https://www.jeuneafrique.com/1845788/politique/au-mali-lattaque-meurtriere-de-dioura-revele-les-failles-du-dispositif-securitaire/"
-    },
-    {
       "published_at": null,
-      "discovered_at": "2026-09-24T11:30:03.829333Z",
+      "discovered_at": "2026-09-24T12:35:43.065968Z",
       "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
       "language": "en",
       "actor": "State",
@@ -1467,7 +1454,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-09-24T11:30:03.388807Z",
+      "discovered_at": "2026-09-24T12:35:42.593361Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1477,6 +1464,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-24T11:54:22Z",
+      "discovered_at": "2026-09-24T10:32:12.535303Z",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "In Mali, the deadly attack in Dioura reveals the shortcomings of the security system",
+      "url": "https://www.jeuneafrique.com/1845788/politique/au-mali-lattaque-meurtriere-de-dioura-revele-les-failles-du-dispositif-securitaire/"
     },
     {
       "published_at": "2026-09-23T23:04:12Z",

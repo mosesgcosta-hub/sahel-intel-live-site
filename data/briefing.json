@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-24T11:30:27.169248Z",
+  "generated_at": "2026-09-24T12:36:02.405840Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
+  "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 3,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -60,8 +60,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "805ddd0ea1a03fda023ef949a5454aacd44febb8",
-  "previous_fingerprint": "e4c4f535d6de71a0e4c11c5fa4e0a13c239cd180",
+  "briefing_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
+  "previous_fingerprint": "805ddd0ea1a03fda023ef949a5454aacd44febb8",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
@@ -165,5 +165,5 @@
     "bebc018714af8689a32716ce7f4bc30cbd4092d6",
     "4cca2674b1ae6e5dd986f808e3ae61cba5907446"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 3 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: The EastAfrican reports from Mali: Mali junta condemns ‘clear breach’ of airspace by French military plane - The EastAfrican. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 128 French or Arabic reports; 128 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 128 French or Arabic reports; 128 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
