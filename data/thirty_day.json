@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T22:27:42.500609Z",
+  "generated_at": "2026-09-25T23:27:24.960657Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 125,
+  "reports": 126,
   "incident_reports": 22,
   "candidate_events": 21,
   "corroborated_events": 1,
@@ -27,7 +27,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 89,
+    "fr": 90,
     "en": 28,
     "ar": 8
   },
@@ -41,11 +41,11 @@
       "count": 10
     },
     {
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 8
+      "source": "Malijet",
+      "count": 9
     },
     {
-      "source": "Malijet",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 8
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "date": "2026-09-03",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -1727,6 +1727,19 @@
   ],
   "latest_reports": [
     {
+      "published_at": null,
+      "discovered_at": "2026-09-25T23:26:56.952483Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
       "published_at": "2026-09-25T22:37:45Z",
       "discovered_at": "2026-09-25T21:50:15.975110Z",
       "source": "Punch Newspapers (Nigeria)",
@@ -1738,19 +1751,6 @@
       "candidate_event": false,
       "title": "Police arrest guard over defilement, death of minor in Niger",
       "url": "https://punchng.com/police-arrest-guard-over-defilement-death-of-minor-in-niger/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-25T22:27:18.047316Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-25T20:42:45Z",
