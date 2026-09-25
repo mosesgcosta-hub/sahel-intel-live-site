@@ -11,6 +11,26 @@
   let showMarkers=true, showBorders=true, styleName='positron';
   const startBounds=[[-17.8,9.0],[16.4,25.0]];
 
+  const COUNTRY_ANCHORS={
+    'Mali':{lat:19.4,lng:-5.4},
+    'Burkina Faso':{lat:12.0,lng:-3.5},
+    'Niger':{lat:18.8,lng:9.8}
+  };
+  function normPlace(v){
+    return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,"'").trim();
+  }
+  function cityFallback(e){
+    const city=normPlace(e?.city), country=normPlace(e?.country);
+    if(!city)return null;
+    const cities=typeof CITY_LABELS!=='undefined'?CITY_LABELS:[];
+    const exact=cities.find(c=>normPlace(c.name)===city && (!country||normPlace(c.country)===country));
+    if(exact&&goodCoord(exact.lat,exact.lng)){
+      return {lat:Number(exact.lat),lng:Number(exact.lng),name:exact.name,country:exact.country,precision:'city-reference'};
+    }
+    return null;
+  }
+
+
   function status(message){const el=byId('mapLoadStatus');if(!el)return;el.hidden=!message;el.textContent=message||''}
   function initialize(){
     if(map)return;
@@ -66,12 +86,22 @@
     const features=[],missing=[];recordIndex=new Map();
     visibleEvents.forEach((e,i)=>{
       const locations=Array.isArray(e.incident_locations)&&e.incident_locations.length?e.incident_locations:Array.isArray(e.locations)&&e.locations.length?e.locations:[];
-      const valid=locations.filter(l=>goodCoord(l?.lat,l?.lng));
-      const points=valid.length?valid:goodCoord(e.lat,e.lng)?[{lat:e.lat,lng:e.lng,name:e.city,country:e.country}]:[];
+      const valid=locations.filter(l=>goodCoord(l?.lat,l?.lng)).map(l=>({...l,precision:l.precision||l.confidence||'reported-location'}));
+      let points=valid.length?valid:goodCoord(e.lat,e.lng)?[{lat:e.lat,lng:e.lng,name:e.city,country:e.country,precision:'reported-coordinate'}]:[];
+      if(!points.length){
+        const city=cityFallback(e);
+        if(city)points=[city];
+      }
+      if(!points.length&&COUNTRY_ANCHORS[e.country]){
+        const a=COUNTRY_ANCHORS[e.country];
+        points=[{lat:a.lat,lng:a.lng,name:e.country,country:e.country,precision:'country-reference'}];
+      }
       if(!points.length){missing.push(e);return}
       points.forEach((l,j)=>{
-        const key=`${i}-${j}`;recordIndex.set(key,{...e,city:l.name||e.city,country:l.country||e.country,lat:Number(l.lat),lng:Number(l.lng)});
-        features.push({type:'Feature',geometry:{type:'Point',coordinates:[Number(l.lng),Number(l.lat)]},properties:{key,actor:e.actor||'Other'}})
+        const key=`${i}-${j}`;
+        const precision=l.precision||'reported-location';
+        recordIndex.set(key,{...e,city:l.name||e.city,country:l.country||e.country,lat:Number(l.lat),lng:Number(l.lng),_map_precision:precision});
+        features.push({type:'Feature',geometry:{type:'Point',coordinates:[Number(l.lng),Number(l.lat)]},properties:{key,actor:e.actor||'Other',precision}})
       });
     });
     currentFeatures={type:'FeatureCollection',features};
@@ -84,7 +114,8 @@
   function enhanceDetails(e){
     const el=byId('mapEventDetail');if(!el)return;
     el.hidden=false;
-    const precision=goodCoord(e.lat,e.lng)?(e.city?'Town-level point (not an exact site)':'Approximate reported position'):'No precise position';
+    const mode=e._map_precision||'';
+    const precision=mode==='country-reference'?'Country-level reference point (exact incident location unresolved)':mode==='city-reference'?'City reference point (not an exact incident site)':mode==='reported-coordinate'?'Reported coordinate':mode==='reported-location'||mode==='explicit-place'?'Reported place coordinate':goodCoord(e.lat,e.lng)?(e.city?'Town-level point (not an exact site)':'Approximate reported position'):'Location precision unresolved';
     const annotation=document.createElement('div');annotation.className='map-precision';annotation.textContent=`Map precision: ${precision} · Open-source candidate, not independently verified`;
     el.append(annotation);
     const urls=Array.isArray(e.report_urls)?e.report_urls:[];
