@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T18:31:47.554657Z",
+  "generated_at": "2026-09-25T19:27:34.883844Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
+  "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 3,
+  "new_reports_this_cycle": 2,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -35,9 +35,9 @@
       "change_pct": null
     },
     "State": {
-      "current": 5,
+      "current": 6,
       "previous": 3,
-      "change_pct": 66.7
+      "change_pct": 100.0
     }
   },
   "event_snapshots": [
@@ -60,8 +60,8 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "c36d69322a5523dde578409c2e6a32025b9aaef9",
-  "previous_fingerprint": "22b25cc3cffdb14498c4eeac237d6f1a79b71cc9",
+  "briefing_fingerprint": "9fb3e2078a73bb2efd1641b6b106a7bec81967cb",
+  "previous_fingerprint": "c36d69322a5523dde578409c2e6a32025b9aaef9",
   "seen_context_report_ids": [
     "f3723263da07faad118eaee2ea2089f0310c0273",
     "6d1ab670e95d588b79dd37d28abfa38548924576",
@@ -184,5 +184,5 @@
     "c9dba6f4668587c0f9cc23096d241269c3492f6c",
     "dcdcc40bbe2a0158a43bbaf22d675e13b9083a40"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 3 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Bamada reports from Kidal, Mali: Offensive à Dandougou et Kidal : Les FAMa pilonnent des repaires terroristes et détruisent d’importants matériels de guerre. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: JNIM has 2 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 6 extracted candidate events in the latest seven-day window, 100.0 percent higher than the preceding seven days.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 42 of 172 configured sources failed during the latest cycle and 0 were degraded. The retained archive contains 142 French or Arabic reports; 142 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no material intelligence change was detected since the previous briefing, and this collection cycle retained no new relevant report. I am not repeating the previous event summary as if it were new.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 142 French or Arabic reports; 142 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
