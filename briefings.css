@@ -4,7 +4,7 @@
 @media(max-width:720px){.db-metric-grid,.db-note-grid,.db-two-col,.db-profile-grid,.db-date-grid{grid-template-columns:1fr}.db-summary-head,.db-detail-toolbar,.db-archive-head{flex-direction:column}.db-health{width:100%;text-align:left}.db-history-list{grid-template-columns:1fr}.db-archive-row{grid-template-columns:1fr 1fr}.db-archive-row p{grid-column:1/-1}.db-toolbar-actions{width:100%;flex-wrap:wrap}}
 /* Keep the owner credit in the space between the brand and status controls. */
 @media (min-width: 900px) {
-  .topbar .ownercenter { left: 31%; }
+  .topbar .ownercenter { left: 31% !important; }
 }
 
 /* Present the analytic text as a single briefing document. */
