@@ -8,12 +8,15 @@
   <title>Sahel Intel Collection</title>
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./briefings.css" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="./map-ui.css" />
+  <link rel="stylesheet" href="./logs.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v2.9.3</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -21,16 +24,32 @@
     <button class="tab" data-view="feed">Intel Feed</button>
     <button class="tab" data-view="quant">Quant Lab</button>
     <button class="tab" data-view="sources">Collection Ops</button>
+    <button class="tab" data-view="logs">Logs</button>
     <button class="tab" data-view="briefings">Daily Briefing</button>
   </nav>
 
   <main>
     <section id="view-overview" class="view active">
       <div class="grid overview-grid">
-        <section class="panel map-panel">
-          <div class="panelhead"><div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2>Central Sahel Event Map</h2></div><div class="map-controls"><div class="filterbar"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange"><button class="map-range" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range active" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div></div>
-          <div id="map" class="map"></div>
-          <div class="legend"><span><i class="dot jnim"></i> JNIM event</span><span><i class="dot is"></i> IS Sahel event</span><span><i class="dot state"></i> State event</span><span><i class="dot other"></i> Other event</span><span><i class="city-key"></i> City</span><span><i class="country-event-key"></i> Country-level event (exact location unresolved)</span><span>Embedded vector map • no map API</span></div><div id="mapCountryCounts" class="map-country-counts">Candidate events 0 • Mali 0 • Burkina Faso 0 • Niger 0 • Precisely mapped 0 • Map locations 0 • Country-level 0 • Unresolved 0</div><div id="unresolvedEvents" class="unresolved-events" hidden></div>
+        <section class="panel map-panel" aria-labelledby="mapHeading">
+          <div class="map-heading">
+            <div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2 id="mapHeading">Sahel operating picture</h2><p>Candidate events across Mali, Burkina Faso, and Niger</p></div>
+            <div class="map-controls"><div class="filterbar" aria-label="Actor filter"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange" aria-label="Date range"><button class="map-range active" data-days="1">24H</button><button class="map-range" data-days="7">7D</button><button class="map-range" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div>
+          </div>
+          <div class="intel-map-layout">
+            <div class="intel-map-area">
+              <div class="intel-map-stage">
+                <div id="map" class="map" aria-label="Interactive Sahel event map"></div>
+                <div class="map-search"><label for="mapPlaceSearch" class="sr-only">Search Sahel locations</label><input id="mapPlaceSearch" type="search" autocomplete="off" placeholder="Search a city or mapped incident" /><div id="mapSearchResults" class="map-search-results" hidden></div></div>
+                <div class="map-style-select"><label for="mapStyle">MAP STYLE</label><select id="mapStyle"><option value="positron">Street</option><option value="bright">Detailed</option><option value="dark">Dark</option></select></div>
+                <div id="mapLoadStatus" class="map-load-status" hidden role="status"></div>
+              </div>
+              <div class="map-legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot other"></i> Other</span><span>All map points are candidate records</span></div>
+            </div>
+            <aside class="map-explorer" aria-label="Selected map record"><span class="eyebrow">INCIDENT EXPLORER</span><h3>What is happening nearby</h3><div id="mapExplorerCount" class="map-explorer-count">Loading event records…</div><div id="mapEventDetail" class="map-event-detail">Select a marker to examine its source reporting and location precision.</div><fieldset class="map-layer-switches"><legend>MAP LAYERS</legend><label><input id="mapMarkersLayer" type="checkbox" checked /> Candidate events</label><label><input id="mapBordersLayer" type="checkbox" checked /> AES borders</label></fieldset><div id="mapCountryOnly" class="map-country-only"></div></aside>
+          </div>
+          <div class="map-timeline"><div><span class="eyebrow">EVENT DATE</span><strong id="mapTimelineLabel">Latest reports</strong></div><input id="mapTimeline" type="range" aria-label="Select a reported event date" min="0" max="0" value="0" disabled /><button id="mapTimelineClear" type="button" hidden>Clear date</button><span class="map-timeline-note">Dates are day-level; the collector does not supply incident hours.</span></div>
+          <div id="mapCountryCounts" class="map-country-counts"></div>
         </section>
 
         <section class="panel actor-board">
@@ -82,7 +101,15 @@
           <p id="thirtyNote" class="note"></p>
         </section>
 
-        <aside class="panel sultana">
+        <section class="panel feed-preview">
+          <div class="panelhead"><div><span class="eyebrow">NEWLY COLLECTED</span><h2>Intelligence Feed</h2></div><span class="methodpill">GitHub auto-collector</span></div>
+          <div id="feedPreview" class="feed"></div>
+        </section>
+      </div>
+    </section>
+    <section id="view-briefings" class="view">
+      <div class="grid">
+<aside class="panel sultana">
           <div class="analyst-head"><img src="./assets/sultana.png" alt="Sultana Al-Qahtani, stylized AI analyst avatar"/><div><span class="eyebrow">AI ANALYST • SAHEL DESK</span><h2>Sultana Al-Qahtani</h2><p id="briefStamp">Awaiting briefing.</p></div></div>
           <div id="briefing" class="briefing">The collector has not generated a briefing yet.</div>
           <div class="sultana-reader">
@@ -100,39 +127,6 @@
           <div class="brief-controls"><button id="briefBtn">▶ BRIEF ME</button></div>
           <div class="voice-row"><label for="voiceSelect">Voice</label><select id="voiceSelect"></select><span id="voiceStatus">browser speech</span></div>
         </aside>
-
-        <section class="panel feed-preview">
-          <div class="panelhead"><div><span class="eyebrow">NEWLY COLLECTED</span><h2>Intelligence Feed</h2></div><span class="methodpill">GitHub auto-collector</span></div>
-          <div id="feedPreview" class="feed"></div>
-        </section>
-      </div>
-    </section>
-
-
-    <section id="view-briefings" class="view">
-      <div class="grid">
-        <section class="panel full brief-document-panel">
-          <div id="dailyBriefingSummary"></div>
-        </section>
-
-        <section class="panel full brief-support-panel">
-          <div id="dailyBriefingDetail"></div>
-        </section>
-
-        <section class="panel full">
-          <div class="panelhead">
-            <div>
-              <span class="eyebrow">DAILY BRIEFING HISTORY</span>
-              <h2>Latest Intelligence Briefs</h2>
-            </div>
-            <span class="methodpill">LATEST 33</span>
-          </div>
-          <div id="dailyBriefingList"></div>
-        </section>
-
-        <section class="panel full">
-          <div id="dailyBriefingArchive"></div>
-        </section>
       </div>
     </section>
 
@@ -158,10 +152,84 @@
       </div>
     </section>
 
+
+    <section id="view-logs" class="view">
+      <section class="panel full logs-shell">
+        <div class="panelhead">
+          <div><span class="eyebrow">COLLECTION AUDIT TRAIL</span><h2>Collector Logs</h2></div>
+          <button id="logsLockBtn" class="methodpill" type="button" hidden>LOCK</button>
+        </div>
+
+        <div id="logsGate" class="logs-gate">
+          <div class="logs-gate-card">
+            <span class="eyebrow">RESTRICTED VIEW</span>
+            <h3>Enter logs password</h3>
+            <p>Unlock the collection audit trail to review what was collected, how it was collected, and why material was included or filtered out.</p>
+            <form id="logsUnlockForm">
+              <label for="logsPassword">Password</label>
+              <div class="logs-password-row">
+                <input id="logsPassword" type="password" inputmode="numeric" autocomplete="current-password" aria-label="Logs password" />
+                <button class="primary" type="submit">UNLOCK</button>
+              </div>
+              <div id="logsGateMessage" class="logs-gate-message" role="status"></div>
+            </form>
+          </div>
+        </div>
+
+        <div id="logsWorkspace" hidden>
+          <div id="logsPipelineCards" class="country-pipeline-grid"></div>
+
+          <div class="logs-toolbar">
+            <label>Pipeline
+              <select id="logsPipelineFilter">
+                <option value="all">All pipelines</option>
+                <option value="Mali">Mali</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Niger">Niger</option>
+                <option value="Regional">Regional</option>
+              </select>
+            </label>
+            <label>Decision
+              <select id="logsDecisionFilter">
+                <option value="all">All decisions</option>
+                <option value="INCLUDED">Included</option>
+                <option value="EXCLUDED">Excluded</option>
+                <option value="DUPLICATE">Duplicate</option>
+                <option value="ERROR">Error</option>
+                <option value="PENDING">Pending review</option>
+              </select>
+            </label>
+            <label>Search
+              <input id="logsSearch" type="search" placeholder="source, title, reason, URL…" />
+            </label>
+            <button id="logsRefreshBtn" type="button">REFRESH</button>
+          </div>
+
+          <div id="logsSummary" class="logs-summary"></div>
+          <div class="logs-table-wrap">
+            <table class="logs-table">
+              <thead>
+                <tr>
+                  <th>Pipeline</th><th>Decision</th><th>Source</th><th>Lang</th>
+                  <th>How collected</th><th>Stage</th><th>Why</th><th>Item</th><th>Time</th>
+                </tr>
+              </thead>
+              <tbody id="logsRows"></tbody>
+            </table>
+          </div>
+          <p class="note">The password protects the dashboard view from casual access. Because the site is static, the published audit JSON is not cryptographically private; do not publish secrets, credentials, cookies, headers, or article full text.</p>
+        </div>
+      </section>
+    </section>
+
     <section id="view-sources" class="view">
       <section class="panel full">
         <div class="panelhead"><div><span class="eyebrow">COLLECTION OPERATIONS</span><h2 id="sourceMonitorTitle">74-Source Collection Monitor</h2></div><div><span id="opsBadge" class="status offline">OFFLINE</span></div></div>
         <div id="opsSummary" class="ops-summary"></div>
+        <section class="integrity-card country-pipeline-card">
+          <div class="panelhead"><div><span class="eyebrow">COUNTRY COLLECTION LANES</span><h2>Mali • Burkina Faso • Niger • Regional</h2></div><span class="methodpill">LATEST RUN</span></div>
+          <div id="countryPipelineStatus" class="country-pipeline-grid"><div class="note">Waiting for pipeline audit data.</div></div>
+        </section>
         <div class="integrity-grid">
           <section class="integrity-card"><span class="eyebrow">PIPELINE HEALTH</span><div id="pipelineFunnel" class="pipeline-funnel"></div></section>
           <section class="integrity-card"><span class="eyebrow">LANGUAGE COVERAGE</span><div id="languageCoverage" class="language-coverage"></div><div id="languageWarning" class="coverage-warning"></div></section>
@@ -172,8 +240,10 @@
       </section>
     </section>
   </main>
+  <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
+  <script src="./map-ui.js"></script>
   <script src="./app.js"></script>
-  <script src="./briefings.js"></script>
+  <script src="./logs.js"></script>
 </body>
 </html>

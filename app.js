@@ -1,5 +1,5 @@
 const SITE_UI_VERSION='2.9.2';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:30,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:1,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -113,6 +113,10 @@ function eventInWindow(e,days){
   return !isNaN(d) && (Date.now()-d.getTime()) <= Number(days)*86400000;
 }
 function renderMap(){
+  if(window.SAHEL_MAP_UI&&window.maplibregl){window.SAHEL_MAP_UI.render(state,{eventInWindow,actorColor,showEventDetail,showEventCluster,esc});return}
+  renderLegacyMap();
+}
+function renderLegacyMap(){
   const host=$('#map');if(!host||!window.SAHEL_MAP_DATA)return;
   host.innerHTML='<div class="maptip" id="maptip"></div>';
   const svg=svgEl('svg',{viewBox:'0 0 1000 560',preserveAspectRatio:'xMidYMid meet'});
