@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:28:13.137626Z",
+  "generated_at": "2026-09-25T12:33:45.053625Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "NO MATERIAL CHANGE",
   "new_event_ids": [],
@@ -61,7 +61,7 @@
     }
   ],
   "briefing_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
-  "previous_fingerprint": "5d9667e5995ecb10ff7f2db498d140fdd8b74e3f",
+  "previous_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
   "seen_context_report_ids": [
     "05e67381bcd46a3647504c0da178816fed1376f4",
     "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",

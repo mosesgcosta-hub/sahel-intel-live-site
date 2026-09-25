@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-25",
-  "generated_at": "2026-09-25T11:28:13.496303Z",
+  "generated_at": "2026-09-25T12:33:45.374852Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -122,7 +122,7 @@
     "sources_success": 172,
     "sources_failed": 0,
     "sources_degraded": 42,
-    "documents_discovered": 6857,
+    "documents_discovered": 6835,
     "documents_retained": 1,
     "report_target": 100,
     "translations_attempted": 1,
