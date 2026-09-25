@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-25T01:55:34.852080Z",
+  "generated_at": "2026-09-25T02:22:47.857514Z",
   "archive_location": "private repository state/daily_briefing_archive",
-  "archived_count": 128,
+  "archived_count": 129,
   "briefings": [
     {
       "reporting_date": "2026-07-22",
@@ -532,6 +532,14 @@
       "multi_source_events": 0,
       "collection_confidence": "LOW",
       "executive_assessment": "The desk has too little reporting from 2024-06-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
+    },
+    {
+      "reporting_date": "2024-05-31",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "The desk has too little reporting from 2024-05-31 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-05-27",
