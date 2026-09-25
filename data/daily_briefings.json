@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-25T00:29:54.307701Z",
+  "generated_at": "2026-09-25T00:37:08.919679Z",
   "active_limit": 33,
   "total_briefings": 155,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-09-25T00:29:54.249705Z",
+      "generated_at": "2026-09-25T00:37:08.895929Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -125,8 +125,8 @@
         "sources_success": 172,
         "sources_failed": 0,
         "sources_degraded": 41,
-        "documents_discovered": 6913,
-        "documents_retained": 3,
+        "documents_discovered": 6895,
+        "documents_retained": 1,
         "report_target": 100,
         "translations_attempted": 1,
         "translations_success": 1,
@@ -150,7 +150,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-09-25T00:29:54.292907Z",
+      "generated_at": "2026-09-25T00:37:08.911155Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -331,7 +331,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-09-25T00:29:54.245391Z",
+      "generated_at": "2026-09-25T00:37:08.917075Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -551,7 +551,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-09-25T00:29:54.243400Z",
+      "generated_at": "2026-09-25T00:37:08.898533Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -692,7 +692,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-09-25T00:29:54.276112Z",
+      "generated_at": "2026-09-25T00:37:08.916714Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -925,7 +925,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-09-25T00:29:54.307660Z",
+      "generated_at": "2026-09-25T00:37:08.871249Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1119,7 +1119,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-09-25T00:29:54.298882Z",
+      "generated_at": "2026-09-25T00:37:08.892721Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1464,7 +1464,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-09-25T00:29:54.239907Z",
+      "generated_at": "2026-09-25T00:37:08.888404Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1642,7 +1642,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-09-25T00:29:54.277128Z",
+      "generated_at": "2026-09-25T00:37:08.891027Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1942,7 +1942,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-09-25T00:29:54.295337Z",
+      "generated_at": "2026-09-25T00:37:08.910144Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2076,7 +2076,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-09-25T00:29:54.287926Z",
+      "generated_at": "2026-09-25T00:37:08.869594Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2210,7 +2210,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-09-25T00:29:54.300359Z",
+      "generated_at": "2026-09-25T00:37:08.900807Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2344,7 +2344,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-09-25T00:29:54.275043Z",
+      "generated_at": "2026-09-25T00:37:08.874740Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2478,7 +2478,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-09-25T00:29:54.252106Z",
+      "generated_at": "2026-09-25T00:37:08.906967Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2612,7 +2612,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-09-25T00:29:54.293882Z",
+      "generated_at": "2026-09-25T00:37:08.885001Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2746,7 +2746,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-09-25T00:29:54.280574Z",
+      "generated_at": "2026-09-25T00:37:08.881186Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2968,7 +2968,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-09-25T00:29:54.274573Z",
+      "generated_at": "2026-09-25T00:37:08.896570Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3102,7 +3102,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-09-25T00:29:54.303258Z",
+      "generated_at": "2026-09-25T00:37:08.904712Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3236,7 +3236,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-09-25T00:29:54.303722Z",
+      "generated_at": "2026-09-25T00:37:08.903377Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3370,7 +3370,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-09-25T00:29:54.288912Z",
+      "generated_at": "2026-09-25T00:37:08.875761Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3504,7 +3504,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-09-25T00:29:54.278632Z",
+      "generated_at": "2026-09-25T00:37:08.891683Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3638,7 +3638,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-09-25T00:29:54.265394Z",
+      "generated_at": "2026-09-25T00:37:08.877973Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3772,7 +3772,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-09-25T00:29:54.255616Z",
+      "generated_at": "2026-09-25T00:37:08.877030Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3906,7 +3906,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-09-25T00:29:54.287458Z",
+      "generated_at": "2026-09-25T00:37:08.886539Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4040,7 +4040,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-09-25T00:29:54.295828Z",
+      "generated_at": "2026-09-25T00:37:08.894293Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4217,7 +4217,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-23",
-      "generated_at": "2026-09-25T00:29:54.271188Z",
+      "generated_at": "2026-09-25T00:37:08.883419Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4351,7 +4351,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-10",
-      "generated_at": "2026-09-25T00:29:54.274084Z",
+      "generated_at": "2026-09-25T00:37:08.891340Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4485,7 +4485,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-09",
-      "generated_at": "2026-09-25T00:29:54.237501Z",
+      "generated_at": "2026-09-25T00:37:08.893036Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4619,7 +4619,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-04",
-      "generated_at": "2026-09-25T00:29:54.291847Z",
+      "generated_at": "2026-09-25T00:37:08.901767Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4753,7 +4753,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-03",
-      "generated_at": "2026-09-25T00:29:54.250662Z",
+      "generated_at": "2026-09-25T00:37:08.907270Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4887,7 +4887,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-02",
-      "generated_at": "2026-09-25T00:29:54.263423Z",
+      "generated_at": "2026-09-25T00:37:08.869224Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5021,7 +5021,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-31",
-      "generated_at": "2026-09-25T00:29:54.251128Z",
+      "generated_at": "2026-09-25T00:37:08.892306Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5155,7 +5155,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-27",
-      "generated_at": "2026-09-25T00:29:54.266860Z",
+      "generated_at": "2026-09-25T00:37:08.880223Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
