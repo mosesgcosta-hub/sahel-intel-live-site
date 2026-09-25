@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T16:31:25.445486Z",
+  "generated_at": "2026-09-25T17:27:51.631135Z",
   "method": "automated multilingual OSINT delta synthesis",
   "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
   "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 7,
+  "new_reports_this_cycle": 4,
   "trend_snapshot": {
     "JNIM": {
       "current": 2,
@@ -60,12 +60,9 @@
       "location_count": 1
     }
   ],
-  "briefing_fingerprint": "c4f089de698717a56040de94f08febc414747000",
-  "previous_fingerprint": "5ecef124a64c97c41dab314348185fa313af0591",
+  "briefing_fingerprint": "22b25cc3cffdb14498c4eeac237d6f1a79b71cc9",
+  "previous_fingerprint": "c4f089de698717a56040de94f08febc414747000",
   "seen_context_report_ids": [
-    "c8502d7eafbabd22a67b0d28fbd4ba4985ad87f7",
-    "a540801d442f8d238ec25fa67476935d696b67f1",
-    "1fac73b7b5dd0e21891538da33fda68e669b9a72",
     "3e445546a0e7bf2a9fe76dd7c46632d409e300a8",
     "f3723263da07faad118eaee2ea2089f0310c0273",
     "6d1ab670e95d588b79dd37d28abfa38548924576",
@@ -182,7 +179,10 @@
     "ad657cf9619d246f08f02202cd0f1df8672bebb5",
     "cfdf0b0dc2a9e54fe093d8a51ceaacffbc580b4f",
     "439e2b9ba3b6b57cb6dd922c44f2ccc7b68a4458",
-    "f3b65f22669c1e09817a456b1a6d14b0cd717d18"
+    "f3b65f22669c1e09817a456b1a6d14b0cd717d18",
+    "e632e764c0bc1622851bdf76e0ea7380b57b2d49",
+    "81af1c30a27f19d8c87532afb270e82b49701da7",
+    "c9dba6f4668587c0f9cc23096d241269c3492f6c"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 7 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nResearch lead 1: Critical Threats Project - Africa File reports from Bamako, Mali: Africa File, September 19, 2024: JNIM Strikes Bamako; Hungary Enters the Sahel; Ethiopia-Somalia Proxy Risks - Critical Threats. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 2: Critical Threats Project - Africa File reports from Mali: Ethiopian Rebels Launch Major Offensive; China Expands Djibouti Base; Deadly Jnim Attacks In Central Mali: Africa File, September 24, 2026 - Critical Threats. This is retained context and is not automatically treated as a new incident.\n\nResearch lead 3: The Citizen (Tanzania/Africa) reports from Mali: Tuareg ex-rebels say forces attacked by Mali army, Wagner - The Citizen. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 45 were degraded. The retained archive contains 139 French or Arabic reports; 139 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 4 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Malijet reports from Kidal, Mali: Coup dur pour le terrorisme : les FAMa anéantissent deux bases majeures à Kidal et Dandougou. This is retained context and is not automatically treated as a new incident.\n\nFresh report 2: Critical Threats Project - Africa File reports from Niamey, Niger: Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026. This is retained context and is not automatically treated as a new incident.\n\nFresh report 3: Wakat Sera reports from Ouagadougou, Burkina Faso: Ouagadougou: un réseau clandestin de fabrication et de reconditionnement de boissons alcoolisées démasqué. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 141 French or Arabic reports; 141 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }

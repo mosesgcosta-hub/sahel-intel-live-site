@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T16:31:25.397679Z",
+  "generated_at": "2026-09-25T17:27:51.587586Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 119,
+  "reports": 121,
   "incident_reports": 20,
   "candidate_events": 19,
   "corroborated_events": 1,
@@ -27,7 +27,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 85,
+    "fr": 87,
     "en": 27,
     "ar": 7
   },
@@ -45,11 +45,11 @@
       "count": 8
     },
     {
-      "source": "ActuNiger",
-      "count": 7
+      "source": "Malijet",
+      "count": 8
     },
     {
-      "source": "Malijet",
+      "source": "ActuNiger",
       "count": 7
     },
     {
@@ -77,11 +77,11 @@
       "count": 4
     },
     {
-      "source": "Associated Press Africa",
-      "count": 3
+      "source": "Wakat Sera",
+      "count": 4
     },
     {
-      "source": "Aïr Info",
+      "source": "Associated Press Africa",
       "count": 3
     }
   ],
@@ -279,7 +279,7 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 3,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -1569,7 +1569,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T16:30:59.520310Z",
+      "discovered_at": "2026-09-25T17:27:14.796639Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1579,6 +1579,32 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-25T16:48:55Z",
+      "discovered_at": "2026-09-25T17:27:15.787101Z",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Ouagadougou: a clandestine network for the manufacture and repackaging of alcoholic beverages unmasked",
+      "url": "https://www.wakatsera.com/ouagadougou-un-reseau-clandestin-de-fabrication-et-de-reconditionnement-de-boissons-alcoolisees-demasque/"
+    },
+    {
+      "published_at": "2026-09-25T16:33:09Z",
+      "discovered_at": "2026-09-25T17:27:15.025411Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Hard blow for terrorism: the FAMa destroy two major bases in Kidal and Dandougou",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312024-coup-dur-pour-le-terrorisme-les-fama-aneantissent-deux-bas.html"
     },
     {
       "published_at": "2026-09-25T14:19:24Z",
@@ -2060,32 +2086,6 @@
       "candidate_event": false,
       "title": "There’s No Conspiracy in the Sahel — There’s a Gap, and Bamako Knows How to Use It",
       "url": "https://africanarguments.org/2026/09/theres-no-conspiracy-in-the-sahel-theres-a-gap-and-bamako-knows-how-to-use-it/"
-    },
-    {
-      "published_at": "2026-09-21T12:35:21Z",
-      "discovered_at": "2026-09-21T13:27:01.069898Z",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Gao",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Panic in Sosso-Koira: Ammunition explodes during a debris fire",
-      "url": "https://www.studiotamani.org/207973-panique-a-sosso-koira-des-munitions-explosent-lors-dun-feu-de-debris"
-    },
-    {
-      "published_at": "2026-09-21T11:30:07Z",
-      "discovered_at": "2026-09-21T12:30:39.468220Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura",
-      "url": "https://malijet.com/flash-info/311945-securite-un-drone-ukrainien-abattu-par-les-forces-speciale.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
