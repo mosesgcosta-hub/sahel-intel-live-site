@@ -75,12 +75,12 @@
         <div class="db-paper-header">
           <div><span class="eyebrow">SAHEL INTELLIGENCE DESK • OPEN SOURCE</span>
             <h2>${b.reporting_date === deskToday() ? 'Daily Intelligence Brief' : 'Archived Intelligence Brief'}</h2>
-            <p>${esc(dayLabel(b.reporting_date))} • Mali / Burkina Faso / Niger • Washington, DC reporting day</p>
+            <p>${esc(dayLabel(b.reporting_date))} • Mali / Burkina Faso / Niger</p>
           </div>
           <div class="db-paper-actions"><button class="db-action" id="dbReadBrief">▶ READ BRIEF</button><button class="db-action" id="dbStopBrief">■ STOP</button></div>
         </div>
         <div class="db-paper-body">${sections.map(section => `<section class="db-paragraph"><h3>${esc(section.heading)}</h3><p>${esc(section.text)}</p></section>`).join('')}</div>
-        <div class="db-paper-foot">Collection confidence: <strong class="${confidenceClass(b.collection_confidence)}">${esc(b.collection_confidence || 'UNKNOWN')}</strong> • Candidate events drawn from open-source reporting • Updated ${stamp(b.generated_at)}</div>
+        <div class="db-paper-foot">Open-source reporting • Updated ${stamp(b.generated_at)} • Source checks and records under review are listed below</div>
       </article>`;
     $('dbReadBrief')?.addEventListener('click', () => speak(sections.map(section => `${section.heading}. ${section.text}`).join(' ')));
     $('dbStopBrief')?.addEventListener('click', stopSpeech);
@@ -184,6 +184,7 @@
       <section class="db-section">
         <h3>Daily counts</h3><div class="db-metric-grid">
           ${metric('Events dated this day', m.events_occurring_on_date ?? 0)}
+          ${metric('Records held for review', m.records_held_for_review ?? 0)}
           ${metric('Reports collected', m.reports_collected_on_date ?? 0)}
           ${metric('Older events discovered', m.newly_discovered_older_events ?? 0)}
           ${metric('Date awaiting check', m.events_awaiting_date_verification ?? 0)}
@@ -194,7 +195,7 @@
       <section class="db-section">
         <h3>Collection Notes</h3>
         <div class="db-note-grid">
-          ${metric('Collection confidence', notes.collection_confidence || b.collection_confidence || 'UNKNOWN')}
+          ${metric('Collection health', notes.collection_confidence || b.collection_confidence || 'UNKNOWN')}
           ${metric('Source paths reached', `${notes.sources_success ?? 0}/${notes.sources_total ?? 0}`)}
           ${metric('Failed paths', notes.sources_failed ?? 0)}
           ${metric('Degraded paths', notes.sources_degraded ?? '—')}

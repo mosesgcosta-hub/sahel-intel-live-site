@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-25T01:40:33.808087Z",
+  "generated_at": "2026-09-25T01:55:34.852080Z",
   "archive_location": "private repository state/daily_briefing_archive",
   "archived_count": 128,
   "briefings": [
@@ -11,7 +11,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-07-18",
@@ -19,7 +19,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-07-18. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-07-18 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-07-13",
@@ -27,7 +27,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-13. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-13 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-07-12",
@@ -35,7 +35,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-07-12. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-07-12 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-07-11",
@@ -43,7 +43,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-11. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-11 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-07-10",
@@ -51,7 +51,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-07-09",
@@ -59,7 +59,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-07-09. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-07-09 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-07-08",
@@ -67,7 +67,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-08 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-07-04",
@@ -75,7 +75,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-07-04 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-29",
@@ -83,7 +83,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-29. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-29 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-25",
@@ -99,7 +99,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-24 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-21",
@@ -107,7 +107,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-21 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-19",
@@ -115,15 +115,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-19. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-19 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-18",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-06-18. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-18 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-15",
@@ -131,7 +131,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-06-14",
@@ -139,7 +139,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-14. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-06-14 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-05-28",
@@ -147,7 +147,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-05-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-05-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-05-19",
@@ -155,7 +155,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-05-19. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-05-19 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-05-15",
@@ -163,7 +163,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-05-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-05-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-05-14",
@@ -171,7 +171,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-05-14. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-05-14 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-05-11",
@@ -179,15 +179,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-05-11. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-05-11 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-05-01",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-05-01. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-05-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-04-30",
@@ -195,7 +195,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-04-30. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-04-30 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-04-29",
@@ -203,7 +203,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-04-29. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-04-29 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-04-28",
@@ -211,15 +211,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-04-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-04-28 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-04-25",
-      "events": 3,
+      "events": 2,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 3 fused candidate events with an event date of 2026-04-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-04-25 gives the desk 2 incident accounts to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-04-22",
@@ -227,7 +227,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-04-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2026-04-22 gives the desk 1 incident account to examine in Niger. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2026-04-07",
@@ -235,7 +235,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-04-07. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-04-07 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-04-03",
@@ -243,7 +243,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-04-03. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-04-03 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-03-28",
@@ -251,7 +251,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-03-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-03-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-02-05",
@@ -263,11 +263,11 @@
     },
     {
       "reporting_date": "2026-02-04",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-02-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-02-04 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-01-28",
@@ -275,7 +275,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-01-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-01-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2026-01-08",
@@ -291,7 +291,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-01-07. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2026-01-07 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-12-22",
@@ -299,7 +299,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-12-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-12-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-12-10",
@@ -307,7 +307,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-12-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-12-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-11-25",
@@ -315,15 +315,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-11-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-11-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-11-10",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2025-11-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-11-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-10-23",
@@ -331,7 +331,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-10-23. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-10-23 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-10-20",
@@ -339,7 +339,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-10-20. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-10-20 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-09-30",
@@ -347,15 +347,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-09-30. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-09-30 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-09-16",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2025-09-16. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-09-16 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-09-07",
@@ -363,7 +363,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-09-07. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-09-07 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-09-06",
@@ -371,7 +371,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-09-06. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-09-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-06-08",
@@ -379,7 +379,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-06-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-06-08 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-06-02",
@@ -387,7 +387,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-06-02. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-06-02 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-05-18",
@@ -395,15 +395,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-05-18. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-05-18 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-05-15",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2025-05-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-05-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-04-13",
@@ -411,7 +411,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-04-13. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-04-13 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-02-17",
@@ -419,7 +419,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-02-17. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-02-17 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-02-08",
@@ -427,7 +427,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-02-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-02-08 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-01-18",
@@ -435,7 +435,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-01-18. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-01-18 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2025-01-01",
@@ -443,7 +443,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2025-01-01. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2025-01-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-12-26",
@@ -451,7 +451,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-12-26. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-12-26 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-10-16",
@@ -459,7 +459,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-10-16. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-10-16 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-10-09",
@@ -467,7 +467,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2024-10-09. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "Reporting dated 2024-10-09 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
     },
     {
       "reporting_date": "2024-10-04",
@@ -475,7 +475,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-10-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-10-04 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-09-24",
@@ -483,7 +483,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-09-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-09-24 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-09-18",
@@ -491,15 +491,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-09-18. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-09-18 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-09-17",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2024-09-17. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-09-17 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-07-31",
@@ -507,15 +507,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-07-31. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-07-31 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-07-30",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2024-07-30. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-07-30 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-07-29",
@@ -523,7 +523,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-07-29. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-07-29 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-06-05",
@@ -531,7 +531,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-06-05. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-06-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-05-27",
@@ -539,7 +539,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-05-27. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-05-27 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-05-25",
@@ -547,7 +547,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-05-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-05-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-04-30",
@@ -555,7 +555,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-30. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-04-30 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-04-25",
@@ -563,7 +563,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-04-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-04-15",
@@ -571,7 +571,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-04-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-04-14",
@@ -579,7 +579,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-14. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-04-14 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-03-25",
@@ -587,7 +587,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-03-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-03-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-03-19",
@@ -595,7 +595,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-03-19. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-03-19 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-03-17",
@@ -603,7 +603,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-03-17. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-03-17 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-02-11",
@@ -611,15 +611,15 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-02-11. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-02-11 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2024-01-25",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2024-01-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2024-01-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-12-22",
@@ -627,7 +627,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-12-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-12-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-11-27",
@@ -635,7 +635,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-11-27. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-11-27 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-11-16",
@@ -643,7 +643,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-11-16. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-11-16 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-09-28",
@@ -651,7 +651,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-09-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-09-27",
@@ -659,7 +659,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-27. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-09-27 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-09-23",
@@ -667,7 +667,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-23. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-09-23 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-09-04",
@@ -675,7 +675,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-09-04 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-09-01",
@@ -683,7 +683,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-01. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-09-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-08-09",
@@ -691,7 +691,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-08-09. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-08-09 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-08-01",
@@ -699,7 +699,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-08-01. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-08-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-07-28",
@@ -707,7 +707,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-07-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-07-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-06-26",
@@ -715,7 +715,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-06-26. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-06-26 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2023-03-23",
@@ -723,7 +723,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-03-23. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2023-03-23 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-11-07",
@@ -731,7 +731,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-11-07. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-11-07 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-11-02",
@@ -739,7 +739,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-11-02. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-11-02 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-10-28",
@@ -747,7 +747,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-10-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-10-28 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-10-05",
@@ -755,23 +755,23 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-10-05. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-10-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-09-06",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2022-09-06. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-09-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-06-12",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2022-06-12. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-06-12 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-05-04",
@@ -779,7 +779,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-05-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-05-04 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-03-24",
@@ -787,7 +787,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-03-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-03-24 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-01-26",
@@ -795,7 +795,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-01-26. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-01-26 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2022-01-13",
@@ -803,7 +803,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-01-13. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2022-01-13 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2021-12-10",
@@ -811,7 +811,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2021-12-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2021-12-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2021-08-21",
@@ -819,7 +819,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2021-08-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2021-08-21 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-10-27",
@@ -827,7 +827,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-10-27. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-10-27 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-09-21",
@@ -835,7 +835,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-09-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-09-21 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-08-24",
@@ -843,7 +843,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-08-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-08-24 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-08-21",
@@ -851,7 +851,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-08-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-08-21 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-08-05",
@@ -859,7 +859,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-08-05. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-08-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-02-25",
@@ -867,7 +867,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-02-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-02-25 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-02-21",
@@ -875,7 +875,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-02-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-02-21 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-01-10",
@@ -883,7 +883,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-01-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-01-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-01-09",
@@ -891,7 +891,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-01-09. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-01-09 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2020-01-05",
@@ -899,7 +899,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-01-05. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2020-01-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2019-11-29",
@@ -907,7 +907,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2019-11-29. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2019-11-29 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2019-08-22",
@@ -915,7 +915,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2019-08-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2019-08-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2019-06-22",
@@ -923,31 +923,31 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2019-06-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2019-06-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2019-05-10",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2019-05-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2019-05-10 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2019-01-20",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2019-01-20. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2019-01-20 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2018-08-22",
-      "events": 1,
+      "events": 0,
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2018-08-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2018-08-22 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2017-09-16",
@@ -955,7 +955,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2017-09-16. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2017-09-16 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2017-09-08",
@@ -963,7 +963,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2017-09-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2017-09-08 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2017-08-15",
@@ -971,7 +971,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2017-08-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2017-08-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2016-10-23",
@@ -979,7 +979,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2016-10-23. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2016-10-23 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2015-09-17",
@@ -987,7 +987,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2015-09-17. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2015-09-17 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2014-07-15",
@@ -995,7 +995,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2014-07-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2014-07-15 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2014-07-14",
@@ -1003,7 +1003,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2014-07-14. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2014-07-14 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2013-08-08",
@@ -1011,7 +1011,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2013-08-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2013-08-08 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2013-03-03",
@@ -1019,7 +1019,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2013-03-03. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2013-03-03 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     },
     {
       "reporting_date": "2012-02-05",
@@ -1027,7 +1027,7 @@
       "reports_collected": 0,
       "multi_source_events": 0,
       "collection_confidence": "LOW",
-      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2012-02-05. The collector retained 0 reports on that reporting date from 0 distinct sources."
+      "executive_assessment": "The desk has too little reporting from 2012-02-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
     }
   ]
 }
