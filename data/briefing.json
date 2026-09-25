@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-09-25T20:27:16.355586Z",
+  "generated_at": "2026-09-25T21:29:26.850168Z",
   "method": "automated multilingual OSINT delta synthesis",
-  "freshness_status": "FRESH CONTEXT • NO NEW EVENT",
-  "new_event_ids": [],
+  "freshness_status": "NEW OR UPDATED EVENTS",
+  "new_event_ids": [
+    "34f5c10aef962fc9189a994017b518f7531ed22d"
+  ],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
   "new_reports_this_cycle": 3,
   "trend_snapshot": {
     "JNIM": {
-      "current": 2,
+      "current": 3,
       "previous": 0,
       "change_pct": 100.0
     },
@@ -58,12 +60,17 @@
       "source_count": 1,
       "updated_at": "2026-09-24T17:28:03.775866Z",
       "location_count": 1
+    },
+    {
+      "id": "34f5c10aef962fc9189a994017b518f7531ed22d",
+      "source_count": 1,
+      "updated_at": "2026-09-25T21:28:55.255928Z",
+      "location_count": 5
     }
   ],
-  "briefing_fingerprint": "179682d2b5e276c80b2c575e37414b238a551436",
-  "previous_fingerprint": "9fb3e2078a73bb2efd1641b6b106a7bec81967cb",
+  "briefing_fingerprint": "2f82648573c5dfcbfc37977a8f2ba16c2dcf056c",
+  "previous_fingerprint": "179682d2b5e276c80b2c575e37414b238a551436",
   "seen_context_report_ids": [
-    "6d1ab670e95d588b79dd37d28abfa38548924576",
     "6b772473813abe122422b4ec494203180aebacd1",
     "92ccf064bcc7a9354fb1678a63b9871cba8d0102",
     "e266739ec4da6c9240d5bea1f245c2b6509e7a3d",
@@ -182,7 +189,8 @@
     "81af1c30a27f19d8c87532afb270e82b49701da7",
     "c9dba6f4668587c0f9cc23096d241269c3492f6c",
     "dcdcc40bbe2a0158a43bbaf22d675e13b9083a40",
-    "b1bc1399f86c7bf041f48721c7aefcdcefae8eea"
+    "b1bc1399f86c7bf041f48721c7aefcdcefae8eea",
+    "0499261be20b366bc9520dbab2a010c9155df2c7"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: no new or materially updated fused candidate event has appeared since the previous briefing. This collection cycle did retain 3 new relevant reports, so the desk is reporting those as fresh context rather than repeating stale event language.\n\nFresh report 1: Sahara Medias (صحراء ميديا) reports from Kidal, Mali: مالي.. الجيش يعلن استهداف مواقع تضم مئات المسلحين في كيدال. This is retained context and is not automatically treated as a new incident.\n\nQuantitative picture: seven-day fused-event counts are unchanged from the previous briefing.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 43 were degraded. The retained archive contains 143 French or Arabic reports; 143 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: since the previous briefing, the system identified 1 new event(s), 0 materially updated event(s), and 0 event(s) with new corroboration. The leading change is a attack signal involving JNIM around Bamako, Gao, Mopti.\n\nNew event 1: attack involving JNIM in Bamako, Gao, Mopti, Sévaré. 1 monitored source across FR reporting. Karamoko Jean-Marie Traoré appealed to the United Nations about the lack of international reaction to the jihadist attack that occurred on April 25 in Mali. The head of Burkina Faso's diplomacy spoke on 25 September 2026 in New York, during a meeting with Alex Confidence is low; details remain subject to revision.\n\nQuantitative picture: JNIM has 3 extracted candidate events in the latest seven-day window, up from zero in the preceding window. IS Sahel has no extracted candidate events in either seven-day window. State has 6 extracted candidate events in the latest seven-day window, 100.0 percent higher than the preceding seven days.\n\nAnalytic note: reporting volume, fused candidate events, and independently verified incidents are different measures. Source claims and unresolved contradictions remain attributed to their underlying reporting.\n\nCollection status: 0 of 172 configured sources failed during the latest cycle and 41 were degraded. The retained archive contains 144 French or Arabic reports; 144 have an English title translation and 0 remain marked failed for retry.\n\nNothing further to report at this time."
 }
