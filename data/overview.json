@@ -1,10 +1,10 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-25T21:29:26.850611Z; 172/172 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-25T21:29:26.850611Z",
-  "reports_24h": 9,
-  "distinct_sources_24h": 8,
+  "status_detail": "Last automated GitHub collection completed 2026-09-25T21:50:40.203836Z; 172/172 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-25T21:50:40.203836Z",
+  "reports_24h": 10,
+  "distinct_sources_24h": 9,
   "candidate_events_24h": 2,
   "mapped_events_24h": 2,
   "mapped_locations_24h": 6,
@@ -39,8 +39,8 @@
     },
     "en": {
       "configured_sources": 83,
-      "archive_reports": 121,
-      "reports_30d": 27,
+      "archive_reports": 122,
+      "reports_30d": 28,
       "distinct_sources_30d": 15,
       "candidate_event_reports_30d": 3,
       "translations_success_archive": 0,
@@ -66,11 +66,11 @@
     }
   },
   "source_type_coverage": {
+    "official": 17,
     "aggregator": 1,
     "international_media": 90,
     "local_media": 93,
     "research": 30,
-    "official": 16,
     "defense_media": 9,
     "analysis_media": 9,
     "wire": 10,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-25T21:29:26.834111Z",
+    "generated_at": "2026-09-25T21:50:40.187839Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -143,7 +143,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-25T21:29:26.850154Z",
+    "generated_at": "2026-09-25T21:50:40.203493Z",
     "events_30d": 21,
     "date_resolution_pct": 81,
     "precise_geography_pct": 76,
@@ -153,23 +153,23 @@
     "collection_status": "NOMINAL",
     "language_reports_30d": {
       "fr": 89,
-      "en": 27,
+      "en": 28,
       "ar": 8
     },
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-25T21:24:24.780197Z",
-    "finished_at": "2026-09-25T21:29:26.850611Z",
+    "started_at": "2026-09-25T21:47:29.807141Z",
+    "finished_at": "2026-09-25T21:50:40.203836Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 172,
     "sources_success": 172,
     "sources_failed": 0,
-    "documents_discovered": 6852,
+    "documents_discovered": 6862,
     "documents_selected": 9,
-    "prefetch_skipped": 7474,
-    "known_url_skipped": 101,
+    "prefetch_skipped": 7489,
+    "known_url_skipped": 100,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
@@ -180,8 +180,8 @@
     "country_report_floor": 20,
     "retained_cycle_by_country": {
       "Mali": 0,
-      "Burkina Faso": 1,
-      "Niger": 2
+      "Burkina Faso": 0,
+      "Niger": 3
     },
     "collection_waves": 1,
     "fetch_candidates_attempted": 9,
@@ -194,16 +194,16 @@
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
     "archive_duplicates_removed": 2,
-    "translations_attempted": 2,
-    "translations": 2,
+    "translations_attempted": 1,
+    "translations": 1,
     "translation_failures": 0,
-    "archive_reports": 265,
+    "archive_reports": 266,
     "candidate_events_archive": 48,
     "candidate_events_7d": 13,
     "candidate_events_30d": 21,
-    "reports_30d": 124,
+    "reports_30d": 125,
     "sources_30d": 45,
-    "event_changes": 1,
+    "event_changes": 0,
     "indexed_context_archive": 22,
     "research_leads_archive": 93,
     "analytical_context_archive": 10,
@@ -212,14 +212,14 @@
     "event_date_proxy_reports": 23,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 3,
-      "en": 5,
+      "fr": 2,
+      "en": 6,
       "ar": 1,
       "other": 0
     },
     "retained_cycle_by_language": {
-      "fr": 2,
-      "en": 1,
+      "fr": 1,
+      "en": 2,
       "ar": 0,
       "other": 0
     },

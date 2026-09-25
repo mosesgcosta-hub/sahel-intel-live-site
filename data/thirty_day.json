@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T21:29:26.800337Z",
+  "generated_at": "2026-09-25T21:50:40.154811Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 124,
+  "reports": 125,
   "incident_reports": 22,
   "candidate_events": 21,
   "corroborated_events": 1,
@@ -28,7 +28,7 @@
   },
   "by_language": {
     "fr": 89,
-    "en": 27,
+    "en": 28,
     "ar": 8
   },
   "by_confidence": {
@@ -283,7 +283,7 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 8,
+      "reports": 9,
       "events": 1
     }
   ],
@@ -1727,8 +1727,21 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-25T22:37:45Z",
+      "discovered_at": "2026-09-25T21:50:15.975110Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Police arrest guard over defilement, death of minor in Niger",
+      "url": "https://punchng.com/police-arrest-guard-over-defilement-death-of-minor-in-niger/"
+    },
+    {
       "published_at": null,
-      "discovered_at": "2026-09-25T21:28:54.659414Z",
+      "discovered_at": "2026-09-25T21:50:16.132803Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2232,19 +2245,6 @@
       "candidate_event": true,
       "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
       "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
-    },
-    {
-      "published_at": "2026-09-21T16:53:13Z",
-      "discovered_at": "2026-09-22T05:27:00.636420Z",
-      "source": "La Croix (Afrique)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "In central Mali, jihadists inflict heavy losses on the army: \"A drama of unprecedented magnitude\"",
-      "url": "https://www.la-croix.com/international/dans-le-centre-du-mali-les-djihadistes-infligent-de-lourdes-pertes-a-l-armee-un-drame-dune-ampleur-inedite-20260921"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
