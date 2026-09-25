@@ -67,27 +67,23 @@
       host.innerHTML = `<div class="db-empty">The ${esc(dayLabel(selectedDate || deskToday()))} briefing is being prepared. It will appear after the next collection run.</div>`;
       return;
     }
-    const m = b.headline_metrics || {};
+    const sections = Array.isArray(b.briefing_sections) && b.briefing_sections.length
+      ? b.briefing_sections
+      : [{heading: 'Assessment', text: b.executive_assessment || 'No assessment has been generated for this date.'}];
     host.innerHTML = `
-      <div class="db-summary-head">
-        <div>
-          <div class="eyebrow">DAILY INTELLIGENCE BRIEF • OPEN SOURCE</div>
-          <h2>${esc(dayLabel(b.reporting_date))}</h2>
-          <p>Coverage: Mali • Burkina Faso • Niger • Daily cycle: midnight to midnight, Washington, DC time (EST/EDT)</p>
+      <article class="db-paper">
+        <div class="db-paper-header">
+          <div><span class="eyebrow">SAHEL INTELLIGENCE DESK • OPEN SOURCE</span>
+            <h2>${b.reporting_date === deskToday() ? 'Daily Intelligence Brief' : 'Archived Intelligence Brief'}</h2>
+            <p>${esc(dayLabel(b.reporting_date))} • Mali / Burkina Faso / Niger • Washington, DC reporting day</p>
+          </div>
+          <div class="db-paper-actions"><button class="db-action" id="dbReadBrief">▶ READ BRIEF</button><button class="db-action" id="dbStopBrief">■ STOP</button></div>
         </div>
-        <div class="db-health ${confidenceClass(b.collection_confidence)}">
-          <span>COLLECTION CONFIDENCE</span><strong>${esc(b.collection_confidence || 'UNKNOWN')}</strong>
-        </div>
-      </div>
-      <section class="db-section"><h3>${b.reporting_date === deskToday() ? "Today's Brief" : 'Archived Brief'}</h3><p class="db-lead">${esc(b.executive_assessment || 'No assessment has been generated for this date yet.')}</p></section>
-      <div class="db-metric-grid">
-        ${metric('Events occurring', m.events_occurring_on_date ?? 0, 'event date = briefing date')}
-        ${metric('Reports collected', m.reports_collected_on_date ?? 0, 'ingested that date')}
-        ${metric('Older events found', m.newly_discovered_older_events ?? 0, 'discovered that date')}
-        ${metric('Awaiting date check', m.events_awaiting_date_verification ?? 0, 'unresolved/proxy time')}
-        ${metric('Multi-source events', m.multi_source_events ?? 0, '2+ independent domains')}
-        ${metric('Sources represented', m.distinct_sources_collected ?? 0, 'retained reporting')}
-      </div>`;
+        <div class="db-paper-body">${sections.map(section => `<section class="db-paragraph"><h3>${esc(section.heading)}</h3><p>${esc(section.text)}</p></section>`).join('')}</div>
+        <div class="db-paper-foot">Collection confidence: <strong class="${confidenceClass(b.collection_confidence)}">${esc(b.collection_confidence || 'UNKNOWN')}</strong> • Candidate events drawn from open-source reporting • Updated ${stamp(b.generated_at)}</div>
+      </article>`;
+    $('dbReadBrief')?.addEventListener('click', () => speak(sections.map(section => `${section.heading}. ${section.text}`).join(' ')));
+    $('dbStopBrief')?.addEventListener('click', stopSpeech);
   }
 
   function renderList() {
@@ -168,14 +164,8 @@
     if (!b) { host.innerHTML = ''; return; }
     const notes = b.collection_notes || {};
     const events = (b.significant_events || []).filter(eventMatches);
-    host.innerHTML = `
-      <div class="db-detail-toolbar">
-        <div><span class="eyebrow">DAILY BRIEFING • WASHINGTON, DC • ${esc(b.reporting_date)}</span><h3>${b.reporting_date === deskToday() ? "Today's Analytic Brief" : 'Archived Analytic Brief'}</h3></div>
-        <div class="db-toolbar-actions">
-          <button class="db-action" id="dbReadBrief">▶ READ DAILY BRIEF</button>
-          <button class="db-action" id="dbStopBrief">■ STOP</button>
-        </div>
-      </div>
+    const m = b.headline_metrics || {};
+    host.innerHTML = `<details class="db-annex"><summary>Supporting evidence and collection figures <span>VIEW SOURCE RECORDS ↓</span></summary><div class="db-annex-content">
       <section class="db-section"><h3>Key Judgments</h3>${judgmentList(b.key_judgments)}</section>
       <section class="db-section">
         <div class="db-section-head"><h3>Significant Events</h3><span>${events.length} shown</span></div>
@@ -192,6 +182,16 @@
       <section class="db-section"><h3>Intelligence Gaps</h3>${judgmentList(b.intelligence_gaps)}</section>
       ${renderProfiles(b)}
       <section class="db-section">
+        <h3>Daily counts</h3><div class="db-metric-grid">
+          ${metric('Events dated this day', m.events_occurring_on_date ?? 0)}
+          ${metric('Reports collected', m.reports_collected_on_date ?? 0)}
+          ${metric('Older events discovered', m.newly_discovered_older_events ?? 0)}
+          ${metric('Date awaiting check', m.events_awaiting_date_verification ?? 0)}
+          ${metric('Multi-source candidates', m.multi_source_events ?? 0)}
+          ${metric('Sources represented', m.distinct_sources_collected ?? 0)}
+        </div>
+      </section>
+      <section class="db-section">
         <h3>Collection Notes</h3>
         <div class="db-note-grid">
           ${metric('Collection confidence', notes.collection_confidence || b.collection_confidence || 'UNKNOWN')}
@@ -203,12 +203,10 @@
         </div>
         ${judgmentList(notes.collection_confidence_reasons)}
       </section>
-      `;
+      </div></details>`;
 
     host.querySelectorAll('[data-db-country]').forEach(btn => btn.addEventListener('click', () => { selectedCountry = btn.dataset.dbCountry; renderDetail(); }));
     host.querySelectorAll('[data-db-actor]').forEach(btn => btn.addEventListener('click', () => { selectedActor = btn.dataset.dbActor; renderDetail(); }));
-    $('dbReadBrief')?.addEventListener('click', () => speak([b.executive_assessment, ...(b.key_judgments || [])].filter(Boolean).join(' ')));
-    $('dbStopBrief')?.addEventListener('click', stopSpeech);
   }
 
   function renderArchive() {

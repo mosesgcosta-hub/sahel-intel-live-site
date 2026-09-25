@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-25T01:27:38.547946Z",
+  "generated_at": "2026-09-25T01:40:33.808087Z",
   "active_limit": 33,
   "total_briefings": 161,
   "active_count": 33,
@@ -150,7 +150,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-09-25T01:27:38.384580Z",
+      "generated_at": "2026-09-25T01:40:33.587194Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -161,13 +161,31 @@
       "headline_metrics": {
         "events_occurring_on_date": 1,
         "multi_source_events": 0,
-        "reports_collected_on_date": 20,
-        "reports_published_on_date": 4,
+        "reports_collected_on_date": 21,
+        "reports_published_on_date": 5,
         "newly_discovered_older_events": 2,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 14
+        "distinct_sources_collected": 15
       },
-      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 20 reports on that reporting date from 14 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.",
+      "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 21 reports on that reporting date from 15 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 1 candidate incident dated 2026-09-24 across Burkina Faso (1). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Dori, Burkina Faso: Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall Abandoned sites, billions promised never arrived... In Burkina Faso, projects to restore degraded lands have stalled. The jihadist violence and the vagueness surrounding donor funding promises got the better of one of Africa's most… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-23, the register's same-day event count changed from 2 to 1. Across the current and preceding seven-day windows, JNIM rose from 0 to 2 candidate events; State rose from 3 to 5 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is high: 172/172 source paths reached; 41 degraded / 0 failed of 172 configured sources. 1 same-day event remains supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. 2 newly recorded events refer to earlier dates and are excluded from today's count. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "Burkina Faso contains the largest same-day event count (1 event(s)).",
         "1 same-day event(s) remain single-source and should be treated as provisional."
@@ -209,7 +227,7 @@
         }
       ],
       "what_changed_since_yesterday": [
-        "Collection volume: +4 retained report(s) versus 2026-09-23 (16 → 20).",
+        "Collection volume: +5 retained report(s) versus 2026-09-23 (16 → 21).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -231,7 +249,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 11,
+        "Mali": 12,
         "Burkina Faso": 4,
         "Niger": 5
       },
@@ -264,7 +282,7 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 11,
+          "reports_collected": 12,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -305,34 +323,34 @@
         "sources_total": 172,
         "sources_success": 172,
         "sources_failed": 0,
-        "sources_degraded": 43,
-        "documents_discovered": 6867,
-        "documents_retained": 1,
+        "sources_degraded": 41,
+        "documents_discovered": 6913,
+        "documents_retained": 2,
         "report_target": 100,
-        "translations_attempted": 1,
-        "translations_success": 1,
+        "translations_attempted": 2,
+        "translations_success": 2,
         "translation_failures": 0,
         "collection_confidence": "HIGH",
         "collection_confidence_reasons": [
           "172/172 source paths reached",
-          "43 degraded / 0 failed of 172 configured sources"
+          "41 degraded / 0 failed of 172 configured sources"
         ],
-        "reports_collected": 20,
-        "reports_published": 4,
-        "distinct_sources_collected": 14,
+        "reports_collected": 21,
+        "reports_published": 5,
+        "distinct_sources_collected": 15,
         "language_counts": {
-          "fr": 13,
+          "fr": 14,
           "en": 6,
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 20 reports on that reporting date from 14 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.\n\nActor picture: JNIM 0, IS Sahel 0, State 0.\n\nWhat changed: Collection volume: +4 retained report(s) versus 2026-09-23 (16 → 20). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 same-day event(s) carry low extraction/analytic confidence.\n\nCollection confidence: HIGH. 172/172 source paths reached 43 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 21 reports on that reporting date from 15 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.\n\nActor picture: JNIM 0, IS Sahel 0, State 0.\n\nWhat changed: Collection volume: +5 retained report(s) versus 2026-09-23 (16 → 21). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 same-day event(s) carry low extraction/analytic confidence.\n\nCollection confidence: HIGH. 172/172 source paths reached 41 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-09-25T01:27:38.449883Z",
+      "generated_at": "2026-09-25T01:40:33.561840Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -350,6 +368,24 @@
         "distinct_sources_collected": 12
       },
       "executive_assessment": "Sahel Intel records 2 fused candidate events with an event date of 2026-09-23. The collector retained 16 reports on that reporting date from 12 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 2 candidate incidents dated 2026-09-23 across Niger (2). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Tillabéri, Niger: Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same… (1 independent source domain; candidate record). Tillabéri, Niger: Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercenaries”, a term authorities in the junta-led country use… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-22, the register's same-day event count changed from 0 to 2. Across the current and preceding seven-day windows, JNIM rose from 1 to 2 candidate events; State rose from 0 to 8 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is high: 172/172 source paths reached. 2 same-day events remain supported by fewer than two independent domains; 1 collected operational report has an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "Niger contains the largest same-day event count (2 event(s)).",
         "2 same-day event(s) remain single-source and should be treated as provisional.",
@@ -553,7 +589,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-09-25T01:27:38.492728Z",
+      "generated_at": "2026-09-25T01:40:33.657088Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -571,6 +607,24 @@
         "distinct_sources_collected": 44
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-22. The collector retained 87 reports on that reporting date from 44 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "No fused candidate event in the current register is dated 2026-09-22. The desk nevertheless collected 87 relevant reports from 44 sources during the Washington, DC reporting day. The absence of a same-day event date does not establish an absence of violence."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-21, the register's same-day event count changed from 2 to 0. Across the current and preceding seven-day windows, JNIM rose from 1 to 2 candidate events; State rose from 0 to 8 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 2 collected operational reports have an unresolved or proxy event date. 2 newly recorded events refer to earlier dates and are excluded from today's count. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-22 as its event date; collection confidence for that date is low.",
         "2 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
@@ -694,7 +748,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-09-25T01:27:38.539017Z",
+      "generated_at": "2026-09-25T01:40:33.786085Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -712,6 +766,24 @@
         "distinct_sources_collected": 15
       },
       "executive_assessment": "Sahel Intel records 2 fused candidate events with an event date of 2026-09-21. The collector retained 23 reports on that reporting date from 15 distinct sources. 7 event records discovered that day referred to earlier event dates and are not counted as same-day incidents. 1 same-day event was supported by at least two independent source domains.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 2 candidate incidents dated 2026-09-21 across Mali (2). 1 has reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Sévaré, Mali: The FAMa continue the Dougoukoloko operation in Sévaré, Dioura and Tessalit. The General Staff of the Armed Forces reports new surveillance actions and targeted strikes. Sévaré, Dioura, Tessalit: the Malian Armed Forces maintain pressure on armed terrorist groups Bamako, 22 September 2026 – The Malian Armed Forces… (2 independent source domains; candidate record). Djenné, Mali: Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-20, the register's same-day event count changed from 1 to 2. Across the current and preceding seven-day windows, JNIM rose from 1 to 2 candidate events; State rose from 0 to 8 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 1 same-day event remains supported by fewer than two independent domains; 7 collected operational reports have an unresolved or proxy event date. 7 newly recorded events refer to earlier dates and are excluded from today's count. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (2 event(s)).",
         "Mali contains the largest same-day event count (2 event(s)).",
@@ -926,7 +998,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-09-25T01:27:38.540320Z",
+      "generated_at": "2026-09-25T01:40:33.677331Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -944,6 +1016,24 @@
         "distinct_sources_collected": 24
       },
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-09-20. The collector retained 55 reports on that reporting date from 24 distinct sources. 18 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 1 candidate incident dated 2026-09-20 across Mali (1). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Dioura, Mali: Mali: 150 dead after multiple JNIM attacks To view this YouTube content, it is necessary to allow audience measurement and advertising cookies. A browser extension appears to be blocking the video player from loading. To be able to watch this content, you must disable or uninstall it . Published on: In recent days,… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-19, the register's same-day event count changed from 5 to 1. Across the current and preceding seven-day windows, JNIM rose from 1 to 2 candidate events; State rose from 0 to 6 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 1 same-day event remains supported by fewer than two independent domains; 14 collected operational reports have an unresolved or proxy event date. 18 newly recorded events refer to earlier dates and are excluded from today's count. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "JNIM accounts for the largest share of same-day fused event activity (1 event(s)).",
         "Mali contains the largest same-day event count (1 event(s)).",
@@ -1121,7 +1211,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-09-25T01:27:38.377209Z",
+      "generated_at": "2026-09-25T01:40:33.736334Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1139,6 +1229,24 @@
         "distinct_sources_collected": 17
       },
       "executive_assessment": "Sahel Intel records 5 fused candidate events with an event date of 2026-09-19. The collector retained 49 reports on that reporting date from 17 distinct sources. 10 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 5 candidate incidents dated 2026-09-19 across Mali (5). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Djenné, Mali: Targeted operations conducted south-east of Djenné, north-west of Sévaré and in Ber Bamako, 19 September 2026 – The Malian Armed Forces (FAMa) are continuing their mission to monitor, control and secure the national territory as part of Operation Dougoukoloko. Through a new series of actions reported by the General… (1 independent source domain; candidate record). Dioura, Mali: Security: A Ukrainian drone shot down by Malian special forces north of Dioura As part of their sovereign missions to monitor and secure the national territory, the Malian Armed Forces (FAMa) shot down a Ukrainian-made drone on Saturday, September 19, 2026 at 5:30 p.m. . The craft was intercepted and neutralized by… (1 independent source domain; candidate record). Sévaré, Mali: Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-18, the register's same-day event count changed from 1 to 5. Across the current and preceding seven-day windows, State rose from 0 to 6 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 5 same-day events remain supported by fewer than two independent domains; 10 collected operational reports have an unresolved or proxy event date. 10 newly recorded events refer to earlier dates and are excluded from today's count. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (3 event(s)).",
         "Mali contains the largest same-day event count (5 event(s)).",
@@ -1466,7 +1574,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-09-25T01:27:38.547875Z",
+      "generated_at": "2026-09-25T01:40:33.646968Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1484,6 +1592,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-09-18. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 1 candidate incident dated 2026-09-18 across Mali (1). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Mali: In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report by Le Monde.fr (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-17, the register's same-day event count changed from 4 to 1. Across the current and preceding seven-day windows, JNIM fell from 1 to 0 candidate events; State rose from 0 to 3 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 1 same-day event remains supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "Mali contains the largest same-day event count (1 event(s)).",
         "1 same-day event(s) remain single-source and should be treated as provisional."
@@ -1644,7 +1770,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-09-25T01:27:38.486542Z",
+      "generated_at": "2026-09-25T01:40:33.744789Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1662,6 +1788,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 4 fused candidate events with an event date of 2026-09-17. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 4 candidate incidents dated 2026-09-17 across Mali (4). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Dioura, Mali: Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti… (1 independent source domain; candidate record). Mali: The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of… (1 independent source domain; candidate record). Djenné, Mali: Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On… (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-16, the register's same-day event count changed from 0 to 4. Across the current and preceding seven-day windows, JNIM fell from 1 to 0 candidate events; State rose from 0 to 3 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 4 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (3 event(s)).",
         "Mali contains the largest same-day event count (4 event(s)).",
@@ -1944,7 +2088,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-09-25T01:27:38.398062Z",
+      "generated_at": "2026-09-25T01:40:33.801697Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1962,6 +2106,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-16. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-16 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-15, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-16 as its event date; collection confidence for that date is low."
       ],
@@ -2078,7 +2240,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-09-25T01:27:38.391080Z",
+      "generated_at": "2026-09-25T01:40:33.583682Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2096,6 +2258,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-15. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-15 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-14, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-15 as its event date; collection confidence for that date is low."
       ],
@@ -2212,7 +2392,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-09-25T01:27:38.389799Z",
+      "generated_at": "2026-09-25T01:40:33.541087Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2230,6 +2410,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-14. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-14 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-13, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-14 as its event date; collection confidence for that date is low."
       ],
@@ -2346,7 +2544,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-09-25T01:27:38.373421Z",
+      "generated_at": "2026-09-25T01:40:33.705772Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2364,6 +2562,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-13. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-13 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-12, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-13 as its event date; collection confidence for that date is low."
       ],
@@ -2480,7 +2696,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-09-25T01:27:38.359690Z",
+      "generated_at": "2026-09-25T01:40:33.746483Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2498,6 +2714,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-12. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-12 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-11, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-12 as its event date; collection confidence for that date is low."
       ],
@@ -2614,7 +2848,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-09-25T01:27:38.542894Z",
+      "generated_at": "2026-09-25T01:40:33.695710Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2632,6 +2866,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-11. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-11 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-10, the register's same-day event count changed from 2 to 0. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-11 as its event date; collection confidence for that date is low."
       ],
@@ -2748,7 +3000,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-09-25T01:27:38.481649Z",
+      "generated_at": "2026-09-25T01:40:33.542945Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2766,6 +3018,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 2 fused candidate events with an event date of 2026-09-10. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 2 candidate incidents dated 2026-09-10 across Mali (2). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Dioura, Mali: In Mali, the deadly Dioura attack reveals the shortcomings of the security system The attack on the Dioura camp on September 10, the fifth in seven years, claimed the lives of more than a hundred soldiers of the Malian Armed Forces. The proliferation of jihadist attacks is forcing the General Staff to look for new… (1 independent source domain; candidate record). Mali: In Mali, at least 50 Russian soldiers and five mercenaries killed Thursday in a jihadist attack. (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-09, the register's same-day event count changed from 0 to 2. Across the current and preceding seven-day windows, JNIM rose from 0 to 1 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 2 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "JNIM accounts for the largest share of same-day fused event activity (1 event(s)).",
         "Mali contains the largest same-day event count (2 event(s)).",
@@ -2970,7 +3240,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-09-25T01:27:38.491386Z",
+      "generated_at": "2026-09-25T01:40:33.570287Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2988,6 +3258,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-08. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-08 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-07, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-08 as its event date; collection confidence for that date is low."
       ],
@@ -3104,7 +3392,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-09-25T01:27:38.473147Z",
+      "generated_at": "2026-09-25T01:40:33.563523Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3122,6 +3410,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-05. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-05 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-04, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-05 as its event date; collection confidence for that date is low."
       ],
@@ -3238,7 +3544,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-09-25T01:27:38.355870Z",
+      "generated_at": "2026-09-25T01:40:33.628508Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3256,6 +3562,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-04. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-04 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-03, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-04 as its event date; collection confidence for that date is low."
       ],
@@ -3506,7 +3830,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-09-25T01:27:38.518248Z",
+      "generated_at": "2026-09-25T01:40:33.759861Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3524,6 +3848,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-02. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-02 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-09-01, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-02 as its event date; collection confidence for that date is low."
       ],
@@ -3640,7 +3982,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-09-25T01:27:38.523152Z",
+      "generated_at": "2026-09-25T01:40:33.668812Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3658,6 +4000,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-01. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-09-01 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-31, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-09-01 as its event date; collection confidence for that date is low."
       ],
@@ -3774,7 +4134,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-09-25T01:27:38.412728Z",
+      "generated_at": "2026-09-25T01:40:33.638506Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3792,6 +4152,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-31. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-31 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-30, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-31 as its event date; collection confidence for that date is low."
       ],
@@ -3908,7 +4286,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-09-25T01:27:38.470714Z",
+      "generated_at": "2026-09-25T01:40:33.781571Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3926,6 +4304,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-30. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-30 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-29, the register's same-day event count changed from 1 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-30 as its event date; collection confidence for that date is low."
       ],
@@ -4042,7 +4438,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-09-25T01:27:38.515800Z",
+      "generated_at": "2026-09-25T01:40:33.603923Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4060,6 +4456,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-08-29. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 1 candidate incident dated 2026-08-29 across Niger (1). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Niamey, Niger: Niger: Armed attack targeting the perimeter of the Presidential Palace and Niamey Airport staging-ar.almayadeen.net (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-28, the register's same-day event count changed from 0 to 1. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 1 same-day event remains supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "Niger contains the largest same-day event count (1 event(s)).",
         "1 same-day event(s) remain single-source and should be treated as provisional."
@@ -4219,7 +4633,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-23",
-      "generated_at": "2026-09-25T01:27:38.357183Z",
+      "generated_at": "2026-09-25T01:40:33.778234Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4237,6 +4651,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-23. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-23 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-22, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-23 as its event date; collection confidence for that date is low."
       ],
@@ -4353,7 +4785,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-10",
-      "generated_at": "2026-09-25T01:27:38.496362Z",
+      "generated_at": "2026-09-25T01:40:33.667139Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4371,6 +4803,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-10. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-10 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-09, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-10 as its event date; collection confidence for that date is low."
       ],
@@ -4487,7 +4937,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-09",
-      "generated_at": "2026-09-25T01:27:38.439951Z",
+      "generated_at": "2026-09-25T01:40:33.771581Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4505,6 +4955,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-09. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-09 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-08, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-09 as its event date; collection confidence for that date is low."
       ],
@@ -4621,7 +5089,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-04",
-      "generated_at": "2026-09-25T01:27:38.417634Z",
+      "generated_at": "2026-09-25T01:40:33.560038Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4639,6 +5107,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-04. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-04 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-03, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-04 as its event date; collection confidence for that date is low."
       ],
@@ -4755,7 +5241,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-03",
-      "generated_at": "2026-09-25T01:27:38.493934Z",
+      "generated_at": "2026-09-25T01:40:33.597203Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4773,6 +5259,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-03. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-03 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-02, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-03 as its event date; collection confidence for that date is low."
       ],
@@ -4889,7 +5393,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-02",
-      "generated_at": "2026-09-25T01:27:38.365908Z",
+      "generated_at": "2026-09-25T01:40:33.633491Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4907,6 +5411,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-08-02. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-08-02 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-08-01, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, No actor-level change appears between the two seven-day event windows. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-08-02 as its event date; collection confidence for that date is low."
       ],
@@ -5023,7 +5545,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-31",
-      "generated_at": "2026-09-25T01:27:38.541565Z",
+      "generated_at": "2026-09-25T01:40:33.685700Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5041,6 +5563,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-31. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The available register contains no candidate event dated 2026-07-31 and no reports collected on that Washington, DC reporting day. Available data do not support an assessment of whether violence occurred; this is a reporting gap, not a security finding."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "No event with a verified same-day event date is available for an incident-by-incident assessment."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-07-30, the register's same-day event count changed from 0 to 0. Across the current and preceding seven-day windows, State fell from 1 to 0 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 0 same-day events remain supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "No fused candidate event currently has 2026-07-31 as its event date; collection confidence for that date is low."
       ],
@@ -5157,7 +5697,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-07-27",
-      "generated_at": "2026-09-25T01:27:38.501203Z",
+      "generated_at": "2026-09-25T01:40:33.803404Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5175,6 +5715,24 @@
         "distinct_sources_collected": 0
       },
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-07-27. The collector retained 0 reports on that reporting date from 0 distinct sources.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The open-source event register currently contains 1 candidate incident dated 2026-07-27 across Mali (1). 0 have reporting from at least two independent source domains. These are candidate events, not independently confirmed incidents."
+        },
+        {
+          "heading": "Incidents in the record",
+          "text": "Mali: Possible military intervention against terrorist groups in the Sahel: Mali is neither a requestor nor a taker of a counterproductive US military operation maliweb.net (1 independent source domain; candidate record)."
+        },
+        {
+          "heading": "Change and trajectory",
+          "text": "Relative to 2026-07-26, the register's same-day event count changed from 0 to 1. Across the current and preceding seven-day windows, State fell from 1 to 0 candidate events. These comparisons reflect recorded candidate events and may change when late reporting is processed."
+        },
+        {
+          "heading": "Confidence and gaps",
+          "text": "Collection confidence is low: no completed collection run recorded for this date. 1 same-day event remains supported by fewer than two independent domains; 0 collected operational reports have an unresolved or proxy event date. Figures describe the current open-source record; reporting delays and missing coverage can alter this picture."
+        }
+      ],
       "key_judgments": [
         "Mali contains the largest same-day event count (1 event(s)).",
         "1 same-day event(s) remain single-source and should be treated as provisional."
