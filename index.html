@@ -7,16 +7,18 @@
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
   <title>Sahel Intel Collection</title>
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./briefings.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v2.9</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v2.9.3</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
     <button class="tab active" data-view="overview">Overview</button>
+    <button class="tab" data-view="briefings">Daily Briefing</button>
     <button class="tab" data-view="feed">Intel Feed</button>
     <button class="tab" data-view="quant">Quant Lab</button>
     <button class="tab" data-view="sources">Collection Ops</button>
@@ -106,6 +108,33 @@
       </div>
     </section>
 
+    <section id="view-briefings" class="view">
+      <div class="grid">
+        <section class="panel full">
+          <div id="dailyBriefingSummary"></div>
+        </section>
+
+        <section class="panel full">
+          <div class="panelhead">
+            <div>
+              <span class="eyebrow">DAILY BRIEFING HISTORY</span>
+              <h2>Latest Intelligence Briefs</h2>
+            </div>
+            <span class="methodpill">LATEST 33</span>
+          </div>
+          <div id="dailyBriefingList"></div>
+        </section>
+
+        <section class="panel full">
+          <div id="dailyBriefingDetail"></div>
+        </section>
+
+        <section class="panel full">
+          <div id="dailyBriefingArchive"></div>
+        </section>
+      </div>
+    </section>
+
     <section id="view-feed" class="view">
       <section class="panel full">
         <div class="panelhead"><div><span class="eyebrow">SOURCE-LEVEL REPORTING</span><h2>Multilingual Intelligence Feed</h2></div><div class="filterbar"><button class="lang active" data-lang="all">ALL</button><button class="lang" data-lang="fr">FR</button><button class="lang" data-lang="ar">AR</button><button class="lang" data-lang="en">EN</button></div></div>
@@ -134,7 +163,7 @@
         <div id="opsSummary" class="ops-summary"></div>
         <div class="integrity-grid">
           <section class="integrity-card"><span class="eyebrow">PIPELINE HEALTH</span><div id="pipelineFunnel" class="pipeline-funnel"></div></section>
-          <section class="integrity-card"><span class="eyebrow">LANGUAGE COVERAGE</span><div id="languageCoverage" class="language-coverage"></div><div id="languageWarning" class="coverage-warning"></div></section>
+          <section class="integrity-card"><span class="eyebrow">LANGUAGE COVERAGE</span><div id="languageCoverage" class="coverage-warning"></div></section>
         </div>
         <section class="integrity-card quality-card"><div class="panelhead"><div><span class="eyebrow">RESEARCH DATA QUALITY</span><h2>30-Day Integrity</h2></div><span id="qualityStatus" class="methodpill">—</span></div><div id="qualityMetrics" class="quality-metrics"></div><div id="blindSpotWarning" class="coverage-warning"></div><div class="export-row"><a class="export-link" href="./data/events.csv" download>DOWNLOAD FUSED EVENTS CSV</a><a class="export-link" href="./data/events.json" download>JSON</a></div><p class="note">Completeness indicators describe fields present in Sahel Intel candidate events; they are not estimates of real-world reporting accuracy.</p></section>
         <div class="source-table-wrap"><table><thead><tr><th>Source</th><th>Lang</th><th>Type</th><th>Focus</th><th>Status</th><th>Access</th><th>Contribution</th><th>Last check</th><th>Discovered</th><th>Retained</th><th>Translations</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
@@ -142,7 +171,9 @@
       </section>
     </section>
   </main>
+
   <script src="./map-data.js"></script>
   <script src="./app.js"></script>
+  <script src="./briefings.js"></script>
 </body>
 </html>
