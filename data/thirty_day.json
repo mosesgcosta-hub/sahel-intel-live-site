@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T19:27:34.834665Z",
+  "generated_at": "2026-09-25T20:27:16.327869Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 122,
+  "reports": 123,
   "incident_reports": 21,
   "candidate_events": 20,
   "corroborated_events": 1,
@@ -29,7 +29,7 @@
   "by_language": {
     "fr": 88,
     "en": 27,
-    "ar": 7
+    "ar": 8
   },
   "by_confidence": {
     "moderate": 11,
@@ -69,6 +69,10 @@
       "count": 6
     },
     {
+      "source": "Sahara Medias (صحراء ميديا)",
+      "count": 4
+    },
+    {
       "source": "Sidwaya",
       "count": 4
     },
@@ -79,10 +83,6 @@
     {
       "source": "Wakat Sera",
       "count": 4
-    },
-    {
-      "source": "Associated Press Africa",
-      "count": 3
     }
   ],
   "top_locations": [
@@ -279,7 +279,7 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 6,
+      "reports": 7,
       "events": 0
     }
   ],
@@ -1632,7 +1632,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T19:27:09.812444Z",
+      "discovered_at": "2026-09-25T20:26:51.503956Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1642,6 +1642,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-25T19:30:02Z",
+      "discovered_at": "2026-09-25T20:26:52.553967Z",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali.. The army announces the targeting of sites containing hundreds of militants in Kidal",
+      "url": "https://saharamedias.net/265401/"
     },
     {
       "published_at": "2026-09-25T16:59:18Z",
@@ -2136,19 +2149,6 @@
       "candidate_event": false,
       "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
       "url": "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes"
-    },
-    {
-      "published_at": "2026-09-21T15:01:11Z",
-      "discovered_at": "2026-09-22T05:26:59.894852Z",
-      "source": "Courrier International",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Mali: after the jihadist attack in Dioura, the state “refuses to count its dead” - International Courier",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVZ3RlZHMjZaVDBta09kYjdMSnZGeHBMRnY1cklyWUNmeXFlNTd0czFpVm9URGx3QnlJd3NhR0tIRV9YeTJQeDMzRHY2UGdPLWh0WnhBR0k2b0VaWjYtMFAwRkZZdG9jSGNfSGJtbjBjZjFob3pQUE1zRGVqblUxZW9FODFtVGVmZ05ydlZBajV3Ry1zaVZmSk80aC1yM056VURKeTZQRlF4Sy11dkpNMTFhR0pqRmhkb014enhzb0EySWVjTGI0emd1Tjd2YmFtYzk4UUJn?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
