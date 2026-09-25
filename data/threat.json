@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:27:51.617378Z",
+  "generated_at": "2026-09-25T18:31:47.543384Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -13,15 +13,15 @@
       "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 8,
-      "events_30d": 15,
+      "events_7d": 9,
+      "events_30d": 16,
       "baseline_7d_equivalent": 2.1,
-      "tempo_ratio": 2.88,
+      "tempo_ratio": 3.19,
       "drivers": [
-        "8 fused candidate event(s) in 7 days",
+        "9 fused candidate event(s) in 7 days",
         "2 JNIM/IS Sahel-linked event(s)",
-        "6 significant/major event(s)",
-        "activity across 6 named locations",
+        "7 significant/major event(s)",
+        "activity across 7 named locations",
         "7-day tempo above recent country baseline"
       ],
       "independent_domains_7d": 5

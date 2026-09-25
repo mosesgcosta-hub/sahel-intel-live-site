@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:27:51.587577Z",
+  "generated_at": "2026-09-25T18:31:47.519847Z",
   "series": {
     "JNIM": [
       {
@@ -2148,7 +2148,7 @@
       },
       {
         "date": "2026-09-21",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2026-09-22",
@@ -2180,9 +2180,9 @@
       "change_pct": null
     },
     "State": {
-      "current": 5,
+      "current": 6,
       "previous": 3,
-      "change_pct": 66.7
+      "change_pct": 100.0
     }
   },
   "trends_30d": {
@@ -2197,7 +2197,7 @@
       "change_pct": null
     },
     "State": {
-      "current": 8,
+      "current": 9,
       "previous": 0,
       "change_pct": 100.0
     }

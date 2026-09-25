@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-09-25T17:27:51.587586Z",
+  "generated_at": "2026-09-25T18:31:47.519857Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 121,
-  "incident_reports": 20,
-  "candidate_events": 19,
+  "reports": 122,
+  "incident_reports": 21,
+  "candidate_events": 20,
   "corroborated_events": 1,
-  "mapped_events": 14,
-  "mapped_locations": 31,
+  "mapped_events": 15,
+  "mapped_locations": 32,
   "distinct_sources": 44,
   "by_actor": {
-    "State": 8,
+    "State": 9,
     "Other": 5,
     "Africa Corps/Wagner": 3,
     "JNIM": 3
   },
   "by_country": {
-    "Mali": 15,
+    "Mali": 16,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
     "security operation": 10,
     "attack": 7,
-    "clash": 1,
-    "offensive/campaign": 1
+    "offensive/campaign": 2,
+    "clash": 1
   },
   "by_language": {
-    "fr": 87,
+    "fr": 88,
     "en": 27,
     "ar": 7
   },
   "by_confidence": {
-    "moderate": 10,
+    "moderate": 11,
     "low": 9
   },
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 9
+      "count": 10
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -115,15 +115,15 @@
       "count": 3
     },
     {
+      "location": "Kidal",
+      "count": 2
+    },
+    {
       "location": "Tillabéri",
       "count": 2
     },
     {
       "location": "Dori",
-      "count": 1
-    },
-    {
-      "location": "Kidal",
       "count": 1
     },
     {
@@ -260,7 +260,7 @@
     {
       "date": "2026-09-21",
       "reports": 9,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-22",
@@ -279,7 +279,7 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -465,6 +465,69 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
+      ]
+    },
+    {
+      "id": "e863cb3a205c20effe288703690bf71e03349807",
+      "event_date": "2026-09-21",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-25T16:59:18Z",
+      "collected_at": "2026-09-25T18:31:08.581066Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Offensive in Dandougou and Kidal: FAMa pound terrorist hideouts and destroy important war materials",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko On Monday, September 21, 2026, the exploitation of precise intelligence made it possible to locate, east of the city of Kidal, two areas of withdrawa",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/offensive-a-dandougou-et-kidal-les-fama-pilonnent-des-repaires-terroristes-et-detruisent-dimportants-materiels-de-guerre"
+      ],
+      "created_at": "2026-09-25T18:31:08.581066Z",
+      "updated_at": "2026-09-25T18:31:08.581066Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-25T18:31:08.581066Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
       ]
     },
     {
@@ -1569,7 +1632,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T17:27:14.796639Z",
+      "discovered_at": "2026-09-25T18:31:08.539020Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1579,6 +1642,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-25T16:59:18Z",
+      "discovered_at": "2026-09-25T18:31:08.581066Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Offensive in Dandougou and Kidal: FAMa pound terrorist hideouts and destroy important war materials",
+      "url": "https://bamada.net/offensive-a-dandougou-et-kidal-les-fama-pilonnent-des-repaires-terroristes-et-detruisent-dimportants-materiels-de-guerre"
     },
     {
       "published_at": "2026-09-25T16:48:55Z",
@@ -2073,19 +2149,6 @@
       "candidate_event": false,
       "title": "Mali: after the jihadist attack in Dioura, the state “refuses to count its dead” - International Courier",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVZ3RlZHMjZaVDBta09kYjdMSnZGeHBMRnY1cklyWUNmeXFlNTd0czFpVm9URGx3QnlJd3NhR0tIRV9YeTJQeDMzRHY2UGdPLWh0WnhBR0k2b0VaWjYtMFAwRkZZdG9jSGNfSGJtbjBjZjFob3pQUE1zRGVqblUxZW9FODFtVGVmZ05ydlZBajV3Ry1zaVZmSk80aC1yM056VURKeTZQRlF4Sy11dkpNMTFhR0pqRmhkb014enhzb0EySWVjTGI0emd1Tjd2YmFtYzk4UUJn?oc=5"
-    },
-    {
-      "published_at": "2026-09-21T14:14:20Z",
-      "discovered_at": "2026-09-21T14:28:13.387443Z",
-      "source": "African Arguments",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "There’s No Conspiracy in the Sahel — There’s a Gap, and Bamako Knows How to Use It",
-      "url": "https://africanarguments.org/2026/09/theres-no-conspiracy-in-the-sahel-theres-a-gap-and-bamako-knows-how-to-use-it/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
