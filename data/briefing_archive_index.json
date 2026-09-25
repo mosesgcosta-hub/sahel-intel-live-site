@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-25T01:05:35.624991Z",
+  "generated_at": "2026-09-25T01:19:55.860260Z",
   "archive_location": "private repository state/daily_briefing_archive",
-  "archived_count": 122,
+  "archived_count": 128,
   "briefings": [
     {
       "reporting_date": "2026-07-22",
@@ -62,6 +62,14 @@
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-07-09. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
+      "reporting_date": "2026-07-08",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
       "reporting_date": "2026-07-04",
       "events": 0,
       "reports_collected": 0,
@@ -84,6 +92,14 @@
       "multi_source_events": 0,
       "collection_confidence": "LOW",
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-25. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
+      "reporting_date": "2026-06-24",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-06-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
       "reporting_date": "2026-06-21",
@@ -182,6 +198,14 @@
       "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-04-30. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
+      "reporting_date": "2026-04-29",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-04-29. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
       "reporting_date": "2026-04-28",
       "events": 1,
       "reports_collected": 0,
@@ -260,6 +284,14 @@
       "multi_source_events": 0,
       "collection_confidence": "LOW",
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-01-08. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
+      "reporting_date": "2026-01-07",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-01-07. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
       "reporting_date": "2025-12-22",
@@ -542,6 +574,14 @@
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-15. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
+      "reporting_date": "2024-04-14",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2024-04-14. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
       "reporting_date": "2024-03-25",
       "events": 0,
       "reports_collected": 0,
@@ -612,6 +652,14 @@
       "multi_source_events": 0,
       "collection_confidence": "LOW",
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-28. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
+      "reporting_date": "2023-09-27",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2023-09-27. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
       "reporting_date": "2023-09-23",

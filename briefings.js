@@ -11,6 +11,15 @@
   let selectedDate = null;
   let selectedCountry = 'All';
   let selectedActor = 'All';
+  let lastDeskDate = deskToday();
+
+  function deskToday() {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(new Date());
+    const value = Object.fromEntries(parts.map(p => [p.type, p.value]));
+    return `${value.year}-${value.month}-${value.day}`;
+  }
 
   const esc = (value) => String(value ?? '')
     .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
@@ -30,7 +39,7 @@
     if (Number.isNaN(d.getTime())) return esc(value);
     return new Intl.DateTimeFormat('en-US', {
       year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit',
-      hour12: false, timeZone: 'UTC', timeZoneName: 'short'
+      hour12: false, timeZone: 'America/New_York', timeZoneName: 'short'
     }).format(d);
   }
 
@@ -47,7 +56,7 @@
 
   function briefings() { return bundle?.briefings || []; }
   function selectedBrief() {
-    return briefings().find(b => b.reporting_date === selectedDate) || briefings()[0] || null;
+    return briefings().find(b => b.reporting_date === selectedDate) || null;
   }
 
   function renderSummary() {
@@ -55,7 +64,7 @@
     if (!host) return;
     const b = selectedBrief();
     if (!b) {
-      host.innerHTML = '<div class="db-empty">Daily briefing data has not been generated yet.</div>';
+      host.innerHTML = `<div class="db-empty">The ${esc(dayLabel(selectedDate || deskToday()))} briefing is being prepared. It will appear after the next collection run.</div>`;
       return;
     }
     const m = b.headline_metrics || {};
@@ -64,12 +73,13 @@
         <div>
           <div class="eyebrow">DAILY INTELLIGENCE BRIEF • OPEN SOURCE</div>
           <h2>${esc(dayLabel(b.reporting_date))}</h2>
-          <p>Coverage: Mali • Burkina Faso • Niger • Reporting date: UTC</p>
+          <p>Coverage: Mali • Burkina Faso • Niger • Daily cycle: midnight to midnight, Washington, DC time (EST/EDT)</p>
         </div>
         <div class="db-health ${confidenceClass(b.collection_confidence)}">
           <span>COLLECTION CONFIDENCE</span><strong>${esc(b.collection_confidence || 'UNKNOWN')}</strong>
         </div>
       </div>
+      <section class="db-section"><h3>${b.reporting_date === deskToday() ? "Today's Brief" : 'Archived Brief'}</h3><p class="db-lead">${esc(b.executive_assessment || 'No assessment has been generated for this date yet.')}</p></section>
       <div class="db-metric-grid">
         ${metric('Events occurring', m.events_occurring_on_date ?? 0, 'event date = briefing date')}
         ${metric('Reports collected', m.reports_collected_on_date ?? 0, 'ingested that date')}
@@ -90,7 +100,7 @@
     }
     host.innerHTML = bs.map(b => {
       const m = b.headline_metrics || {};
-      const active = b.reporting_date === (selectedDate || bs[0].reporting_date) ? ' active' : '';
+      const active = b.reporting_date === selectedDate ? ' active' : '';
       return `<button class="db-history-card${active}" data-db-date="${esc(b.reporting_date)}">
         <div class="db-history-top"><strong>${esc(dayLabel(b.reporting_date))}</strong><span class="db-pill ${confidenceClass(b.collection_confidence)}">${esc(b.collection_confidence || 'UNKNOWN')}</span></div>
         <div class="db-history-stats"><span>${esc(m.events_occurring_on_date ?? 0)} events</span><span>${esc(m.reports_collected_on_date ?? 0)} reports</span><span>${esc(m.multi_source_events ?? 0)} corroborated</span></div>
@@ -160,13 +170,12 @@
     const events = (b.significant_events || []).filter(eventMatches);
     host.innerHTML = `
       <div class="db-detail-toolbar">
-        <div><span class="eyebrow">SULTANA DAILY • ${esc(b.reporting_date)}</span><h3>Analytic Record</h3></div>
+        <div><span class="eyebrow">DAILY BRIEFING • WASHINGTON, DC • ${esc(b.reporting_date)}</span><h3>${b.reporting_date === deskToday() ? "Today's Analytic Brief" : 'Archived Analytic Brief'}</h3></div>
         <div class="db-toolbar-actions">
           <button class="db-action" id="dbReadBrief">▶ READ DAILY BRIEF</button>
           <button class="db-action" id="dbStopBrief">■ STOP</button>
         </div>
       </div>
-      <section class="db-section"><h3>Executive Assessment</h3><p class="db-lead">${esc(b.executive_assessment || '')}</p></section>
       <section class="db-section"><h3>Key Judgments</h3>${judgmentList(b.key_judgments)}</section>
       <section class="db-section">
         <div class="db-section-head"><h3>Significant Events</h3><span>${events.length} shown</span></div>
@@ -194,11 +203,11 @@
         </div>
         ${judgmentList(notes.collection_confidence_reasons)}
       </section>
-      <section class="db-section db-sultana-script"><h3>Sultana Daily Script</h3><pre>${esc(b.sultana_daily_text || '')}</pre></section>`;
+      `;
 
     host.querySelectorAll('[data-db-country]').forEach(btn => btn.addEventListener('click', () => { selectedCountry = btn.dataset.dbCountry; renderDetail(); }));
     host.querySelectorAll('[data-db-actor]').forEach(btn => btn.addEventListener('click', () => { selectedActor = btn.dataset.dbActor; renderDetail(); }));
-    $('dbReadBrief')?.addEventListener('click', () => speak(b.sultana_daily_text || b.executive_assessment || ''));
+    $('dbReadBrief')?.addEventListener('click', () => speak([b.executive_assessment, ...(b.key_judgments || [])].filter(Boolean).join(' ')));
     $('dbStopBrief')?.addEventListener('click', stopSpeech);
   }
 
@@ -227,18 +236,20 @@
   function stopSpeech() { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
 
   function renderAll() {
-    if (!selectedDate && briefings().length) selectedDate = briefings()[0].reporting_date;
+    if (!selectedDate) selectedDate = deskToday();
     renderSummary(); renderList(); renderDetail(); renderArchive();
   }
 
   async function load() {
     try {
+      const today = deskToday();
+      if (today !== lastDeskDate) { lastDeskDate = today; selectedDate = today; }
       const [b, a] = await Promise.all([
         fetch(DATA_URL, {cache:'no-store'}).then(r => r.ok ? r.json() : Promise.reject(new Error(`daily briefings ${r.status}`))),
         fetch(ARCHIVE_URL, {cache:'no-store'}).then(r => r.ok ? r.json() : {briefings:[]}).catch(()=>({briefings:[]}))
       ]);
       bundle = b; archiveIndex = a;
-      if (selectedDate && !briefings().some(x => x.reporting_date === selectedDate)) selectedDate = null;
+      if (selectedDate && selectedDate !== today && !briefings().some(x => x.reporting_date === selectedDate)) selectedDate = today;
       renderAll();
     } catch (err) {
       const host = $('dailyBriefingSummary');
