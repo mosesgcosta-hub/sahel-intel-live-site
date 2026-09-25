@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "reporting_date": "2026-09-24",
-  "generated_at": "2026-09-24T23:27:17.085625Z",
+  "reporting_date": "2026-09-25",
+  "generated_at": "2026-09-25T00:29:54.249705Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -11,57 +11,21 @@
   "classification": "OPEN SOURCE",
   "collection_confidence": "HIGH",
   "headline_metrics": {
-    "events_occurring_on_date": 1,
+    "events_occurring_on_date": 0,
     "multi_source_events": 0,
-    "reports_collected_on_date": 21,
-    "reports_published_on_date": 4,
-    "newly_discovered_older_events": 2,
+    "reports_collected_on_date": 3,
+    "reports_published_on_date": 0,
+    "newly_discovered_older_events": 0,
     "events_awaiting_date_verification": 0,
-    "distinct_sources_collected": 15
+    "distinct_sources_collected": 3
   },
-  "executive_assessment": "Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 21 reports on that reporting date from 15 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.",
+  "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-09-25. The collector retained 3 reports on that reporting date from 3 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.",
   "key_judgments": [
-    "Burkina Faso contains the largest same-day event count (1 event(s)).",
-    "1 same-day event(s) remain single-source and should be treated as provisional."
+    "No fused candidate event currently has 2026-09-25 as its event date; collection confidence for that date is high."
   ],
-  "significant_events": [
-    {
-      "id": "1a000f1627ed4678b4d5a3a06ca6d6dc1a16b7c8",
-      "title": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall",
-      "summary": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall Abandoned sites, billions promised never arrived... In Burkina Faso, projects to restore degraded lands have stalled. The jihadist violence and the vagueness surrounding donor funding promises got the better of one of Africa's most ambitious ecological projects . Published today at 18:00, modified at 18:52 Reading: 6 minutes. From the sma",
-      "actor": "Other",
-      "event_type": "security operation",
-      "country": "Burkina Faso",
-      "city": "Dori",
-      "event_date": "2026-09-24",
-      "event_date_confidence": "explicit-text",
-      "publication_time": "2026-09-24T18:00:36Z",
-      "collection_time": "2026-09-24T17:28:03.775866Z",
-      "verification_date": null,
-      "verification_basis": "not independently corroborated",
-      "last_evidence_update": "2026-09-24T17:28:03.775866Z",
-      "confidence": "low",
-      "corroboration": "single-source",
-      "significance": "SIGNIFICANT",
-      "source_count": 1,
-      "independent_source_count": 1,
-      "sources": [
-        "Jeune Afrique"
-      ],
-      "independent_source_domains": [
-        "jeuneafrique.com"
-      ],
-      "report_urls": [
-        "https://www.jeuneafrique.com/1845416/societe/reportage-au-burkina-faso-quand-la-violence-jihadiste-detruit-la-grande-muraille-verte/"
-      ],
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null
-    }
-  ],
+  "significant_events": [],
   "what_changed_since_yesterday": [
-    "Collection volume: +6 retained report(s) versus 2026-09-23 (15 → 21).",
+    "Collection volume: -17 retained report(s) versus 2026-09-24 (20 → 3).",
     "Actor-level same-day fused event counts are unchanged from the previous date."
   ],
   "emerging_patterns": [
@@ -69,8 +33,7 @@
     "State 7-day activity is higher than the preceding 7-day window (3 → 5)."
   ],
   "intelligence_gaps": [
-    "1 same-day event(s) lack independent multi-source corroboration.",
-    "1 same-day event(s) carry low extraction/analytic confidence."
+    "No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review."
   ],
   "actor_counts": {
     "JNIM": 0,
@@ -79,13 +42,13 @@
   },
   "country_counts": {
     "Mali": 0,
-    "Burkina Faso": 1,
+    "Burkina Faso": 0,
     "Niger": 0
   },
   "country_reporting_counts": {
-    "Mali": 10,
-    "Burkina Faso": 5,
-    "Niger": 6
+    "Mali": 2,
+    "Burkina Faso": 0,
+    "Niger": 1
   },
   "actor_profiles": {
     "JNIM": {
@@ -116,7 +79,7 @@
   "country_profiles": {
     "Mali": {
       "events": 0,
-      "reports_collected": 10,
+      "reports_collected": 2,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
@@ -126,30 +89,25 @@
       "top_event_types": []
     },
     "Burkina Faso": {
-      "events": 1,
-      "reports_collected": 5,
+      "events": 0,
+      "reports_collected": 0,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
         "State": 0
       },
-      "delta_events_vs_previous_day": 1,
-      "top_event_types": [
-        [
-          "security operation",
-          1
-        ]
-      ]
+      "delta_events_vs_previous_day": -1,
+      "top_event_types": []
     },
     "Niger": {
       "events": 0,
-      "reports_collected": 6,
+      "reports_collected": 1,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
         "State": 0
       },
-      "delta_events_vs_previous_day": -2,
+      "delta_events_vs_previous_day": 0,
       "top_event_types": []
     }
   },
@@ -157,26 +115,25 @@
     "sources_total": 172,
     "sources_success": 172,
     "sources_failed": 0,
-    "sources_degraded": 43,
-    "documents_discovered": 6833,
-    "documents_retained": 2,
+    "sources_degraded": 41,
+    "documents_discovered": 6913,
+    "documents_retained": 3,
     "report_target": 100,
-    "translations_attempted": 2,
-    "translations_success": 2,
+    "translations_attempted": 1,
+    "translations_success": 1,
     "translation_failures": 0,
     "collection_confidence": "HIGH",
     "collection_confidence_reasons": [
       "172/172 source paths reached",
-      "43 degraded / 0 failed of 172 configured sources"
+      "41 degraded / 0 failed of 172 configured sources"
     ],
-    "reports_collected": 21,
-    "reports_published": 4,
-    "distinct_sources_collected": 15,
+    "reports_collected": 3,
+    "reports_published": 0,
+    "distinct_sources_collected": 3,
     "language_counts": {
-      "fr": 14,
-      "en": 5,
-      "ar": 2
+      "fr": 1,
+      "en": 2
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Sahel Intel records 1 fused candidate event with an event date of 2026-09-24. The collector retained 21 reports on that reporting date from 15 distinct sources. 2 event records discovered that day referred to earlier event dates and are not counted as same-day incidents.\n\nActor picture: JNIM 0, IS Sahel 0, State 0.\n\nWhat changed: Collection volume: +6 retained report(s) versus 2026-09-23 (15 → 21). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 same-day event(s) carry low extraction/analytic confidence.\n\nCollection confidence: HIGH. 172/172 source paths reached 43 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-25: Sahel Intel records 0 fused candidate events with an event date of 2026-09-25. The collector retained 3 reports on that reporting date from 3 distinct sources. A zero same-day event count therefore does not mean zero collection or zero security reporting; it means no fused event currently carries this event date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -17 retained report(s) versus 2026-09-24 (20 → 3). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review.\n\nCollection confidence: HIGH. 172/172 source paths reached 41 degraded / 0 failed of 172 configured sources\n\nNothing further to report at this time."
 }

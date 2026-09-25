@@ -1,10 +1,18 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-09-24T23:27:17.148941Z",
+  "generated_at": "2026-09-25T00:29:54.307701Z",
   "archive_location": "private repository state/daily_briefing_archive",
-  "archived_count": 119,
+  "archived_count": 122,
   "briefings": [
+    {
+      "reporting_date": "2026-07-22",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2026-07-22. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
     {
       "reporting_date": "2026-07-18",
       "events": 1,
@@ -726,6 +734,14 @@
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-05-04. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
+      "reporting_date": "2022-03-24",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2022-03-24. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
       "reporting_date": "2022-01-26",
       "events": 0,
       "reports_collected": 0,
@@ -812,6 +828,14 @@
       "multi_source_events": 0,
       "collection_confidence": "LOW",
       "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-02-21. The collector retained 0 reports on that reporting date from 0 distinct sources."
+    },
+    {
+      "reporting_date": "2020-01-10",
+      "events": 0,
+      "reports_collected": 0,
+      "multi_source_events": 0,
+      "collection_confidence": "LOW",
+      "executive_assessment": "Sahel Intel records 0 fused candidate events with an event date of 2020-01-10. The collector retained 0 reports on that reporting date from 0 distinct sources."
     },
     {
       "reporting_date": "2020-01-09",
