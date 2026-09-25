@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T15:29:29.194349Z",
+  "generated_at": "2026-09-25T16:31:25.397679Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 118,
+  "reports": 119,
   "incident_reports": 20,
   "candidate_events": 19,
   "corroborated_events": 1,
@@ -28,7 +28,7 @@
   },
   "by_language": {
     "fr": 85,
-    "en": 26,
+    "en": 27,
     "ar": 7
   },
   "by_confidence": {
@@ -274,7 +274,7 @@
     },
     {
       "date": "2026-09-24",
-      "reports": 5,
+      "reports": 6,
       "events": 1
     },
     {
@@ -1569,7 +1569,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T15:29:06.876048Z",
+      "discovered_at": "2026-09-25T16:30:59.520310Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1605,6 +1605,19 @@
       "candidate_event": false,
       "title": "Floods in Mali: 13 dead, 12,405 affected and a call for vigilance",
       "url": "https://malijet.com/a_la_une_du_mali/312013-inondations-au-mali-13-morts-12-405-sinistres-et-un-appel.html"
+    },
+    {
+      "published_at": "2026-09-24T23:02:53Z",
+      "discovered_at": "2026-09-25T16:30:58.333134Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "offensive/campaign",
+      "candidate_event": false,
+      "title": "Ethiopian Rebels Launch Major Offensive; China Expands Djibouti Base; Deadly Jnim Attacks In Central Mali: Africa File, September 24, 2026 - Critical Threats",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGJkS3dVRlRKM1JKNG1ZenAtWGEwVXhtRXRnc3pPVWZJalB2RmsxTDVXVno5OWtkVlZvcC01ekxUVWJRbEdlWGJjbkNDaEJWNUNlT1JCcGlzV09XVnlwUDlwZUhBWU4yRUV6RjdLU21IUk9YU2l4WW1aVjdWTWQ1Y21wX29Vc0ZFUjhNdnQ0WExwSlQ2eEJHQlB2RU1EVVQtLTVDRUdVcmlHX0NTNjN1QjJDbFNUU3cxUmRBd2t0VWgwdw?oc=5"
     },
     {
       "published_at": "2026-09-24T18:00:36Z",
@@ -2073,19 +2086,6 @@
       "candidate_event": true,
       "title": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura",
       "url": "https://malijet.com/flash-info/311945-securite-un-drone-ukrainien-abattu-par-les-forces-speciale.html"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-21T03:56:10.705556Z",
-      "source": "Critical Threats Project - Africa File",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Fall of Kidal—What JNIM’s Latest Offensive Means for Mali’s Future",
-      "url": "https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

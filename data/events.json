@@ -2320,6 +2320,69 @@
     ]
   },
   {
+    "id": "5ef23562a97157db55f18e5fd118b0be20952111",
+    "event_date": "2024-09-19",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "analytical-child-claim",
+    "published_at": "2024-09-18T07:00:00Z",
+    "collected_at": "2026-09-25T16:30:58.338478Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": "ad657cf9619d246f08f02202cd0f1df8672bebb5",
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Africa File, September 19, 2024: JNIM Strikes Bamako",
+    "summary": "Africa File, September 19, 2024: JNIM Strikes Bamako",
+    "sources": [
+      "Critical Threats Project - Africa File"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaGVOblNOUnRLcjdKZEhkay1XcTZlbVNTZ3JYOXhEbERaS3hvT3M5ZGFoVV9CN2ZpREM4eDQ3QVdGbXRySVFZTnpLd3NveDd1UmlzS0JhWmJ2VnhDTFNmNFJfZVgyVGp6THlxdVJXM3puV2pmNlNiMzhTZGZnV0xsYnRyb3ZIMnU5alBFeVhNdm5uYUxUZlVwTk1WSnBORmZySmZMV2h3b0Qzb21WVGtoRkVfS1pKR0k4X1hSYVJ4Smg1SGFxaTJtZ0Joa01LdTZCamNXcVA5bkM2UVU0?oc=5"
+    ],
+    "created_at": "2026-09-25T16:30:58.338478Z",
+    "updated_at": "2026-09-25T16:30:58.338478Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-25T16:30:58.338478Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "144a8b29f1b51afbe0a7092f1f7dce81382c66af",
     "event_date": "2024-09-17",
     "event_date_confidence": "explicit-text",
