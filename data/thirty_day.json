@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T13:30:09.512394Z",
+  "generated_at": "2026-09-25T14:30:31.728150Z",
   "window_days": 30,
   "cutoff": "2026-08-26",
-  "reports": 117,
+  "reports": 118,
   "incident_reports": 20,
   "candidate_events": 19,
   "corroborated_events": 1,
@@ -27,7 +27,7 @@
     "offensive/campaign": 1
   },
   "by_language": {
-    "fr": 84,
+    "fr": 85,
     "en": 26,
     "ar": 7
   },
@@ -57,16 +57,16 @@
       "count": 6
     },
     {
+      "source": "Agence Nigérienne de Presse",
+      "count": 6
+    },
+    {
       "source": "Jeune Afrique",
       "count": 6
     },
     {
       "source": "LeFaso.net",
       "count": 6
-    },
-    {
-      "source": "Agence Nigérienne de Presse",
-      "count": 5
     },
     {
       "source": "Sidwaya",
@@ -279,7 +279,7 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -1569,7 +1569,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T13:29:44.834866Z",
+      "discovered_at": "2026-09-25T14:29:57.223032Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1579,6 +1579,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-25T14:19:24Z",
+      "discovered_at": "2026-09-25T14:29:58.730387Z",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Maradi",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Change of command at Maradi Defense Zone No.6",
+      "url": "https://anp.ne/passation-de-commandement-au-niveau-de-la-zone-de-defense-n6-de-maradi/"
     },
     {
       "published_at": "2026-09-25T01:19:25Z",
@@ -2073,19 +2086,6 @@
       "candidate_event": false,
       "title": "Fall of Kidal—What JNIM’s Latest Offensive Means for Mali’s Future",
       "url": "https://www.criticalthreats.org/analysis/fall-of-northern-mali-jnim-fla-offensive-russia-issp-camara"
-    },
-    {
-      "published_at": "2026-09-20T22:57:45Z",
-      "discovered_at": "2026-09-20T23:23:58.808426Z",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "VDP training centre: 12 waterfront villages reaffirm their support for the RPP",
-      "url": "https://www.sidwaya.info/centre-de-formation-des-vdp-12-villages-riverains-reaffirment-leur-soutien-a-la-rpp/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
