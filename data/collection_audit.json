@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T13:26:19.758820Z",
-  "run_id": "0ab3401f99333fdf3967d8ba1ec6d459775949d4",
-  "started_at": "2026-09-26T13:22:57.000020Z",
-  "finished_at": "2026-09-26T13:26:18.883865Z",
+  "generated_at": "2026-09-26T14:26:55.393658Z",
+  "run_id": "e3dbfd6f04070c3b61ad168ea5b188d1e1738cd5",
+  "started_at": "2026-09-26T14:23:49.697747Z",
+  "finished_at": "2026-09-26T14:26:54.545835Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 172,
-    "links_discovered": 6804,
-    "current_cycle_retained": 2,
-    "current_cycle_rejected_or_error": 5,
+    "links_discovered": 6806,
+    "current_cycle_retained": 3,
+    "current_cycle_rejected_or_error": 6,
     "translations_attempted": 1,
     "translations_succeeded": 1,
     "translations_failed": 0
@@ -17,8 +17,8 @@
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 397,
-      "included": 0,
+      "discovered": 425,
+      "included": 1,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -50,9 +50,9 @@
     },
     "Regional": {
       "sources": 148,
-      "discovered": 5927,
+      "discovered": 5901,
       "included": 0,
-      "excluded": 5,
+      "excluded": 6,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -62,6 +62,20 @@
   },
   "decisions": [
     {
+      "pipeline": "Mali",
+      "decision": "INCLUDED",
+      "source": "DW Africa (EN)",
+      "source_id": "dw-africa-en",
+      "language": "en",
+      "collection_method": "google-news-domain",
+      "stage": "indexed_fallback",
+      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
+      "title": "Mali: Dozens killed and missing in attack on army - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaDRWb21iaTFJRFl5cm9POWg0RUFqbjBZOHlWbWVHYmZwU0Ztb3dPOGEtVEZJSEVrMmtPVjI5X05ISVUxRmlyOGktQ3UwWHdDYlpUekhIZWJtVzBFVkpBdVJrT2JRNWZJdzVBMlR5X19LQnZ0TFUxT2RVRW5ibGs0VHNUaEJMamxvRFFhbHNJcFk?oc=5",
+      "collected_at": "2026-09-26T14:26:27.549687Z",
+      "score": 11
+    },
+    {
       "pipeline": "Regional",
       "decision": "EXCLUDED",
       "source": "HumAngle",
@@ -70,9 +84,9 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - humanglemedia.com",
+      "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-26T13:25:53.457456Z",
+      "collected_at": "2026-09-26T14:26:27.557056Z",
       "score": null
     },
     {
@@ -84,9 +98,23 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - humanglemedia.com",
+      "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-26T13:25:53.463203Z",
+      "collected_at": "2026-09-26T14:26:27.562376Z",
+      "score": null
+    },
+    {
+      "pipeline": "Regional",
+      "decision": "EXCLUDED",
+      "source": "Hafryat (حفريات)",
+      "source_id": "dir-274-hafryat",
+      "language": "ar",
+      "collection_method": "google-news-domain",
+      "stage": "indexed_fallback",
+      "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
+      "title": "الساحل الأفريقي وصعود جماعة نُصرة الإسلام والمسلمين - حفريات",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPamZhajNhMUpyeHBESjdQbWZydXl6ak83NmxrRU4weEZVa2pmZkVlX040bXN0VElBcVVqWjA0TzJUSF9vU2VEdnV1anF5TGJVOS1xLV9YYmE3c2pGLU9GZWpkRklJUlB6U3ppdWl1bUVGSzBwUy1YR2JTQi04RzRUeXNQV2RuYndQNDRzanVwS3ZhY2szYnJTSFpRN0Rib0VIMmNZb1NZZ1dUbHMxN1dqYzk3bm5yNmJXTDd2V3NxSEpYR0hVT042RHIwaUI0YVd5bjBuallKV21wd01fWlJzajRCZVlDcTJ6WkRTNGg2Y3NyWjd5dW1Xb1JKWGhRLUliZHRNcGlWQmZsQmxCd0FwRzE5ZmNBZzRFVjVDcnJOazZVLXJRd09XeURReUR4NnhlSW80NzRfaWVvS1RPQ01vVHJjQkhhSFZsTnFKbFExdDMyU2lLRU1PLV9CanRvaTlNdXR1RWtzZkEzQngwS3NuLWpGd2tpUlE3ejM0cFdKdW03YXJmY2xJRVU5NHFnUEVVTWh0Vk1paWtaWThZb0NLYldrMVRuZU5MS0xydGxueVZ0Zw?oc=5",
+      "collected_at": "2026-09-26T14:26:27.567335Z",
       "score": null
     },
     {
@@ -100,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-26T13:25:53.468561Z",
+      "collected_at": "2026-09-26T14:26:27.572592Z",
       "score": null
     },
     {
@@ -114,7 +142,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-26T13:25:53.475190Z",
+      "collected_at": "2026-09-26T14:26:27.579031Z",
       "score": null
     },
     {
@@ -128,7 +156,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-26T13:25:53.479633Z",
+      "collected_at": "2026-09-26T14:26:27.583355Z",
       "score": null
     },
     {
@@ -142,7 +170,7 @@
       "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
       "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-26T13:25:53.805877Z",
+      "collected_at": "2026-09-26T14:26:27.955096Z",
       "score": 13
     },
     {
@@ -156,7 +184,7 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-26T13:25:55.039829Z",
+      "collected_at": "2026-09-26T14:26:28.835844Z",
       "score": 14
     }
   ],
