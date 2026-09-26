@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-09-25T23:27:24.960649Z",
+  "generated_at": "2026-09-26T00:33:31.603019Z",
   "series": {
     "JNIM": [
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
       {
         "date": "2026-03-31",
         "count": 0
@@ -721,13 +717,13 @@
       {
         "date": "2026-09-25",
         "count": 1
+      },
+      {
+        "date": "2026-09-26",
+        "count": 0
       }
     ],
     "IS Sahel": [
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
       {
         "date": "2026-03-31",
         "count": 0
@@ -1442,15 +1438,15 @@
       },
       {
         "date": "2026-09-25",
+        "count": 0
+      },
+      {
+        "date": "2026-09-26",
         "count": 0
       }
     ],
     "State": [
       {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
         "date": "2026-03-31",
         "count": 0
       },
@@ -2164,14 +2160,18 @@
       },
       {
         "date": "2026-09-25",
+        "count": 0
+      },
+      {
+        "date": "2026-09-26",
         "count": 0
       }
     ]
   },
   "trends_7d": {
     "JNIM": {
-      "current": 3,
-      "previous": 0,
+      "current": 2,
+      "previous": 1,
       "change_pct": 100.0
     },
     "IS Sahel": {
@@ -2180,9 +2180,9 @@
       "change_pct": null
     },
     "State": {
-      "current": 6,
-      "previous": 3,
-      "change_pct": 100.0
+      "current": 3,
+      "previous": 6,
+      "change_pct": -50.0
     }
   },
   "trends_30d": {

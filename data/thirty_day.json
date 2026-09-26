@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T23:27:24.960657Z",
+  "generated_at": "2026-09-26T00:33:31.603028Z",
   "window_days": 30,
-  "cutoff": "2026-08-26",
+  "cutoff": "2026-08-27",
   "reports": 126,
   "incident_reports": 22,
   "candidate_events": 21,
@@ -136,11 +136,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-08-27",
-      "reports": 0,
-      "events": 0
-    },
     {
       "date": "2026-08-28",
       "reports": 0,
@@ -283,8 +278,13 @@
     },
     {
       "date": "2026-09-25",
-      "reports": 9,
+      "reports": 8,
       "events": 1
+    },
+    {
+      "date": "2026-09-26",
+      "reports": 1,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -1728,7 +1728,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-25T23:26:56.952483Z",
+      "discovered_at": "2026-09-26T00:33:13.029161Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1736,7 +1736,7 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aniamey.com/h/123258.html"
     },
     {

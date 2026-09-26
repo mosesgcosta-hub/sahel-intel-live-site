@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T23:27:25.939178Z",
-  "run_id": "0b560cf43c649cc644839861a19322e81cd891bb",
+  "generated_at": "2026-09-26T00:33:32.452764Z",
+  "run_id": "819ad1cfa081f7c784d4c2bbd489e4cd51a032a5",
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 427,
-      "included": 2,
+      "discovered": 425,
+      "included": 0,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -27,7 +27,7 @@
     },
     "Niger": {
       "sources": 7,
-      "discovered": 247,
+      "discovered": 248,
       "included": 2,
       "excluded": 0,
       "errors": 0,
