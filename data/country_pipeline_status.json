@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T14:26:55.393658Z",
-  "run_id": "e3dbfd6f04070c3b61ad168ea5b188d1e1738cd5",
+  "generated_at": "2026-09-26T15:27:07.978618Z",
+  "run_id": "cb9b001c659782a4713673cbe33e237cb78ef91e",
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 425,
-      "included": 1,
+      "discovered": 422,
+      "included": 0,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -37,8 +37,8 @@
       "note": "Niger lane; 8 priority query terms configured"
     },
     "Regional": {
-      "sources": 148,
-      "discovered": 5901,
+      "sources": 149,
+      "discovered": 5961,
       "included": 0,
       "excluded": 6,
       "errors": 0,
