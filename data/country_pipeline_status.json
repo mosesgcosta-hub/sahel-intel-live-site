@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T02:27:46.523210Z",
-  "run_id": "25f509b364cf15cb7fda479baf20ad0a3463b025",
+  "generated_at": "2026-09-26T03:26:44.602547Z",
+  "run_id": "80647b64c54c229676f26171a1340b6b6e859abe",
   "pipelines": {
     "Mali": {
       "sources": 11,
@@ -16,7 +16,7 @@
     },
     "Burkina Faso": {
       "sources": 6,
-      "discovered": 261,
+      "discovered": 233,
       "included": 0,
       "excluded": 0,
       "errors": 0,
@@ -38,7 +38,7 @@
     },
     "Regional": {
       "sources": 148,
-      "discovered": 5871,
+      "discovered": 5765,
       "included": 0,
       "excluded": 6,
       "errors": 0,
