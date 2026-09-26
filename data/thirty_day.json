@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-26T11:25:58.088107Z",
+  "generated_at": "2026-09-26T12:30:47.755641Z",
   "window_days": 30,
   "cutoff": "2026-08-27",
-  "reports": 126,
-  "incident_reports": 21,
-  "candidate_events": 20,
+  "reports": 127,
+  "incident_reports": 22,
+  "candidate_events": 21,
   "corroborated_events": 1,
-  "mapped_events": 15,
-  "mapped_locations": 34,
-  "distinct_sources": 45,
+  "mapped_events": 16,
+  "mapped_locations": 39,
+  "distinct_sources": 46,
   "by_actor": {
     "State": 8,
+    "JNIM": 5,
     "Other": 5,
-    "JNIM": 4,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 16,
+    "Mali": 17,
     "Niger": 3,
     "Burkina Faso": 1
   },
@@ -24,15 +24,16 @@
     "security operation": 9,
     "attack": 8,
     "offensive/campaign": 2,
+    "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 90,
+    "fr": 91,
     "en": 28,
     "ar": 8
   },
   "by_confidence": {
-    "low": 10,
+    "low": 11,
     "moderate": 10
   },
   "top_sources": [
@@ -88,27 +89,27 @@
   "top_locations": [
     {
       "location": "Dioura",
-      "count": 6
+      "count": 7
     },
     {
       "location": "Sévaré",
-      "count": 6
+      "count": 7
     },
     {
       "location": "Bamako",
-      "count": 5
+      "count": 6
+    },
+    {
+      "location": "Mopti",
+      "count": 6
     },
     {
       "location": "Mali",
       "count": 5
     },
     {
-      "location": "Mopti",
-      "count": 5
-    },
-    {
       "location": "Kidal",
-      "count": 3
+      "count": 4
     },
     {
       "location": "Ber",
@@ -204,7 +205,7 @@
     {
       "date": "2026-09-10",
       "reports": 0,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-11",
@@ -283,7 +284,7 @@
     },
     {
       "date": "2026-09-26",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -1461,6 +1462,99 @@
       ]
     },
     {
+      "id": "39b2ccbd079c7b2e312b3576f28563c799161548",
+      "event_date": "2026-09-10",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-09-26T12:24:54Z",
+      "collected_at": "2026-09-26T12:30:22.028729Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": "Africa Corps/Wagner",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "ambush",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
+      "summary": "More than 100 Malian soldiers killed in Dioura, the military airport of Sévaré targeted a few days later, Russian fighters ambushed in Kaka: September 2026 severely tested the security system of Bamako Five years after the rapprochement with Moscow and more than a year after the replacement of Wagner by the Africa Corps, JNIM remains capable of hitting major positions of the army, which today has more equipment and a",
+      "sources": [
+        "Afrik.com"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
+      ],
+      "created_at": "2026-09-26T12:30:22.028729Z",
+      "updated_at": "2026-09-26T12:30:22.028729Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-26T12:30:22.028729Z",
+          "type": "event_created",
+          "source": "Afrik.com"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "afrik.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "7f992ed158ab569af14f7e6588bf7b7a9a42957c",
       "event_date": "2026-09-10",
       "event_date_confidence": "explicit-text",
@@ -1651,7 +1745,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-26T11:25:40.241951Z",
+      "discovered_at": "2026-09-26T12:30:21.768879Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1659,8 +1753,21 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-26T12:24:54Z",
+      "discovered_at": "2026-09-26T12:30:22.028729Z",
+      "source": "Afrik.com",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "ambush",
+      "candidate_event": true,
+      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
+      "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
     },
     {
       "published_at": "2026-09-25T22:37:45Z",
@@ -2155,19 +2262,6 @@
       "candidate_event": false,
       "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
       "url": "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura"
-    },
-    {
-      "published_at": "2026-09-21T17:28:05Z",
-      "discovered_at": "2026-09-21T18:29:59.485797Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Djenné",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
-      "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

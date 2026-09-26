@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T11:25:58.906250Z",
-  "run_id": "9b732277053dfe5fd8fe0e632728b2cd06d97bec",
-  "started_at": "2026-09-26T11:22:51.964923Z",
-  "finished_at": "2026-09-26T11:25:58.126060Z",
+  "generated_at": "2026-09-26T12:30:48.407963Z",
+  "run_id": "90f3e8be2b7debb22604ee9281df16def851170c",
+  "started_at": "2026-09-26T12:27:51.758420Z",
+  "finished_at": "2026-09-26T12:30:47.784813Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 172,
     "links_discovered": 6804,
     "current_cycle_retained": 3,
     "current_cycle_rejected_or_error": 5,
-    "translations_attempted": 1,
-    "translations_succeeded": 0,
-    "translations_failed": 1
+    "translations_attempted": 2,
+    "translations_succeeded": 2,
+    "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
@@ -62,20 +62,6 @@
   },
   "decisions": [
     {
-      "pipeline": "Mali",
-      "decision": "INCLUDED",
-      "source": "South China Morning Post (Africa)",
-      "source_id": "dir-120-south-china-morning-post-afric",
-      "language": "en",
-      "collection_method": "google-news-domain",
-      "stage": "indexed_fallback",
-      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
-      "title": "Mali’s junta in crisis as defence minister is killed in massive coordinated attacks - scmp.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOajM4RjRETEdRWEhfMG9WazZVcGdpRWlwT05LNUQwaE5zcERmT2pZRHNMOEpaek1LcDZyYVpiM2w3VUMwQTl4VlE2cXFlamIyVkQ4cDR4V3NtamJqNUMtNEdzV3ZRbkZiMzE4bVBMWUx4c2FVMDZFTnljbjdPSnZzZ3NNYTdtZWIyME1EWWNleHRIR0FNa2RMdGpmSEY3TU5KQ3JZdlpLSU8yU1NVR3VnaE1CSFdHYmEybWoyWFI2dU4xUdIBwgFBVV95cUxPX1VaWU5GTUVnWVQzSnplcm1ramdFWmF0SU5KU0d3R05oNV8yS3djNTU3UVNuZWpHTkR0ZVQybnhpQmthd2s0d0wwaXhSQldDc2NkVUlXMndUdWZuYnR2Y3RiRVRBbnZkUVRDVVY3MFN2RERTNEotdl95RGlZc1BrRUtSQlItQ2FiV3E3Yk1ON29FRkpwOVdPTk5RcnUtenpsVWxVcUhsak0xTk5oa2hlOUlxejVudDlEM1NhSHlMVDVKZw?oc=5",
-      "collected_at": "2026-09-26T11:25:39.893444Z",
-      "score": 11
-    },
-    {
       "pipeline": "Regional",
       "decision": "EXCLUDED",
       "source": "HumAngle",
@@ -86,7 +72,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-26T11:25:39.899200Z",
+      "collected_at": "2026-09-26T12:30:21.412079Z",
       "score": null
     },
     {
@@ -100,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-26T11:25:39.904436Z",
+      "collected_at": "2026-09-26T12:30:21.416069Z",
       "score": null
     },
     {
@@ -114,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-26T11:25:39.909559Z",
+      "collected_at": "2026-09-26T12:30:21.419984Z",
       "score": null
     },
     {
@@ -128,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-26T11:25:39.915891Z",
+      "collected_at": "2026-09-26T12:30:21.424773Z",
       "score": null
     },
     {
@@ -142,22 +128,8 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-26T11:25:39.920181Z",
+      "collected_at": "2026-09-26T12:30:21.428015Z",
       "score": null
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "aNiamey.com",
-      "source_id": "dir-051-aniamey-com",
-      "language": "fr",
-      "collection_method": "homepage",
-      "stage": "precision",
-      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
-      "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-26T11:25:40.242262Z",
-      "score": 13
     },
     {
       "pipeline": "Niger",
@@ -170,8 +142,36 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-26T11:25:41.410093Z",
+      "collected_at": "2026-09-26T12:30:21.642938Z",
       "score": 14
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "INCLUDED",
+      "source": "aNiamey.com",
+      "source_id": "dir-051-aniamey-com",
+      "language": "fr",
+      "collection_method": "homepage",
+      "stage": "precision",
+      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "url": "http://news.aNiamey.com/h/123258.html",
+      "collected_at": "2026-09-26T12:30:21.769111Z",
+      "score": 13
+    },
+    {
+      "pipeline": "Mali",
+      "decision": "INCLUDED",
+      "source": "Afrik.com",
+      "source_id": "afrik-fr",
+      "language": "fr",
+      "collection_method": "rss:/feed",
+      "stage": "precision",
+      "reason": "explicit place: Dioura (dioura); actor: JNIM (jnim); event signal: ambush (embuscade); security context: militaire",
+      "title": "Mali : Dioura, Sévaré, Kidal… les armes russes ne suffisent plus à tenir le terrain",
+      "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain",
+      "collected_at": "2026-09-26T12:30:22.029081Z",
+      "score": 16
     }
   ],
   "privacy": {

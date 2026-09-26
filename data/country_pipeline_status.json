@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T11:25:58.906250Z",
-  "run_id": "9b732277053dfe5fd8fe0e632728b2cd06d97bec",
+  "generated_at": "2026-09-26T12:30:48.407963Z",
+  "run_id": "90f3e8be2b7debb22604ee9281df16def851170c",
   "pipelines": {
     "Mali": {
       "sources": 11,
