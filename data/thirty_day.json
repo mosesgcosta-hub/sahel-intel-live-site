@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-26T07:27:17.728959Z",
+  "generated_at": "2026-09-26T08:29:34.434379Z",
   "window_days": 30,
   "cutoff": "2026-08-27",
   "reports": 126,
-  "incident_reports": 22,
-  "candidate_events": 21,
+  "incident_reports": 21,
+  "candidate_events": 20,
   "corroborated_events": 1,
-  "mapped_events": 16,
-  "mapped_locations": 37,
+  "mapped_events": 15,
+  "mapped_locations": 34,
   "distinct_sources": 45,
   "by_actor": {
-    "State": 9,
+    "State": 8,
     "Other": 5,
     "JNIM": 4,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 17,
+    "Mali": 16,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 10,
+    "security operation": 9,
     "attack": 8,
     "offensive/campaign": 2,
     "clash": 1
@@ -32,8 +32,8 @@
     "ar": 8
   },
   "by_confidence": {
-    "moderate": 11,
-    "low": 10
+    "low": 10,
+    "moderate": 10
   },
   "top_sources": [
     {
@@ -87,11 +87,11 @@
   ],
   "top_locations": [
     {
-      "location": "Sévaré",
-      "count": 7
+      "location": "Dioura",
+      "count": 6
     },
     {
-      "location": "Dioura",
+      "location": "Sévaré",
       "count": 6
     },
     {
@@ -107,16 +107,16 @@
       "count": 5
     },
     {
-      "location": "Ber",
+      "location": "Kidal",
       "count": 3
+    },
+    {
+      "location": "Ber",
+      "count": 2
     },
     {
       "location": "Djenné",
-      "count": 3
-    },
-    {
-      "location": "Kidal",
-      "count": 3
+      "count": 2
     },
     {
       "location": "Tillabéri",
@@ -239,7 +239,7 @@
     {
       "date": "2026-09-17",
       "reports": 5,
-      "events": 4
+      "events": 3
     },
     {
       "date": "2026-09-18",
@@ -1461,83 +1461,6 @@
       ]
     },
     {
-      "id": "edb762a03a294a019de37018bec5aab5e93879dc",
-      "event_date": "2026-09-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-19T09:29:23Z",
-      "collected_at": "2026-09-19T18:14:59.965077Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Djenné",
-      "lat": 13.9061,
-      "lng": -4.555,
-      "locations": [
-        {
-          "name": "Djenné",
-          "country": "Mali",
-          "lat": 13.9061,
-          "lng": -4.555,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ber",
-          "country": "Mali",
-          "lat": 16.7667,
-          "lng": -3.0167,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber",
-      "summary": "Operation Dougoukoloko: the FAMa target several positions of armed groups in Djenné, Sévaré and Ber The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces. On Thursday, September 17, the exploitation of intelligence made it possible to locate several po",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/311921-operation-dougoukoloko-les-fama-ciblent-plusieurs-positions.html"
-      ],
-      "created_at": "2026-09-19T18:14:59.965077Z",
-      "updated_at": "2026-09-19T18:14:59.965077Z",
-      "extraction_confidence": "moderate",
-      "revision_history": [
-        {
-          "at": "2026-09-19T18:14:59.965077Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
       "id": "7f992ed158ab569af14f7e6588bf7b7a9a42957c",
       "event_date": "2026-09-10",
       "event_date_confidence": "explicit-text",
@@ -1728,7 +1651,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-26T07:26:53.472521Z",
+      "discovered_at": "2026-09-26T08:29:05.711311Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
